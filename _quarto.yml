@@ -1,0 +1,45 @@
+project:
+  type: book
+  output-dir: docs
+  
+book:
+  title: "Training cognitivo e contemplativo per lo sviluppo della compassione"
+  author: "Corrado Caudek"
+  # cover-image: images/cover.png
+  # site-url: https://rstudio-education.github.io/hopr/
+  # repo-url: https://github.com/jjallaire/hopr/
+  # repo-branch: master
+  # repo-actions: [edit]
+  # sharing: [twitter, facebook, linkedin]
+  chapters:
+    - index.qmd
+    # - preface.qmd
+    - 01-intro.qmd
+    - 02-chapter-1a.qmd
+    - 03-chapter-1b.qmd
+    - 04-chapter-1c.qmd
+    - 05-chapter-2.qmd
+    - 06-chapter-3.qmd
+    - 07-wisdom.qmd
+    - 08-chapter-4.qmd
+    - 09-meditation.qmd
+    - 10-chapter-5.qmd
+    - 11-chapter-6.qmd
+    - 12-gilbert.qmd
+    - 13-kirby.qmd
+    - 14-measurement.qmd
+format:
+  html: 
+    theme: 
+      - cosmo
+      - r4ds.scss
+    # cover-image: cover.png
+    code-link: true
+    callout-appearance: simple
+  pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
+
+
+

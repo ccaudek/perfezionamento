@@ -1,0 +1,144 @@
+# The construct of compassion in psychology
+
+Qual è lo status del costrutto di "compassione" nella ricerca psicologica contemporana?
+
+## Gilbert (2019)
+
+Gilbert, P. (2019). Explorations into the nature and function of compassion. *Current Opinion in Psychology*, *28*, 108--114.
+
+The last 30 years has seen a considerable upsurge of research into prosocial psychology. This includes explorations of altruism, empathy, morality and ethics, and compassion.
+
+## Origins
+
+Given that there are evolutionary origins to many of our dimensions for prosocial behaviour, one dominant source of the basis of compassion evolved from mammalian caregiving of offspring.
+
+The essence of mammalian infant caring behaviour is to be attentive to the distress and needs of another (e.g. infant), take actions to relieve distress, fulfil appropriate needs to prevent future distress and suffering, support growth, and prepare offspring for the challenges of independent living.
+
+However, caring for others is a costly behaviour, and therefore is generally constrained to the extent that it is more likely to be focused on kin and allies than non-kin and strangers.
+
+## From caring to compassion
+
+What distinguishes compassion from basic nonhuman caring is that human compassion requires a particular set of cognitive competencies. They include a range of complex reasoning abilities that enable various forms of self-awareness, symbolic thinking, mentalising, reflection on the past, and behaviourally contingent predictions of the future.
+
+## Definitions
+
+There are many different definitions of compassion. Some controversy exists over whether compassion is
+
+-   an affective state that motivates compassionate behaviour,
+-   or is a primary motive that gives rise to emotion.
+
+## Compassion as motivation
+
+Buddhist approaches and motivational theorists focus less on emotion and more on compassion as rooted in a caring motivational system. A common theme is the engagement with distress and suffering and a wish to alleviate and prevent it.
+
+A common definition of compassion is in terms of a motivation that orientates to "... a sensitivity to suffering in self and others with a commitment to try to alleviate and prevent it".
+
+The deliberate turning towards suffering therefore requires a degree of motivation, willingness, courage, and distress tolerance.
+
+The second element, that is, the issue of alleviation and prevention, requires the developmnet of the skills to do so.
+
+> Human compassion therefore involves the motivation to learn how to be helpful (as for example in the caring professions). In the contemplative traditions that dedication is with one's own mind, to understand the nature of mind and the illusions of self, in order to (compassionately) free others from the suffering caused by such illusions. This is called Bodhicitta. Hence, at the core of compassion is courage and dedication.
+
+> The motivation for compassion can, therefore, give rise to a sense of an identity, a self one tries to become and live by; a compassionate self.
+
+> The compassionate self would, therefore, be linked to mindfully living in such a way that one tries to be helpful and not harmful and thus regulate other competing motives within oneself.
+
+> To accomplish this, one may practice developing one's compassionate mind, with meditations, thought and behavioural practices that stimulate various physiological mechanisms that facilitate compassion (such as the frontal cortex and vagus nerve).
+
+> Linked to a compassionate self-identity may be other dispositions that focus on helping.
+
+> Hence \[...\] looked at this way, compassion is not a particular emotion nor is it the same as 'caring motivation' but represents a uniting of caring motivation with a range of complex, recently evolved, social intelligences, with emotional textures that are context dependent.
+
+> As a motivation, compassion has to compete with other motives, many of which are unconscious. These can be motives for competitive behaviour focusing on self-interest, and approval/prestige seeking within a group or only kin and reciprocal relationships, and tribal/group support. \[...\] Part of the challenge of compassion therefore is to break through these evolved boundaries around caring and helping behaviour.
+
+## Fears blocks and resistances
+
+> As with any motivation, compassion, and some of its dependent competencies such as (empathy or distress tolerance), can be feared, blocked or resisted. Fears relate to the consequences of becoming more empathically compassionate such as being overwhelmed by distress or feeling personally undeserving.
+
+> Blocks can be related to internal processes such as maybe wanting to be compassionate but not knowing how, or a lack of understanding of compassion. Resistance is where individuals are not frightened nor blocked but simply don't want to be compassionate. For example, thinking "why should we help immigrants? It's too costly."
+
+> All forms of compassion training will need to be aware of, and have means of addressing, fears, blocks, and resistances.
+
+## Compassion as a social mentality
+
+> Compassion can be understood as a reciprocal process where providers will be paying attention to the impact of their caring on others, and the receivers will be monitoring how helpful the providers are.
+
+> For these and other reasons compassion can be understood as an integrated flow involving compassion to others, becoming receptive to the compassion from others, and also self-compassion. There are psychological measures for each of these dimensions.
+
+> In some clinical contexts, individuals may be very blocked on being open to receiving compassion, fear closeness, feel isolated and lonely, and need to begin to experience compassion from a therapist before they can become self-compassionate.
+
+## Compassion, body and brain
+
+> \[...\] it is now known that the quality of care and compassion that humans receive have major psychological and physiological impacts.
+
+Vengono forniti esempi di psicologia dell'età evolutiva. Il focus è la connessione con cambiamenti a livello neurale.
+
+## Compassionate mind training and therapy
+
+> Compassion cultivation is core to all the contemplative traditions. Some traditions focus on mindfulness training as a platform for insight meditation. This suggests that as the mind slows and settles it gains insight into the true nature of mind, the illusory nature of a separate self, enabling compassion to arise naturally.
+
+> In the Mahayana tradition, however compassion is a target for training in its own right.
+
+> Recently, Western science has seen a growth of research studying the impact of compassion training on a range of physiological, psychological and social processes.
+
+> Some trainings focus primarily on self-compassion or compassion to others or on integrated three flows of compassion (to self, from others, to others).
+
+> Loving-kindness meditation typically focuses on directing it to self and others including 'difficult' people.
+
+> Various forms of compassion training impact on various physiological systems, including the neuroendocrine and immune systems, specific neurophysiological pathways, and the autonomic nervous system.
+
+-   Weng et al. found that two weeks of compassion training (focusing on benevolent wishes for family, friends and difficult people) resulted in increased altruistic behaviour in a fairness giving scenario, and changes in neurophysiological mediators.
+-   Matos et al. found that practising compassionate mind skills for two weeks resulted in a range of beneficial psychological changes associated with well- being and also changes in heart rate variability.
+
+In fact, there are now a range of compassion focused trainings, linked to different models, all of which have some evidence of effectiveness.
+
+Different trainings, however have different physiological effects. Valk et al. compared three forms of training linked to:
+
+-   attention and mindfulness;
+-   socio-effective (including compassion training)
+-   socio-cognitive (including metacognition, empathy and perspective training).
+
+These trainings produce different neurophysiological changes according to the training engaged. This indicates that these different types of training are not neurophysiologically equivalent.
+
+Many of the above trainings were relatively short.
+
+In contrast, Lutz et al. compared physiological (EEG) differences between relatively naive meditators and long-term compassion meditators. Long-term meditators were able to induce sustained electroencephalographic high-amplitude, gamma band oscillations and phase synchrony during meditation. These processes enable the brain to work in synchrony rather than as a segregated set of processes (as occurs when under threat).
+
+An implication of these results is that training over time changes the physiological architecture of the brain which makes new insights possible that may not be possible without that architecture.
+
+> In regard to developing compassion focused psychotherapies, particularly with the push for short-term therapies, it is the early days of research. Some of the methodologies are poor, the training and supervision of the therapists uncertain, fidelity to the models rarely clarified, and commitment to compassion practices, in both clients and therapists, patchy. Understandable enthusiasm must therefore be held in check until much more rigorous studies with improved practice fidelities are forthcoming. It is likely that in the years to come compassionate mind trainings and therapies will need to articulate how they can produce physiological change. **Reliance on self-report and symptom change will not be enough.**
+
+> There are a range of compassion focused therapies that are being developed for particular groups of individuals, such as those who have been traumatised, those with complex psychoses and depressions, eating and personality difficulties.
+
+> Importantly, clinical and nonclinical populations have different fears, blocks and resistances to compassion requiring quite different steps and strategies for stimulating and cultivating compassion motivation systems.
+
+> Importantly whether we see compassion as an emotion or a motivation has implications for compassion training in psychotherapy contexts. For example, a depressed mother may be very motivated to care for her children but is depressed partly because she has lost all feeling for them, feels disconnected and lacks a sense of an emotional bond. Compassion focused therapy would focus very much on her actual behaviours and motivation and not engage in trying to generate feelings of compassion in the first instance, because very clearly the depression has suppressed that. **Trying to create compassion feeling in certain clients can make them more depressed when they struggle (and fail) to do it;** compassion insight and compassionate behaviour are much easier starting places. Compassion focused therapies involve motivation switching; that is switching people out of a competitive, self-critical, shame-based, defensive motivational focus into a care and compassion focused one that organises attention, thinking behaviour and physiological processes quite differently.
+
+## Conclusions {.unnumbered}
+
+-   Compassion evolved out of mammalian caring motivational system(s).
+-   Compassion is contextually sensitive, where we are more likely to be compassionate to kin and friends than to enemies.
+-   Compassion is related to morality. For example, moral thinking can focus on rights, justice and fairness whereas compassion typically focuses on the avoidance of causing harm and the moral obligations of helping those who are suffering or less well off than ourselves. These two dimensions of moral thinking can at times be in conflict.
+-   At core of compassion there are courage and dedication. Compassion is not automatic but something that can be deliberately chosen and worked at with a deepening of understanding over time.
+
+> The challenge of compassion research is to how to stimulate this basic motivation in all domains of life, be it within ourselves, within our relationships, organisations and of course in politics.
+
+::: callout-note
+Questo recente articolo, pubblicato su una prestigiosa rivista scientifica psicologica, può essere preso come un esempio di come la compassione viene intesa nella comunità psicologica.
+
+Si notino alcuni punti che sono già stati presentati nella discussione precedente.
+
+-   **Riduzionismo:** essendo questo un punto di vista 'scientifico', si deve assumere che l'origine del fenomeno oggetto di studio sia 'fisica', ovvero necessariamente riconducibile al cervello e ai processi evolutivi. Questo punto è chiaramente espresso nell'articolo.
+
+    -   L'alternativa sarebbe una maggiore enfasi sui processi culturali (ricordiamo il dibattito tra 'cultura e natura' anche all'interno della tradizione buddista, con una maggiore enfasi sul primo polo).
+
+-   **Ibridizzazione:** L'autore riconosce che il costrutto contiene una componente culturale che, in parte, viene attribuita alla tradizione Buddhista (ma c'è anche un riferimento alla cultura delle Hawaii che non ho citato, tra le altre). Le connessioni tra l'assunto fondazionale 'neuro-evolutivo' e queste influenze culturali estremamente distanti le une dalle altre non viene sviluppato: non si capisce come le dimensioni cultura/natura interagiscano, né come le diverse dimensioni culturali interagiscono tra loro.
+
+-   **Validità:** Si prende atto che in domini diversi (natura/cultura) si possono trovare riferimenti al costrutto di interesse, ma non si esplicita il meccanismo psicologico, se c'è, che produce la manifestazione di questo fenomeno *psicologico*, dato che di questo gli psicologi si occupano. La validità di un costrutto corrisponde alla chiara individuazione del corrispettivo empirico del costrutto -- il costrutto è un modello teorico di un fenomeno empirico. L'articolo non chiarisce qual è il fenomeno psicologico/empirico a cui il costrutto di "compassione" fa riferimento. È qualcosa di già presente che non si manifesta sempre nella maniera ottimale? È qualcosa che "deve essere coltivato" (si veda la grande enfasi sull'aspetto contestuale della compassione)? Se non è chiaro di cosa stiamo parlando, non possiamo né misurare "l'efficacia degli interventi", né progettare "interventi psicologici", dato che non è chiaro ciò su cui si deve intervenire.
+
+-   **Self-compassion:** si noti la grande enfasi sulla dimensione della self-compassion. Questo sembra essere il contributo maggiore della psicologia allo studio e agli interventi in questo dominio. Ricordiamo la controversia che è associata alla self-compassion:
+
+    -   viene presentata come un concetto di origine Buddhista, ma non lo è.
+    -   Questo però non è un problema, dato che non c'è alcuna necessità di essere "fedeli" alla tradizione Buddhista. Il punto è che questa enfasi sull'ego (e sul suo benessere) va nella direzione diametralmente opposta ai contenuti della tradizione Buddhista, per cui è inappropriato descriverlo in quei termini. Semplificando, secondo il Buddhismo, la ricerca del benessere personale è la causa prima della sofferenza. La ricerca del benessere personale non può che portare alla sofferenza. Il percorso alternativo che viene proposto è quello della riuncia all'ego (in varie misure) e all'apertura alla compassione. Indirettamente, questo produce anche il benessere personale, ma solo come by-product, non come obiettivo primario.
+    -   In conclusione, la psicologia e l'approccio secolare propongono una serie di tecniche mirate allo sviluppo del benessere personale. Tuttavia, il Buddhismo dice chiaramente che qualsiasi tentativo di migliorare il benessere personale finisce inevitabilmente per sortire il risultato opposto. Quindi in un certo senso, la tradizione Buddhista fa la predizione che il percorso "secolarizzato" non funzionerà. D'altra parte, il benessere personale è anche una caratteristica ambita dal pensiero Buddhista. Ma non come obiettivo in sé, ma solo come prova che un altro tipo di percorso di cambiamento personale "funziona", ovvero raggiunge obiettivi desierabili. Questo tipo di "tensione" tra gli obiettivi dell'approccio secolarizzato e gli assunti della tradizione Buddhista sono un aspetto su cui non ho trovato una riflessione nella ricerca e pratica psicologica.
+:::

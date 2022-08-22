@@ -1,0 +1,113 @@
+# Introduzione {#intro}
+
+Iniziamo con l'impostare il problema e con il porre delle domande generali. Il tema di cui ci occuperemo in questa discussione è quello della compassione.
+
+<!-- -   la compassione è un'entità a se stante, che riguarda il singolo l'individuo, e che può essere sviluppata in maniera autonoma e separata da altre dimensioni dell'esperienza? -->
+
+<!-- -   Oppure la compassione deve essere intesa come soltanto una componente di un processo più ampio, che non riguarda il singolo individuo, ma che contiene necessariamente una dimensione che potremmo chiamare "sociale" (o almeno che extra-individuale)? -->
+
+La coltivazione secolare della compassione è un fenomeno culturale che è emerso recentemente ed è stato accompagnato dallo studio scientifico di questo fenomeno in campi quali le neuroscience, la psicologia, e la psicoterapia. L'interesse per il tema della compassione è in costante crescita parallelamente alla scoperta, in psicologia, del valore della compassione nelle applicazioni cliniche e parallelamente al crescente interesse, nel pubblico generale, delle pratiche volte alla promozione del proprio benessere fisico e mentale.
+
+-   Da una parte, neo termini delle applicazioni cliniche, gli interventi basati sulla compassione sono stati utilizzati, tra gli altri, nel trattamento di ansia, schizofrenia, dipendenze e PTSD.
+-   D'altra parte, al pubblico in generale vengono offerti programmi di formazione incentrati sulla promozione della compassione e dell'auto-compassione in Nord America, Europa e Australia.
+
+Pertanto, l'addestramento alla compassione secolare è un fenomeno culturale in espansione ed è associato alla dimensione della mindfulness, come ad esempio nel programma di riduzione dello stress basata sulla mindfulness (mindfulness-based stress reduction, MBSR) sviluppato da Jon Kabat-Zinn (1990). La mindfulness è entrata a pieno titolo nella cultura occidentale, spingendo i media popolari a parlare di una "mindfulness revolution".
+
+Compassione e mindfulness sono entrambi *concetti ibridi* derivati da molteplici fonti: buddismo, psicologia contemporanea e pedagogia.
+
+Pertanto, al fine di potere meglio comprendere il dibattito che rigurarda la mindfulness e la coltivazione della compassione, è interessante studiare la coltivazione della compassione nella letteratura buddista Mahāyāna indiana e tibetana da una prospettiva storica e filosofica.
+
+Questo è importante in quanto l'uso contemporaneo e secolarizzato della mindfulness è stato criticato in vari modi, ovvero è stato giudicato come selettivo, riduzionista, una distorsione del pensiero buddista, privo di fondamenti etici, ecc.
+
+Ma è davvero così? Oppure è possibile che la compassione secolare che ci viene presentata oggi non sia solo un fenomeno culturale appartenente alla cultura del benessere e del consumismo, ma, invece, debba essere intesa come una forma legittima che si è sviluppata nell'ambito dei continui processi trasformativi che definiscono la storia stessa del pensiero buddista?
+
+È ragionevole pensare che le forme secolarizzate di coltivazione della compassione che ci vengono presentate oggi non debbano essere viste come scollegate ed estranee alla tradizione buddista, ma invece debbano essere intese come parte di un continuo processo di trasformazione e di adattamento del pensiero buddhista?
+
+Queste sono domande importanti anche alla luce del fatto che la coltivazione della compassione è, come ho detto prima, in continua crescita e se consideriamo l'importanza assegnatale dal Dalai Lama XIV.
+
+## Karuṇā
+
+Ma cosa significa "compassione"?
+
+Garfield, nel suo testo del 2022, "Etica buddista", afferma
+
+> Translating karuṇā as compassion is unfortunate. For while the root of compassion is passio, indicating being passive, or being affected by something else, the root of karuṇā is kṛ, which means to act. Karuṇā is not a mere feeling, but a determination to act to relieve the suffering of sentient beings. This term is therefore much better translated as care. Crying at movies or becoming despondent when aware of the suffering of others is not a manifestation of karuṇā, but actually doing something to alleviate suffering is.
+
+Pertanto, la conoscenza delle radici filosofiche e storiche della compassione, la varietà dei metodi e degli obiettivi didattici nella storia del buddhismo, e le somiglianze e differenze tra la tradizione testuale buddhista e gli adattamenti secolarizzati a cui siamo esposti oggi, possono aiutarci a meglio comprendere il valore e l'utilità delle pratiche attuali.
+
+In termini psicologici si potrebbe dire che la conoscenza delle radici filosofiche e storiche della compassione, la varietà dei metodi e degli obiettivi didattici nella storia del buddhismo, e le somiglianze e differenze tra la tradizione testuale buddhista e gli adattamenti secolarizzati sembrano gli strumenti più adatti per esplorare il "dominio" del costrutto di "compassione", ovvero per capire di quali dimensioni esso sia costituito.
+
+Questa comprensione ci consentirà di affrontare il problema che affronteremo nell'ultima parte di questa discussione, ovvero il tema dell'efficacia degli interventi basati sulla compassione in ambito psicologico. Se gli interventi psicologici basati sulla compassione sono efficaci, è poco importante se la comprensione "secolarizzata" della compassione ci restituisca o meno una comprensione "autentica" della tradizione testuale buddhista. D'altra parte, se gli interventi psicologici basati sulla compassione sono solo in parte efficaci, allora è importate capire per quali motivi la comprensione "secolarizzata" di karuṇā sia, almeno in parte, riduttiva: una migliore comprensione di tale concetto, infatti, potrebbe motivarci ad emendare gli interventi psicologici correnti basati sulla compassione al fine di migliorarne l'efficacia.
+
+In un contesto più ampio, l'appropriazione delle pratiche di "mindfulness" buddista per scopi secolari è stata criticata come trasformazione di una filosofia spirituale altamente evoluta in una merce.
+
+Questa critica può anche essere applicata anche alle pratiche secolarizzate di addestramento alla compassione? L'allenamento alla compassione secolare è una distorsione del pensiero buddista? La formazione alla compassione secolare è una forma di mercificazione del pensiero buddista che si rivolge al consumismo invece di proporre il raggiungimento di uno stadio più evoluto di evoluzione spirituale?
+
+Per iniziare a rispondere a queste domande è necessario prima chiarire il significato della compassione nella tradizione testuale di origine buddista, poiché solo una chiara comprensione degli antecedenti o delle origini consente conclusioni comparative. Quindi la domanda è: come viene intesa la compassione nella tradizione buddista?
+
+## Karuṇā e tradizione Mahāyāna
+
+Ci focalizzeremo qui sulla tradizione Mahāyāna. La tradizione Mahāyāna è emersa tra l'ultimo secolo prima dell'inizio dell'era comune, o nel primo secolo della nostra epoca, ovvero circa 500 anni dopo la morte del Buddha storico. Il fondamento sūtra del Mahāyāna risiede principalmente nel corpo di testi noti come Prajñāparamitā (Perfezione della Saggezza) sūtra, così come in alcuni testi ausiliari, tra cui il Vimalakīrti-nirdeśa-sūtra. Poiché sono intitolati sūtra, questi sono presentati come le vere parole del Buddha, anche se questo è ovviamente falso considerata la loro collocazione temporale e il fatto che questi testi sono principalmente scritti in sanscrito. Per questo motivo, la prima letteratura Mahāyāna offre una nuova definizione di buddhavacana, o discorso del Buddha -- ma questo è un tema che qui non affronteremo.
+
+La struttura filosofica Mahāyāna è caratterizzata da tre importanti temi:
+
+-   la dottrina che tutti i fenomeni sono vuoti e che la vacuità (śūnyatā) è la natura ultima della realtà;
+-   la centralità di Karuṇā quale virtù;
+-   l'enfasi su un nuovo ideale morale per il buddismo: quello del bodhisattva.
+
+Nelle tradizioni non Mahāyāna, l'ideale morale a cui aspira un praticante non è quello del bodhisattva, o anche quello della buddhità, ma piuttosto quello dell'arhat. Un arhat è colui che ottiene la liberazione dal samsāra, e quindi la cessazione della sofferenza. Questo ideale ha senso nel contesto delle quattro nobili verità. Il Mahāyāna, tuttavia, propone il bodhisattva quale ideale morale, caratterizzando questi esseri come coloro che decidono di non raggiungere la liberazione personale, ma piuttosto il pieno risveglio, al fine di facilitare la liberazione di tutti gli esseri senzienti. La loro motivazione è karuṇā, da qui la connessione tra queste due innovazioni Mahāyāna.
+
+Si noti dunque che la letteratura Mahāyāna tende a trattare karuṇā non come un concetto a sé stante, ma bensì come parte di un insieme di concetti, vedendo karuṇā come parte della determinazione a raggiungere il risveglio per il bene di tutti gli esseri senzienti. Nello specifico, la compassione appare nella triade di gentilezza amorevole (Skt. maitrī), compassione e bodhicitta, o come una delle quattro qualità incommensurabili (apramāṇa), ovvero gentilezza amorevole (maitrī o maitrā), compassione (karuṇā), gioia (mudita), equanimità (upekṣā).
+
+L'idea canonica è la seguente: data l'ubiquità della sofferenza che è il contenuto della prima nobile verità, la caratteristica più importante e pervasiva degli esseri senzienti è che stanno soffrendo, anche se essi stessi non sempre lo sanno. Data l'entità della sofferenza che permea il mondo, l'unico modo concepibile per alleviare tale sofferenza è acquisire l'abilità di un buddha, di un essere completamente risvegliato. Ma ciò è estremamente difficile e richiede un enorme sforzo per un lunghissimo periodo di tempo, ovvero eoni di rinascite successive. Pertanto, intraprendere questo sforzo inumano richiede una motivazione quasi inimmaginabile. L'unica motivazione possibile è l'impegno totale volto alleviare questa sofferenza, e questa motivazione è karuṇā.
+
+## Domande
+
+Nella seguente discussione ci chiederemo
+
+-   se, secondo la tradizione buddista, la compassione è al centro della natura umana,
+-   se ci si può coltivare,
+-   cosa, precisamente, può essere coltivato.
+
+Tali domande sono attualmente esplorate da neuroscienziati, neurobiologi e psicologi che sono interessati al pensiero buddista dell'India e del Tibet premoderni.
+
+L'esplorazione della compassione e della coltivazione della compassione nella tradizione buddista Mahāyāna è però difficile in quanto entrambe queste idee si sono trasformate nel corso della storia del pensiero buddista: a karuṇā non è stata assegnata una definizione univoca; inoltre, la coltivazione della compassione è stata interpretata in modo diverso nel corso del tempo.
+
+La presente discussione prenderà in esame un insieme limitato di processi trasformativi che si sono verificati nel buddismo Mahāyāna indiano e tibetano; la selezione di materiali è stata determinata dalla rilevanza dei materiali per l'addestramento secolarizzato alla compassione.
+
+## Considerazioni metodologiche
+
+Che cosa si intende per compassione? Quando si parla di "coltivare la compassione", che cosa si vuole sviluppare? Quale differenze si possono trovare nel concetto di compassione così come è stato inteso nella tradizione Buddhista a cui si ispirano le pratiche occidentali e il concetto di compassione così come è inteso nelle pratiche correnti e secolarizzate della coltivazione della compassione?
+
+Per cercare di rispondere a queste domande iniziamo qui a considerare l'area semantica all'interno della quale si situa il concetto di compassione nelle fonti testuali Buddhiste.
+
+La compassione (Skr. karuṇā) si trova al centro del buddismo Mahāyāna, i cui due "fondamenti" sono stati descritti come compassione e saggezza (scr. prajñā). Senza compassione, il sentiero Mahāyāna è impensabile. Ma altrettanto impensabile è trascurare la dimensione della prajñā -- questo è un aspetto cruciale su cui ritorneremo in seguito. Per ora sottolineiamo il fatto che la compassione e i concetti ad essa associati pervadano quasi ogni aspetto della dottrina Mahāyāna: la compassione costituisce infatti solo un aspetto di una coltivazione mentale più complessa.
+
+La karuṇā è spesso presentata come una delle cause di bodhicitta (ovvero, l'aspirazione a raggiungere il più alto obiettivo spirituale dell'illuminazione per la liberazione di tutti gli esseri senzienti dalla sofferenza) e i riferimenti testuali a queste due qualità spesso si sovrappongono. Secondo Śāntideva, la mente deve tornare al bodhicitta più e più volte, perché il "mindwandering" (dolāyamāna) è inevitabile.
+
+> Coloro che vagano nel saṃsāra,\
+> Ripetendo le loro cadute\
+> Ripetutamente allontandosi e riavvicinandosi al bodhicitta,\
+> Resteranno a lungo lontani dal sentiero del Bodhisattva. (BCA IV-11)
+
+Ad esempio, il Mahāyānasūtrālaṃkāra (MSA), una delle risorse testuali seminali per comprendere la compassione, spiega bodhicitta affermando che "la sua radice è la compassione, la sua aspirazione il costante beneficio degli esseri". Un commento a questo testo fornisce la seguente spiegazione:
+
+> Bodhicitta è di due tipi: uno caratterizzato da karuṇā e uno caratterizzato da prajñā. Di questi due, quello caratterizzato da karuṇā è uno stato mentale basato sul pensiero: "Possano tutti gli esseri senzienti raggiungere il nirvāṇa". ... Quello caratterizzato da prajñā è uno stato mentale basato sul pensiero: "Poiché tutti i fenomeni sono vuoti (śūnya), non c'è essere senziente che raggiunga il nirvāṇa". ... Si noti qui l'aspetto duale di bodhicitta, vale a dire il fatto che essa è costituita da compassione (karuṇā) e saggezza (prajñā).
+
+Questo passaggio mostra che, mentre karuṇā costituisce un aspetto di bodhicitta -- ciò che viene chiamato "bodhicitta convenzionale" --, tale aspetto deve essere completato dalla gnosi di śūnyatā (cioè, "bodhicitta assoluto"). La relazione tra questi tre concetti è talvolta espressa con il termine sūnyatākaruṇāgarbha, che potrebbe essere tradotto come "la matrice della vacuità e della compassione". Il punto di tutto ciò è che, nella letteratura buddista tradizionale, *la compassione non è considerata un'entità separata e nemmeno un obiettivo a sé stante*, ma bensì come un aspetto di un generale "ri-orientamento cognitivo" che porta al superamento del pensiero dualistico e il cui fine è il "risveglio". È questo fine soteriologico che giustifica e richiede karuṇā; essa dunque non può essere concepita come un obiettivo che ha un significato in sé. Troviamo dunque qui un'importante differenza dai programmi di compassione secolarizzata, i quali invece aspirano allo sviluppo della compassione come un fine a sé stante.
+
+In un'opera della prima letteratura Mahāyāna, colui che si impegna nel sentiero del bodhisattva esprime i seguenti voti:
+
+> Io, con il nome tal dei tali, ... a beneficio della liberazione del mondo infinito degli esseri, per liberarli dalla sofferenza del saṃsāra, genero la mente del risveglio supremo e perfetto. ... D'ora in poi, i doni che faccio, la disciplina che osservo, la pazienza che pratico, gli sforzi che svolgo, la concentrazione che sviluppo, la saggezza che pratico, i mezzi abili che adopero, tutti questi saranno dedicati al benessere, al beneficio e alla felicità di tutti gli esseri.
+
+Questo passaggio mostra che i due stati mentali di bodhicitta e compassione sono usati in modo intercambiabile; entrambi si preoccupano di eliminare la sofferenza di tutti gli esseri. Il sutra afferma che tutti gli esseri nel saṃsāra sperimentano sofferenza. Il tratto saliente dei bodhisattva (esseri eroici che lottano per il risveglio) è il loro impegno ad alleviare quella sofferenza, e questo impulso compassionevole li costringe a generare bodhicitta.
+
+I bodhisattva sono quindi considerati l'incarnazione e l'epitomo della compassione: i bodhisattva sono persone molto (mahā) compassionevoli. Inoltre, è la grande compassione (mahākaruṇā) dei bodhisattva che li motiva a rinunciare alla pace nirvāṇica per continuare a lavorare nel saṃsāra per il benessere degli esseri.
+
+### Conclusioni {.unnumbered}
+
+In conclusione, gli estratti testuali qui citati illustrano che la letteratura Mahāyāna non distingue rigorosamente tra la compassione, come entità separata, dall'ideale e dalla pratica del bodhicitta che sorge dalla vista della sofferenza di tutti gli esseri. Nella presente discussione ci porremo il problema di meglio comprendere
+
+-   la nozione di karuṇā così come è collegata alla nozione di bodhicitta,
+-   la relazione tra mahākaruṇā e Śūnyatā, ovvero la relazione tra karuṇā e prajñā,
+-   la relazione tra questi concetti e la coltivazione secolarizzata della compassione.
