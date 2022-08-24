@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.38">
+<meta name="generator" content="quarto-1.1.113">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,10 +11,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: 1;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 </style>
 
 
@@ -168,17 +173,17 @@ ul.task-list{list-style: none;}
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Sommario</h2>
    
   <ul>
-  <li><a href="#domande-principali" id="toc-domande-principali" class="nav-link active" data-scroll-target="#domande-principali"> <span class="header-section-number">3.1</span> Domande principali</a></li>
-  <li><a href="#la-compassione-è-natura-o-educazione" id="toc-la-compassione-è-natura-o-educazione" class="nav-link" data-scroll-target="#la-compassione-è-natura-o-educazione"> <span class="header-section-number">3.2</span> La compassione è “natura” o “educazione”?</a>
+  <li><a href="#domande-principali" id="toc-domande-principali" class="nav-link active" data-scroll-target="#domande-principali"><span class="toc-section-number">3.1</span>  Domande principali</a></li>
+  <li><a href="#la-compassione-è-natura-o-educazione" id="toc-la-compassione-è-natura-o-educazione" class="nav-link" data-scroll-target="#la-compassione-è-natura-o-educazione"><span class="toc-section-number">3.2</span>  La compassione è “natura” o “educazione”?</a>
   <ul class="collapse">
-  <li><a href="#dottrina-tathāgatagarbha" id="toc-dottrina-tathāgatagarbha" class="nav-link" data-scroll-target="#dottrina-tathāgatagarbha"> <span class="header-section-number">3.2.1</span> Dottrina Tathāgatagarbha</a></li>
-  <li><a href="#yogācāra" id="toc-yogācāra" class="nav-link" data-scroll-target="#yogācāra"> <span class="header-section-number">3.2.2</span> Yogācāra</a></li>
-  <li><a href="#madhyamaka" id="toc-madhyamaka" class="nav-link" data-scroll-target="#madhyamaka"> <span class="header-section-number">3.2.3</span> Madhyamaka</a></li>
-  <li><a href="#considerazioni-conclusive" id="toc-considerazioni-conclusive" class="nav-link" data-scroll-target="#considerazioni-conclusive"> <span class="header-section-number">3.2.4</span> Considerazioni conclusive</a></li>
+  <li><a href="#dottrina-tathāgatagarbha" id="toc-dottrina-tathāgatagarbha" class="nav-link" data-scroll-target="#dottrina-tathāgatagarbha"><span class="toc-section-number">3.2.1</span>  Dottrina Tathāgatagarbha</a></li>
+  <li><a href="#yogācāra" id="toc-yogācāra" class="nav-link" data-scroll-target="#yogācāra"><span class="toc-section-number">3.2.2</span>  Yogācāra</a></li>
+  <li><a href="#madhyamaka" id="toc-madhyamaka" class="nav-link" data-scroll-target="#madhyamaka"><span class="toc-section-number">3.2.3</span>  Madhyamaka</a></li>
+  <li><a href="#considerazioni-conclusive" id="toc-considerazioni-conclusive" class="nav-link" data-scroll-target="#considerazioni-conclusive"><span class="toc-section-number">3.2.4</span>  Considerazioni conclusive</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -375,7 +380,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.38">
+<meta name="generator" content="quarto-1.1.113">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,10 +11,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: 1;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 </style>
 
 
@@ -169,18 +174,18 @@ ul.task-list{list-style: none;}
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Sommario</h2>
    
   <ul>
   <li><a href="#introduzione" id="toc-introduzione" class="nav-link active" data-scroll-target="#introduzione">Introduzione</a></li>
-  <li><a href="#le-due-verità" id="toc-le-due-verità" class="nav-link" data-scroll-target="#le-due-verità"> <span class="header-section-number">7.1</span> Le due verità</a></li>
-  <li><a href="#la-liberazione-attraverso-la-vacuità" id="toc-la-liberazione-attraverso-la-vacuità" class="nav-link" data-scroll-target="#la-liberazione-attraverso-la-vacuità"> <span class="header-section-number">7.2</span> La liberazione attraverso la vacuità</a></li>
-  <li><a href="#la-coproduzione-condizionata" id="toc-la-coproduzione-condizionata" class="nav-link" data-scroll-target="#la-coproduzione-condizionata"> <span class="header-section-number">7.3</span> La coproduzione condizionata</a></li>
-  <li><a href="#che-cosè-śūnyatā" id="toc-che-cosè-śūnyatā" class="nav-link" data-scroll-target="#che-cosè-śūnyatā"> <span class="header-section-number">7.4</span> Che cos’è śūnyatā?</a></li>
-  <li><a href="#labbandono-di-tutti-i-dṛṣṭi" id="toc-labbandono-di-tutti-i-dṛṣṭi" class="nav-link" data-scroll-target="#labbandono-di-tutti-i-dṛṣṭi"> <span class="header-section-number">7.5</span> L’abbandono di tutti i dṛṣṭi</a></li>
-  <li><a href="#il-nobile-silenzio" id="toc-il-nobile-silenzio" class="nav-link" data-scroll-target="#il-nobile-silenzio"> <span class="header-section-number">7.6</span> Il nobile silenzio</a></li>
-  <li><a href="#relazione-tra-metafisica-e-etica" id="toc-relazione-tra-metafisica-e-etica" class="nav-link" data-scroll-target="#relazione-tra-metafisica-e-etica"> <span class="header-section-number">7.7</span> Relazione tra metafisica e etica</a></li>
+  <li><a href="#le-due-verità" id="toc-le-due-verità" class="nav-link" data-scroll-target="#le-due-verità"><span class="toc-section-number">7.1</span>  Le due verità</a></li>
+  <li><a href="#la-liberazione-attraverso-la-vacuità" id="toc-la-liberazione-attraverso-la-vacuità" class="nav-link" data-scroll-target="#la-liberazione-attraverso-la-vacuità"><span class="toc-section-number">7.2</span>  La liberazione attraverso la vacuità</a></li>
+  <li><a href="#la-coproduzione-condizionata" id="toc-la-coproduzione-condizionata" class="nav-link" data-scroll-target="#la-coproduzione-condizionata"><span class="toc-section-number">7.3</span>  La coproduzione condizionata</a></li>
+  <li><a href="#che-cosè-śūnyatā" id="toc-che-cosè-śūnyatā" class="nav-link" data-scroll-target="#che-cosè-śūnyatā"><span class="toc-section-number">7.4</span>  Che cos’è śūnyatā?</a></li>
+  <li><a href="#labbandono-di-tutti-i-dṛṣṭi" id="toc-labbandono-di-tutti-i-dṛṣṭi" class="nav-link" data-scroll-target="#labbandono-di-tutti-i-dṛṣṭi"><span class="toc-section-number">7.5</span>  L’abbandono di tutti i dṛṣṭi</a></li>
+  <li><a href="#il-nobile-silenzio" id="toc-il-nobile-silenzio" class="nav-link" data-scroll-target="#il-nobile-silenzio"><span class="toc-section-number">7.6</span>  Il nobile silenzio</a></li>
+  <li><a href="#relazione-tra-metafisica-e-etica" id="toc-relazione-tra-metafisica-e-etica" class="nav-link" data-scroll-target="#relazione-tra-metafisica-e-etica"><span class="toc-section-number">7.7</span>  Relazione tra metafisica e etica</a></li>
   <li><a href="#considerazioni-conclusive" id="toc-considerazioni-conclusive" class="nav-link" data-scroll-target="#considerazioni-conclusive">Considerazioni conclusive</a></li>
   </ul>
 </nav>
@@ -656,7 +661,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);

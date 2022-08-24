@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.0.38">
+<meta name="generator" content="quarto-1.1.113">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,10 +11,15 @@
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-span.underline{text-decoration: underline;}
-div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: 1;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
 </style>
 
 
@@ -168,17 +173,17 @@ ul.task-list{list-style: none;}
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc">
+        <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Sommario</h2>
    
   <ul>
-  <li><a href="#sommario" id="toc-sommario" class="nav-link active" data-scroll-target="#sommario"> <span class="header-section-number">2.1</span> Sommario</a></li>
-  <li><a href="#etimologie" id="toc-etimologie" class="nav-link" data-scroll-target="#etimologie"> <span class="header-section-number">2.2</span> Etimologie</a>
+  <li><a href="#sommario" id="toc-sommario" class="nav-link active" data-scroll-target="#sommario"><span class="toc-section-number">2.1</span>  Sommario</a></li>
+  <li><a href="#etimologie" id="toc-etimologie" class="nav-link" data-scroll-target="#etimologie"><span class="toc-section-number">2.2</span>  Etimologie</a>
   <ul class="collapse">
-  <li><a href="#etimologie-nelle-lingue-occidentali" id="toc-etimologie-nelle-lingue-occidentali" class="nav-link" data-scroll-target="#etimologie-nelle-lingue-occidentali"> <span class="header-section-number">2.2.1</span> Etimologie nelle lingue occidentali</a></li>
-  <li><a href="#etimologie-buddiste-mahāyāna" id="toc-etimologie-buddiste-mahāyāna" class="nav-link" data-scroll-target="#etimologie-buddiste-mahāyāna"> <span class="header-section-number">2.2.2</span> Etimologie buddiste Mahāyāna</a></li>
+  <li><a href="#etimologie-nelle-lingue-occidentali" id="toc-etimologie-nelle-lingue-occidentali" class="nav-link" data-scroll-target="#etimologie-nelle-lingue-occidentali"><span class="toc-section-number">2.2.1</span>  Etimologie nelle lingue occidentali</a></li>
+  <li><a href="#etimologie-buddiste-mahāyāna" id="toc-etimologie-buddiste-mahāyāna" class="nav-link" data-scroll-target="#etimologie-buddiste-mahāyāna"><span class="toc-section-number">2.2.2</span>  Etimologie buddiste Mahāyāna</a></li>
   </ul></li>
-  <li><a href="#le-definizioni-della-compassione-secolare" id="toc-le-definizioni-della-compassione-secolare" class="nav-link" data-scroll-target="#le-definizioni-della-compassione-secolare"> <span class="header-section-number">2.3</span> Le definizioni della compassione secolare</a></li>
+  <li><a href="#le-definizioni-della-compassione-secolare" id="toc-le-definizioni-della-compassione-secolare" class="nav-link" data-scroll-target="#le-definizioni-della-compassione-secolare"><span class="toc-section-number">2.3</span>  Le definizioni della compassione secolare</a></li>
   </ul>
 </nav>
     </div>
@@ -443,7 +448,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   for (var i=0; i<noterefs.length; i++) {
     const ref = noterefs[i];
     tippyHover(ref, function() {
-      let href = ref.getAttribute('href');
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
