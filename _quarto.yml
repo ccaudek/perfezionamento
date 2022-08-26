@@ -22,13 +22,14 @@ book:
     - 06-chapter-3.qmd
     - 07-wisdom.qmd
     - 08-living_skillfully.qmd
-    - 09-chapter-4.qmd
-    - 10-meditation.qmd
-    - 11-chapter-5.qmd
-    - 12-chapter-6.qmd
-    - 13-gilbert.qmd
-    - 14-kirby.qmd
-    - 15-measurement.qmd
+    - 09-patience.qmd
+    - 10-chapter-4.qmd
+    - 11-meditation.qmd
+    - 12-chapter-5.qmd
+    - 13-chapter-6.qmd
+    - 14-gilbert.qmd
+    - 15-kirby.qmd
+    - 16-measurement.qmd
 format:
   html: 
     theme: 
