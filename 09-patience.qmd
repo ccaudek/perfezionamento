@@ -1,56 +1,60 @@
 # Kṣānti
 
-Abbiamo incontrato kṣānti quando abbiamo discusso il Vimalakīrti Sūtra. In quel contesto, kṣānti indicava
-
-> la tolleranza intuitiva dell'incomprensibilità ultima e della natura non-nata di tutte le cose
-
-cioè, indicava la capacità di realizzare la vacuità, ovvero di accettare con fiducia e in maniera gioiosa l'esperienza dell'assenza di fondamento, dell'impermanenza e dell'assenza di sé.
-
-Ma kṣānti è anche la terza delle sei perfezioni, ovvero le pratiche che fanno maturare la mente del bodhisattva. Kṣānti è anche tradotta come "pazienza". A kṣānti è dedicato il sesto capitolo del Bodhicaryāvatāra e il nono capitolo dell'Antologia (Siksà-samuccaya) di Śāntideva.
-
-## Antidoti
-
 Śāntideva, così come tutta la tradizione buddista, propone molte strategie per tenere la mente sotto controllo e per eliminare i kleśa (offuscazioni mentali). Tali strategie seguono la logica degli "antidoti": la tolleranza è l'antidoto alla rabbia; il vigore è l'antidoto alla pigrizia; il disgusto per il corpo è l'antidoto alla lussuria.
 
 ::: callout-note
 I kleśa, nel buddismo, sono stati mentali che offuscano la mente e si manifestano in azioni malsane. I kleśa includono stati mentali come ansia, paura, rabbia, gelosia, desiderio, depressione, ecc. Il termine kleśa viene tradotto come: afflizioni, contaminazioni, emozioni distruttive, emozioni disturbanti, emozioni negative, veleni mentali, nevrosi ecc. Nelle tradizioni buddiste, i tre kleśa di ignoranza, attaccamento e avversione sono identificati come la fonte di tutti gli altri kleśa. Nel Mahayana sono indicati come i *tre veleni*.
 :::
 
+In questo capitolo ci occuperemo di kṣānti. Abbiamo già incontrato kṣānti quando abbiamo discusso il Vimalakīrti Sūtra. In quel contesto, kṣānti indicava
+
+> la tolleranza intuitiva dell'incomprensibilità ultima e della natura non-nata di tutte le cose
+
+cioè, indicava la tolleranza alla realizzazione della vacuità, ovvero la capacità di accettare con fiducia e in maniera gioiosa l'esperienza dell'assenza di fondamento, dell'impermanenza e dell'assenza di sé.
+
+Ma kṣānti è anche la terza delle sei perfezioni, ovvero delle pratiche che fanno maturare la mente del bodhisattva. Kṣānti è anche tradotta come "pazienza". A kṣānti è dedicato il sesto capitolo del Bodhicaryāvatāra e il nono capitolo dell'Antologia (Siksà-samuccaya) di Śāntideva. In ciò che segue fornirò un riassunto di ciò che viene descritto nel Siksà-samuccaya.
+
 ## La perfezione della pazienza
 
-Nel nono capitolo del Siksà-samuccaya, Śāntideva si occupa dell'antidoto (kṣānti) al terzo veleno (avversione, odio o rabbia): "per liberarti dalle catene delle distorsioni karmiche, devi fare uno sforzo per eliminare le emozioni reattive. Sin dall'inizio:"
+Nel nono capitolo del Siksà-samuccaya, Śāntideva si occupa dell'antidoto (kṣānti) al terzo veleno (avversione, odio o rabbia). Śāntideva scrive: "per liberarti dalle catene delle distorsioni karmiche, devi fare uno sforzo per eliminare le emozioni reattive. Sin dall'inizio:"
 
 > Resisti con pazienza.
 
 "Coloro che non hanno studiato non conoscono né i metodi per sviluppare un'attenzione stabile, né i metodi per eliminare le emozioni reattive. Pertanto, instancabilmente"
 
-> Cerca l'apprendimento.
+> Cerca l'apprendimento \[del Dharma\].
 
-"Ma anche se sei ben informato, se la tua condotta è contaminata, sarà difficile sviluppare un'attenzione stabile. Perciò,"
+"Ma anche se sei ben informato, se la tua condotta è contaminata \[dai kleśa\] sarà difficile sviluppare un'attenzione stabile. Perciò,"
 
 > Dimora in solitudine.
 
-"Chi ha un'attenzione stabile riceve come risultato l'eliminazione delle emozioni reattive. Per questa ragione,"
+"Chi ha un'attenzione stabile riceve come compenso l'eliminazione delle emozioni reattive. Per questa ragione,"
 
-> Medita sull'impurità
+> Medita sull'impurità \[del corpo\].
 
-La meditazione sull'impurità (Skt. aśubha-bhāvanā) è una classe di tecniche volte a minare il desiderio sessuale riflettendo e visualizzando le impurità associate al corpo.
+::: callout-note
+La meditazione sull'impurità (Skt. aśubha-bhāvanā) è una classe di tecniche volte a minare il desiderio sessuale riflettendo e visualizzando sulle impurità associate al corpo.
+:::
 
 Queste, ci dice Śāntideva, sono le istruzioni per eliminare le emozioni reattive.
 
-Nel Candrapradīpa Sūtra si afferma:
+Seguono poi varie citazioni da diversi Sūtra. Nel Candrapradīpa Sūtra si afferma:
 
 > Non rimanere attaccato al piacere e non sfuggire il dolore.
 
 Nel Ugraparipṛcchā Sūtra si afferma:
 
-> Inoltre, mercante di successo, un bodhisattva a capo di una famiglia dovrebbe essere libero da attaccamento e rabbia e dovrebbe essere indifferente alle otto preoccupazioni mondane. Se ottiene beni, moglie o figli, ricchezza, grano o proprietà, non dovrebbe diventare pomposo o euforico. Se non ottiene nessuno di questi, non dovrebbe essere scoraggiato o depresso. E dovrebbe riflettere così: «Tutte le cose condizionate sono illusorie, hanno la caratteristica di essere costruzioni mentali. Pertanto, i genitori, i figli, la moglie, la servitù, i lavoratori, i dipendenti, gli amici, i compagni, i parenti e i membri della famiglia, sono manifestati dall'evoluzione del karma. Non sono miei e io non sono loro.
+> Il ... bodhisattva ... dovrebbe rimanere libero dall'attaccamento e dalla rabbia e dovrebbe mostrarsi indifferente alle otto preoccupazioni mondane. Se ottiene beni, moglie o figli, ricchezza, grano o proprietà, non dovrebbe diventare pomposo o euforico. Se non ottiene nessuno di questi, non dovrebbe essere scoraggiato o depresso. E dovrebbe riflettere così: «Tutte le cose condizionate sono illusorie e hanno la caratteristica di essere delle costruzioni mentali. Pertanto, i genitori, i figli, la moglie, la servitù, ... i dipendenti, gli amici, i compagni, i parenti e i membri della famiglia sono tutti manifestati delle evoluzioni del karma. Non sono miei e io non sono loro.
 
-"Come è possibile, in pratica, non essere vittime dell'infelicità?" Risponde Śāntideva: "Sbarazzandosi di uno stato mentale leggero e morbido. Come dice Ugraparipṛcchā Sūtra,"Non avere una mente morbida". Il nobile dice anche: "Figlia, per la distruzione di tutte le emozioni reattive, sviluppa una mente difficile da sconfiggere; per recidere l'attaccamento, sviluppa mente che non può essere conquistata; una mente che non trema quando si confronta con l'oceano degli esseri malevoli."
+Śāntideva si chiede come sia possibile non rimanre vittime dell'infelicità? A tale domanda Śāntideva risponde: "Liberandosi da una ment debole."
 
-"Con la pratica ripetuta", ci dice Śāntideva, "nulla è difficile da ottenere. Se anche i più ignoranti \[...\] con la ripetizione della pratica \[...\] non vengono più sopraffatti dalla fatica, quanto più questo è vero se consideriamo quel lavoro i cui risultati sono tutte le forme della felicità nell'esistenza ciclica, tutte le forme di felicità del bodhisattva e il più alto stato dell'assorbimento meditativo!"
+Nell'Ugraparipṛcchā Sūtra si dice:
 
-"Così come, attraverso l'abitudine, è possibile credere che la sofferenza degli altri esseri senzienti ci porterà la felicità, allo stesso modo, generando abitualmente pensieri di felicità verso tutto ciò che causa sofferenza, è possibile dimorare in uno stato mentale felice. Come risultato finale di questa pratica, è possibile raggiungere quell'assorbimento meditativo che viene descritto nel Sutra dell'incontro del padre e del figlio:
+> Figlia, per distruggere tutte le emozioni reattive, sviluppa una mente difficile da sconfiggere; per recidere l'attaccamento, sviluppa mente che non può essere conquistata; sviluppa una mente che non trema quando deve confrontarsi con l'oceano degli esseri malevoli.
+
+Il mezzo per ottenere questo risultato è la pratica. "Con la pratica ripetuta", ci dice Śāntideva, "nulla è difficile da ottenere. Se anche i più ignoranti \[...\] con la ripetizione della pratica \[...\] non vengono più sopraffatti dalla fatica, quanto più vero è questo se consideriamo quel lavoro i cui risultati corrispondono a tutte le forme della felicità dell'esistenza ciclica, a tutte le forme di felicità del bodhisattva e allo stato più alto dell'assorbimento meditativo!"
+
+"Così come, attraverso l'abitudine, è possibile credere che la sofferenza degli altri esseri senzienti ci porterà la felicità, allo stesso modo, generando abitualmente pensieri di felicità verso tutto ciò che causa sofferenza, è possibile dimorare in uno stato mentale felice. Come risultato di questa pratica, è possibile raggiungere quell'assorbimento meditativo che viene descritto nel Sutra dell'incontro del padre e del figlio:
 
 > Nell'assorbimento meditativo chiamato "Tutto è coperto di felicità" i bodhisattva provano solo sentimenti felici verso tutti gli oggetti di cui sono consapevoli, senza sentimenti di sofferenza o infelicità. Anche mentre provano le pene dei tormenti dell'inferno, pensano solo a pensieri felici. Anche mentre subiscono tutt3 le sofferenze della condizione umana, come farsi tagliare le mani, i piedi o il naso, pensano solo a pensieri felici. Anche se vengono picchiati con bastoni o fruste, hanno solo pensieri felici. Anche quando vengono gettati in prigione... o mentre vengono ustionati dall'olio bollente, o dati alle fiamme come una lampada a olio, pensano solo a pensieri felici. Anche se vengono offerti alla bocca di un demone o alla bocca di un leone ... o vengono tagliati a pezzi ... o vengono schiacciati dagli elefanti, hanno solo pensieri felici. Se gli vengono strappate le ossa, o se vengono impalati su dei pali, o portati via per essere uccisi, o se gli viene tagliata la testa, hanno solo pensieri felici, mai pensieri di sofferenza, né pensieri che non siano né felici né di sofferenza.
 
@@ -86,7 +90,7 @@ Il mio commento potrebbe essere quello di dire che il bodhisattva utilizza le di
 
 Di nuovo, il mio commento è che, anziché rispondere in maniera "automatica" alle difficoltà -- una senzazione di bruciore mi fa male e io "sono" questo dolore -- il bodhisattva è in grado di trasformare le proprie esperienze quotidiane, mutandole dalla forma di un riflesso cieco ad un'esperienza che viene letta attraverso le lenti del Dharma. Anziché accettare i kleśa senza metterli in discussione, mediante le capacità maturate con la pratica meditativa, e avendo reso "malleabile" la mente, i bodhisattva trasformano le loro afflizioni mentali in base alla consapevolezza che tutto è śūnyatā. Se siamo in grado di realizzare in maniera autentica la vacuità, il dolore assume "un colore" diverso. Più tenue. Se crediamo a Śāntideva, esso sbiadisce fino a scomparire.
 
-C'è una componente eroica nel bodhisattva: il bodhisattva è un guerriero. Non ha timore della sofferenza perché, senza la sofferenza, non potrebbe esistere. Se non ci fosse la sofferenza questo significherebbe che non siamo più nel saṃsāra. E il bodhisattva può esistere solo nel saṃsāra. Più grande è la sofferenza, maggiore è la sua ragione di esistere. Per questo, il bodhisattva è la creatura più coraggiosa; ciò che per gli altri è motivo di paura, per il bodhisattva è una motivazione: maggiore il dolore, maggiore la motivazione. Nel Bodhicaryāvatāra il coraggio del bodhisattva è descritto in questo modo:
+Concluderei mettendo in evidenza l'aspetto seguente: c'è una componente eroica nel bodhisattva. Il bodhisattva è un guerriero. Non ha timore della sofferenza perché, senza la sofferenza, non potrebbe esistere. Se non ci fosse la sofferenza questo significherebbe che non siamo più nel saṃsāra; e il bodhisattva può esistere solo nel saṃsāra. Più grande è la sofferenza, maggiore è la sua ragione di esistere. Per questo, il bodhisattva è la creatura più coraggiosa; il bodhisattva non prova paura. Ciò che per gli altri è motivo di paura, per il bodhisattva è una motivazione: maggiore il dolore, maggiore la motivazione. Nel Bodhicaryāvatāra il coraggio del bodhisattva è descritto in questo modo:
 
 > Ci sono alcuni il cui coraggio aumenta,\
 > Alla vista del proprio sangue,\
