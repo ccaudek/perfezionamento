@@ -40,18 +40,13 @@ Per queste sue caratteristiche, è difficile produrre un commentario sistematico
 
 Il Bodhicaryāvatāra istruisce i bodhisattva su come impegnarsi (avatāra) nella pratica (cariā) di tutte le qualità spirituali necessarie per raggiungere la meta più alta, ovvero il risveglio (bodhi). Il testo descrive in dieci capitoli la generazione, la preservazione e lo sviluppo del bodhicitta, ovvero la progressione dell'addestramento sempre più avanzato di un bodhisattva sul sentiero dello sviluppo spirituale.
 
-Un concetto centrale del Bodhicaryāvatāra è, appunto, il bodhisattva, l'essere (sattva) che giura di raggiungere il pieno risveglio (bodhi) di un buddha per operare nel modo più efficace a beneficio degli esseri senzienti. La motivazione per raggiungere questo obiettivo è bodhicitta, la mente (citta) dedicata al pieno risveglio (bodhi).
+Un concetto centrale del Bodhicaryāvatāra è, appunto, il bodhisattva, la "creatura in risveglio", l'essere (sattva) che giura di raggiungere il pieno risveglio (bodhi) di un buddha per operare nel modo più efficace a beneficio degli esseri senzienti. Il Bodhisattva non vuole raggiungere il nirvāna per sé ma farlo raggiungere agli altri, e, a questo scopo procrastina infinitamente la sua entrata nel nirvāna per adoperarsi, nel mondo della trasmigrazione, al bene di tutte le creature. La motivazione per raggiungere questo obiettivo è bodhicitta, la mente (citta) dedicata al pieno risveglio (bodhi).
 
 I primi quattro capitoli del Bodhicaryāvatāra sono incentrati su bodhicitta: il primo ne elogia le qualità virtuose; il secondo e il terzo presentano un rituale del voto del bodhisattva; il quarto si concentra sul mantenimento del bodhicitta. Questi primi capitoli sottolineano lo stato pericolosamente instabile in cui ci troviamo prima di entrare nel sentiero del bodhisattva. I capitoli IV-VI descrivono il mantenimento di bodhicitta attraverso l'attenzione, l'introspezione e la tolleranza. I capitoli VII-IX descrivono il potenziamento di bodhicitta attraverso la diligenza, la concentrazione meditativa e la saggezza. Il X capitolo contiene le dediche dell'opera.
 
-> Proprio come un fulmine illumina l'oscurità di una notte nuvolosa\
-> per un istante, allo stesso modo, per il potere del Buddha,\
-> occasionalmente le menti delle persone sono momentaneamente inclini al merito.\
+> I:5. In una note oscura, piena di nuvole, un lampo brilla forse più di un istante? Parimenti, grazie al potere degli Svegliati, la mente dele creature si rivolge talvolta, per un istante, verso il bene.
 
-> Così la virtù è perennemente sempre così debole, mentre la potenza del vizio\
-> è grande e terribile. Se bodhicitta non esistesse,\
-> quale altra virtù lo vincerebbe?\
-> --- (BCA I:5--6)
+> I:6. Il bene è dunque sempre debole e il male invece forte e tremendo. Che bene mai sarebbe in grado di vincerlo, se non il pensiero del risveglio?
 
 I versi propongono due punti sorprendenti e filosoficamente significativi.
 
@@ -62,31 +57,17 @@ I versi propongono due punti sorprendenti e filosoficamente significativi.
 
 Nell'ottavo capitolo, intitolato "Concentrazione meditativa", Śāntideva descrive la meditazione su karuṇā:
 
-> Sforzati inizialmente di meditare\
-> sull'identità di te stesso e degli altri.\
-> Nella gioia e nel dolore tutti sono uguali;\
-> sii dunque custode di tutto, come di te stesso.\
+> VIII:90. Prima di tutto egli deve riflettere attentamente sull'ugua- glianza tra sé e gli altri: «Tutti hanno le mie stesse pene e i miei stessi piaceri e debbo dunque proteggerli come me stesso».
 
-> Sebbene di molti tipi diversi,\
-> la mano e le altre membra sono un solo corpo da proteggere.\
-> Allo stesso modo, gli esseri diversi, nelle loro gioie e dolori,\
-> sono, come me, tutti simili nel volere la felicità.\
+> VIII:91. Aquel modoche il corpo, nonostante al diversità dele membra, è protetto come un essere unico, così deve farsi pure del mondo, costituito da esseri diversi che hanno in comune il dolore e la gioia.
 
-> Questo mio dolore non affligge\
-> né provoca disagio agli altri,\
-> eppure è difficile per me da sopportare\
-> a causa dell'attaccamento all'ego.\
+> VIII:92. Se li mio dolore non è sentito dai corpi degli altri, esso, per me, è nondimeno un dolore difficile a sopportare, a causa dell'attaccamento all'io.
 
-> Io dissiperò il dolore degli altri,\
-> perché è un dolore, proprio come il mio.\
-> Io aiuterò gli altri, perché sono degli esseri viventi,\
-> come il mio corpo.\
+> VIII:93. Similmente, anche se il dolore di un altro non è sentito da me, esso, per lui, è nondimeno un dolore difficile da sopportare, a causa dell'attaccamento all'io.
 
-> Poiché io e gli altri\
-> siamo uniti nel volere la felicità,\
-> e loro non sono diversi da me,\
-> perché dovrei sforzarmi per ottenere solo il mio benessere personale?\
-> (BCA, VIII-90:95)
+> VIII:94. Io debbo combattere il dolore degli altri perché esso è dolore, come il mio. Io debbo fare il bene degli altri, perché sono esseri viventi, come me.
+
+> VIII:95. Io e gli altri aspiriamo ugualmente ala felicità: quali caratteri particolari presenta l'io per meritare, lui solo, tutti gli sforzi?
 
 Va notato che il Bodhicaryāvatāra non insegna esplicitamente la coltivazione della compassione, ma bensì la generazione di bodhicitta. In altre parole, la coltivazione della compassione non è intesa come una pratica a sé stante, ma invece come una componente di un processo più generale, ovvero quello della generazione di bodhicitta. Come in altri testi della letteratura Mahāyāna, il Bodhicaryāvatāra fornisce una gerarchia di virtù, in cui karuṇā non è classificata come la virtù più eccellente, ma è subordinata al bodhicitta.
 
@@ -96,69 +77,55 @@ Il bodhicitta è definito mediante due caratteristiche: "Attraverso karuṇā, \
 
 Il Bodhicaryāvatāra è una combinazione di tradizione e innovazione e questo vale anche e soprattutto per la pratica dell'"equalizzazione e scambio di sé e dell'altro" (tonglen) che il Bodhicaryāvatāra descrive.
 
-Il Bodhicaryāvatāra raccomanda vivamente una pratica che chiama "scambio di sé e dell'altro" (parātmaparivartana). La presentazione di questa pratica arriva al culmine di un lungo discorso sull'importanza di abbandonare l'attaccamento a se stessi e di prendersi cura invece del benessere degli altri. Nella meditazione su parātmaparivartana, Śāntideva tenta di mettere in pratica l'equalizzazione di sé e dell'altro cercando di dissolvere tutte le vestigia dell'egoismo del meditatore. Śāntideva esorta i suoi lettori a creare "un senso di sé negli altri, e un senso dell'altro in sé":
+Il Bodhicaryāvatāra raccomanda vivamente una pratica che chiama "scambio di sé e dell'altro" (parātmaparivartana). Per il bodhisattva gli altri debbono essere sentiti come il proprio sé e viceversa il suo sé come ciò che sono gli altri per l'uomo ordinario. La presentazione di questa pratica arriva al culmine di un lungo discorso sull'importanza di abbandonare l'attaccamento a se stessi e di prendersi cura invece del benessere degli altri. Nella meditazione su parātmaparivartana, Śāntideva tenta di mettere in pratica l'equalizzazione di sé e dell'altro cercando di dissolvere tutte le vestigia dell'egoismo del meditatore. Śāntideva esorta i suoi lettori a creare "un senso di sé negli altri, e un senso dell'altro in sé":
 
-> Prendi gli altri - inferiori, superiori, uguali - come te stesso,\
-> Identificati come "altro".\
-> --- (VIII-140)
+> VIII:140. Considera dunque le creature, cominciando dalle più umili, come te stesso e te stesso come gli altri;
 
 Śāntideva cerca di letteralmente formare mediante "gli altri" un nuovo concetto di "io" (ahamkāra), che normalmente si considererebbe il "sé". Per manifestare questa idea in pratica, Śāntideva scambia pronomi e persone grammaticali in modo che la terza persona si riferisca al meditatore e la prima persona ad "altri". Il nuovo "io" che sono gli altri può allora provare invidia e disprezzo verso il "colui" che era il "sé" originario. Śāntideva si immagina che "lui" --- cioè se stesso --- appaia felice, ricco e lodato, mentre "io" --- l'altro --- "sono" miserabile, povero e disprezzato; "Io" (cioè l'altro) "dovrei invidiare" l'altro (cioè il sé originario).
 
-> Lui è al centro dell'attenzione. Io non sono niente.\
-> E, a differenza di lui, io sono povero senza possedere nulla.\
-> Tutti lo ammirano e invece disprezzano me,\
-> Tutto va bene per lui; per me c'è solo amarezza!\
+> VIII:141. «Come? Costui è onorato ed io no! Costui ricco ed oi povero! Egli lodato, oi biasimato! lo pieno di dolori, egli felice!».
 
-> Tutto quello che ho è sudore e fatica,\
-> Mentre lui è lì, seduto a suo agio.\
-> È grande, rispettato nel mondo,\
-> Mentre io sono il perdente, un semplice nessuno.\
-> --- (BCA VIII-141:142)
+> VIII:142. «Io lavoro ed egli si riposa a suo bell'agio! Egli è, apparentemente, grande nel mondo ed io piccolo, privo apparentemente di qualità!.»
 
 Avendo immaginato se stessi dal punto di vista di un inferiore invidioso, poi Śāntideva si immagina il punto di vista inverso di un altro superiore sprezzante, sempre invertendo il ruolo di "io" e "altro". Śāntideva chiama "supremo mistero" (parama guhya; VIII-120) questo scambio di posizioni soggettive, ovvero la capacità di mettere da parte la propria prospettiva personale per rendere possibile, letteralmente, all'altro di dimorare dentro di sé.
 
-Questo artificio letterario di scambio di prospettiva disorienta il lettore e lo costringe ad una lettura ripetuta del testo per rendersi conto di cosa sta succedendo. L'incertezza che il lettore prova relativamente ai referenti dei pronomi personali ben si adatta all'esercizio dello scambio di sé e dell'altro, il quale ha lo scopo di destabilizzare la posizione soggettiva del lettore. La pratica dello scambio di sé e dell'altro comporta una fluidità particolare delle soggettività implicate: né il narratore né il lettore pretendono di sapere cosa pensano e sentono tutti, da ogni punto di vista. Piuttosto, l'idea è quella di abbandonare l'attaccamento al proprio punto di vista particolare al fine di percepire il punto di vista degli altri. Si scopre così che gli altri hanno sentimenti e desideri simili ai nostri, anche se da prospettive diverse.
+Questo artificio letterario di scambio di prospettiva disorienta il lettore e lo costringe ad una lettura ripetuta del testo per rendersi conto di cosa sta succedendo. L'incertezza che il lettore prova relativamente ai referenti dei pronomi personali ben si adatta all'esercizio dello scambio di sé e di altri, il quale ha lo scopo di destabilizzare la posizione soggettiva del lettore. La pratica dello scambio di sé e di altri comporta una fluidità particolare delle soggettività implicate: né il narratore né il lettore pretendono di sapere cosa pensano e sentono tutti, da ogni punto di vista. Piuttosto, l'idea è quella di abbandonare l'attaccamento al proprio punto di vista particolare al fine di percepire il punto di vista degli altri. Si scopre così che gli altri hanno sentimenti e desideri simili ai nostri, anche se da prospettive diverse.
 
-L'idea dell'uguaglianza o identità tra sé e l'altro è già stato introdotta in precedenza come uno dei metodi dell'approccio didattico cognitivo-analitico della coltivazione della compassione. Gli studiosi buddisti Asaṅga, Vasubandhu, Nāgārjuna, Candrakīrti e altri hanno approfondito questo aspetto fornendo varie motivazioni filosofiche, fenomenologiche o ontologiche, a sostegno dell'equanimità.
+L'idea del "capovolgimento", del superamento della nozione di sé e altri è già stata introdotta in precedenza come uno dei metodi dell'approccio didattico cognitivo-analitico della coltivazione della compassione. Gli studiosi buddisti Asaṅga, Vasubandhu, Nāgārjuna, Candrakīrti e altri hanno approfondito questo tema fornendo varie motivazioni filosofiche, fenomenologiche o ontologiche, a sostegno dell'equanimità.
 
--   L'approccio *fenomenologico* si riferisce alle esperienze in prima persona della gioia e del dolore degli altri: "Nella gioia e nel dolore tutti gli esseri sono uguali". A causa dell'identità postulata, Śāntideva afferma che si può provare, in prima persona, il dolore di un'altro, se si sceglie di identificarsi con esso.
--   La prospettiva *ontologica* allude alla visione della realtà come non dualità o vacuità. L'accento è posto sull'idea di tutto, cioè di un insieme più grande che comprende tutti gli esseri. Questa totalità corrisponde all'umanità in cui i confini tra gli individui scompaiono e gli individui sono, in primo luogo, parti della stessa singola entità. Una seconda linea di argomentazione proviene dall'Abhidharma, il quale postula l'assenza di un sé che invece viene concepito solo come un conglomerato di componenti, per cui è un'illusione credere nella continuità della coscienza, o all'esistenza di un sé separato dagli altri e dotato di caratteristiche immutabili.
+-   L'approccio *fenomenologico* si riferisce alle esperienze in prima persona della gioia e del dolore degli altri: "Nella gioia e nel dolore tutti gli esseri sono uguali". A causa dell'identità postulata, Śāntideva afferma che si può provare, in prima persona, il dolore dell'altro, se si sceglie di identificarsi con lui.
+-   La prospettiva *ontologica* allude alla visione della realtà come non dualità o vacuità. L'accento è posto sull'idea del tutto, cioè di un insieme più grande che comprende tutte le creature. Questa totalità corrisponde all'umanità e, in essa, i confini tra gli individui scompaiono essendo considerati, in primo luogo, come componenti della stessa singola unità. Una seconda linea di argomentazione proviene dall'Abhidharma, il quale postula l'assenza di un sé il quale viene concepito solo come un conglomerato di componenti; pertanto è un'illusione credere nella continuità della coscienza, o all'esistenza di un sé separato dagli altri e dotato di caratteristiche immutabili, dato che le componenti del sé variano costantemente.
 
-Da entrambe le argomentazioni, quella fenomenologica e quella ontologica, deriva la stessa conclusione, ovvero la necessità di estendere la compassione in modo equo e imparziale a tutti gli esseri.
+Da entrambe le argomentazioni, quella fenomenologica e quella ontologica, deriva la stessa conclusione, ovvero la necessità di estendere la compassione in modo equo e imparziale a tutte le creature.
 
-In tale richiesta di cura altruistica per gli altri, Śāntideva attinge dunque a fonti precedenti. La proposta della meditazione tonglen, invece, può essere fatta solo in parte risalire a precedenti fonti scritturali. La meditazione tonglen costituisce invece un contributo innovativo di Śāntideva, per il modo in cui combina diverse linee di pensiero in modo da offrire un complesso gruppo di esercizi contemplativi, analitici e pratici che hanno l'obiettivo di produrre un *radicale cambiamento di prospettiva cognitiva* da parte del praticante.
+In tale richiesta di cura altruistica per gli altri, Śāntideva attinge dunque a fonti precedenti. La proposta della meditazione tonglen, invece, può essere fatta solo in parte risalire a precedenti fonti scritturali. La meditazione tonglen costituisce un contributo innovativo di Śāntideva per il modo in cui, combinando diverse linee di pensiero, offre un complesso gruppo di esercizi contemplativi, analitici e pratici con l'obiettivo di produrre un *radicale cambiamento di prospettiva cognitiva* da parte del praticante.
 
 ## Una lettura dettagliata
 
-I versi Bodhicaryāvatāra VIII, 90-112 sono identificati dai commentatori tibetani come il passaggio relativo all'equalizzazione e presentano l'interpretazione di Śāntideva dell'idea Mahāyāna di identità o uguaglianza.
+I versi Bodhicaryāvatāra VIII, 90-112 sono identificati dai commentatori tibetani come il passaggio relativo al "capovolgimento", ovvero dell'equalizzazione e lo scambio di sé e di altri) e presentano l'interpretazione di Śāntideva dell'idea Mahāyāna di equanimità.
 
-La sfida interpretativa di questo punto di vista risiede nel fatto che Śāntideva tratta la sofferenza come un'entità esistente mentre postula la non esistenza del sé. Questo argomento della "sofferenza senza proprietario", pone una sfida ermeneutica perché afferma la non esistenza delle persone ma allo stesso tempo sostiene l'esistenza della sofferenza: se il sé non esiste, la sofferenza non esiste e quindi non ci sarebbe neppure alcune motivazione per un'azione compassionevole.
+La sfida interpretativa relativa a questo testo risiede nel fatto che Śāntideva tratta la sofferenza come un'entità esistente, mentre postula la non esistenza del sé. Questo argomento della "sofferenza senza proprietario", pone una sfida ermeneutica perché afferma la non esistenza delle persone, ma allo stesso tempo sostiene l'esistenza della sofferenza: se il sé non esiste, la sofferenza non esiste e quindi non ci dovrebbe essere neppure alcune motivazione per un'azione compassionevole.
 
 Una possibile risoluzione di questo paradosso è stato proposta da Thokmé Sangpo e si basa su una argomentazione di tipo personale, piuttosto che ontologico:
 
 -   sebbene sia corretto affermare che sia il sofferente sia la sofferenza non esistano (in quanto sono entrambe prive di esistenza intrinseca), per rimuovere la mia sofferenza è necessario anche rimuovere la sofferenza degli altri;
 -   e, per lo stesso motivo, se la sofferenza degli altri non viene rimossa, neppure la mia sofferenza non può essere rimossa.
 
-Thokmé Sangpo si concentra sulla dimensione esperienziale personale. Non discute la sofferenza degli altri come un'affermazione ontologica su ciò che esiste o non esiste, ma è invece interessato a trasformare l'esperienza umana. Riconosce la verità della non esistenza ultima, ma vuole concentrarsi sul miglioramento dell'esperienza vissuta, cioè sull'eliminazione della sofferenza. Thokmé Sangpo usa i versi di Śāntideva come uno strumento terapeutico per smantellare l'autoidentificazione o l'attaccamento a sé stessi -- non come una descrizione ontologica che deve essere in sé coerente.
+Thokmé Sangpo si concentra dunque su una dimensione esperienziale personale: non discute la sofferenza degli altri come un'affermazione ontologica su ciò che esiste o non esiste, ma è invece interessato a trasformare l'esperienza umana. Riconosce la verità della non esistenza ultima della sofferenza, ma vuole concentrarsi sul miglioramento dell'esperienza vissuta, cioè sull'eliminazione della sofferenza provata in prima persona. Thokmé Sangpo usa dunque i versi di Śāntideva come uno strumento terapeutico per smantellare l'autoidentificazione o l'attaccamento a sé stessi -- non come una descrizione ontologica che in sé deve essere coerente.
 
-Questo punto è importante, non solo in relazione al Bodhicaryāvatāra. Anche l'opera di Nagarjuna e, in generale, la scuola Mādhyamika, sono state accusate di contenere delle aporie insuperabili dal punto di vista logico. Ma la scuola Mādhyamika ha ripetuto, nel modo più chiaro possibile, che non è mai stata interessata a proporre un sistema filosofico, una teoria del reale. I suoi obiettivi, così come quelli di Śāntideva, sono soteriologici, non ontologici. E questo riflette fedelmente il pensiero originale del Buddha, così come espresso nella Tripiṭaka, ovvero il completo disinteresse verso "le domande ultime" (l'origine e la fine dell'universo), ovvero verso le questioni di tipo ontologico.
+Questo punto è importante, non solo in relazione al Bodhicaryāvatāra. Anche l'opera di Nagarjuna e, in generale, la scuola Mādhyamika, sono state accusate di contenere delle aporie insuperabili dal punto di vista logico. Ma la scuola Mādhyamika ha ripetuto molte volte, nel modo più chiaro possibile, che non è interessata a proporre un sistema filosofico (dṛṣṭi), una teoria della realtà. I suoi obiettivi, così come quelli di Śāntideva, sono soteriologici, non ontologici. E questo riflette fedelmente il pensiero originale del Buddha, così come espresso nella Tripiṭaka, ovvero il completo disinteresse verso "le domande ultime" (l'origine e la fine dell'universo), ciè verso le questioni di tipo ontologico -- questo è un argomento che verrà ripreso nel @sec-wisdom.
 
-Secondo l'approccio Mādhyamika condiviso da Śāntideva, l'idea apparentemente naturale e intuitiva di un sé indipendente è una falsa percezione o una disfunzione mentale.
+Secondo l'approccio Mādhyamika condiviso da Śāntideva, l'idea apparentemente naturale e intuitiva di un sé indipendente è in realtà una percezione errata, una disfunzione mentale.
 
-(Bodhicaryāvatāra VIII-134)
+> VIII:134. Tute el calamità, tutti i dolori, tutti i perigli del mondo derivano da una cosa soltanto, cioè dall'attaccamento all'io; perché dunque attaccarmici?
 
-La sofferenza è dunque la conseguenza di un malinteso di fondo. Quindi, non il "male" ma l'ignoranza (avidyā), o non-conoscenza (a-jñāna) -- della non esistenza del sé -- è la "radice" (mūla) dell'esistenza trasmigratoria (saṃsāra), ovvero di dukkha. Per Śāntideva, questa ignoranza si manifesta come egoismo (ahāṃkāra) e culmina nell'attaccamento a un sé come corpo, o come anima individuata (jīva). secondo Śāntideva, tutte le disgrazie nel mondo sono dovute all'aggrapparsi a un tale falso sé.
+La sofferenza è dunque la conseguenza di un malinteso di fondo. Quindi, non il "male" ma l'ignoranza (avidyā), o non-conoscenza (a-jñāna) -- della non esistenza del sé -- è la "radice" (mūla) del mondo della trasmigrazione (saṃsāra), ovvero di dukkha. Per Śāntideva, questa ignoranza si manifesta come egoismo (ahāṃkāra) e culmina nell'attaccamento al sé come corpo, o come anima individuata (jīva). Secondo Śāntideva, tutte le disgrazie nel mondo sono dovute all'attaccamento ala falsa nozione del sé.
 
-> Tutto il male di cui è pieno il mondo,\
-> E tutta la paura e la sofferenza che ci sono in esso\
-> Derivano dall'attaccamento al sé.\
-> --- (BCA VIII-134)
+È questa falsa credenza in un sé immutabile che Śāntideva identifica come il principale impedimento a una mente compassionevole. Poiché l'attaccamento all'ego è una credenza fuorviante acquisita attraverso l'abitudine, secondo Śāntideva il rimedio ad un tale errore è un appropriato *allenamento mentale*. Il rimendio che viene proposto è il tonglen, il "capovolgimento", ovvero il superamento della nozione di sé e di altri.
 
-È questa pretesa di un sé individuale e immutabile che Śāntideva identifica come il principale impedimento a una mente compassionevole. Poiché l'attaccamento all'ego è un falso concetto acquisito attraverso l'abitudine, Śāntideva propone un *allenamento mentale* per correggere un tale errore. Il rimendio che viene proposto è il tonglen, ovvero lo "scambio di sé e dell'altro".
+Le meditazioni che Śāntideva propone nel Capitolo VIII non mirano direttamente a decostruire il concetto di sé (svabhāva), poiché questo sarà l'argomento del successivo Capitolo IX sulla Saggezza. Hanno invece lo scopo di decostruirre indirettamente il senso di sé mettendo in dubbio la struttura psicologica, emotiva e comportamentale che circonda e motiva la nozione del sé.
 
-Le meditazioni che Śāntideva propone nel Capitolo VIII non mirano a decostruire direttamente il concetto di sé (svabhāva), poiché questo sarà l'argomento del successivo Capitolo IX sulla Saggezza, ma hanno lo scopo di decostruirre indirettamente il senso di sé, mettendo in dubbio la struttura psicologica, emotiva e comportamentale che circonda e motiva il concetto di "io".
-
-Śāntideva introduce tre approcci per meditare sullo scambio tra sé e l'altro:
+Śāntideva introduce tre approcci per meditare sullo scambio di sé e di altri:
 
 -   lo scambio di autoidentificazione (concettuale),
 -   lo scambio di valutazione emotiva (valutativo),
@@ -166,7 +133,7 @@ Le meditazioni che Śāntideva propone nel Capitolo VIII non mirano a decostruir
 
 ### Lo scambio concettuale di autoidentificazione
 
-Il primo tipo di scambio è il *trasferimento concettuale* dell'autoidentificazione (Skt. ātmabhāva) con un'altra persona, ovvero l'idea di mettersi nei panni di un'altra persona. Śāntideva descrive una serie di meditazioni nelle quali il meditatore assume la prospettiva di una altra persona e poi "guarda indietro" la propria persona precedente. È importante notare che Śāntideva tratta queste contemplazioni come una pratica esperienziale, non come una riflessione astratta. È attraverso la pratica ripetuta di tali contemplazioni che verrà creato un nuovo modo di rapportarsi a sé e agli altri,
+Il primo tipo di scambio è il *trasferimento concettuale* dell'autoidentificazione (Skt. ātmabhāva) con un'altra persona, ovvero l'idea di mettersi nei panni di un'altra persona. Śāntideva descrive una serie di meditazioni nelle quali il meditatore assume la prospettiva di una altra persona e poi "guarda indietro" la propria persona precedente. È importante notare che Śāntideva tratta queste contemplazioni come una pratica esperienziale, non come una riflessione astratta. È attraverso la pratica ripetuta di tali contemplazioni che verrà creato un nuovo modo di rapportarsi a sé e agli altri.
 
 ### Lo scambio di valutazione emotiva
 
@@ -177,17 +144,33 @@ Il secondo tipo di scambio si riferisce a un cambiamento di atteggiamento verso 
 Dal punto di vista di Śāntideva,
 
 -   le meditazioni proposte non mirano a potenziare le emozioni positive di cura per gli altri, ma piuttosto prendono la via negativa di ridurre la preoccupazione e il coinvolgimento emotivo per la propria persona. Questo ha il duplice scopo di enfatizzare gli altri (che vivono la nostra stessa sofferenza) e di ridurre la preoccupazione per noi stessi.
--   L'atteggiamento critico verso l'attaccamento nei confronti del sé è concepito come la precondizione per lo scambio di sé e dell'altro e come l'unico metodo per potere dimorare in uno stato mentale soddisfacente.
+-   L'atteggiamento critico verso l'attaccamento nei confronti del sé è concepito come la precondizione per lo scambio di sé e di altri e come l'unico metodo per potere dimorare in uno stato mentale soddisfacente.
 
-> Per chi non riesce a scambiare\
-> La propria felicità con la sofferenza degli altri\
-> Il risveglio sarà certamente impossibile\
-> E non ci sarà gioia nell'esistenza ciclica.\
-> ---(BCA, VIII-131)
+> VIII:131. In verità, colui che non scambia al sua propria felicità col dolore altrui, non può ottenere nonché lo stato di Svegliato, ma neppure la felicità di questo mondo.
 
 I versi VIII, 140-154 sono altamente inusuali in quanto sembrano suggerire lo sviluppo delle afflizioni mentali (Skt. kleśā) quale mezzo di maturazione spirituale. In generale, i manuali buddisti ammoniscono gli individui a evitare le afflizioni mentali a tutti i costi. Śāntideva, tuttavia, suggerisce la coltivazione di afflizioni mentali volutamente disturbanti. In tale passaggio le afflizioni vengono concepite come antidoti verso i sostegni malevoli del sé, l'invidia, l'orgoglio e la gelosia. Insolita è anche la modalità narrativa di questo passaggio, poiché si legge come un moderno stream of consciousness in prima persona.
 
-VIII 140-154
+> VIII:140. Considera dunque le creature, cominciando dalle più umili, come te stesso e te stesso come gli altri; allora è il momento di coltivare, senza scrupoli, invidia ed orgoglio.
+
+> VIII:141. «Come? Costui è onorato ed io no! Costui ricco ed oi povero! Egli lodato, io biasimato! Io pieno di dolori, egli felice!».
+
+> VIII:142. «Io lavoro ed egli si riposa a suo bell'agio! Egli è, apparentemente, grande nel mondo ed io piccolo, privo apparentemente di qualità!.»
+
+> VIII:143. «Ma che deve fare un uomo privo di qualità? Ma tutti, in realtà, son provvisti di qualità! Vi sono, certo persone, cui sono inferiore ma anche altre cui sono superiore».
+
+> VIII:144. «Io non ho dottrina, non ho moralità, eccetera? Ma la colpa è mia e non piuttosto dele passioni? Che egli dunque mi guarisca se e quanto può! Io accetto le sofferenze del trattamento! ».
+
+> VIII:145. «Ma egli è incapace di guarirmi? E perché allora mi disprezza? Che m'importa delle sue qualità, se esse non sono di vantaggio che a lui stesso?».
+
+> VIII:146. «Egli non ha neppure compassione per lw povere creature precipitate nella gola dei cattivi destini! E tuttavia, orgoglioso, com'è, delle sue qualità, pretende d'esser da più d'ogni saggio».
+
+> VIII:147. «Crede di vedere uno uguale a lui? Ecco che si sforza di superarlo, senza indietreggiare neppure davanti alla lotta, pur di assicurarsi ricchezze ed onori!».
+
+> VIII:148. «Faccia il cielo che le mie qualità sian chiare e manifeste in tutto il mondo e che di quelle sue non oda parlare nessuno!».
+
+> VIII:149. «Possano i miei difetti restare nascosti! Possano tutti gli onori essere per me e nessuno per lui! - Ma eccomi infine felicemente ricco! Adesso io sono onorato, non lui!».
+
+> VIII:150. «Rallegriamoci dunque di vederlo, dopo tanto tempo, svillaneggiato e deriso da tutti, biasimato in ogni parte».
 
 In conclusione, lo scambio di valutazione emotiva esemplificata in questo passaggio non mira a rafforzare le emozioni positive di cura per gli altri, ma prende la strada opposta della riduzione della preoccupazione e della cura per il sé. Invece di concentrarsi sulle qualità degli altri, Śāntideva mette qui in evidenza le debolezze e le carenze morali del nostro stesso carattere.
 
@@ -272,4 +255,4 @@ Thich Nhat Hanh ha anche affermato:
 
 > Non puoi essere solo da solo. Devi inter-essere con ogni altra cosa (Hanh 1988, p. 4).
 
-Questo concetto di inter-essere esplicitato da Thich Nhat Hanh è il segno distintivo dell'autotrascendenza e fornisce la base "ontologica" dell'equalizzazione e dello scambio di sé e dell'altro proposta da Shantideva nel Bodhicaryāvatāra.
+Questo concetto di inter-essere esplicitato da Thich Nhat Hanh è il segno distintivo dell'autotrascendenza e fornisce la base "ontologica" dell'equalizzazione e dello scambio di sé e di altri proposta da Shantideva nel Bodhicaryāvatāra.

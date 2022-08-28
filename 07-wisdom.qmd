@@ -1,8 +1,8 @@
-# La perfezione della saggezza
+# La perfezione della saggezza {#sec-wisdom}
 
 ## Introduzione {.unnumbered}
 
-Questo capitolo esamina il ruolo che la saggezza (prajñā) ha all'interno del percorso di sviluppo spirituale del bodhisattva. Per il buddismo, la saggezza (prajñā) -- ovvero la comprensione della vera natura della realtà -- è l'unico strumento valido che ci consente di evitare le insidie sulla via dello sviluppo spirituale. Ma che cosa sia prajñā non è immediatamente evidente e i dibattiti filosofici su questo punto si sono moltiplicati. Nei capitoli otto e none del Bodhicaryāvatāra, le preoccupazioni principalmente pratiche di Śāntideva lasciano dunque il posto a discussioni relative a sottili punti filosofici. Tuttavia, per Śāntideva, la filosofia è posta al servizio della coltivazione dell'intuizione contemplativa: alla fine, le preoccupazioni pratiche e teoriche di Śāntideva risultano essere una cosa sola -- il dibattito filosofico non è mai separato dalle applicazioni pratiche.
+Questo capitolo esamina il ruolo che la saggezza (prajñā) ha all'interno del percorso di sviluppo spirituale del bodhisattva. Per il buddismo, la saggezza (prajñā) -- ovvero la gnosi o intuizione della vera realtà delle cose -- è l'unico strumento valido che consente di evitare le insidie sulla via dello sviluppo spirituale. Ma che cosa sia prajñā non è immediatamente evidente e i dibattiti filosofici su questo punto si sono moltiplicati. Nei capitoli otto e none del Bodhicaryāvatāra, le preoccupazioni principalmente pratiche di Śāntideva lasciano dunque il posto a discussioni relative a sottili punti filosofici. Tuttavia, per Śāntideva, la filosofia è posta al servizio della coltivazione dell'intuizione contemplativa: alla fine, le preoccupazioni pratiche e teoriche di Śāntideva risultano essere una cosa sola -- il dibattito filosofico non è mai separato dalle applicazioni pratiche.
 
 Diverse caratteristiche del movimento Mahayana devono essere notate all'inizio per dare un senso al progetto di Śāntideva. Il Mahayana non era una scuola del buddismo, ma piuttosto una serie di interventi e innovazioni che spostavano l'enfasi, l'orientamento e l'aspirazione della tradizione precedente; questi interventi possono essere fatti risalire storicamente a scritture apocrife (Sūtra), come i Prajñāpāramitā Sūtra (Sutra della Perfezione della Saggezza) emersi intorno al primo secolo dell'era volgare che si sono sviluppati in una ricca letteratura di testi Mahayana.
 
@@ -22,15 +22,18 @@ La seconda grande innovazione del Mahayana è lo sviluppo degli insegnamenti del
 
 <!-- L'argomento del nono capitolo del Bodhicaryāvatāra è, specificamente, la prajñā, termine spesso tradotto "saggezza", "conoscenza superiore" o "discriminazione". In quanto tale, è la "Perfezione della Saggezza" (prajñāpāramitā), l'apice delle sei perfezioni del sentiero del bodhisattva ed è identificata come l'obiettivo dell'insight meditativo (vipaśyanā), lo strumento contemplativo del "vedere attraverso" che, unito alla tranquillità (śamatha), costituisce il cuore della meditazione buddista. Prajñā, come la descrive Śāntideva, corrisponde all'insegnamento della vacuità della tradizione Madhyamaka della filosofia buddista, e deriva da Nāgārjuna. Nāgārjuna è noto per la sua enfasi sulla "vacuità" (śūnyatā) dei fenomeni, ma il significato di questo concetto è stato oggetto di molteplici dibattiti. In questo capitolo cercheremo di chiarire il modo in cui Śāntideva comprende la nozione di śūnyatā. -->
 
-Una distinzione chiave nel contesto Mahayana qui rilevante è la distinzione tra le "due verità" (satyadvaya), la verità "ultima" (paramārtha-satya) e "convenzionale" (saṃvṛti-satya). Per Śāntideva, questa distinzione riguarda ciò che può essere affermato in modo certo e coerente. Śāntideva introduce le due verità come segue:
+Una distinzione chiave nel contesto Mahayana qui rilevante è la distinzione tra le "due verità" (satyadvaya), la verità "ultima" (che descrive come stanno veramente le cose; paramārtha-satya) e "convenzionale" ("relativa" o "superficiale"; saṃvṛti-satya). Nel suo *Trattato Fondamentale sulla Via di Mezzo* (Mūlamadhyamakakārikā), Nāgārjuna afferma:
+
+> Il Dharma che viene insegnato dai Buddha,\
+> Si basa completamente su due livelli della verità:\
+> Il livello convenzionale della verità mondana,\
+> E il livello della verità ultima.\
+
+Śāntideva introduce le due verità come segue:
 
 <!-- Il punto di partenza di Śāntideva per introdurre il pensiero Mādhyamika è la classica concezione buddista delle "due verità" (satyadvaya), la verità "relativa" o "superficiale" (saṃvṛti-satya) di come ci appaiono convenzionalmente le cose e la verità "ultima" o "assoluta" (paramārtha-satya), che descrive come stanno veramente le cose. -->
 
-> Relativo e ultimo,\
-> Queste sono dichiarate essere le due verità.\
-> L'ultimo non è alla portata dell'intelletto,\
-> Poiché si dice che l'intelletto è il relativo.\
-> --- (BCA IX:2)
+> IX:2. Vi sono due verità, la verità relativa e la verità assoluta. La verità assoluta trascende il dominio della mente. La mente è la realtà relativa.
 
 Secondo Prajñākaramati, "Saṃvṛti è così chiamato perché con esso la comprensione di ciò che è così com'è è nascosta, o occlusa... Ignoranza, stupore ed errore sono sinonimi \[di saṃvṛti\]. Poiché l'ignoranza, essendo l'imputazione delle"forme delle cose inesistenti \[a ciò che esiste\] ... è saṃvṛti". Così, per Prajñākaramati "occultamento" ha la precedenza su "convenzionale" come senso primario di saṃvṛti.
 
@@ -46,9 +49,7 @@ Nell'interpretazione di Prajñākaramati, dunque, il risultato ultimo dell'anali
 
 Per i buddisti Mahayana, come Śāntideva, la conoscenza non è un fine in se stesso; non è tanto la conoscenza che è in gioco, quanto la rimozione della sofferenza che si dice derivi da tale conoscenza. Il tipo di conoscenza che consente l'eliminazione della sofferenza si chiama prajñā. Questo termine è spesso tradotto come "saggezza", "conoscenza superiore" o "discriminazione", ma sembra essere più vicino al significato di "intuizione", "conoscenza non discriminante" o "apprensione intuitiva". La prajñā è la "conoscenza/saggezza suprema" che consente di raggiungere in modo diretto il risveglio spirituale (bodhi). Tale conseguimento di "conoscenza/saggezza suprema" è frutto, non solo dello studio e della riflessione intellettuale, ma quanto piuttosto della pratica meditativa. La prajñā consente di porre fine al "fallimento epistemico", ovvero all'ignoranza (avidyā) che causa la sofferenza.
 
-> Pertanto devono coltivare questa saggezza\
-> \[Coloro\] che desiderano porre fine alla sofferenza.\
-> --- (BCA IX:1)
+> IX:1. Chi desidera la cessazione del dolore, deve dunque suscitare in sé la gnosi.
 
 Il percorso del bodhisattva conduce all'autentica cognizione della realtà così come veramente è (yathābhūta), ovvero alla visione della vacuità.
 
@@ -58,12 +59,9 @@ yathābhūta: il modo in cui le cose sono in realtà; un termine usato per desig
 
 Śāntideva afferma esplicitamente, fin dall'inizio del BCA, che questa gnosi della vacuità, che porta a vedere le cose così come sono, eccede le abilità del nostro intelletto "razionale":
 
-> La realtà ultima non è alla portata dell'intelletto,\
-> Perché si dice che il dominio dell'intelletto sia ciò che è relativo.\
-> --- (BCA IX:2)
+> IX:2. La verità assoluta trascende il dominio della mente. La mente è la realtà relativa.
 
-> Il nostro scopo è qui eliminare la causa del dolore:\
-> Il pensiero che i fenomeni abbiano una vera esistenza.
+> Il nostro scopo è qui eliminare la causa del dolore: il pensiero che i fenomeni abbiano una vera esistenza.
 
 Per Śāntideva, dunque, è la reificazione della realtà, ovvero la convinzione che i fenomeni siano dotati di svabhāva, è la causa della sofferenza. Se consideriamo gli enti (bhava) come reali, cioè dotati di un esistenza indipendente, allora naturalmente finiamo per essere attaccati ad essi, anche se essi non sono altro che delle nostre proiezioni, le reificazioni del flusso in continuo cambiamento della nostra esperienza fenomenica.
 
@@ -73,11 +71,7 @@ Svabhāva significa letteralmente "natura intrinseca", "essere proprio" o "diven
 
 Secondo Śāntideva, il superamento della reificazione del reale può essere ottenuto solo attraverso la realizzazione della vacuità (śūnyatā), ovvero, con la cessazione del pensiero discorsivo.
 
-> "Siamo liberi", dici, "attraverso la conoscenza delle (Quattro) Verità ---\
-> A che serve dunque questa visione del vacuità?"\
-> Ma come le stesse scritture hanno proclamato,\
-> Senza questo sentiero non ci può essere illuminazione.\
-> --- (BCA IX:40)
+> IX:40. Siamo liberi", dici, "attraverso la conoscenza delle (Quattro) Verità --- A che serve dunque questa visione del vacuità?" Ma come le stesse scritture hanno proclamato, Senza questo sentiero non ci può essere illuminazione.
 
 ::: callout-note
 Le quattro nobili verità sono:
@@ -90,17 +84,11 @@ Le quattro nobili verità sono:
 
 Si noti che, in questi versi, Śāntideva non introduce śūnyatā mediante una giustificazione di tipo ontologico, ma mediante l'autorità delle Scritture, ovvero, potremmo dire, in termini pragmatici, sottolineandone l'efficacia. In seguito Śāntideva afferma che la mente è, sì, in grado raggiungere momenti di purezza anche senza la realizzazione della vacuità; ma così facendo inevitabilmente finisce per il ricadere nei normali stati di ignoranza; ovvero, senza la realizzazione della vacuità, la mente continua ad oscillare, al di fuori del controllo dell'individuo, tra ignoranza e purezza.
 
-> La mente che non ha realizzato la vacuità,\
-> Può essere placata, ma si agiterà nuovamente,\
-> Proprio come negli stati meditativi dell'assorbimento non percettivo.\
-> Perciò è necessario coltivare la vacuità.\
-> --- (BCA IX:48)
+> IX:49. Senza al vacuità, il pensiero è legato e si riproduce continuamente, così come accade nell'estasi detta incosciente. Perciò bisogna coltivare la vacuità.
 
 In altre parole, Śāntideva afferma che non è sufficiente accontentarsi della capacità di entrare negli stati superiori della coscienza; bisogna anche raggiungere un grado più alto di saggezza (prajñā). Abbiamo visto che prajñā corrisponde alla realizzazione della vacuità, ovvero alla capacità non cadere più vittime dell'abitudine che ci porta ad attribuire un'esistenza intrinseca a quelle che sono solo le nostre proiezioni, ovvero alle categorie. Nelle parole di Nāgārjuna:
 
-> Quando cessa l'ignoranza (avidyā),\
-> non sorgono più le formazioni mentali (saṃskāra).\
-> --- (MMk. 26.11a)
+> Quando cessa l'ignoranza (avidyā), non sorgono più le formazioni mentali (saṃskāra) --- (MMk. 26.11a)
 
 ::: callout-note
 Saṃskāra è un concetto complesso, senza una traduzione italiana di una sola parola, che fonde "oggetto e soggetto" come parti interdipendenti della coscienza e del processo epistemologico di ogni essere umano.
@@ -115,24 +103,14 @@ Il termine saṃskāra compare nel Mahāparinibbāna Sutta. Le ultime parole del
 
 Śāntideva illustra un duplice beneficio che deriva da prajñā, ovvero dalla realizzazione della vacuità: in primo luogo, prajñā consente di agire con compassione; in secondo luogo, prajñā consente la rimozione delle contaminazioni emotive. Solo la saggezza della vacuità (prajñā) e i "mezzi abili" (upāya) dei bodhisattva consentono di rimuovere completamente le oscurazioni mentali:
 
-> Indugiare e dimorare nel saṃsāra\
-> Liberato da ogni brama e da ogni paura\
-> Per ottenere il bene di chi soffre a causa dell'ignoranza:\
-> Tale è il frutto che la vacuità produce.\
-> --- (BCA IX:52)
+> IX:52. Indugiare e dimorare nel saṃsāra, liberato da ogni brama e da ogni paura, per ottenere il bene di chi soffre a causa dell'ignoranza: tale è il frutto che la vacuità produce.\
 
-> Le afflizioni mentali e il velo sulla nostra cognizione ---\
-> La cura per tali oscurazioni è la vacuità.\
-> --- (BCA IX:54)
+> IX:54. Le varie obiezioni contro la tesi della vacuità sono logicamente insostenibili. Quindi bisogna, senza esitazioni, coltivare la vacuità.
 
-> Quindi non è corretto\
-> Trovare difetti in questa visione della vacuità.\
-> E così, abbandonato ogni dubbio,\
-> Dobbiamo meditare sulla vacuità.\
-> --- (BCA IX:53)
+> IX:53. Grazie alla vacuità, noi evitiamo le due estremità dell'attaccamento e del terrore. L'unica cosa che trattiene ancora il bodhisattva nell'esistenza, è al sua intenzione - dovuta a un utile offuscamento - di guarire le creature afflitte dai dolori. Questo è il frutto della vacuità.
 
 ::: callout-note
-Un punto di vista simile, anche se un po' più articolato, che mette in relazione la liberazione dal samsara (mokṣa) con il superamento della dimensione concettuale, è espresso nel Mahayana Uttaratantra Shastra di Arya Maitreya:
+Un punto di vista simile, anche se un po' più articolato, che mette in relazione la liberazione dal samsara (mokṣa) con il superamento della dimensione concettuale, è espresso nel Mahāyāna-Uttaratantra Shastra di Arya Maitreya:
 
 > La libertà dall'attaccamento consiste nelle\
 > due realtà della cessazione e del sentiero.
@@ -141,6 +119,13 @@ Tra le sei qualità che caratterizzano il dharma, le prime tre qualità (essere 
 
 > il dharma libero dall'attaccamento\
 > è caratterizzato dalle due realtà della purificazione.
+
+Per ciò che concerne le *oscurazioni* mentali, Maitreya dice nel Mahāyāna-Uttaratantra:
+
+> L'ostilità verso il dharma, la visione che esiste un'entità del sé,\
+> la paura delle sofferenze del saṁsāra\
+> E disprezzo per il beneficio degli esseri\
+> Sono i quattro tipi di oscuramento. \[ 1:32\]\
 :::
 
 ## Anātman
@@ -155,19 +140,13 @@ Nāgārjuna, un importante pensatore buddista dell'India del II secolo e fondato
 
 Per cercare di approfondire la nostra comprensione di śūnyatā, facciamo nuovamente riferimento a Nāgārjuna. Nāgārjuna caratterizza śūnyatā in questo modo:
 
-> Qualunque cosa sia sorta in modo dipendente,\
-> la chiamiamo vacuità.\
-> --- (MMc. 24,18a)
+> Qualunque cosa sia sorta in modo dipendente, la chiamiamo vacuità. (MMc. 24:18a)
 
 A differenza del significato convenzionale di vacuità, śūnyatā nel buddismo non suggerisce mai il nulla. Quindi, secondo il buddismo, una cosa è śūnya, cioè senza un sé, a causa della sua origine relativa o "dipendente" (pratītya samutpāda). In altre parole, non c'è essenza o sé trascendentale in nulla, poiché qualunque cosa, per la sua esistenza, dipende sempre da fattori diversi da se stessa. Nelle parole di Derrida, tutto ciò che si vede o si conosce porta sempre "la traccia" o il segno (1976: 75) di "ciò che non è ... ciò che assolutamente non è» (1973: 143). L'essenza o il sé di ogni cosa cambia, dunque, in seguito al cambiamento nella natura dei fattori da cui dipende. Quindi, realizzare śūnyatā significa la capacità di conoscere la natura effimera del fenomeno a causa della dipendenza di quel fenomeno da un altro fenomeno/altri fenomeni. Per dirla diversamente, si è consapevoli della verità sul mondo solo quando si comprende che"le cose non sono intrinsecamente reali" in quanto "esistono solo in relazione ad altre cose" (Mabbett 2011:26).
 
 La consapevolezza dell'origine dipendente dei dharma ci libera dall'attaccamento all'essenza, cioè a un sé trascendentale. La realizzazione del carattere transiente del mondo fenomenico ci libera dalle afflizioni, in quanto le afflizioni sono sempre, in un modo o nell'altro, il risultato di un attaccamento all'essenza di qualcosa, e derivano dall'erronea concezione dell'essenza come immutabile. "La sofferenza nasce dal fatto che le persone si 'aggrappano' o si 'attaccano' a oggetti o idee come se fossero dotate di un essenza immutabile" (Zhang 2011: 110). Di conseguenza, l'alterazione della natura apparentemente immutabile degli "oggetti" e/o delle "idee" dell'attaccamento produce un senso di perdita. Un individuo illuminato, consapevole dell'origine dipendente di ogni fenomeno, è invece libero da queste sofferenze. Una tale persona non manca mai di vedere che "l'identità è costantemente in procinto di essere creata senza che sia mai possibile chiamarla un'identità" (Parco 2011: 18). Questa mancanza di esistenza intrinseca è, appunto, la "vacuità". La dottrina Mādhyamika, a cui si richiama Śāntideva, presume che tutto, inclusi i nostri stati mentali, sorga in modo dipendente. Questa dipendenza di ogni fenomeno da altri fenomeni rende insostenibile la nozione di un sé immutabile. <!-- Il buddismo ci incoraggia ad abbandonare l'attaccamento al mondo fenomenico: solo liberandoci dall'attaccamento ai fenomeni «possiamo sbirciare in un frammento di quell'assenza di fondamento che è la nostra esistenza» (Parco 2011, 18). --> Questa è la dottrina della pratītya samutpāda, ovvero la "coproduzione condizionata", detta anche "originazione interdipendente", o "genesi dipendente". Comprendere pratītya samutpāda (e, in parallelo, śūnyatā), ci consente di "cessare l'ipostatizzazione" rispetto a ciò che è presumibilmente reale, ovvero ci consente di liberaci dalla reificazione delle nostre proiezioni mentali. E insegnare questa verità ultima a coloro che continuano a credere alla realtà delle proprie proiezioni mentali è lo scopo ultimo di Śāntideva:
 
-> Raccoglierò mio patrimonio di meriti,\
-> Con riverenza ma libero da qualunque obiettivo concettuale,\
-> Quando rivelerò la verità della vacuità\
-> A coloro che soffrono credendo nell'esistenza intrinseca delle cose.\
-> --- (BCA IX:167)
+> IX:167. Quando, a queste creature torturate dal fuoco del dolore, quando potrò portare lenimento e pace colle piogge di felicità, prodotte dalle nubi dei miei meriti? Quando, a coloro che credono ala realtà dele cose, quando, appoggiandomi sula verità relativa, potrò insegnare la vacuità? E d'insegnare con cura l'importanza di una provvista di meriti spirituali, non contaminata, s'intende, da nessuna nozione di realtà?
 
 Ma come si può ottenere l'obiettivo che Śāntideva si pone? Il Bodhicaryāvatāra può essere letto in molti modi.
 
@@ -185,19 +164,13 @@ Ricordiamo che il buddismo ha tradizionalmente diviso la pratica della meditazio
 
 <!-- > --- (BCA VIII:2) -->
 
-> L'insignt unito alla stabilizzazione meditativa\
-> Sradica completamente gli stati afflittivi.\
-> Sapendo questo, prima cerca śamatha,\
-> che deriva dalla gioia di essere liberi dai legami mondani.\
-> --- (BCA VIII:4)
+> VIII:4. Grazie al raccoglimento l'uomo chiaroveggente compie la distruzione delle passioni. Consapevole di ciò, in primo luogo bisogna cercare proprio il raccoglimento. E questo nasce dall'indifterenza, dal distacco per le cose del mondo.
 
 Dunque, Śāntideva auspica uno stadio iniziale di rinuncia interiore che consenta alla mente di stabilizzarsi. Ottenuta questa stabilizzazione meditativa, diventa poi possibile iniziare l'analisi della natura della coscienza, ovvero la realizzazione della vacuità. L'oggetto di tale meditazione è la natura illusoria della pseudo-realtà e delle sue cause:
 
-> Le cose, quindi, le quali sono costituite da illusioni,\
-> E ciò che deriva dalla forza delle cause:\
-> Da dove provengono? Ciò ci dovremmo chiedere.\
-> E dove vanno?\
-> --- (BCA IX:143)
+> IX:142-143. Da questa critica emerge chiaramente che nulla esiste senza causa, che nulla risiede nelle cause prese ciascuna per se o tutte insieme, che niente passa da un posto all'altro, che niente sta o trascorre. In che dunque differiscono da una magia el cose che gli ignoranti prendono per una realtà?
+
+> IX:144. Ciò che è creato da una magia e ciò che è creato da cause, donde viene, donde va? Esaminate, di grazia, questo attentamente!
 
 Il Dalai Lama (1975) riprende l'affermazione di Śāntideva secondo cui la realizzazione della vacuità non può essere ottenuta attraverso il pensiero razionale (l'intelletto). Il Dalai Lama sottolinea che la comprensione della vacuità è un processo a due stadi che, al suo interno, include anche la razionalità del pensiero concettuale. Secondo il Dalai Lama:
 
@@ -209,33 +182,15 @@ Nelle parole di Dharmakīrti:
 
 Analogamente, Śāntideva afferma
 
-> "Non c'è niente" - quando si afferma questo,\
-> Non c'è più nulla da esaminare.\
-> Come può un "nulla", del tutto non supportato,\
-> Dimorare davanti alla mente come un qualcosa di presente?\
-> --- (BCA IX:33)
-
-> Quando né l'essere né il non-essere\
-> Stanno di fronte alla mente,\
-> Non abbiamo altre opzioni:\
-> Liberi dai concetti, dimoriamo in un perfetto riposo.\
-> --- (BCA IX:34)
+> IX:33. Ma, quand'uno è impregnato dall'idea del vuoto, la falsa impressione dell'esistenza sparisce; e, ripetendosi di continuo che nulla esiste, l'idea del vuoto è, alla fine, eliminata anch'essa. In effetti, quand'uno non percepisce più un'esistenza che possa negare, come gli si presenterebbe davanti alla mente la non-esistenza, privata così di supporto? E quando, davanti alla mente, non si presentano più né esistenza né non esistenza, non essendoci più nessun'altra via, la mente, senza più supporto, allora si acqueta.
 
 <!-- Questo processo di "razionalità autocritica" ci porta ad abbandonare gli schemi abituali del pensiero secondo i quali le persone e i fenomeni sono dotati di un'esistenza intrinseca.  -->
 
 Questo processo di analisi meditativa analizza l'oggetto della meditazione fino a quando sorge la "cognizione dell'introvabilità". Secondo Śāntideva, giungiamo alla conclusione di questo processo di decostruzione delle nostre abitudini mentali quando non troviamo più nulla da decostruire:
 
-> Ma quando dici, "il processo di analisi\
-> diventa, a sua volta, l'oggetto del nostro scrutinio",\
-> Anche questa indagine può essere analizzata,\
-> E si giunge così ad un'infinita regressione.\
-> --- (BCA IX:109)
+> IX:109. Il pensiero che immagina e la cosa immaginata esistono in ragione l'uno dell'altro. Ogni esame critico si appoggia su questi due elementi, così come essi sono ammessi dal senso comune.
 
-> Se i fenomeni vengono analizzati fino in fondo,\
-> Una tale analisi non produce alcun residuo.\
-> Quando l'oggetto viene rimosso, anche il soggetto si placa.\
-> In verità si dice che questo sia il nirvāṇa.\
-> --- (BCA IX:110)
+> IX:110-111. «Ma (dirà alcuno) se voi criticate per mezzo di una critica, da voi a sua volta criticata, ne seguirà allora un regresso all'infinito. Perché? Ma perché anche questa nuova critica dovrà essere criticata». La vostra obiezione (io vi rispondo) non sta nin piedi, poiché, criticato che abbiamo il criticabile, viene a mancare ogni punto di appoggio ad un'ulteriore critica. Questa, per la mancanza di ogni punto d'appoggio, non si produce più; tale stato è ciò che si chiama il nirvāṇa.
 
 Raggiunto il limite dell'analisi meditativa, il meditatore non è in grado di trovare alcun altro "residuo" da chiamare "oggetto", nessun'altra "componente" che possa essere ulteriormente scomposta. Tuttavia, anche quando la vacuità diventa una realizzazione diretta, Śāntideva nota, permane comunque nel meditatore un'oscillazione tra questo stadio di realizzazione della vacuità e uno stadio precedente caratterizzato dal pensiero concettuale. Secondo Śāntideva, queste ricadute nella realtà reificata si manifestano fino all'ottavo bhumi del percorso di trasformazione spirituale del bodhisattva. Solo in quello stadio del sentiero il bodhisattva sarà poi in grado di rimanere costantemente, senza altre ricadute, nello stadio di realizzazione diretta della vacuità.
 
@@ -243,17 +198,9 @@ Raggiunto il limite dell'analisi meditativa, il meditatore non è in grado di tr
 
 Ma che cos'è la vacuità che viene completamente realizzata nell'ottavo bhumi del percorso del bodhisattva?
 
-> Se non c'è validità nella conoscenza discorsiva,\
-> Allora tutto ciò che essa presenta è falso.\
-> Quindi è illogico meditare su qualunque oggetto della conoscenza,\
-> Anche sulla vacuità.\
-> --- (BCA IX:138)
+> IX:137-138. «Ma (tu dirai), sebbene l'effetto stia nella causa, acausa dell'illusione, gli uomini non ol vedono ». Ma anche voi che conoscete la verità (io vi rispondo) vi comportate così, come la gente del mondo! Questa conoscenza, poi, non si capisce perché non ce la dovrebbe avere anche il mondo e perché esso non dovrebbe vedere el cose così come sono. «Ma (tu dirai) li modo di vedere del mondo non è un criterio di verità». Ma alora (ti rispondo) anche l'apparizione dele cose nel cosiddetto stato manifesto non esiste.
 
-> In mancanza di un oggetto per l'analisi,\
-> La sua non esistenza non può essere colta.\
-> E quindi gli oggetti ingannevoli di qualsiasi tipo\
-> Saranno inesistenti in un modo altrettanto ingannevole.\
-> --- (BCA IX:139)
+> IX:139 «Ma (dirà alcuno) se i cosiddeti mezzi di conoscenza non sono veri mezzi di conoscenza, ne seguirà che la conoscenza ottenuta per mezzo di essi sarà falsa; quindi la vacuità dele cose è, in realtà, una tesi falsa».
 
 In altre parole, è possibile giungere ad una realizzazione della vacuità mediante il pensiero discorsivo che, per sua stessa natura, è ingannevole? O ancora: che cosa si trova quando ci lasciamo alle spalle il pensiero discorsivo, quando andiamo oltre la verità convenzionale? Quando abbandoniamo le nostre proiezioni mentali, quando abbandonando le nostre illusioni, è possibile giungere all'Assoluto? A tale domanda, Nāgārjuna, a cui Śāntideva si ispira, fornisce però una risposta negativa.
 
@@ -279,11 +226,17 @@ Mostrando l'impossibilità dell'appropriazione concettuale e discorsiva della re
 
 ## Il nobile silenzio
 
-Nel Trattato sulla Via di Mezzo (Mūlamadhyamakakārikā), Nāgārjuna afferma che tutto ciò che ha una genesi condizionata è vuoto e che il punto di vista della Via di Mezzo è quello di ritenere tutti i fenomeni come derivanti dalla coproduzione condizionata. In altre parole, Nāgārjuna identifica pratītyasamutpāda (coproduzione condizionata, o originazione interdipendente) con la vacuità: la vacuità non è altro che l'interdipendenza di tutti i fenomeni. Tutto rimanda ad altro proprio perché nulla è in sé fondato, ma ogni cosa è data solo nella sua interconnessione con tutto il resto. In questo continuo rimando ad altro non si trova mai qualcosa che non dipenda da altro che da se stesso: persino saṃsāra e nirvāṇa sono interdipendenti, in quanto ambedue privi di natura propria.
+Nelle *Stanze del Cammino di Mezzo* (Mūlamadhyamakakārikā), Nāgārjuna afferma che tutto ciò che ha una genesi condizionata è vuoto e che il punto di vista del Cammino di Mezzo è quello di ritenere tutti i fenomeni come derivanti dalla coproduzione condizionata. In altre parole, Nāgārjuna identifica la coproduzione condizionata (pratītya-samutpāda, o originazione interdipendente) con la vacuità: la vacuità non è altro che l'interdipendenza di tutti i fenomeni. Tutto rimanda ad altro proprio perché nulla è in sé fondato, ma ogni cosa è data solo nella sua interconnessione con tutto il resto. In questo continuo rimando ad altro non si trova mai qualcosa che non dipenda da altro che da se stesso: persino saṃsāra e nirvāṇa sono interdipendenti, in quanto ambedue privi di natura propria.
 
 Poiché tutto è vuoto, nulla è afferrabile. Dato che l'esistenza e la costituzione di ogni realtà dipendono da tutto il resto, la separazione ontologica tra "questo" e "quello" corrisponde unicamente al miraggio della sostanza. La sostanza è l'oblio della funzione costitutiva che la relazione ha nei confronti di qualsiasi realtà: non si dà prima un nucleo sostanziale e poi le relazioni che ad esso ineriscono come accidenti, ma ciò che si dà risulta invece proprio dalle relazioni che lo costituiscono. Il fatto che ogni realtà si dia solo in quanto interconnessa con altro vuol dire, appunto, che essa non esiste in sé, in quanto dotata di una propria sostanza, ma può esistere, esiste, muta e infine svanisce solo in quanto dipendente da un vasto insieme di cause e condizioni. Nulla è (esiste) di per sé; tutto è (esiste) solo in virtù della sua interrelazione con altro da sé. Questo è ciò che s'intende con l'espressione "vacuità di natura propria".
 
-La comprensione profonda dell'insegnamento Mahāyāna culmina dunque nell'abbandono dell'insegnamento stesso, in quanto l'insegnamento più elevato diventa quello che si realizza pienamente solo nel silenzio. Dice perciò Nāgārjuna: «Mai, in nessun luogo, nessun Dharma è stato insegnato dal Buddha» (MMK XXV, 24).
+La comprensione profonda dell'insegnamento Mahāyāna culmina dunque nell'abbandono dell'insegnamento stesso, in quanto l'insegnamento più elevato diventa quello che si realizza pienamente solo nel silenzio. Dice perciò Nāgārjuna:
+
+> Mai dovechessia nessun Dharma è stato insegnato dal Buddha. (MMK XXV:24)
+
+Un Sūtra precedente a Nāgārjuna afferma che il Buddha, dal momento in cui raggiunse li risveglio fino al completo Nirvãna, cioè ala morte non pronunciò neppure una parola:
+
+> Dalla notte, o Santamati, in cui il Tathagata ha ottenuto la suprema completa illuminazione fino alla notte in cui egli è entrato nel parinirvana senza residuo neppure una sola sillaba è stata da lui espressa né pronunciata né la pronuncerà.
 
 La realtà, che risulta dall'estinzione dell'appropriazione concettualmente e dal tacitamento della proliferazione discorsiva (prapañca), non può essere qualificata. Della realtà nulla può essere predicato: né l'essere, né il non-essere, né l'essere e il non-essere, né la negazione di essere e non-essere. Tale "limpida visione", capace di vedere la processualità insostanziale della realtà senza il miraggio ontologico della sostanzialità, è prajñā, ovvero la visione che riconosce la vacuità dei fenomeni. La verità, che consiste in questo disvelamento della realtà così com'è, è data nella forma di una conoscenza esperienziale della vacuità, ovvero come un "conoscere non conoscendo", nel quale svaniscono il soggetto conoscente, l'oggetto conosciuto e l'atto del conoscere.
 
@@ -340,34 +293,19 @@ Nel nono capitolo del Bodhicaryāvatāra, Śāntideva si impegna in una lunga di
 
 Quale esempio del metodo argomentativo di Śāntideva possiamo considerare un estratto dell'ottavo capitolo, dove Śāntideva fa appello al principio buddista dell'altruismo (anātman) per sostenere che è irrazionale dare priorità al proprio benessere. Questa argomentazione ha suscitato un notevole interesse nel dibattito filosofico contemporaneo.
 
-> Si dovrebbe prima meditare seriamente sull'uguaglianza di se stessi e degli altri\
-> in questo modo: "Tutti sperimentano ugualmente sofferenza e felicità,\
-> e devo dunque proteggere gli altri come proteggo me stesso".\
-> --- (BCA VIII:90)
+> VIII:90. Prima di tutto egli deve riflettere attentamente sull'uguaglianza tra sé e gli altri: «Tutti hanno le mie stesse pene e i mici stessi piaceri e debbo dunque proteggerli come me stesso».
 
-> Quando la felicità è ugualmente cara agli altri e me stesso,\
-> allora cosa c'è di così speciale in me che mi porta a cercare\
-> la felicità solo per me stesso?\
+> VIII:95. Io e gli altri aspiriamo ugualmente ala felicità: quali caratteri particolari presenta l'io per meritare, lui solo, tutti gli sforzi?
 
-> Quando la paura e la sofferenza sono ugualmente ripugnanti agli altri e a me stesso,\
-> allora cosa c'è di così speciale in me\
-> da portarmi a proteggere me stesso ma non gli altri?\
-> --- (BCA VIII:95-96)
+> VIII:96. Io e gli altri detestiamo ugualmente li pericolo e ka sofferenza: quali caratteri particolari presenta l'io, perché io debba proteggere lui solo e non altro?
 
 Si noti come questi versi possano essere intesi sia come meditazioni progettate per aumentare la nostra compassione, sia come premesse per l'argomentazione di Śāntideva a favore della benevolenza imparziale. Essi agiscono come meditazioni, poiché riflettere sul fatto che il desiderio della felicità e dell'eliminazione della sofferenza degli altri stimola la compassione. Ma nel contempo Śāntideva sfida anche il suo avversario egoistico a fornire una distinzione (viśeṣa) a giustificare l'obiezione che porta ad assegnare una maggiore priorità al proprio benessere rispetto a quello altrui. Poiché il desiderio di libertà dalla sofferenza è lo stesso per tutti, argomenta Śāntideva, il desiderio di eliminare solo la propria sofferenza non può fornire la giustificazione necessaria. Tra le altre possibili obiezioni a sostegno di un comportamento egoistico c'è l'idea che questo particolare dolore appartiene in maniera specifica a me stesso. Śāntideva respinge questa obiezione con tre versi che concludono la sua argomentazione.
 
-> Il continuum di coscienza e l'aggregazione dei suoi costituenti sono irreali.\
-> Poiché colui che sperimenta la sofferenza non esiste,\
-> a chi appartiene quella sofferenza?\
+> VIII:101. Le nozioni di un continuum e di un insieme sono illusioni, né più né meno che quelle di un'assemblea o di un esercito. Una persona cui appartiene il dolore non esiste. Chi dunque possiede un «suo» dolore?
 
-> Tutte le sofferenze sono senza padrone, senza eccezioni.\
-> Dovrebbero essere eliminate semplicemente perché sono sofferenza.\
-> Perché in questo caso sono previste delle eccezioni?\
+> VIII:102. Tutti i dolori, senza distinzione, non appartengono a nessuno e bisogna combatterli nella misura che sono dolori. A che pro' fare delle restrizioni?
 
-> Perché si dovrebbe prevenire la sofferenza? Perché tutti sono d'accordo.\
-> Se la sofferenza deve essere scacciata, allora tutta la sofferenza deve essere scacciata;\
-> e se no, allora lo stesso vale per se stessi come per gli altri.\
-> --- (BCA VIII:101-103)
+> VIII:103. - Ma (tu dirai) se non esiste nessun essere sofferente, perché combattere il dolore? - Perché, quanto a ciò, son tutti d'accordo. E se esso dev'essere combattuto, sia allora combattuto in tutti i suoi aspetti! Se poi non dev'essere combattuto, non lo sia affatto, né in me né in altri!
 
 Questi versi rispondono a un'obiezione che giustifica l'idea che si debba dare maggiore enfasi al proprio benessere solo perché ci riguarda in prima persona. Śāntideva risponde a questa obiezione egoistica sottolineando che, poiché il sé non esiste (VIII:101), la sofferenza non appartiene a nessuno (VIII:102). Piuttosto, è solo il carattere malevolo e impersonale della sofferenza che deve motivare la sua rimozione. Il verso 103 risponde fornendo un ulteriore obiezione: poiché non ci sono persone, si chiede l'avversario, perché allora eliminare la sofferenza di qualcuno? Śāntideva risponde sottolineando il principio universale che è la sofferenza in sé a dovere essere eliminata, al di là di qualsiasi altra considerazione. Le discussioni devono finire da qualche parte, e l'evidente carattere malevolo della sofferenza è una ragione sufficiente per impegnarsi a rimuoverla. Śāntideva conclude la sua argomentazione affermando che, non essendo stata offerta alcuna giustificativa che assegna un ruolo speciale al sé, è necessario impegnarci a rimuovere la sofferenza di tutti.
 
