@@ -1,18 +1,125 @@
-# Kṣānti
+# La perfezione della pazienza
 
-Śāntideva, così come tutti gli altri pensatori della tradizione buddista, propone molte strategie per tenere la mente sotto controllo e per eliminare i kleśa (offuscazioni mentali).
+Śāntideva, così come tutti gli altri pensatori della tradizione buddista, propone molte strategie per tenere sotto controllo la mente e per eliminare i kleśa (offuscazioni mentali).
 
-::: callout-note
-I kleśa, nel buddismo, sono stati mentali che offuscano la mente e si manifestano in azioni malsane. I kleśa includono stati mentali come ansia, paura, rabbia, gelosia, desiderio, depressione, ecc. Il termine kleśa viene tradotto come: afflizioni, contaminazioni, emozioni distruttive, emozioni disturbanti, emozioni negative, veleni mentali, nevrosi ecc. Nelle tradizioni buddiste, i tre kleśa di ignoranza, attaccamento e avversione sono identificati come la fonte di tutti gli altri kleśa. Nel Mahayana sono indicati come i *tre veleni*.
-:::
+## I kleśa
 
-Tali strategie seguono la logica degli "antidoti": la tolleranza è l'antidoto alla rabbia; il vigore è l'antidoto alla pigrizia; il disgusto per il corpo è l'antidoto alla lussuria. In questo capitolo ci occuperemo di kṣānti. Abbiamo già incontrato kṣānti quando abbiamo discusso il Vimalakīrti Sūtra. In quel contesto, kṣānti indicava
+I kleśa, nel buddismo, sono stati mentali che offuscano la mente e si manifestano in azioni malsane. Nelle tradizioni buddiste, i tre kleśa di
+
+-   moha: nescienza (sinonimo: avidyā),
+-   rāga: attaccamento al mondo, desiderio, lussuria,
+-   dveṣa: avversione, rabbia, odio (l'opposto di raga)
+
+sono identificati come la fonte di tutti gli altri kleśa. Nel Mahayana sono indicati come i tre veleni (triviṣa).
+
+I kleśa includono stati mentali come ansia, paura, rabbia, gelosia, desiderio, depressione, ecc. Il termine kleśa viene tradotto come: afflizioni, contaminazioni, emozioni distruttive, emozioni disturbanti, emozioni negative, veleni mentali, nevrosi ecc.
+
+Nelle tradizioni buddiste si crede che i tre veleni siano la causa delle malattie sia fisiche che mentali. Ghesce Tashi Tsering afferma:
+
+> Secondo il buddismo, anche la salute fisica è legata agli stati mentali. Quindi le vere minacce al nostro benessere sono attaccamento, rabbia e ignoranza: le tre offuscazioni mentali fondamentali che portano a tutte le altre afflizioni, sia mentali che fisiche. Solo con una comprensione profonda della mente e delle sue funzioni possiamo sperare di trascendere i pensieri e le emozioni malsane che ci affliggono.
+
+## La ruota della vita
+
+Nell'iconografia buddista, i tre veleni sono rappresentati al centro della ruota della vita.
+
+![La ruota della vita.](images/wheel_of_life_complete.png)
+
+I tre veleni sono rappresentati come un uccello o un gallo (attaccamento), un serpente (avversione) e un maiale (nescienza).
+
+![I tre veleni.](images/center.jpg){width="350px"}
+
+Il bordo esterno della ruota della vita è diviso in dodici sezioni, ciascuna contenente una piccola immagine. Queste immagini rappresentano i dodici anelli della catena dell'originazione dipendente. I dodici anelli possono essere visti come stadi nell'evoluzione del singolo essere umano (o di qualsiasi altro essere vivente), ma allo stesso tempo possono essere applicati ai propri stati mentali, che continuamente sorgono, si sviluppano e scompaiono.
+
+Possiamo far risalire le cause della sofferenza alle loro radici mediante i dodici anelli di questa catena. Tali anelli dovrebbero essere intesi come ciò che avviene dentro di noi in ogni momento, così che mentre attraversiamo tutta questa serie di immagini, osserviamo anche la nascita, la vita e la morte dei nostri stati mentali.
+
+I dodici anelli della catena sono i seguenti.
+
+![1. La morte.](images/wheel_1.png){width="350px"}
+
+L'immagine di un cadavere portato al luogo della cremazione. È l'intero processo di invecchiamento e decadimento, che in realtà inizia non appena nasciamo. Tutto il dolore, sia fisico che mentale, nasce da qualche aspetto di perdita, distruzione o decadimento, quindi questa immagine rappresenta tutte le sofferenze dell'esistenza.
+
+![2. La nascita.](images/wheel_2.png){width="350px"}
+
+L'immagine di una madre che dà alla luce un bambino. Sebbene questo anello della catena sia noto come nascita, non significa solo l'evento della nascita, ma la vita che è nata; abbraccia l'intera vita di quella particolare incarnazione. Può riferirsi alla nascita di un essere vivente, o all'apparizione fisica di qualcosa nel mondo esterno, oppure può essere interpretato come il sorgere di un pensiero o di uno stato d'animo nella mente.
+
+![3. L'esistenza](images/wheel_3.png){width="350px"}
+
+L'esistenza è talvolta raffigurata da una donna incinta e talvolta dall'unione sessuale di un uomo e una donna. Entrambe queste immagini suggeriscono il concepimento, l'inizio di una nuova vita. Esistenza significa essere nello stato di saṃsāra: esteriormente soggetto a nascita e morte, interiormente sotto l'influenza della nescienza e della confusione.
+
+![4. L'attaccamento.](images/wheel_4.png){width="350px"}
+
+Perché sorgono gli stati d'animo? Quando cerchiamo la causa del divenire, la troviamo nell'attaccamento. L'attaccamento è simboleggiato da una figura che raccoglie frutti da un albero. Afferrare è l'opposto di dare e di lasciare andare.
+
+![5. Il desiderio.](images/wheel_5.png){width="350px"}
+
+Il desiderio è raffigurato come una persona che beve o una persona cui viene offerto da bere. Questa è la sete di esistenza che ci fa aggrapparci alla vita a tutti i costi. La sete non può mai essere soddisfatta; anche se beviamo fino a non riuscire più a bere, prima o poi tornerà. Questa sete, tradotta anche come desiderio o brama, è la causa della sofferenza. Non è la causa ultima, ma è la causa immediata e più ovvia.
+
+![6. La sensazione.](images/wheel_6.jpg){width="350px"}
+
+La sensazione è simboleggiata da un uomo trafitto nell'occhio da una freccia. Questa immagine brutale ci ricorda che l'intera serie intende esprimere l'inevitabile sofferenza del saṃsāra. È interessante notare che la parola sanscrita per "sentire" può significare dolore, oltre che sensazione in generale. Questo indica che, nel saṃsāra, tutte le sensazioni di qualsiasi tipo sono essenzialmente dolorose, perché sono legate alla nostra falsa idea di sé.
+
+![7. Il contatto.](images/wheel_7.jpg){width="350px"}
+
+Il contatto tra i sensi e il loro oggetto, ovvero il dualismo soggetto/oggetto, è illustrato da un uomo e una donna che si abbracciano.
+
+![8. I sei sensi.](images/wheel_8.jpg){width="350px"}
+
+Oltre ai soliti cinque sensi di vista, udito, tatto, gusto e olfatto, la funzione mentale è considerata il sesto senso. I sei sensi sono raffigurati da una casa con sei finestre.
+
+![9. Nome e forma.](images/wheel_9.jpg){width="350px"}
+
+Gli aspetti fisici e non fisici dell'esistenza derivano entrambi dalla stessa causa e si riflettono a vicenda. Sono raffigurati da una barca piena di passeggeri.
+
+![10. La coscienza.](images/wheel_10.jpg){width="350px"}
+
+La coscienza funziona attraverso i sei sensi ed è appropriatamente raffigurata da una scimmia irrequieta e curiosa che salta da un oggetto all'altro, senza mai fermarsi.
+
+![11. Le formazioni mentali.](images/wheel_11.jpg){width="350px"}
+
+Le formazioni mentali (saṃskāra) sono simboleggiate da un vasaio che fa un vaso. Questo anello della catena raffigura la forza del karma che, in ogni momento e per ogni essere vivente, crea continuamente il mondo.
+
+![12. La nescienza.](images/wheel_12.jpg){width="350px"}
+
+Da dove sorgono le formazioni mentali? Come inizia l'intero processo? Il Buddha fa risalire la causa principale alla nescienza, e questo è l'ultimo e anello della catena, che ne rappresenta anche l'inizio. La nescienza è simboleggiata da una vecchia cieca, che vacilla con l'aiuto di un bastone. Trungpa Rinpoche la chiamava una nonna cieca. La nescienza da vita a generazioni di esistenza samsarica, proliferando e riproducendosi all'infinito. La nescienza significa credere nell'esistenza di un sé separato e indipendente. Trungpa Rinpoche diceva anche che l'ignoranza è molto intelligente. In realtà è l'intelligenza del saṃsāra, che combatte una continua battaglia per la sopravvivenza e cerca costantemente il modo di mantenere la propria illusione, il proprio autoinganno.
+
+![I sei regni dell'esistenza nel saṃsāra.](images/realms.jpg)
+
+All'interno del bordo esterno, che occupa la parte principale della ruota, sono illustrati i sei regni dell'esistenza nel saṃsāra:
+
+-   i mondi degli dei, Devas (il mondo degli dei è quello più piacevole tra i sei regni. Si ritiene che una rinascita in questo regno celeste derivi da un grande accumulo di karma positivo. Tuttavia, i piaceri di questo regno portano all'attaccamento, alla mancanza di attività spirituali e quindi alla mancanza del nirvana);
+-   i mondi degli dei gelosi, Asura (a causa delle loro passioni, la rinascita come Asura è considerata una delle quattro rinascite infelici, insieme alla rinascita come animale, preta o Naraka; lo stato di un Asura riflette lo stato mentale di un essere umano ossessionato dalla forza e dalla violenza, sempre alla ricerca di una scusa per litigare, arrabbiato con tutti e incapace di mantenere la calma o risolvere i problemi pacificamente);
+-   i mondi degli esseri umani, Manuṣya (una rinascita in questo regno è considerata fortunata perché offre l'opportunità di raggiungere il nirvana e porre fine al ciclo del Saṃsāra);
+-   i mondi degli animali, Tiryag (a simboleggiare un'esistenza guidata dall'impulso e dall'istinto, in cui gli esseri si depredano a vicenda e soffrono);
+-   i mondi dei fantasmi affamati, preta (a significare l'ingordigia del desiderio, l'attaccamento e la brama);
+-   i mondi degli esseri infernali, Naraka (a simboleggiare le conseguenze di un karma malvagio come assassinio, furto, menzogna, e altri).
+
+Da un punto di vista "esteriore", i sei regni descrivono tutte le possibili varietà di vita senziente. Sono tutte condizioni di vita in cui potremmo rinascere. Fatta eccezione per quelli degli animali e degli umani, gli altri regni ci sono invisibili, ma coesistono tutti con noi in un universo multidimensionale inconcepibilmente vasto. Da un punto di vista "interiore", i sei regni sono una rappresentazione degli stati della mente.
+
+![Il Bardo.](images/light-dark.jpg){width="250px"}
+
+Spostandosi ulteriormente verso il centro della ruota, la sezione successiva è divisa in due parti: una metà chiara in cui le figure umane salgono verso l'alto e una metà scura in cui cadono in basso. Questa immagine rappresenta l'ultima fase del periodo tra la morte e la rinascita. Le figure che salgono, nel semicerchio luminoso, stanno per rinascere come esseri umani, divinità o divinità gelose; chi scende, nel semicerchio oscuro, rinascerà tra animali o fantasmi affamati o in uno degli inferni.
+
+Infine, al centro della ruota si trovano le tre radici della sofferenza: nescienza, attaccamento e avversione.
+
+![Yama](images/yama.jpg)
+
+L'intera ruota è tenuta nelle mani di una figura terrificante che rappresenta l'impermanenza. Il Dalai Lama afferma:
+
+> L'essere feroce che tiene il volante simboleggia l'impermanenza, motivo per cui l'essere è un mostro irato ... Una volta ho fatto disegnare un dipinto del genere con uno scheletro piuttosto che un mostro, per simboleggiare più chiaramente l'impermanenza.
+
+Questa figura è comunemente raffigurata come Yama, il Signore della morte.
+
+## Gli antidoti
+
+Le strategie per eliminare i kleśa seguono la logica degli "antidoti": la tolleranza (kṣānti) è l'antidoto alla rabbia (dveṣa); il vigore è l'antidoto alla pigrizia; il disgusto per il corpo è l'antidoto alla lussuria (rāga).
+
+### La tolleranza
+
+In questo capitolo ci occuperemo di kṣānti. Abbiamo già incontrato kṣānti quando abbiamo discusso il Vimalakīrti Sūtra. In quel contesto, kṣānti indicava
 
 > la tolleranza intuitiva dell'incomprensibilità ultima e della natura non-nata di tutte le cose
 
 cioè, indicava la tolleranza alla realizzazione della vacuità, ovvero la capacità di accettare con fiducia e in maniera gioiosa l'esperienza dell'assenza di fondamento, dell'impermanenza e dell'assenza di sé. Ma kṣānti è anche la terza delle sei perfezioni, ovvero delle pratiche che fanno maturare la mente del bodhisattva. Kṣānti è anche tradotta come "pazienza". A kṣānti è dedicato il sesto capitolo del Bodhicaryāvatāra e il nono capitolo dell'Antologia (Siksà-samuccaya) di Śāntideva. In ciò che segue fornirò un riassunto di ciò che viene descritto nel Siksà-samuccaya.
-
-## La perfezione della pazienza
 
 Nel nono capitolo del Siksà-samuccaya, Śāntideva si occupa di kṣānti quale antidoto al terzo veleno, ovvero all'avversione (odio o rabbia). Śāntideva scrive:
 
@@ -80,7 +187,7 @@ Il mio commento potrebbe essere quello di dire che il bodhisattva è più forte 
 
 Śāntideva continua con un'altra citazione:
 
-> Rinunciare al corpo, non avere riguardo per il proprio corpo: questa è la perfezione della generosità. Quando il proprio corpo viene fatto a pezzi, \[i bodhisattva\] estendono la loro gentilezza amorevole a tutte le creature, senza lasciarsi trattenere dal dolore: questa è la perfezione della disciplina morale. Quando il loro corpo viene fatto a pezzi, \[i bodhisattva\] sopportano pazientemente tutto questo allo scopo di liberare coloro che li stanno ferendo, senza ferirli neppure nell'immaginazione: questa è la perfezione della pazienza. La perseveranza con cui non rinunciano alla motivazione di una completa conoscenza, con cui sostengono la loro forza interiore, con cui sopportano l'esistenza ciclica del samsara, e con cui intraprendono azioni virtuose: questa è la perfezione della perseveranza. La qualità per cui, quando vengno feriti, si preoccunano solo del Risveglio e si rivolgono solo alla pace e alla tranquillità: questa è la perfezione di stabilità meditativa. La qualità per cui, quando i loro corpi vengono fatti a pezzi, \[i bodhisattva\] capiscono che il corpo è come qualsiasi altro oggetto, e tutti gli oggetti sono solo illusioni; capendo questo, \[i bodhisattva\] riflettono sulla natura illusoria del loro corpo e sull'impermanenza dell'essere, sulla sofferenza dell'essere, sull'assenza di qualsiasi sé nell'essere e sulla pace dell'essere: questa è la perfezione della saggezza.
+> Rinunciare al corpo, non avere riguardo per il proprio corpo: questa è la perfezione della generosità. Quando il proprio corpo viene fatto a pezzi, \[i bodhisattva\] estendono la loro gentilezza amorevole a tutte le creature, senza lasciarsi trattenere dal dolore: questa è la perfezione della disciplina morale. Quando il loro corpo viene fatto a pezzi, \[i bodhisattva\] sopportano pazientemente tutto questo allo scopo di liberare coloro che li stanno ferendo, senza ferirli neppure nell'immaginazione: questa è la perfezione della pazienza. La perseveranza con cui non rinunciano alla motivazione di una completa conoscenza, con cui sostengono la loro forza interiore, con cui sopportano l'esistenza ciclica del saṃsāra, e con cui intraprendono azioni virtuose: questa è la perfezione della perseveranza. La qualità per cui, quando vengno feriti, si preoccunano solo del Risveglio e si rivolgono solo alla pace e alla tranquillità: questa è la perfezione di stabilità meditativa. La qualità per cui, quando i loro corpi vengono fatti a pezzi, \[i bodhisattva\] capiscono che il corpo è come qualsiasi altro oggetto, e tutti gli oggetti sono solo illusioni; capendo questo, \[i bodhisattva\] riflettono sulla natura illusoria del loro corpo e sull'impermanenza dell'essere, sulla sofferenza dell'essere, sull'assenza di qualsiasi sé nell'essere e sulla pace dell'essere: questa è la perfezione della saggezza.
 
 Di nuovo, il mio commento è che, anziché rispondere in maniera "automatica" alle difficoltà -- una senzazione di bruciore mi fa male e io "sono" questo dolore -- il bodhisattva è in grado di trasformare le sue proprie esperienze, mutandole dalla forma di un riflesso cieco in un'esperienza che viene letta attraverso le lenti del Dharma. La perfezione di kṣānti consente la trasformazione "alchemica" della sofferenza nella gioia attraverso la pratica del Dharma. Anziché accettare i kleśa senza metterli in discussione, mediante le capacità maturate con la pratica meditativa, e avendo reso "malleabile" la propria mente, i bodhisattva trasformano le loro afflizioni mentali in base alla consapevolezza che tutto è śūnyatā. Se siamo in grado di realizzare in maniera autentica la vacuità, il dolore assume "un colore" diverso. Più tenue. Se crediamo a Śāntideva, esso sbiadisce fino a scomparire.
 
@@ -168,7 +275,7 @@ Il dolore che prova il bodhisattva non fa altro che aumentare il suo coraggio.
 
 <!-- > --- (BCA VI:12)\ -->
 
-<!-- Nel mondo samsararico, le cause della felicità sono poche e compaiono solo sporadicamente. D'altra parte, ci sono molte cause per i nostri dolori e non siamo in grado di impedire che essi accadano. Questa è la definizione stessa di samsara; e fintanto che vaghiamo in esso, le cause della sofferenza sono infinite e non abbiamo altra scelta che sottometterci ad esse. Per chi lo capisce, però, c'è un aspetto positivo nel dolore. Perché senza sofferenza, non ci sarà mai rinuncia, ovvero la determinazione a liberarci dai dolori del samsara. Al contrario, se soffriamo, sorgerà in noi un desiderio di libertà definitiva. Pertanto, rivolgendosi alla propria mente, Śāntideva dice a se stesso di resistere e di accettare pazientemente la sofferenza. Perché la sofferenza è uno stimolo potente che ci spinge a uscire dal samsara. Vedendo quanto sia pervasiva la sofferenza, non c'è altro da fare che accettarla e, se possiamo, usarla per rinunciare a tutto il samsara. Senza sofferenza non ci può essere rinuncia alla sofferenza e quindi nessuna liberazione dalla sofferenza e nessuna illuminazione. Quando sorge la sofferenza, non c'è motivo di essere sorpresi: siamo nel samsara e non possiamo aspettarci nient'altro che la sofferenza. -->
+<!-- Nel mondo saṃsārarico, le cause della felicità sono poche e compaiono solo sporadicamente. D'altra parte, ci sono molte cause per i nostri dolori e non siamo in grado di impedire che essi accadano. Questa è la definizione stessa di saṃsāra; e fintanto che vaghiamo in esso, le cause della sofferenza sono infinite e non abbiamo altra scelta che sottometterci ad esse. Per chi lo capisce, però, c'è un aspetto positivo nel dolore. Perché senza sofferenza, non ci sarà mai rinuncia, ovvero la determinazione a liberarci dai dolori del saṃsāra. Al contrario, se soffriamo, sorgerà in noi un desiderio di libertà definitiva. Pertanto, rivolgendosi alla propria mente, Śāntideva dice a se stesso di resistere e di accettare pazientemente la sofferenza. Perché la sofferenza è uno stimolo potente che ci spinge a uscire dal saṃsāra. Vedendo quanto sia pervasiva la sofferenza, non c'è altro da fare che accettarla e, se possiamo, usarla per rinunciare a tutto il saṃsāra. Senza sofferenza non ci può essere rinuncia alla sofferenza e quindi nessuna liberazione dalla sofferenza e nessuna illuminazione. Quando sorge la sofferenza, non c'è motivo di essere sorpresi: siamo nel saṃsāra e non possiamo aspettarci nient'altro che la sofferenza. -->
 
 <!-- ### Come accettare la sofferenza -->
 

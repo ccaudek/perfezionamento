@@ -15,18 +15,18 @@ book:
     - index.qmd
     # - preface.qmd
     - 01-intro.qmd
-    - 02-chapter-1a.qmd
-    - 03-chapter-1b.qmd
-    - 04-chapter-1c.qmd
-    - 05-chapter-2.qmd
-    - 06-chapter-3.qmd
+    - 02-definitions.qmd
+    - 03-nature_nurture.qmd
+    - 04-what_is_trained.qmd
+    - 05-how_is_trained.qmd
+    - 06-tonglen.qmd
     - 07-wisdom.qmd
     - 08-living_skillfully.qmd
     - 09-patience.qmd
-    - 10-chapter-4.qmd
+    - 10-tibetan_traditions.qmd
     - 11-meditation.qmd
-    - 12-chapter-5.qmd
-    - 13-chapter-6.qmd
+    - 12-secularism_1.qmd
+    - 13-secularism_2.qmd
     - 14-gilbert.qmd
     - 15-kirby.qmd
     - 16-measurement.qmd
