@@ -1,8 +1,10 @@
-# Trattazioni buddiste e secolari della compassione {#definitions}
+# Trattazioni buddiste e secolari della compassione {#sec-definitions}
 
 ## Sommario
 
-Dopo una prima introduzione che ha sollevato alcuni punti generali, esaminiamo ora in un modo più preciso le definizioni che sono state date a questo termine nei due contesti culturali di riferimento, la tradizione del Buddhismo Mahāyāna e il contesto secolare corrente.
+Dopo una prima introduzione che ha sollevato alcuni punti generali, esaminiamo ora in un modo più preciso le definizioni che sono state date al termine "compassione" nei due contesti culturali di riferimento: la tradizione del Buddhismo Mahāyāna e il contesto secolare corrente.
+
+![Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-23.jpg)
 
 ## Etimologie
 
@@ -21,21 +23,21 @@ compatior (verbo)
 
 La maggior parte delle lingue indoeuropee porta questa connotazione.
 
-I termini empatia, simpatia, compassione e pietà sono spesso usati come sinonimi, il che sta ad indicare che non è possibile attribuire una definizione univoca al concetto di compassione.
+I termini empatia, simpatia, compassione e pietà sono spesso usati come sinonimi, il che sta ad indicare che, nelle lingue occidentali, non è possibile attribuire una definizione univoca al concetto di compassione.
 
 Aristotele definisce la compassione come un'emozione dolorosa che è determinata da
 
 -   la gravità percepita della sofferenza -- non proviamo compassione per le situazioni che giudichiamo come perdite o dolori insignificanti,
 -   il presupposto di non essere meritata -- si giudica che la persona soffra immeritatamente e non si possa biasimare per aver causato la disgrazia per pigrizia o per un comportamento scorretto,
--   la paura di subire un destino simile -- possiamo relazionarci a tale sofferenza perché conosciamo una sofferenza simile; e temiamo che una simile disgrazia possa cadere anche su di noi.
+-   la paura di subire un destino simile -- possiamo relazionarci a tale sofferenza perché conosciamo una sofferenza simile, o temiamo che una simile disgrazia possa cadere anche su di noi.
 
 <!-- Aristotle's explanation focuses on the unpleasant emotional dimension of compassion.  -->
 
 <!-- A similar point of view is presented by Immanuel Kant, Friedrich Nietzsche, Arthur Schopenhauer. -->
 
-Martha Nussbaum, filosofa americana contemporanea, sostituisce il terzo punto di Aristotele con un giudizio eudaimonistico, con il quale intende riconoscere che gli altri, persone e animali, sono elementi significativi del nostro stesso benessere; il loro bene deve essere promosso per realizzare lo scopo della nostra vita. Secondo lei, la compassione non richiede che ci sentiamo minacciati dall'idea che potremmo incontrare una disgrazia simile; non è quindi legato alla paura. Con Aristotele, tuttavia, definisce la compassione come un particolare tipo di dolore, "un'emozione dolorosa causata dalla consapevolezza dell'immeritata disgrazia di un'altra persona", che dovrebbe informare le norme etiche e legali di una società.
+Martha Nussbaum, filosofa americana contemporanea, sostituisce il terzo punto di Aristotele con un giudizio eudaimonistico, con il quale intende riconoscere che gli altri, persone e animali, sono elementi significativi del nostro stesso benessere; il loro bene deve essere promosso per realizzare lo scopo della nostra vita. Secondo Nussbaum, la compassione non richiede che ci si senta minacciati dall'idea di potere incontrare una disgrazia simile; la compassione non è quindi legata alla paura. Insieme ad Aristotele, tuttavia, Nussbaum definisce la compassione come un particolare tipo di dolore, "un'emozione dolorosa causata dalla consapevolezza dell'immeritata disgrazia di un'altra persona".
 
-Tania Singer, neuroscienziata tedesca contemporanea, distingue tra empatia e compassione. Secondo lei,
+Tania Singer, neuroscienziata tedesca contemporanea, distingue tra empatia e compassione. Secondo Singer,
 
 -   l'*empatia* si riferisce all'aspetto affettivo di entrare in con la sofferenza dell'altra persona, che porta all'esperienza di angoscia empatica, burnout e stanchezza della compassione,
 -   la *compassione* si riferisce alle risposte costruttiviste alla sofferenza che si concentrano sull'alleviare la sofferenza; è un tratto caratteriale più che un'emozione, e una qualità che ci rende umani.
@@ -62,8 +64,6 @@ Nelle interpretazioni cristiane, la compassione è spesso vista come un obbligo 
 
 ### Etimologie buddiste Mahāyāna
 
-![Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-23.jpg)
-
 Le parole sanscrite che sono state più comunemente tradotte come "compassione" mostrano una multivalenza simile al concetto nelle lingue indoeuropee. I diversi termini associati a compassione
 
 -   anukampā,
@@ -78,12 +78,9 @@ Un'interpretazione etimologica alternativa legge karuṇā come un atteggiamento
 
 La terminologia tibetana aggiunge una dimensione interessante all'etimologia della compassione. Per tradurre il canone buddista dal sanscrito al tibetano nel VII secolo d.C., fu creato un dizionario standardizzato, il Mahāvyutpatti. Tale dizionario ha determinato, con decreto reale, la traduzione della terminologia buddista della tradizione indiana.
 
-In questo testo, il termine tibetano per karuṇā è un composto di "mente", "cuore" e "signore, maestà, primo". In combinazione, questi termini assumno il significato di "signore del cuore" o "la principale qualità della mente". Inoltre, vi è la connotazione di amore e affetto. È interessante notare, quindi, che i traduttori tibetani hanno scelto di rimuovere l'idea di sofferenza nella loro traduzione e hanno invece posto l'accento su tratti caratteriali di forza e nobiltà. Questo suggerisce che
+In questo testo, il termine tibetano per karuṇā è un composto di "mente", "cuore" e "signore, maestà, primo". In combinazione, questi termini assumno il significato di "signore del cuore" o "la principale qualità della mente". Inoltre, vi è la connotazione di amore e affetto. È interessante notare, quindi, che i traduttori tibetani hanno scelto di rimuovere l'idea di sofferenza nella loro traduzione e hanno invece posto l'accento su tratti caratteriali di forza e nobiltà. Questo suggerisce che, anche se la compassione inizia a livello di "realtà convenzionale" come uno stato mentale empatico influenzato dalla sofferenza degli altri, tale stato mentale può essere trasformato in una forma perfezionata di compassione.
 
--   anche se la compassione inizia a livello di "realtà convenzionale" come uno stato mentale empatico influenzato dalla sofferenza degli altri,
--   tale stato mentale può essere trasformato in una forma perfezionata di compassione.
-
-La scelta dei traduttori Mahāvyutpatti sembra indicare che la compassione viene intesa come *la principale qualità della mente* e come l'atteggiamento nobile, avanzato e colto dei bodhisattva. Tale modo di intendere la compassione si differenzia dall'idea che la compassione sia semplicemente un'emozione ordinaria (che può essere esperita da tutti) e dolorosa.
+La scelta dei traduttori Mahāvyutpatti sembra indicare che la compassione viene intesa come *la principale qualità della mente* e come l'atteggiamento nobile, avanzato e colto dei bodhisattva. Tale modo di intendere la compassione si differenzia dall'idea che la compassione sia semplicemente un'emozione ordinaria, dolorosa, e che può essere esperita da tutti.
 
 La letteratura Mahāyāna distingue tra diversi tipi di compassione, impiegando più comunemente i termini
 
@@ -91,7 +88,7 @@ La letteratura Mahāyāna distingue tra diversi tipi di compassione, impiegando 
 -   grande compassione (mahākaruna),
 -   compassione incommensurabile (apramāṇakaruṇā),
 
-La gamma di significati associati a questi termini esprime l'idea di una progressiva trasformazione della compassione sul sentiero spirituale. Pertanto, facendo affidamento alle fonti tibetane, in particolare sul lavoro di sistematizzazione di Tzongkhapa, è possibile identificare le distinzioni tra compassione, grande compassione e infinita compassione.
+La gamma di significati associati a questi termini esprime l'idea di una progressiva trasformazione della compassione sul sentiero spirituale. Pertanto, facendo affidamento alle fonti tibetane (in particolare sul lavoro di sistematizzazione di Tzongkhapa) è possibile distinguere le forme della compassione nel modo seguente.
 
 -   In primo luogo, l'iniziale *compassione ordinaria* può essere definita come un senso di premurosa preoccupazione per una persona cara, come la propria madre, che è più spesso citata nei testi tibetani come l'oggetto che più naturalmente evoca sentimenti amorevoli e premurosi.
 
@@ -119,7 +116,7 @@ La gamma di significati associati a questi termini esprime l'idea di una progres
 
 <!-- ::: -->
 
--   Infine, l'*incommensurabile* o *infinita compassione* (apramāṇakaruṇā) emerge dal contesto della contemplazione. Questo termine si riferisce alla compassione universale e imparziale per tutti gli esseri. Sebbene inizialmente designasse un assorbimento meditativo sulla compassione, apramāṇakaruṇā si trasformò in una pratica per generare l'aaspirazione a beneficio degli esseri.
+-   Infine, l'*incommensurabile* o *infinita compassione* (apramāṇakaruṇā) emerge dal contesto della contemplazione. Questo termine si riferisce alla compassione universale e imparziale per tutti gli esseri. Sebbene inizialmente designasse un assorbimento meditativo sulla compassione, apramāṇakaruṇā si trasformò in una pratica per generare l'aspirazione a beneficio degli esseri.
 
 La compassione è associata ai quattro stati sublimi della mente sono stati insegnati dal Buddha:
 
@@ -131,6 +128,8 @@ La compassione è associata ai quattro stati sublimi della mente sono stati inse
 Questi quattro incommensurabili sono chiamati "dimore" (vihara) perché dovrebbero diventare le dimore costanti della mente in cui ci sentiamo "a casa"; non dovrebbero rimanere solo luoghi di rare e brevi visite, presto dimenticati. In altre parole, la nostra mente dovrebbe esserne completamente saturata. Dovrebbero diventare i nostri compagni inseparabili e dovremmo essere consapevoli di loro in tutte le nostre attività comuni.
 
 Il secondo Incommensurabile fornisce una definizione di compassione, descrivendola come "il desiderio di liberare tutti gli esseri senzienti dalla sofferenza e dalle cause della sofferenza". Due aspetti sono importanti qui. In primo luogo, la compassione è presentata come un desiderio, senza fare riferimento alla sofferenza empatica. In secondo luogo, il riferimento alle "cause della sofferenza" implica che la persona compassionevole sia tenuta a fare una diagnosi matura della sofferenza, comprendendola al di là dei sintomi esteriori del dolore.
+
+![Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-39.jpeg)
 
 Un altro modo comune di concettualizzare la compassione nelle fonti Mahāyāna è la triplice tipologia della compassione in base al suo punto di riferimento o oggetto. Si distingue
 
@@ -214,5 +213,3 @@ La stretta somiglianza della definizione di compassione dell'IM con le idee budd
 Una differenza rilevante riguarda invece la valutazione del sacrificio di sé. L'IM sottolinea che la compassione "non comporta sacrificio personale". Il sacrificio di sé, invece, è apertamente approvato nella letteratura buddista, anche se è qualificato nel Bodhicaryāvatāra di Śāntideva come un comportamento riservato agli stadi avanzati sulla via dei bodhisattva.
 
 Dopo avere presentato questi accenni introduttivi delle etimologie e delle definizioni della compassione, siamo ora pronti per esaminare più nello specifico la trattazione della compassione nella letteratura indiana Mahāyāna.
-
-![Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-39.jpeg)
