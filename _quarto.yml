@@ -5,7 +5,7 @@ project:
 book:
   title: "Training cognitivo e contemplativo per lo sviluppo della compassione"
   author: "Corrado Caudek"
-  # cover-image: images/cover.png
+  # cover-image: images/thomas-laird-10.jpeg
   # site-url: https://rstudio-education.github.io/hopr/
   # repo-url: https://github.com/jjallaire/hopr/
   # repo-branch: master
@@ -35,7 +35,7 @@ format:
     theme: 
       - cosmo
       - r4ds.scss
-    # cover-image: cover.png
+    # cover-image: thomas-laird-10.jpeg
     code-link: true
     callout-appearance: simple
   pdf:
