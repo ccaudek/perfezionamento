@@ -1,4 +1,4 @@
-# Le tradizioni tibetane
+# Le tradizioni tibetane {#sec-tibetan-tradition}
 
 ![Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-5.png)
 
@@ -9,8 +9,6 @@ Le tradizioni buddiste tibetane hanno sviluppato approcci unici, pragmatici e co
 Nella tradizione buddista tibetana, testi come "L'allenamento mentale in sette punti" o "Le trentasette pratiche del bodhisattva" godono di una grande popolarità. Quando il Dalai Lama parlò a una folla di quasi centomila persone nel Central Park di New York nel 1999, scelse gli "Otto versi sull'allenamento mentale" come base del suo intervento. Quando il Dalai Lama tornò a parlare ancora una volta a Central Park nel 2002, scelse come argomento del suo intervento il testo "Bodhisattva's Jewel Garland" di Atiśa, un importante testo della letteratura Lojong. La letteratura Lojon è, infatti, quella parte del canone buddista che risulta maggiormente accessibile ad un pubblico occidentale. L'influenza di Śāntideva nelle pratiche Lojon è innegabile e significativa, ma il rapporto con la fonte è spesso complesso. In questo capitolo esamineremo come, nella tradizione tibetana, gli insegnamenti Śāntideva sono stati adattati negli sviluppi della pratica contemplativa del Tonglen.
 
 ## La pratica contemplativa del Tonglen
-
-![Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-30.png)
 
 Lojong è un genere letterario che si riferisce a un insieme di testi che forniscono varie istruzioni per la generazione di bodhicitta. Lojong è sia una tradizione spirituale sia un genere letterario del buddismo tibetano. La tradizione spirituale del Lojong è unica nel buddismo tibetano, emergendo nell'XI secolo come un prodotto creativo dell'assimilazione tibetana e dell'adattamento del buddisma indiano. Il primo testo che usa la parola Lojong nel titolo è Eight Verses on Mind Training. L'origine di Lojong è attribuita agli insegnamenti di Atīśa. La sua Bodhipāthapradīpa (Lampada sul Sentiero del Risveglio) è considerata la fonte principale per l'emergere del Lojong.
 
@@ -55,9 +53,9 @@ L'obiettivo è quello della trasformazione fondamentale della mente ordinaria da
 
 c'è uno stretto collegamento tra le istruzioni "Eight Verses on Mind Training" che indicano di considerare il proprio nemico come l'insegnante più sublime e l'ammonimento dell BCA (6.107) di vedere il proprio nemico come un tesoro prezioso. Sia la BCA sia il lojon raccomandano di mantenere un costante alto grado di autoconsapevolezza in ogni aspetto della vita quotidiana. Attraverso questo, nulla avrà il potere di minare la propria pratica spirituale e tutto ciò che si incontra nella vita -- buono, cattivo o neutro -- può essere trasformato in uno strumento che può essere utilizzato per migliorare la propria pratica sulla via del risveglio.
 
-## L'evoluzione di Tonglen
+![Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-30.png)
 
-![Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-4.jpg)
+## L'evoluzione di Tonglen
 
 La meditazione del tonglen è il risultato di una progressiva evoluzione che ha prodotto un costrutto sofisticato che integra elementi emotivi, psicologici e filosofici e rappresenta un esercizio contemplativo incorporato in un comportamento ritualizzato.
 
@@ -127,9 +125,9 @@ L'autore afferma che il tonglen purifica il flusso delle afflizioni mentali, raf
 
 Questa rassegna dei primi lavori sul Lojong mostra lo sviluppo della pratica del tonglen. Il metodo didattico mostra l'evoluzione da una semplice e alquanto astratta contemplazione verso esercizi sempre più sofisticati che integrano una fenomenologia della sofferenza a diverse tecniche di visualizzazione.
 
-## Trasformazione degli insegnamenti di Śāntideva
+![Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-4.jpg)
 
-![Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-31.png)
+## Trasformazione degli insegnamenti di Śāntideva
 
 Il lavoro di Śāntideva ha avuto un impatto duraturo sulla formazione della filosofia morale in Tibet. La letteratura lojong in generale contiene un numero elevato di citazioni dalla Bodhicaryāvatāra. Un confronto tra l'equalizzazione e lo scambio di Śāntideva e la pratica del tonglen rivela però importanti omissioni e aggiunte agli insegnamenti di Śāntideva.
 
@@ -176,12 +174,12 @@ Il Bodhicaryāvatāra, non potendo fare riferimento alla fisica quantistica, giu
 
 ### Aggiunta: stimoli emotivi
 
-![Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-3.jpg)
-
 La seconda differenza tra il Tonglen e il Bodhicaryāvatāra riguarda il ruolo delle emozioni nella coltivazione della compassione. Mentre Śāntideva vede la comprensione (ontologica) dell'uguaglianza di sé e dell'altro come la base da cui si manifestano compassione e bodhicitta, per generare karuna la tradizione del Lojong promuove la stimolazione di affetti positivi, come la gratitudine, l'amore materno, o l'empatia nel senso di "sentirsi con" al vista della sofferenza di un altro.
 
 -   Śāntideva promuove le esperienze dolorose, e persino forme di auto-denigrazione, come strumenti dell'approccio didattico decostruttivo che mira ad indebolire l'attaccamento al sé e al rafforzamento della compassione.
 -   Invece, il Lojong opera mediante l'approccio costruttivo, ovvero mediante la stimolazione e il rafforzamento delle emozioni, positive e negative, come catalizzatori per la crescita spirituale. La stimolazione di ricordi, immagini e affetti corrisponde ad un approccio psicologico ed emotivo alla coltivazione della compassione, piuttosto che ad un metodo concettuale o razionale.
+
+![Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-3.jpg)
 
 #### Conclusione intermedia
 
@@ -192,7 +190,7 @@ In conclusione, possiamo distinguere due diversi approcci didattici per la colti
 
 Si potrebbe concludere che l'approccio decostruttivo implica un impegno a lungo termine, mentre l'approccio Lojong è più facilmente accessibile per i principianti e promette risultati a medio e breve termine che portano ad un rafforzamento della compassione e della gioia che il praticante prova nel mettere in atto la compassione.
 
-### Sviluppi dell'approccio Lojong nella cultura tibetana
+## Sviluppi dell'approccio Lojong nella cultura tibetana
 
 Un testo che ha attirato una grande attenzione nel pubblico moderno tibetano e occidentale sono le *Le Trentasette Pratiche dei Bodhisattva* di Thokmé Sangpo (2004). Tale testo che viene regolarmente utilizzato dal Quattordicesimo Dalai Lama nei suoi insegnamenti. Nei 37 versi di questo testo, Thokmé Sangpo fornisce consigli relativi alle applicazioni nella vita quotidiana dell'ideale del bodhisattva.
 
@@ -205,6 +203,8 @@ Il verso 11 delle Trentasette Pratiche riassume la coltivazione della compassion
 Si noti che, nonostante la somiglianza con la Bodhicaryāvatāra, la meditazione sullo scambio fra sé e l'altro non richiede di meditare sulla vacuità dell'io, o sull'identità ontologica del sé e dell'altro. Thokmé Sangpo mette tra parentesi l'aspetto dell'equalizzazione e sviluppa la coltivazione della compassione esclusivamente all'interno della mente dualistica di un bodhisattva principiante.
 
 La brevità e il carattere mnemonico del testo hanno contribuito alla popolarità e all'accessibilità delle Trentasette pratiche, così integrando o anche sostituendo il trattamento più teorico del tema della compassione delle precedenti opere della tradizione Mahāyāna.
+
+![Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-31.png)
 
 ## Tzongkhapa: combinare due approcci alla coltivazione della compassione
 
@@ -243,3 +243,5 @@ La pratica tibetana del tonglen è l'adattamento più noto della pratica dello s
 Sminuendo l'enfasi sulla dimensione epistemologica dell'addestramento alla compassione, che viene ritenuta accessibile solo ai bodhisattva avanzati, gli studiosi tibetani si sono impegnati in un processo di semplificazione e divulgazione della coltivazione della compassione. Hanno messo tra parentesi la meditazione di Śāntideva sullo scambio dell'identità fra il sé e l'altro, ricollocandola negli stadi più avanzati, e che non vengono considerati, del sentiero del bodhisattva.
 
 Il modo in cui i maestri buddisti tibetani hanno adattato gli insegnamenti di Śāntideva offre spunti rilevanti per la discussione contemporanea sulle pratiche secolari di coltivazione della compassione. I maestri tibetani hanno interpretato il pensiero buddista indiano secondo la propria sensibilità, negoziando una convivenza tra un tradizionalismo conservatore e un'innovazione creativa. La coltivazione della compassione si è quindi evoluta, nella tradizione Lojong, trasformando una procedura cognitiva avanzata, così come descritta nel Bodhicaryāvatāra, in una posizione etica motivata emotivamente. In questo senso, le pratiche Lojong possono essere considerati come i precursori della coltivazione della compassione delle correnti pratiche secolarizzate, in quanto esse hanno contribuito a trasformare la meditazione di un'élite spirituale in una pratica rivolta ad una cerchia molto più ampia di praticanti.
+
+![Thomas Laird in Tibet.](images/thomas-laird-35.jpeg)

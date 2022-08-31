@@ -1,8 +1,8 @@
-# Meditazione Tonglen nel Bodhicaryāvatāra {#meditazionetonglen}
+# Meditazione Tonglen nel Bodhicaryāvatāra {#sec-meditation-tonglen}
 
 ## Introduzione {.unnumbered}
 
-In questo capitolo esamineremo la pratica della meditazione tonglen, proposta dallo studioso indiano Śāntideva nel suo testo Bodhicaryāvatāra. Tale pratica di meditazione è importante in quanto ha fornito il principale modello per le meditazioni guidate della coltivazione secolare della compassione.
+In questo capitolo esamineremo la pratica della meditazione tonglen, proposta da Śāntideva nel Bodhicaryāvatāra. La meditazione tonglen, dello scambio di sé e altri, costituisce il principale modello per le meditazioni guidate della coltivazione secolarizzata della compassione.
 
 ::: callout-note
 Śāntideva era un monaco buddista indiano Mahāyāna. Si sa molto poco della vita di Śāntideva. È generalmente accettato che sia vissuto tra la fine del VII e la metà dell'VIII secolo d.C. Le biografie tradizionali tibetane affermano che ha trascorso gran parte della sua carriera presso l'università monastica indiana di Nālandā. Fu autore di due testi sopravvissuti, l'Introduzione alla pratica del risveglio (Bodhicaryavatāra) e il Compendio degli addestramenti (Śikṣāsamuccaya; di seguito ŚS). L'influenza filosofica di Śāntideva è più significativa nel campo della filosofia morale, laddove i suoi due testi forniscono importanti contributi allo studio della virtù, del benessere e della relazione tra metafisica ed etica. Il nono capitolo del Bodhicaryāvatāra, inoltre, presenta anche un'influente discussione del principio metafisico centrale del Madhyamaka, ovvero la vacuità (śūnyatā).
@@ -32,11 +32,11 @@ La meditazione tonglen proposta da Śāntideva costituisce una delle forme più 
 
 La versione canonica del Bodhicaryāvatāra è composta da dieci capitoli per un totale di 913 versi. Lo scopo principale sia del Bodhicaryāvatāra è di istruire il lettore nello sviluppo delle qualità virtuose del bodhisattva. Queste includono le sei perfezioni (pāramitās) di generosità (dāna), moderazione etica (śīla), pazienza (kṣānti), sforzo energetico (vīrya), concentrazione (samādhi) e saggezza (prajñā), nonché altre associate virtù come la compassione (karuṇā), la consapevolezza (smṛti) e l'introspezione (saṃprajanya).
 
-![L'eccellente generosità di Green Tara. Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-16.jpg)
-
 Si deve tenere a mente che il Bodhicaryāvatāra non è solo un testo teorico inteso a fornire una comprensione concettuale della virtù e della motivazione morale. Piuttosto, è un manuale di meditazione il cui scopo è aiutare nello sviluppo della virtù per coloro che sono impegnati nel sentiero del bodhisattva. Più propriamente possiamo dire che il Bodhicaryāvatāra è un testo plurale, ambiguo e "non sistematico". È plurale perché può essere letto in molti modi: come un manuale di rituali, una guida alla meditazione, un'indagine sull'etica, un trattato di metafisica, un'autointerrogazione psicologica, un grande poema devozionale, o tutto quanto sopra. È ambiguo perché il suo significato preciso, soprattutto nei suoi passaggi filosofici cruciali, è stato dibattuto per secoli in India, per un millennio (e oltre) tra i pensatori tibetani, e ora è dibattuto in Occidente da accademici e praticanti buddisti. Ed è, senza dubbio, non-sistematico. Certamente, in una certa misura è strutturato, seguendo più o meno da vicino lo sviluppo dell'addestramento di un bodhisattva cristallizzato nelle sei perfezioni (pāramitā). Altrettanto spesso, tuttavia, è caratterizzato da un approccio poetico e improvvisato.
 
 Per queste sue caratteristiche, è difficile produrre un commentario sistematico del Bodhicaryāvatāra; eppure questo è precisamente il trattamento che questo testo ha ricevuto nelle tradizioni scolastiche, specialmente in Tibet, dove per mille o più anni ha plasmato la comprensione di cosa significhi essere un bodhisattva. Nonostante l'occasionale mancanza di struttura, la genialità poetica, filosofica e psicologica del Bodhicaryāvatāra, per non parlare della sua influenza in India, hanno reso questo testo un riferimento impossibile da ignorare. Pertanto, nel secondo millennio, gli scolastici del Tibet hanno cercato di "addomesticare" il Bodhicaryāvatāra e di riportare questo testo sotto il controllo intellettuale dell'istituzione monastica. Nella tradizione tibetana, il più famoso tentativo di "addomesticare" il Bodhicaryāvatāra è stato quello proposto da Tsong Kha Pa.
+
+![L'eccellente generosità di Green Tara. Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-16.jpg)
 
 ## Bodhicitta e il Voto del Bodhisattva
 
@@ -77,8 +77,6 @@ Il bodhicitta è definito mediante due caratteristiche: "Attraverso karuṇā, \
 
 ## Il supremo mistero
 
-![Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-15.jpg)
-
 > VIII:120. Colui che desidera salvare rapidamente se stesso e gli altri, deve praticare il supremo mistero, voglio dire lo scambio dell'io e degli altri.
 
 Il Bodhicaryāvatāra è una combinazione di tradizione e innovazione e questo vale anche e soprattutto per la pratica dello scambio di sé e di altri (parātmaparivartana). Per il bodhisattva, gli altri debbono essere sentiti come il proprio sé e viceversa il suo sé come ciò che sono gli altri per l'uomo ordinario. La presentazione di questa pratica arriva al culmine di un lungo discorso sull'importanza di abbandonare l'attaccamento a se stessi e di prendersi cura invece del benessere degli altri. Nella meditazione su parātmaparivartana, Śāntideva mette in pratica il "capovolgimento" di sé e di altri dissolvendo l'ego del meditatore.
@@ -106,6 +104,8 @@ Questa totalità corrisponde all'umanità e, in essa, i confini tra gli individu
 
 Da entrambe le argomentazioni (quella fenomenologica e quella ontologica) deriva la medesima conclusione, ovvero la necessità di estendere la compassione in modo equo e imparziale a tutte le creature. In tale richiesta di cura altruistica per gli altri, Śāntideva attinge a fonti precedenti. La proposta della meditazione tonglen, invece, può essere fatta solo in parte risalire a precedenti fonti scritturali. La meditazione tonglen costituisce un contributo innovativo di Śāntideva per il modo in cui, combinando diverse linee di pensiero, offre un complesso gruppo di esercizi contemplativi, analitici e pratici, che hanno l'obiettivo di suscitare un *radicale cambiamento di prospettiva cognitiva* nel praticante.
 
+![Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-15.jpg)
+
 ## Una lettura dettagliata
 
 I versi Bodhicaryāvatāra VIII:90-112 sono identificati dai commentatori come il passaggio relativo al "capovolgimento", ovvero l'equalizzazione e lo scambio di sé e di altri, e presentano l'interpretazione di Śāntideva dell'idea Mahāyāna di equanimità. La sfida interpretativa relativa a questo testo risiede nel fatto che Śāntideva tratta la sofferenza come un'entità esistente, mentre postula la non esistenza del sé.
@@ -121,7 +121,7 @@ Una possibile risoluzione di questo paradosso è stato proposta da Thokmé Sangp
 
 Thokmé Sangpo si concentra dunque su una dimensione esperienziale personale: non discute la sofferenza degli altri come un'affermazione ontologica su ciò che esiste o non esiste, ma è invece interessato a trasformare l'esperienza umana. Riconosce la verità della non esistenza ultima della sofferenza, ma vuole concentrarsi sul miglioramento dell'esperienza vissuta, cioè sull'eliminazione della sofferenza provata in prima persona. Thokmé Sangpo usa dunque i versi di Śāntideva come uno strumento terapeutico per smantellare l'autoidentificazione o l'attaccamento a sé stessi -- non come una descrizione ontologica che in sé deve essere coerente.
 
-afferma:
+Nel Bodhicaryāvatāra leggiamo:
 
 > VIII:103. Perché, quanto a ciò, son tutti d'accordo. E se esso dev'essere combattuto, sia allora combattuto in tutti i suoi aspetti! Se poi non dev'essere combattuto, non lo sia affatto, né in me né in altri!
 

@@ -12,27 +12,29 @@ I kleśa, nel buddismo, sono stati mentali che offuscano la mente e si manifesta
 
 sono identificati come la fonte di tutti gli altri kleśa. Nel Mahayana sono indicati come i tre veleni (triviṣa).
 
-I kleśa includono stati mentali come ansia, paura, rabbia, gelosia, desiderio, depressione, ecc. Il termine kleśa viene tradotto come: afflizioni, contaminazioni, emozioni distruttive, emozioni disturbanti, emozioni negative, veleni mentali, nevrosi ecc.
+I kleśa includono stati mentali come ansia, paura, rabbia, gelosia, desiderio, depressione, ecc. Il termine kleśa viene tradotto come: afflizioni, contaminazioni, emozioni distruttive, emozioni disturbanti, emozioni negative, veleni mentali, nevrosi ecc. Nelle tradizioni buddiste si crede che i tre veleni siano la causa delle malattie sia fisiche che mentali. Ghesce Tashi Tsering afferma:
 
-Nelle tradizioni buddiste si crede che i tre veleni siano la causa delle malattie sia fisiche che mentali. Ghesce Tashi Tsering afferma:
+> Secondo il buddismo, anche la salute fisica è legata agli stati mentali. Quindi le vere minacce al nostro benessere sono attaccamento, avversione e nescienza: le tre offuscazioni mentali fondamentali che portano a tutte le altre afflizioni, sia mentali che fisiche.
 
-> Secondo il buddismo, anche la salute fisica è legata agli stati mentali. Quindi le vere minacce al nostro benessere sono attaccamento, rabbia e ignoranza: le tre offuscazioni mentali fondamentali che portano a tutte le altre afflizioni, sia mentali che fisiche. Solo con una comprensione profonda della mente e delle sue funzioni possiamo sperare di trascendere i pensieri e le emozioni malsane che ci affliggono.
+## Il principio della coproduzione condizionata
 
-## La ruota della vita
+Il dolore, come tutte le cose, ha una causa, un'origine, la quale si basa su una legge inderogabile, la cosiddetta coproduzione condizionata (pratītyasamutpāda). L'individuazione del ciclo di cause che vanno rimosse per giungere al nirvana è un punto centrale della pratica buddhista. Nel Pratītyasamutpāda-sutra si afferma:
 
-Nell'iconografia buddista, i tre veleni sono rappresentati al centro della ruota della vita.
+> Qual è il principio della coproduzione condizionata? Il fatto che essendoci questo c'è quello, dalla nascita di questo nasce quello; cioè a dire, condizionati dalla nescienza si producono i coefficienti, condizionata dai coefficienti si produce la conoscenza, condizionato dalla conoscenza si produce nome e forma, condizionate da nome e forma si producono le sei sedi, condizionato dalle sei sedi si produce il contatto, condizionata dal contatto si produce la sensazione, condizionata dalla sensazione si produce al brama, condizionata dalla brama si produce l'appropriazione, condizionato dall'appropriazione si produce il divenire, condizionata dal divenire si produce la nascita, condizionati dala nascita si producono vecchiezza, morte, sofferenza, lamenti, dolore, scoramento e afflizioni. E così si ha la nascita di tutta questa grande massa di dolore. Questo è il cosideto principio della coproduzione condizionata.
 
-![La ruota della vita.](images/wheel_of_life_complete.png)
+## La ruota dell'esistenza
 
-I tre veleni sono rappresentati come un uccello o un gallo (attaccamento), un serpente (avversione) e un maiale (nescienza).
+Il ciclo delle cause ed effetti comprende dunque un certo numero di anelli (nidāna), solitamente individuato in dodici. Nell'iconografia buddhista la pratītyasamutpāda è raffigurata con l'immagine della Ruota dell'esistenza.
+
+![La ruota dell'esistenza.](images/wheel_of_life_complete.png)
+
+Al centro della ruota si trovano i tre veleni, le tre radici della sofferenza, che sono raffigurati come un uccello o un gallo (attaccamento), un serpente (avversione) e un maiale (nescienza).
 
 ![I tre veleni.](images/center.jpg){width="350px"}
 
-Il bordo esterno della ruota della vita è diviso in dodici sezioni, ciascuna contenente una piccola immagine. Queste immagini rappresentano i dodici anelli della catena dell'originazione dipendente. I dodici anelli possono essere visti come stadi nell'evoluzione del singolo essere umano (o di qualsiasi altro essere vivente), ma allo stesso tempo possono essere applicati ai propri stati mentali, che continuamente sorgono, si sviluppano e scompaiono.
+Il bordo esterno della Ruota dell'esistenza è diviso in dodici sezioni, ciascuna contenente una piccola immagine. Queste immagini rappresentano i dodici anelli della catena della coproduzione condizionata. I dodici anelli possono essere visti come stadi nell'evoluzione del singolo essere umano (o di qualsiasi altro essere vivente), ma allo stesso tempo possono essere applicati ai nostri stati mentali, che continuamente sorgono, si sviluppano e scompaiono.
 
-Il dolore ha una sua causa, la quale si basa su una legge inderogabile, la cosiddetta coproduzione condizionata (pratityasamutpada). La coproduzione condizionata è costituita da dodice cause disposte in modo da essere ognuna condizione del susseguente. Possiamo dunque far risalire le cause della sofferenza alle loro radici mediante i dodici anelli di questa catena. Tali anelli dovrebbero essere intesi come ciò che avviene dentro di noi in ogni momento così che, mentre attraversiamo tutto questo ciclo, osserviamo anche la nascita, la vita e la morte dei nostri stati mentali.
-
-I dodici anelli della catena sono i seguenti.
+Nella Ruota dell'esistenza, la coproduzione condizionata è rappresentata da dodici cause disposte in modo da essere ognuna condizione del susseguente. Possiamo dunque far risalire le cause della sofferenza alle loro radici mediante i dodici anelli di questa catena. Tali anelli dovrebbero essere intesi come ciò che avviene dentro di noi in ogni momento così che, mentre attraversiamo questo ciclo, osserviamo anche la nascita, la vita e la morte dei nostri stati mentali. I dodici anelli della Ruota dell'esistenza sono i seguenti.
 
 ![1. La morte.](images/wheel_1.png){width="350px"}
 
@@ -95,19 +97,19 @@ All'interno del bordo esterno, che occupa la parte principale della ruota, sono 
 
 Da un punto di vista "esteriore", i sei regni descrivono tutte le possibili varietà di vita senziente. Sono tutte condizioni di vita in cui potremmo rinascere. Fatta eccezione per quelli degli animali e degli umani, gli altri regni ci sono invisibili, ma coesistono tutti con noi in un universo multidimensionale inconcepibilmente vasto. Da un punto di vista "interiore", i sei regni sono una rappresentazione degli stati della mente.
 
+Spostandosi ulteriormente verso il centro della ruota, la sezione successiva è divisa in due parti: una metà chiara in cui le figure umane salgono verso l'alto e una metà scura in cui cadono in basso.
+
 ![Il Bardo.](images/light-dark.jpg){width="250px"}
 
-Spostandosi ulteriormente verso il centro della ruota, la sezione successiva è divisa in due parti: una metà chiara in cui le figure umane salgono verso l'alto e una metà scura in cui cadono in basso. Questa immagine rappresenta l'ultima fase del periodo tra la morte e la rinascita. Le figure che salgono, nel semicerchio luminoso, stanno per rinascere come esseri umani, divinità o divinità gelose; chi scende, nel semicerchio oscuro, rinascerà tra animali o fantasmi affamati o in uno degli inferni.
-
-Infine, al centro della ruota si trovano le tre radici della sofferenza: nescienza, attaccamento e avversione.
-
-![Yama. Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-19.jpg)
+Questa immagine rappresenta l'ultima fase del periodo tra la morte e la rinascita. Le figure che salgono, nel semicerchio luminoso, stanno per rinascere come esseri umani, divinità o divinità gelose; chi scende, nel semicerchio oscuro, rinascerà tra animali o fantasmi affamati o in uno degli inferni.
 
 L'intera ruota è tenuta nelle mani di una figura terrificante che rappresenta l'impermanenza. Il Dalai Lama afferma:
 
 > L'essere feroce che tiene il volante simboleggia l'impermanenza, motivo per cui l'essere è un mostro irato ... Una volta ho fatto disegnare un dipinto del genere con uno scheletro piuttosto che un mostro, per simboleggiare più chiaramente l'impermanenza.
 
-Questa figura è comunemente raffigurata come Yama, il Signore della morte.
+Questa figura è Yama, il Signore della morte.
+
+![Yama. Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-19.jpg)
 
 ## Gli antidoti
 
@@ -115,13 +117,13 @@ Le strategie per eliminare i kleśa seguono la logica degli "antidoti": la tolle
 
 ### La tolleranza
 
-In questo capitolo ci occuperemo di kṣānti. Abbiamo già incontrato kṣānti quando abbiamo discusso il Vimalakīrti Sūtra. In quel contesto, kṣānti indicava
+Approfondiamo qui il ruolo di kṣānti. Abbiamo già incontrato kṣānti quando abbiamo discusso il Vimalakīrti Sūtra. In quel contesto, kṣānti indicava
 
 > la tolleranza intuitiva dell'incomprensibilità ultima e della natura non-nata di tutte le cose
 
-cioè, indicava la tolleranza alla realizzazione della vacuità, ovvero la capacità di accettare con fiducia e in maniera gioiosa l'esperienza dell'assenza di fondamento, dell'impermanenza e dell'assenza di sé. Ma kṣānti è anche la terza delle sei perfezioni, ovvero delle pratiche che fanno maturare la mente del bodhisattva. Kṣānti è anche tradotta come "pazienza". A kṣānti è dedicato il sesto capitolo del Bodhicaryāvatāra e il nono capitolo dell'Antologia (Siksà-samuccaya) di Śāntideva. In ciò che segue fornirò un riassunto di ciò che viene descritto nel Siksà-samuccaya.
+cioè, indicava la tolleranza alla sopportazione della realizzazione della vacuità, ovvero la capacità di accettare con fiducia e in maniera gioiosa l'esperienza dell'assenza di fondamento, dell'impermanenza e dell'assenza di sé. Ma kṣānti è anche la terza delle sei perfezioni, ovvero delle pratiche che fanno maturare la mente del bodhisattva. Kṣānti è anche tradotta come "pazienza". A kṣānti è dedicato il sesto capitolo del Bodhicaryāvatāra e il nono capitolo dell'Antologia (Siksà-samuccaya) di Śāntideva.
 
-Nel nono capitolo del Siksà-samuccaya, Śāntideva si occupa di kṣānti quale antidoto al terzo veleno, ovvero all'avversione (odio o rabbia). Śāntideva scrive:
+Nel nono capitolo del Siksà-samuccaya, Śāntideva si occupa di kṣānti quale antidoto al terzo veleno, ovvero l'avversione (odio o rabbia). Śāntideva scrive:
 
 > per liberarti dalle catene delle distorsioni karmiche, devi fare uno sforzo per eliminare le emozioni reattive. Sin dall'inizio, resisti con pazienza.
 

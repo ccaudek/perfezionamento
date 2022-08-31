@@ -16,9 +16,9 @@ Ciò che rende notevole il sentiero del bodhisattva è che non riguarda esclusiv
 
 Se diventare un Buddha è l'obiettivo (piuttosto che diventare "solo" un arhat libero dal samsara), allora le perfezioni diventano il sentiero -- soprattutto la compassione, che più di ogni altra perfezione caratterizza questo obiettivo superiore. Inoltre, il percorso diventa molto più lungo: sebbene sia concepibile diventare un arhat in una singola vita, il percorso del bodhisattva, modellato sulle innumerevoli vite passate del Buddha, si allunga considerevolmente. In quanto pensatore Mahayana, Śāntideva mira non al percorso di purificazione volto ad ottenere la liberazione individuale di un arhat, ma a questo ideale molto più grande che intende salvare tutti gli esseri.
 
-![Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-11.jpg)
-
 La seconda grande innovazione del Mahayana è lo sviluppo degli insegnamenti della vacuità. La vacuità non era sconosciuta ai Theravada. Ma nei Prajñāpāramitā Sūtra e nell'opera di Nāgārjuna -- e per Śāntideva, sei secoli dopo -- la vacuità diventa la posizione filosofica fondamentale. Il discorso sulla vacuità utilizza argomentazioni epistemologiche per stabilire una comprensione di tutti i fenomeni come condizionati e condizionanti e quindi "vuoti" di essenze intrinseche, autonome, indipendenti. Nel promuovere la vacuità, i filosofi Madhyamaka si oppongono alle tradizioni dell'Abhidharma dell'India settentrionale che postulavano un'ontologia della realtà ultima e, nel Bodhicaryāvatāra, Śāntideva fa riferimento ad una lunga storia di ragionamenti metafisici ed epistemologici per smantellare tali visioni metafisiche. Questa discussione sulla vacuità, che viene riproposta nel Bodhicaryāvatāra, ha aperto un ampio dibattito, tra gli studiosi tradizionali e moderni, sul significato della vacuità. Ci si è chiesti se il risultato di questo lavoro filosofico si traduce in una posizione sulla realtà ultima -- ovvero l'idea che tutte le cose sono vuote -- o se, alla fine, questo lavoro filosofico si limita "semplicemente" a smantellare tutte le posizioni teoriche, quali esse siano, inclusa la stessa vacuità.
+
+![Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-11.jpg)
 
 ## Le due verità
 
@@ -34,8 +34,6 @@ Nel suo *Trattato Fondamentale sulla Via di Mezzo* (Mūlamadhyamakakārikā), N�
 > E il livello della verità ultima.\
 
 Śāntideva afferma:
-
-<!-- Il punto di partenza di Śāntideva per introdurre il pensiero Mādhyamika è la classica concezione buddista delle "due verità" (satyadvaya), la verità "relativa" o "superficiale" (saṃvṛti-satya) di come ci appaiono convenzionalmente le cose e la verità "ultima" o "assoluta" (paramārtha-satya), che descrive come stanno veramente le cose. -->
 
 > IX:2. Vi sono due verità, la verità relativa e la verità assoluta. La verità assoluta trascende il dominio della mente. La mente è la realtà relativa.
 
@@ -70,8 +68,6 @@ Il percorso del bodhisattva conduce all'autentica cognizione della realtà così
 ::: callout-note
 yathābhūta: il modo in cui le cose sono in realtà; un termine usato per designare la vera natura dei fenomeni, la realtà delle cose così come sono in sé stesse prima della loro organizzazione deformata dal nostro pensiero o l'esperienza diretta non mediata dalla sovrapposizione di concetti falsi come l'idea di un'identità o di un sé intrinseco e permanente (ātman). In quanto tale, il termine è usato in Mahāyāna come sinonimo di vacuità (śūnyatā), attualità (tattva), talità o quiddità (tathatā) e così via.
 :::
-
-![Sublime rivelazione, da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-18.jpg)
 
 Śāntideva afferma esplicitamente, fin dall'inizio del Bodhicaryāvatāra, che questa gnosi della vacuità, che porta a vedere le cose così come sono, eccede le abilità del nostro intelletto "razionale":
 
@@ -134,6 +130,8 @@ Per ciò che concerne le *oscurazioni* mentali, Maitreya dice nel Mahāyāna-Utt
 > E disprezzo per il beneficio delle creature\
 > Sono le quattro oscurazioni. \[ 1:32\]\
 :::
+
+![Sublime rivelazione, da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-18.jpg)
 
 ## Anātman
 
@@ -199,8 +197,6 @@ Raggiunto il limite dell'analisi meditativa, il meditatore non è in grado di tr
 
 ## Che cos'è śūnyatā?
 
-![Śūnyatā scritto in devanagari.](images/sunyata.jpg){width="450px"}
-
 Ma che cos'è la vacuità che viene completamente realizzata nell'ottavo bhumi del percorso del bodhisattva?
 
 > IX:137-138. Ma (tu dirai), sebbene l'effetto stia nella causa, a causa dell'illusione, gli uomini non lo vedono. Ma anche voi che conoscete la verità (io vi rispondo) vi comportate così, come la gente del mondo! Questa conoscenza, poi, non si capisce perché non ce la dovrebbe avere anche il mondo e perché esso non dovrebbe vedere le cose così come sono. Ma (tu dirai) il modo di vedere del mondo non è un criterio di verità. Ma allora (ti rispondo) anche l'apparizione dele cose nel cosiddetto stato manifesto non esiste.
@@ -208,6 +204,8 @@ Ma che cos'è la vacuità che viene completamente realizzata nell'ottavo bhumi d
 > IX:139 Ma (dirà alcuno), se i cosiddeti mezzi di conoscenza non sono veri mezzi di conoscenza, ne seguirà che la conoscenza ottenuta per mezzo di essi sarà falsa; quindi la vacuità delle cose è, in realtà, una tesi falsa.
 
 In altre parole, è possibile giungere ad una realizzazione della vacuità mediante il pensiero discorsivo che, per sua stessa natura, è ingannevole? O ancora: che cosa si trova quando ci si lascia alle spalle il pensiero discorsivo, quando andiamo oltre la verità convenzionale? Quando abbandoniamo le nostre proiezioni mentali, le nostre illusioni, è possibile giungere all'Assoluto? A tale domanda, Nāgārjuna, a cui Śāntideva si ispira, fornisce una risposta negativa.
+
+![Śūnyatā scritto in devanagari.](images/sunyata.jpg){width="450px"}
 
 ## L'abbandono di tutte le opinioni (dṛṣṭi)
 
