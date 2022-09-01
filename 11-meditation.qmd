@@ -1,16 +1,36 @@
 # La meditazione {#sec-meditation}
 
-Le pratiche contemplative sono uno degli elementi più importanti della concezione buddhista. Gli stadi iniziali della tecnica contemplative buddhista cadono sotto il settimo membro dell'ottuplice sentiero, cioè la retta attenzione. Il meditatore deve diventare perfettamente consapevole di tutti gli atti e movimenti del corpo, delle sue sensazioni, delle sue percezioni, dei vari pensieri, positivo o negativi. La concentrazione è la capacità della mente di soffermarsi a lungo su un oggetto; il suo opposto è la distrazione, che fa vagare la mente e le impedisce di dimorare un singolo oggetto anche per un minuto. Geshe Yeshe Tobden afferma che, come un uomo morso da una tigre verrà sicuramente divorato, così è certo che la persona distratta cadrà preda delle afflizioni (kleśa; si veda il @sec-patience) e non potrà sfuggire ad esse. Questa è la ragione per cui dobbiamo evitare il mindwandering.
+Le pratiche contemplative sono uno degli elementi più importanti della concezione buddhista. Thrangu Rinpoche (nato 1933) ha scritto:
 
-Le pratiche contemplative presuppongono la distruzione dei cinque ostacoli:
+> Molte persone che ho incontrato durante i miei lunghi viaggi in Europa e nel Nord America mi hanno raccontato i loro problemi privati: problemi mentali, problemi fisici e infelicità con i loro beni o il loro lavoro. La risposta alla moltitudine di questi problemi è sempre la stessa: rendere la propria mente pacifica e calma e sviluppare comprensione e saggezza. Quindi la felicità mondana ordinaria si riduce alla pratica di śamatha e vipaśyanā.
+
+Gli stadi iniziali della tecnica contemplative buddhista cadono sotto il settimo membro dell'ottuplice sentiero, cioè la retta attenzione. Il meditatore deve diventare perfettamente consapevole di tutti gli atti e movimenti del corpo, delle sue sensazioni, delle sue percezioni, dei vari pensieri, positivo o negativi. La concentrazione è la capacità della mente di soffermarsi a lungo su un oggetto; il suo opposto è la distrazione, che fa vagare la mente e le impedisce di dimorare un singolo oggetto anche per un minuto. La persona distratta è preda delle afflizioni (kleśa; si veda il @sec-patience) e non può sfuggire ad esse. Questa è la ragione per cui è necessario applicarsi alla meditazione.
+
+## Preliminari
+
+Le pratiche contemplative presuppongono il superamento di cinque ostacoli:
 
 -   *piacere edonico* (kāmacchanda): quel particolare tipo di piacere che cerca la felicità attraverso i cinque sensi; nella meditazione include anche il desiderio di sostituire le esperienze dei cinque sensi irritanti o dolorose con quelle piacevoli, cioè il desiderio di comfort sensoriale;
 -   *malevolenza* (vyāpāda): desiderio di punire, ferire o distruggere; nella meditazione, la malevolenza può apparire come antipatia verso l'oggetto della meditazione stesso, rifiutandolo in modo che la propria attenzione sia costretta a vagare altrove;
 -   *indolenza* (thīna-middha): ottusità della mente che trascina in un'inerzia invalidante e depressa; nella meditazione, provoca una consapevolezza debole e intermittente che può persino portare ad addormentarsi durante la meditazione senza nemmeno rendersene conto;
--   éirrequietezza e rimorso\* (uddhacca-kukkucca): l'incapacità di calmare la mente; nella meditazione l'irrequietezza è spesso l'impazienza di passare rapidamente alla fase successiva;
+-   *irrequietezza e rimorso* (uddhacca-kukkucca): l'incapacità di calmare la mente; nella meditazione l'irrequietezza è spesso l'impazienza di passare rapidamente alla fase successiva;
 -   *dubbio afflitto* (vicikiccha): mancanza di convinzione o di fiducia nelle proprie capacità; nella meditazione dubbio afflitto che assume la forma di una costante valutazione e corrisponde all'intrusione di domande quali "Posso fare questo?", "È questo il modo giusto?", "Che cos'è questo?", o ancora "Come sto andando?".
 
-Se questi requisiti sono essenzialmente riservati ai monaci, tutti, monaci e laici, devono invece realizzare dentro di sé i quattro "sentimenti infiniti" (apramāṇa): gentilezza amorevole (maitrī), compassione (karuṇā), gioia compartecipe (muditā), equanimità, pio distacco, noncuranza (upekṣā) -- si veda il @sec-definitions.
+Se questi requisiti sono essenzialmente riservati ai monaci; tutti, monaci e laici, devono invece realizzare dentro di sé i quattro "sentimenti infiniti" (apramāṇa): gentilezza amorevole (maitrī), compassione (karuṇā), gioia compartecipe (muditā), equanimità, pio distacco, noncuranza (upekṣā) -- si veda il @sec-definitions.
+
+### Muditā
+
+Espandiamo con più attenzione muditā. Muditā è una parola dal sanscrito che è difficile da tradurre in italiano. Significa gioia simpatetica, disinteressata, o gioia per la fortuna degli altri. Per definire muditā, possiamo considerare i suoi opposti. Uno di questi è la gelosia. Un altro è schadenfreude, una parola presa in prestito dal tedesco che significa trarre piacere dalla sventura degli altri. Ovviamente, entrambe queste emozioni sono segnate da egoismo e malizia. Muditā è l'antidoto a entrambi.
+
+Lo studioso del V secolo Buddhaghosa ha fornito vari consigli per la coltivazione di muditā nella sua opera più nota, il Visuddhimagga, o Sentiero della purificazione. La persona che sta appena iniziando a sviluppare la muditā, dice Buddhaghosa, non dovrebbe concentrarsi su qualcuno che ama molto, o qualcuno disprezzato, o qualcuno per cui ci si sente neutrali. Invece, dovrebbe iniziare con una persona allegra che è un buon amico. Dovrebbe contempla questa allegria con apprezzamento e lasciarsi riempire da essa. Quando questo stato di gioia comprensiva è forte, allora può essere indirizzato verso una persona cara, una persona "neutra" e una persona che causa difficoltà. La fase successiva è quella di sviluppare imparzialità tra i quattro: la persona amata, la persona neutra, la persona difficile e sé stessi. E poi estendere la gioia comprensiva a favore di tutti gli esseri. Questo processo, dice Buddhaghosa, può avvenire soltanto in coloro in grado di sviluppare lo stato meditativo più profondo, in cui il senso di sé e dell'altro scompaiono. Si notino i paralleli tra la pratica suggerita da Buddhaghosa, nella tradizione Theravada, e il tonglen nel Bodhicaryāvatāra di Śāntideva (si veda il @sec-meditation-tonglen).
+
+Si dice anche che muditā sia un antidoto alla noia. La noia come l'incapacità di connettersi in maniera "partecipante" con un'attività. Vista in questo modo, la noia è l'opposto dell'assorbimento. Muditā fornisce un senso di energico coinvolgimento che spazza via la noia.
+
+Sviluppando muditā è possibile apprezzare le altre persone come esseri completi e complessi, non come semplice caricature che popolano il "dramma" delle nostre proiezioni mentali. In questo modo, muditā è un prerequisito per la compassione (karuṇā) e la gentilezza amorevole (maitrī). Inoltre, il Buddha ha insegnato che queste pratiche sono un prerequisito per il risveglio all'illuminazione. Questo indica che la ricerca dell'illuminazione non richiede il distacco dal mondo. Anche se potrebbe essere necessario ritirarsi in luoghi più tranquilli per studiare e meditare, il mondo è il luogo in cui si svolge la pratica: nelle nostre vite, nelle nostre relazioni, nelle nostre sfide.
+
+![Particolare di Maitreya da *Murals of Tibet* di Thomas Laird.](images/maitreya.jpeg)
+
+## La meditazione nel Bodhicaryāvatāra
 
 Il capitolo VIII del Bodhicaryāvatāra è dedicato alla concentrazione meditativa.
 
@@ -23,10 +43,6 @@ Il capitolo VIII del Bodhicaryāvatāra è dedicato alla concentrazione meditati
 > VIII:1. Sviluppata così l'energia, il Bodhisattva deve fissare la mente nel raccoglimento. L'uomo il cui spirito è dissipato resta dentro la gola delle passioni.
 
 Nella prima parte del capitolo VIII, Śāntideva discute le condizioni preliminari per lo sviluppo della concentrazione. Secondo Śāntideva, per poterci dedicare alla meditazione dobbiamo prima abbandonare le nostre preoccupazioni quotidiane.
-
-![Particolare di Maitreya da *Murals of Tibet* di Thomas Laird.](images/maitreya.jpeg)
-
-## Le pratiche preliminari
 
 ### Elogio della solitudine
 
@@ -74,7 +90,7 @@ In altre parole, il desiderio ci rende ciechi e dissolve la nostra "sana disillu
 
 > VIII:8. Tutto preso da questi pensieri, egli consuma invano, d'ora in ora, la sua corta vita e, per un amico passeggero, perde la Legge eterna.
 
-![Dettaglio da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-6.jpeg){width="550px"}
+<!-- ![Dettaglio da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-6.jpeg){width="550px"} -->
 
 Possiamo facilmente capire cosa intende Śāntideva quando dice "tutto preso da questi pensieri". Noi pensiamo sempre agli altri: ai nostri cari, alla famiglia e alle persone che ci piacciono e a quelle che non ci piacciono. Sprechiamo la vita intera a preoccuparci di coloro che desideriamo e di coloro che disprezziamo. Ma la famiglia, gli amici e i nemici svaniscono e scompaiono, lasciandoci soltanto le nostre "abitudini" ben radicate. In questo processo, perdiamo di vista l'obiettivo della liberazione e del risveglio.
 
@@ -211,6 +227,12 @@ Dal verso 90 in poi, il capitolo VIII prosegue con la descrizione del tonglen, l
 
 ![Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-37.jpeg)
 
+## Śamatha e vipaśyanā
+
+Scrive Thrangu Rinpoche:
+
+> Śamatha è la mente che riposa univocamente su un oggetto in modo che non sorgano altri pensieri, la mente che diventa stabile e calma. Il riposare in pace della mente. Il tenere semplicemente la mente concentrata su un punto non è meditazione śamatha perché nella vera śamatha, l'oggetto su cui ci si concentra deve essere qualcosa di positivo. Un oggetto negativo fa sorgere nella mente attaccamento, aggressività o ignoranza, rendendola incapace di riposare con calma su qualcosa. Riposare su qualcosa di positivo consente invece alla mente di raggiungere la pace. Śamatha viene praticata per prevenire la proliferazione dei pensieri. Si potrebbe pensare che śamatha sia uno stato senza pensieri (come quello di una pietra). Ma questo non è corretto perché nella meditazione śamatha la mente è molto calma e stabile, ma anche molto chiara, in grado di distinguere e di discriminare tra tutti i fenomeni. Questa chiarezza è chiamata vipaśyanā, o intuizione, e si sviluppa attraverso śamatha.
+
 ## La progressione della mediatazione
 
 ### Il samādhi
@@ -335,4 +357,6 @@ Quando si viene incoraggiati ad esperire direttamente i diversi aspetti degli in
 
 <!-- Un modo per implementare praticamente la quarta tetrade della consapevolezza del respiro, come descritto nell'Ānāpānasati-sutta, è quello di procedere dall'appercezione della natura mutevole del respiro alla consapevolezza della natura impermanente di qualunque aspetto dell'esperienza. La consapevolezza dell'impermanenza diventa il fondamento dell'esperienza del distacco, il che conduce alla consapevolezza della cessazione di ogni cosa, per finire con il riconoscimento che dobbiamo "lasciar andare", nel modo più completo possibile, tutto ciò che esperiamo. Il tema principale dell'attuazione delle istruzioni per l'ultima tetrade della consapevolezza del respiro è dunque la coltivazione dell'insight basato sulla consapevolezza dell'impermanenza. -->
 
-<!-- ::: -->
+## Conclusione {.unnumbered}
+
+Per descrivere il corretto atteggiamento verso la meditazione, Santideva propone la seguente metafora. Un medico deve avere conoscenza dei farmaci e della loro corretta somministrazione, e questo si ottiene attraverso lo studio della medicina. Ma solo leggere libri di medicina non eliminerà la malattia; il paziente deve assumere i farmaci descritti nei testi. Allo stesso modo, solo ascoltare e contemplare il Dharma non è sufficiente, perché non sopprimerà i kleśa né calmerà la mente. Solo prajñā è la medicina in grado di curare la sofferenza, rimuovendo le nostre oscurazioni mentali (kleśa). E per sviluppare prajñā (la saggezza), bisogna praticare la meditazione. Praticare la meditazione significa abituarsi alla meditazione. Se la propria mente è pacifica e felice nella vita quotidiana, tutte le cose esterne appaiono piacevoli; se la propria mente è disturbata e infelice, le cose esteriori sembrano spiacevoli e ingiuste. Per sviluppare la saggezza interiore bisogna pacificare la mente e questo si ottiene con la meditazione. In precedenza abbiamo visto questo punto discusso nel Sutra di Vimalakirti (si veda il @sec-vimalakirti).
