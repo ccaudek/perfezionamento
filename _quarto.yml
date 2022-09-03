@@ -30,6 +30,8 @@ book:
     - 14-gilbert.qmd
     - 15-kirby.qmd
     - 16-measurement.qmd
+  appendices:
+    - a1-meditation.qmd
 format:
   html: 
     theme: 
