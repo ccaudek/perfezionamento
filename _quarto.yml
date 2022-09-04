@@ -25,11 +25,12 @@ book:
     - 09-patience.qmd
     - 10-tibetan_traditions.qmd
     - 11-meditation.qmd
-    - 12-secularism_1.qmd
-    - 13-secularism_2.qmd
-    - 14-gilbert.qmd
-    - 15-kirby.qmd
-    - 16-measurement.qmd
+    - 12-non_dualism.qmd
+    - 13-secularism_1.qmd
+    - 14-secularism_2.qmd
+    - 15-gilbert.qmd
+    - 16-kirby.qmd
+    - 17-measurement.qmd
   appendices:
     - a1-meditation.qmd
 format:
