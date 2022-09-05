@@ -131,9 +131,7 @@ Karuṇā costituisce un aspetto di bodhicitta -- ciò che viene chiamato "bodhi
 
 ## Organizzazione dei contenuti
 
-Nei capitoli seguenti cercheremo di meglio comprendere il collegamento tra karuṇā e bodhicitta, la relazione tra mahā-karuṇā e Śūnyatā, ovvero la relazione tra karuṇā e prajñā e la relazione tra questi concetti e la coltivazione secolarizzata della compassione.
-
-In particolare, nel @sec-definitions esamineremo le definizioni buddiste e secolari della compassione. Per quanto in nessuna delle due tradizioni sia possibile assegnare una definizione univoca alla nozione di compassione, ci sono chiare tensioni e notevoli differenze nel modo in cui questo concetto è stato compreso in questi due ambiti culturali.
+Nei capitoli seguenti cercheremo di meglio comprendere il collegamento tra karuṇā e bodhicitta, e la relazione tra questi concetti e la coltivazione secolarizzata della compassione. In particolare, nel @sec-definitions esamineremo le definizioni buddiste e secolari della compassione. Per quanto in nessuna delle due tradizioni sia possibile assegnare una definizione univoca alla nozione di compassione, ci sono chiare tensioni e notevoli differenze nel modo in cui questo concetto è stato compreso in questi due ambiti culturali.
 
 Nel @sec-nature-nurture ci chiederemo se, secondo la tradizione buddista, la compassione è al centro della natura umana; se ci si può coltivare; cosa, precisamente, può essere coltivato. Tali domande sono attualmente esplorate da neuroscienziati, neurobiologi e psicologi che sono interessati al pensiero buddista dell'India e del Tibet premoderni. L'esplorazione della compassione e della coltivazione della compassione nella tradizione buddista Mahāyāna è però difficile in quanto entrambe queste idee si sono trasformate nel corso della storia del pensiero buddista: a karuṇā non è stata assegnata una definizione univoca (si veda il @sec-definitions); inoltre, la coltivazione della compassione è stata interpretata in modo diverso nel corso del tempo.
 
