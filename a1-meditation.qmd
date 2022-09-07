@@ -2,6 +2,8 @@
 
 Forniamo qui alcuni accenni relativi alle tecniche che stanno alla base della pratica della meditazione.
 
+![Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-37.jpeg)
+
 ## Ānāpānasati-sutta
 
 Iniziamo con l'Ānāpānasati-sutta, il "Discorso sulla consapevolezza del respiro", il quale offre un'esposizione dettagliata sulla meditazione. È uno dei Sutra più antichi su questo tema. Bhikkhu Anālayo (2015) riassume l'Ānāpānasati-sutta evidenziando 16 passi nella pratica della meditazione del respiro. Questi 16 passi sono suddivisi in 4 tetradi.
@@ -66,6 +68,27 @@ Un'altra descrizione molto nota della pratica della meditazione è quella fornit
 3.  Nel terzo stadio, il meditatore "passato oltre il solo-pensiero", "passa oltre" anche a questa stessa conoscenza, quella senza apparenza di dualità. Ovvero, il meditatore medita in questo modo: "Poiché è illogico che le cose possano nascere per opera propria o in virtù di altro e data la falsità di realtà percepita e di soggetto percettore, è logicamente insostenibile che anche la conoscenza non-duale possa essere veramente reale, poiché è inseparata da essi".
 4.  Nel quarto stadio, il meditatore abbandona ogni forma di attaccamento e si "stabilisce" nella comprensione dell'assenza di natura propria di tutti i dharma. Colui che vi risiede, penetrando nella verità suprema, entra nel samādhi privo di rappresentazioni concettuali.
 
+## Ornamento dei Mahāyāna Sūtras
+
+L'*Ornamento dei Mahāyāna Sūtra* (Mahāyānasūtrālamkāra) di Maitreya/Asanga (IV secolo d.C.) fornisce una descrizione dettagliata dei nove metodi che vengono utilizzati per stabilizzare la mente, ovvero per ottenere lo stadio di samādhi. Questi nove metodi vengono anche ripresi in *Moonbeams of Mahamudra* di Takpo Tashi Namgyal (1512-1587), il classico manuale di meditazione della tradizione Mahamudra. I nove metodi sono i seguenti.
+
+1.  *Stabilizzare*: dirigere la mente in modo univoco verso un oggetto di meditazione.
+2.  *Stabilizzare correttamente*: rimanere in uno stato di concentrazione (mindfulness) che non consente alla mente di essere distratta da altre cose.
+3.  *Ritirarsi e stabilizzarsi*: se si viene distratti, ciò viene immediatamente riconosciuto e la mente viene nuovamente diretta all'oggetto di meditazione.
+4.  *Stabilizzarsi saldamente*: abituandosi a questo stato, il meditatore è in grado di mantenere la continuità e quindi di rimanere in meditazione continuamente per un breve periodo. Il meditatore, a questo punto, dovrebbe rimanere estremamente attento e raccogliere sempre di più la sua mente sull'oggetto della meditazione.
+5.  *Domare*: contemplando le qualità del samadhi, il meditatore si sente contento ed entusiasta della concentrazione meditativa, e questo lo porta a tenere la mente sotto controllo.
+6.  *Pacificare*: nonostante il piacere della concentrazione meditativa, può sorgere la distrazione; quando ciò accade, il meditatore dovrebbe fare uno sforzo per concentrarsi e pacificare la mente.
+7.  *Pacificare fermamente*: quando il samadhi si deteriora a causa di attaccamento, distrazioni, pigrizia o sonnolenza, il meditatore dovrebbe contrastare le offuscazioni mentali con i metodi appropriati (cioè, per mezzo dell'analisi, o applicando un antidoto, o in alternativa lasciando andare le distrazioni senza danrgli peso).
+8.  *Mantenere una concentrazione deliberata*: applicando i metodi precedenti il meditatore è in grado di regolare la sua mente in maniera deliberata, esercitando uno sforzo. Questo è l'ottavo metodo e, dall'abitudine a questo, il meditatore giunge ad un punto in cui la concentrazione si manifesta naturalmente.
+9.  *Concentrarsi o stabilizzarsi nell'equinamità*: abituandosi per un lungo periodo a stabilizzare deliberatamente la mente, non sarà più necessario fare uno sforzo per concentrarsi e la mente si stabilizzerà automaticamente sull'oggetto della meditazione. Quando la concentrazione diventa spontanea, si raggiunge lo stadio di stabilizzazione della mente senza un'applicazione deliberata. Questo è l'ultimo dei nove metodi che vengono utilizzati per calmare la mente.
+
+Atiśa scrive:
+
+> Se le condizioni per samādhi diminuiscono\
+> La concentrazione non sarà raggiunta\
+> Anche se si medita strenuamente\
+> Per migliaia di anni.
+
 ## Kamalaśīla
 
 Una testo sulla meditazione che ha avuto un grande eco nella tradizione tibetata è *La progressione della mediatazione II* di Kamalaśīla (c. 740-795), un monaco buddista dell'università di Nālandā. I testi di Kamalaśīla sono stati citati per più di un millennio in Tibet e sono stati discussi fino ai giorni nostri, ad esempio, nell'opera *Tesoro della conoscenza* di Jamgön Kongtrül (1813--1899), e in tanti altri commentari più recenti dell'opera di Jamgön Kongtrül. *La progressione della mediatazione* è disponibile, in italiano, nel testo *La rivelazione del Buddha* a cura di Raniero Gnoli (un allievo di Giuseppe Tucci). La traduzione de *La progressione della mediatazione II* è anche disponibile, accompagnata da un commento del Dalai Lama, nel testo *Stages of meditation*.
@@ -106,7 +129,15 @@ Una testo sulla meditazione che ha avuto un grande eco nella tradizione tibetata
 
 <!-- Sviluppando muditā è possibile apprezzare le altre persone come esseri completi e complessi, non come semplice caricature che popolano il "dramma" delle nostre proiezioni mentali. In questo modo, muditā è un prerequisito per la compassione (karuṇā) e la gentilezza amorevole (maitrī). Inoltre, il Buddha ha insegnato che queste pratiche sono un prerequisito per il risveglio all'illuminazione. Questo indica che la ricerca dell'illuminazione non richiede il distacco dal mondo. Anche se potrebbe essere necessario ritirarsi in luoghi più tranquilli per studiare e meditare, il mondo è il luogo in cui si svolge la pratica: nelle nostre vite, nelle nostre relazioni, nelle nostre sfide. -->
 
-![Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-37.jpeg)
+![Dettaglio da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-10.jpg)
+
+## Śamatha e vipaśyanā
+
+Scrive Thrangu Rinpoche:
+
+> Śamatha (calma concentrata) è la mente che riposa univocamente su un oggetto in modo che non sorgano altri pensieri, la mente che diventa stabile e calma. Il riposare in pace della mente. Il tenere semplicemente la mente concentrata su un punto non è meditazione śamatha perché nella vera śamatha, l'oggetto su cui ci si concentra deve essere qualcosa di positivo. Un oggetto negativo fa sorgere nella mente attaccamento, aggressività o ignoranza, rendendola incapace di riposare con calma su qualcosa. Riposare su qualcosa di positivo consente invece alla mente di raggiungere la pace. Śamatha viene praticata per prevenire la proliferazione dei pensieri. Si potrebbe pensare che śamatha sia uno stato senza pensieri (come quello di una pietra). Ma questo non è corretto perché nella meditazione śamatha la mente è molto calma e stabile, ma anche molto chiara, in grado di distinguere e di discriminare tra tutti i fenomeni. Questa chiarezza è chiamata vipaśyanā (visione profonda), o intuizione, e si sviluppa attraverso śamatha.
+
+Nel Sūtra della nube di gioielli si dice che vipaśyanā consente una chiara comprensione in cui il relativo è visto come relativo e l'assoluto come assoluto. Quindi la vera natura delle cose è vista così com'è, e questo è ciò che si intende per vipaśyanā.
 
 ## La meditazione nel Bodhicaryāvatāra
 
@@ -221,7 +252,7 @@ Se consideriamo la nostra situazione corrente, possiamo re-interpretare questi v
 
 Un'altra possibilità è quella di esercitarsi negli "spazi vuoti". Ogni volta che non siamo impegnati a parlare con qualcuno, a fare qualcosa che richiede la nostra attenzione, possiamo rilassare la nostra mente ed rimanere presenti a noi stessi. Quando laviamo i piatti, o camminiamo da un luogo all'altro, o aspettiamo l'autobus, possiamo sfruttare quell'occasione per calmare la nostra mente. È possibile usare i momenti di pausa dalla nostra attività frenetica per esplorare quella solitudine interiore che ci conduce alla pratica.
 
-Quando Śāntideva elogia la solitudine, non ci sta suggerendo di scappare da ogni esperienza spiacevole per nasconderci lontanto da essa. Anche se ciò fosse possibile, non sarebbe una buona idea: è ben possibile trascorrere anni da soli in una grotta senza davvero avere abbandonato alcunché. La domanda che Śāntideva si pone è invece come raggiungere quella solitudine interiore che è in grado di condurci ad una felicità duratura.
+Quando Śāntideva elogia la solitudine, non ci sta suggerendo di sfuggire da ogni esperienza spiacevole per nasconderci lontano da essa. Anche se ciò fosse possibile, non sarebbe una buona idea: è possibile trascorrere anni da soli in una caverna senza davvero avere abbandonato alcunché. La domanda che Śāntideva si pone è invece come sia possibile raggiungere quella solitudine interiore che è in grado di condurci ad una felicità duratura.
 
 ### Rinuncia ai beni materiali
 
@@ -243,7 +274,7 @@ Fino al verso 37, Śāntideva tratta dell'impermanenza di tutto ciò che fa part
 
 Abbandonando le aspirazioni, i desideri e tutti gli stati mentali rivolti al vantaggio personale, Śāntideva dirige la sua attenzione la sua mente e si pone l'obiettivo di portarla sotto controllo. Questa sarà la sua unica preoccupazione. Si adopererà nella meditazione dell'unione di shamatha e vipashyana: il primo per calmare la mente, il secondo per sviluppare l'insight meditativo.
 
-### Eliminare il mind-wandering
+### Eliminare il vagabondaggio mentale
 
 Nella sezione successiva, Śāntideva si focalizza sull'abbandono delle distrazioni che disturbano la mente, in particolare il desiderio sessuale. Śāntideva decostruisce inesorabilmente la giustificazione del desiderio. Non importa ciò che desideriamo, un amante, un'auto, un gelato: alla fine è sempre molto rumore per nulla.
 
@@ -306,18 +337,6 @@ Il samādhi, però, è solo il primo aspetto della meditazione. Una volta ottenu
 > in virtù di quest'ultimo egli si agita nuovamente nelle afflizioni.\
 
 Dal verso 90 in poi, il capitolo VIII prosegue con la descrizione del tonglen, la meditazione sull'uguaglianza di sé e l'altro e la meditazione sullo scambio di sé e l'altro (questo aspetto è stato trattato nei capitoli precedenti).
-
-## Śamatha e vipaśyanā
-
-Scrive Thrangu Rinpoche:
-
-> Śamatha (calma concentrata) è la mente che riposa univocamente su un oggetto in modo che non sorgano altri pensieri, la mente che diventa stabile e calma. Il riposare in pace della mente. Il tenere semplicemente la mente concentrata su un punto non è meditazione śamatha perché nella vera śamatha, l'oggetto su cui ci si concentra deve essere qualcosa di positivo. Un oggetto negativo fa sorgere nella mente attaccamento, aggressività o ignoranza, rendendola incapace di riposare con calma su qualcosa. Riposare su qualcosa di positivo consente invece alla mente di raggiungere la pace. Śamatha viene praticata per prevenire la proliferazione dei pensieri. Si potrebbe pensare che śamatha sia uno stato senza pensieri (come quello di una pietra). Ma questo non è corretto perché nella meditazione śamatha la mente è molto calma e stabile, ma anche molto chiara, in grado di distinguere e di discriminare tra tutti i fenomeni. Questa chiarezza è chiamata vipaśyanā (visione profonda), o intuizione, e si sviluppa attraverso śamatha.
-
-Nel Sūtra della nube di gioielli si dice che vipaśyanā consente una chiara comprensione in cui il relativo è visto come relativo e l'assoluto come assoluto. Quindi la vera natura delle cose è vista così com'è, e questo è ciò che si intende per vipaśyanā.
-
-Alcuni accenni relativi alla pratica della meditazione sono forniti nell'@sec-appendix-meditation.
-
-![Dettaglio da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-10.jpg)
 
 ## Il significato della pratica
 
