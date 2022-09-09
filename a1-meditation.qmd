@@ -1,6 +1,6 @@
 # La pratica della mediatazione {#sec-appendix-meditation}
 
-Forniamo qui alcuni accenni relativi alle tecniche che stanno alla base della pratica della meditazione.
+Forniamo qui alcuni accenni relativi a delle descrizioni molto note delle tecniche di meditazione nella tradizione indo-tibetana.
 
 ![Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-37.jpeg)
 
@@ -91,7 +91,13 @@ Atiśa scrive:
 
 ## Kamalaśīla
 
-Una testo sulla meditazione che ha avuto un grande eco nella tradizione tibetata è *La progressione della mediatazione II* di Kamalaśīla (c. 740-795), un monaco buddista dell'università di Nālandā. I testi di Kamalaśīla sono stati citati per più di un millennio in Tibet e sono stati discussi fino ai giorni nostri, ad esempio, nell'opera *Tesoro della conoscenza* di Jamgön Kongtrül (1813--1899), e in tanti altri commentari più recenti dell'opera di Jamgön Kongtrül. *La progressione della mediatazione* è disponibile, in italiano, nel testo *La rivelazione del Buddha* a cura di Raniero Gnoli (un allievo di Giuseppe Tucci). La traduzione de *La progressione della mediatazione II* è anche disponibile, accompagnata da un commento del Dalai Lama, nel testo *Stages of meditation*.
+Una testo sulla meditazione che ha avuto un grande eco nella tradizione tibetata è *La progressione della mediatazione II* di Kamalaśīla (c. 740-795), un monaco buddista dell'università di Nālandā.
+
+Nell'VIII secolo, Kamalaśīla è stato coinvolto in un conflitto intrareligioso che ha avuto un profondo e duraturo effetto sia sui principi filosofici che sul modo in cui la meditazione è stata praticata in Tibet. Le storie tibetane forniscono la testimonianza di un dibattito pubblico tra due fazioni nel monastero di Samyé, sotto il controllo dell'imperatore-giudice Tri Songdetsen. Fonti cinesi e tibetane non sono d'accordo su quale scuola sia uscita vittoriosa dal dibattito pubblico e alcuni studiosi contemporanei hanno persino messo in dubbio la storicità dell'evento (Guenther, 1989). Comunque siano andate le cose, le opinioni avanzate dalla fazione indiana hanno avuto implicazioni significative per i modi in cui, in seguito, la meditazione è stata concettualizzata nella storia religiosa tibetana.
+
+La scuola cinese, guidata dal maestro Chan Moheyan, sosteveva un percorso istantaneo e non graduale verso l'illuminazione che non dipendeva dalla coltivazione graduale di pratiche contemplative. In opposizione filosofica a Moheyan, Kamalaśīla sosteneva invece un modello graduale di progressione spirituale (lam rim) che si basava sui metodi di śamatha (calma dimora) e vipaśyanā (intuizione diretta) descritte nel suo testo *La progressione della mediatazione*. Il modello di meditazione di Kamalaśīla divenne il modo prevalente per la pratica contamplativa in Tibet ed è basato sulla contemplazione della vacuità, sulla meditazione di śamatha e vipaśyanā, e sul mantenimento di una condotta etica nelle proprie attività.
+
+I testi di Kamalaśīla sono stati citati per più di un millennio in Tibet e sono stati discussi fino ai giorni nostri, ad esempio, nell'opera *Tesoro della conoscenza* di Jamgön Kongtrül (1813--1899), e in tanti altri commentari più recenti. *La progressione della mediatazione* è disponibile, in italiano, nel testo *La rivelazione del Buddha* a cura di Raniero Gnoli (un allievo di Giuseppe Tucci). La traduzione de *La progressione della mediatazione II* è anche disponibile, accompagnata da un commento del Dalai Lama, nel testo *Stages of meditation*.
 
 <!-- Nell'ottavo secolo, Śāntarakṣita (725--788) si recò in Tibet per insegnare le fasi della meditazione. Śāntarakṣita, il cui nome si traduce in italiano come "protetto da Colui che è in pace", fu un importante e influente filosofo buddista indiano, in particolare per la tradizione buddista tibetana. Śāntarakṣita fu un filosofo della scuola Madhyamaka, studiò nel monastero di Nālandā e divenne il fondatore di Samye, il primo monastero buddista del Tibet. Quando si rese conto di essere vicino alla morte, disse: "Ho impartito questi insegnamenti. In futuro potrebbero verificarsi problemi e le cose potrebbero andare storte. Se ciò accadrà, invitate il mio allievo Kamalaśīla dall'India. Sarà in grado di spiegare chiaramente la meditazione e rimuovere eventuali errori di interpretazione che potrebbero sorgere". Questo fu il suo ultimo desiderio, poi morì. -->
 
@@ -131,31 +137,31 @@ Una testo sulla meditazione che ha avuto un grande eco nella tradizione tibetata
 
 ![Dettaglio da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-10.jpg)
 
-## Śamatha e vipaśyanā
+<!-- ## Śamatha e vipaśyanā -->
 
-Scrive Thrangu Rinpoche:
+<!-- Scrive Thrangu Rinpoche: -->
 
-> Śamatha (calma concentrata) è la mente che riposa univocamente su un oggetto in modo che non sorgano altri pensieri, la mente che diventa stabile e calma. Il riposare in pace della mente. Il tenere semplicemente la mente concentrata su un punto non è meditazione śamatha perché nella vera śamatha, l'oggetto su cui ci si concentra deve essere qualcosa di positivo. Un oggetto negativo fa sorgere nella mente attaccamento, aggressività o ignoranza, rendendola incapace di riposare con calma su qualcosa. Riposare su qualcosa di positivo consente invece alla mente di raggiungere la pace. Śamatha viene praticata per prevenire la proliferazione dei pensieri. Si potrebbe pensare che śamatha sia uno stato senza pensieri (come quello di una pietra). Ma questo non è corretto perché nella meditazione śamatha la mente è molto calma e stabile, ma anche molto chiara, in grado di distinguere e di discriminare tra tutti i fenomeni. Questa chiarezza è chiamata vipaśyanā (visione profonda), o intuizione, e si sviluppa attraverso śamatha.
+<!-- > Śamatha (calma concentrata) è la mente che riposa univocamente su un oggetto in modo che non sorgano altri pensieri, la mente che diventa stabile e calma. Il riposare in pace della mente. Il tenere semplicemente la mente concentrata su un punto non è meditazione śamatha perché nella vera śamatha, l'oggetto su cui ci si concentra deve essere qualcosa di positivo. Un oggetto negativo fa sorgere nella mente attaccamento, aggressività o ignoranza, rendendola incapace di riposare con calma su qualcosa. Riposare su qualcosa di positivo consente invece alla mente di raggiungere la pace. Śamatha viene praticata per prevenire la proliferazione dei pensieri. Si potrebbe pensare che śamatha sia uno stato senza pensieri (come quello di una pietra). Ma questo non è corretto perché nella meditazione śamatha la mente è molto calma e stabile, ma anche molto chiara, in grado di distinguere e di discriminare tra tutti i fenomeni. Questa chiarezza è chiamata vipaśyanā (visione profonda), o intuizione, e si sviluppa attraverso śamatha. -->
 
-Nel Sūtra della nube di gioielli si dice che vipaśyanā consente una chiara comprensione in cui il relativo è visto come relativo e l'assoluto come assoluto. Quindi la vera natura delle cose è vista così com'è, e questo è ciò che si intende per vipaśyanā.
+<!-- Nel Sūtra della nube di gioielli si dice che vipaśyanā consente una chiara comprensione in cui il relativo è visto come relativo e l'assoluto come assoluto. Quindi la vera natura delle cose è vista così com'è, e questo è ciò che si intende per vipaśyanā. -->
 
 ## La meditazione nel Bodhicaryāvatāra
 
-Aggiungo qui alcune considerazioni di Śāntideva sulla meditazione. Nel capitolo dedicato alla meditazione, il Bodhicaryāvatāra discute a lungo dei requisiti della calma concentrata. Esaminiamone qui alcuni.
+Aggiungo qui alcune considerazioni relative alla discussione della meditazione fornita da Śāntideva. Nel capitolo dedicato a questo argomento, il Bodhicaryāvatāra discute a lungo dei *pre-requisiti* della calma concentrata. Esaminiamone qui alcuni.
+
+Un tema importante è quello delle condizioni "esterne". Secondo Śāntideva, per poterci dedicare alla meditazione dobbiamo prima abbandonare le nostre preoccupazioni quotidiane:
+
+> VIII:1. Sviluppata così l'energia, il Bodhisattva deve fissare la mente nel raccoglimento. L'uomo il cui spirito è dissipato resta dentro la gola delle passioni.
+
+Queste considerazioni sono simili a quelle fornite da Kamalaśīla:
 
 > Il soggiorno in un luogo favorevole, l'accontentarsi di poco, il rallegrarsi per ciò che sia ha, l'evitare un sovraccarico di impegni, la purezza della condotta morale, l'abbandono delle costruzioni concettuali relative agli oggetti del desiderio, ecc.
-
-Così scrive Kamalaśīla. Vediamo come Śāntideva affronta questo tema nel capitolo VIII del Bodhicaryāvatāra.
 
 <!-- ::: callout-note -->
 
 <!-- I kleśa nel buddismo sono stati mentali che offuscano la mente e si manifestano in azioni malsane. I kleśa includono stati mentali come ansia, paura, rabbia, gelosia, desiderio, depressione, ecc. I traduttori contemporanei usano una varietà di parole per tradurre il termine kleśa, come: afflizioni, contaminazioni, emozioni distruttive, emozioni disturbanti, emozioni negative, veleni mentali, nevrosi, ecc. -->
 
 <!-- ::: -->
-
-> VIII:1. Sviluppata così l'energia, il Bodhisattva deve fissare la mente nel raccoglimento. L'uomo il cui spirito è dissipato resta dentro la gola delle passioni.
-
-Secondo Śāntideva, per poterci dedicare alla meditazione dobbiamo prima abbandonare le nostre preoccupazioni quotidiane.
 
 ### Elogio della solitudine
 
