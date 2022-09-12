@@ -20,6 +20,69 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -243,7 +306,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-intro" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduzione</span></span></h1>
+<div class="quarto-title-block"><div><h1 class="title"><span id="sec-intro" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduzione</span></span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Codice</button></div></div>
 </div>
 
 
@@ -373,6 +436,8 @@ ul.task-list li input[type="checkbox"] {
 <p>Nei capitoli successivi verranno poi esaminate le pratiche secolarizzate di coltivazione della compassione. Il messaggio fondamentale di questo intervento è che le pratiche secolarizzate, se pur in qualche modo efficaci, anche in base agli standard correnti della psicologia non sono in grado di produrre grandi cambiamenti cognitivi nell’individuo che segue tali programmi. Il confronto con le tradizioni indo-tibetane del buddhismo può dunque fornire utili elementi di riflessione. Dato che le pratiche secolarizzate riconoscono la paternità delle tradizioni indo-tibetane del buddhismo, viene spontaneo chiedersi che cosa è stato “escluso” dalle pratiche secolarizzate rispetto alle tradizioni indo-tibetane. È interessante chiedersi se una migliore conoscenza delle tradizioni indo-tibetane del buddhismo possa offrire utili spunti per un possibile miglioramento dei programmi secolarizzati.</p>
 
 
+<!-- -->
+
 </section>
 
 </main> <!-- /main -->
@@ -424,6 +489,57 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
+    });
+  }
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
+        }
+      }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
+    }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
+  }
   function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
@@ -485,7 +601,164 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         <span class="nav-page-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Trattazioni buddiste e secolari della compassione</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
-</nav>
+</nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Introduzione {#sec-intro}</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>Iniziamo con l'impostare il problema e con il porre delle domande generali. Il tema di cui ci occuperemo in questa discussione è quello della compassione.</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="al">![](images/eyes.jpeg)</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>La coltivazione secolare della compassione è un fenomeno culturale che è emerso recentemente ed è stato accompagnato dallo studio scientifico in campi quali le neuroscience, la psicologia, e la psicoterapia. L'interesse per il tema della compassione è in costante crescita parallelamente alla scoperta, in psicologia, delle applicazioni cliniche della compassione e, parallelamente, al crescente interesse, nel pubblico generale, delle pratiche volte alla promozione del benessere fisico e mentale.</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- -   Da una parte, nelle applicazioni cliniche, gli interventi basati sulla compassione sono stati utilizzati, tra gli altri, nel trattamento di ansia, schizofrenia, dipendenze e PTSD. --&gt;</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- -   D'altra parte, al pubblico in generale vengono offerti programmi di formazione incentrati sulla promozione della compassione e dell'auto-compassione in Nord America, Europa e Australia. --&gt;</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>Pertanto, la coltivazione secolare della compassione è un fenomeno culturale in espansione a cui è associata la dimensione della *mindfulness*, come ad esempio nel programma di riduzione dello stress basata sulla mindfulness (*mindfulness-based stress reduction*, MBSR) sviluppato da Jon Kabat-Zinn (1990). La mindfulness è entrata a pieno titolo nella cultura occidentale, spingendo i media popolari a parlare di una "mindfulness revolution".</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>Compassione e mindfulness sono entrambi *concetti ibridi* che derivano da varie fonti: buddismo, psicologia contemporanea e pedagogia. Pertanto, al fine di meglio comprendere il dibattito che riguarda la mindfulness e la coltivazione della compassione, è interessante studiare, da una prospettiva storica e filosofica, la coltivazione della compassione nella letteratura buddista Mahāyāna indiana e tibetana. Questo è importante in quanto l'uso contemporaneo e secolarizzato della mindfulness è stato criticato in vari modi: proprio in riferimento a tali fonti è stato giudicato come selettivo, riduzionista, una distorsione del pensiero buddista, privo di fondamenti etici, ecc.</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>Ma è davvero così? Oppure è possibile che la compassione secolarizzata che ci viene presentata oggi non sia solo un fenomeno appartenente alla cultura del benessere e del consumismo, ma, invece, debba essere intesa come una forma legittima che si è sviluppata all'interno dei continui processi trasformativi che definiscono la storia stessa del pensiero buddista? È ragionevole pensare che le forme secolarizzate di coltivazione della compassione che ci vengono presentate oggi, anziché essere viste come scollegate dalla tradizione buddista, possano invece essere rappresentare una forma di adattamento pensiero buddhista ad una nuova situazione storica?</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>Queste sono domande importanti, anche alla luce del fatto che la coltivazione secolarizzata della compassione è, come ho detto prima, in continua crescita e che il Dalai Lama XIV attribuisce ad essa una grande importanza.</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="fu">## Karuṇā</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>Ma cosa significa "compassione"? Garfield (2022), nel suo testo *Etica buddista*, scrive:</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Translating karuṇā as compassion is unfortunate. For while the root of compassion is passio, indicating being passive, or being affected by something else, the root of karuṇā is kṛ, which means to act. Karuṇā is not a mere feeling, but a determination to act to relieve the suffering of sentient beings. This term is therefore much better translated as care. Crying at movies or becoming despondent when aware of the suffering of others is not a manifestation of karuṇā, but actually doing something to alleviate suffering is.</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a>Pertanto, la conoscenza delle radici filosofiche e storiche della compassione, la varietà dei metodi e degli obiettivi didattici nella storia del buddhismo, e le somiglianze e differenze tra la tradizione buddhista e gli adattamenti secolarizzati a cui siamo esposti oggi, possono aiutarci a meglio comprendere il valore e l'utilità delle pratiche attuali.</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- In termini psicologici si potrebbe dire che la conoscenza delle radici filosofiche e storiche della compassione, la varietà dei metodi e degli obiettivi didattici nella storia del buddhismo, e le somiglianze e le differenze tra la tradizione buddhista e gli adattamenti secolarizzati sembrano gli strumenti più adatti per esplorare "il dominio del costrutto della compassione", ovvero per capire di quali dimensioni esso sia costituito. --&gt;</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Questa comprensione ci consentirà di affrontare il problema discusso nell'ultima parte di questo intervento, ovvero il tema dell'efficacia degli interventi psicologici basati sulla compassione. Se gli interventi psicologici basati sulla compassione sono efficaci, è poco importante sapere se la versione "secolarizzata" della compassione ci restituisce o meno una comprensione "autentica" della tradizione buddhista. D'altra parte, se gli interventi psicologici basati sulla compassione sono solo in parte efficaci, allora è importate capire per quali motivi la comprensione "secolarizzata" di karuṇā sia, almeno in parte, riduttiva rispetto alla tradizione buddista. Una migliore comprensione di tale concetto, infatti, potrebbe motivarci ad emendare i correnti interventi psicologici e, possibilmente, a migliorarne l'efficacia. --&gt;</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- In un contesto più ampio, l'appropriazione delle pratiche di "mindfulness" buddista per scopi secolari è stata criticata come la trasformazione di una filosofia spirituale altamente evoluta in una merce. È possibile applicare questa critica anche alle pratiche secolarizzate di addestramento alla compassione? La coltivazione secolarizzata della compassione è una distorsione del pensiero buddista? La formazione alla compassione secolare è una forma di mercificazione del pensiero buddista che si rivolge al consumismo invece di proporre il raggiungimento di uno stadio più evoluto di evoluzione spirituale? --&gt;</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a>Per iniziare a chiarire questi temi è necessario prima di tutto ben comprendere il significato di karuṇā nella tradizione buddista, poiché solo una chiara comprensione degli antecedenti o delle origini consente delle conclusioni comparative.</span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="fu">## Karuṇā e tradizione Mahāyāna</span></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a>Iniziamo dunque ad affrontare il tema di come sia stata compresa karuṇā nella tradizione buddista. Ci focalizzeremo qui sulla tradizione Mahāyāna. La tradizione Mahāyāna è emersa tra l'ultimo secolo prima dell'inizio dell'era comune, o nel primo secolo della nostra epoca, ovvero circa 500 anni dopo la morte del Buddha storico. Il fondamento Sūtra del Mahāyāna risiede principalmente nel corpo di testi noti come Prajñā-Paramitā (Perfezione della Saggezza) Sūtra, così come in alcuni testi ausiliari, tra cui il Vimalakīrti-Nirdeśa-Sūtra (si veda il @sec-vimalakirti).</span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Poiché sono intitolati Sūtra, questi sono presentati come le vere parole del Buddha, anche se questo è ovviamente falso considerata la loro collocazione temporale e il fatto che questi testi sono principalmente scritti in sanscrito. Per questo motivo, la prima letteratura Mahāyāna offre una nuova definizione di Buddhavacana (o parole del Buddha), ma questo è un tema che qui non affronteremo. --&gt;</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>La struttura filosofica Mahāyāna è caratterizzata da tre importanti temi:</span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>la dottrina che tutti i fenomeni sono vuoti (śūnya) e che la vacuità (śūnyatā) è la natura ultima della realtà;</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>la centralità di karuṇā quale virtù;</span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>l'enfasi su un nuovo ideale morale per il buddismo: quello del bodhisattva.</span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>Nelle tradizioni non Mahāyāna, l'ideale morale a cui aspira un praticante non è quello del bodhisattva, o anche quello della buddhità, ma piuttosto quello dell'arhat. Un arhat è colui che ottiene la liberazione dal saṃsāra, e quindi la cessazione della sofferenza. Questo ideale ha senso nel contesto delle quattro nobili verità.</span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>::: callout-note</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a>Le Quattro Nobili Verità (catvāri āryasatyāni) sono:</span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Duḥkha (sofferenza, incapacità di soddisfazione, dolore) è una caratteristica imprescindibile dell'esistenza nel regno del samsara;</span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Samudaya (origine, fonte, combinazione; 'causa'): insieme a Duḥkha viene generata tṛ́ṣṇā ("brama, desiderio o attaccamento, lett."sete"). Mentre tṛ́ṣṇā è tradizionalmente interpretata in occidentale le lingue come la 'causa' di dukkha, tṛ́ṣṇā può anche essere vista come il fattore che ci lega a Duḥkha, o come una risposta a dukkha, che cerca di sfuggirgli;</span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Nirodha (cessazione, fine, riduzione): Duḥkha può essere terminata o contenuta dalla rinuncia o dal lasciar andare questa sete (tṛ́ṣṇā); la riduzione di tṛ́ṣṇā ci libera dal legame di dukkha;</span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Mārga (sentiero, Nobile Ottuplice Sentiero) è il sentiero spirituale che conduce all'eliminazione di tṛ́ṣṇā e Duḥkha.</span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>::: callout-note</span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a>Il Nobile Ottuplice Sentiero (ārya aṣṭāṅgika mārga) è descritto nel Dhammacakkappavattana Sutta (Saṃyutta-nikāya):</span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Nel mezzo di questo sentiero, realizzato dal Tathāgata che produce la visione e la gnosi, e che guida alla calma, alla perfetta conoscenza, al perfetto risveglio, al nibbāna? Esso è il Nobile ottuplice sentiero, ovvero la retta visione (Samyag-dṛṣṭi), la retta intenzione (Samyak-saṃkalpa), la retta parola (Samyag-vāc), la retta azione (Samyak-karma-anta), il retto modo di vivere (Samyag-ājiva), il retto sforzo (Samyag-vyāyāma), la retta presenza mentale (Samyak-smṛti), la retta concentrazione (Samyak-samādhi).</span></span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a><span class="at">:::</span></span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- ::: callout-note --&gt;</span></span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- ० 0 śūnya\ --&gt;</span></span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- १ 1 eka\ --&gt;</span></span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- २ 2 dvi\ --&gt;</span></span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- ३ 3 tri\ --&gt;</span></span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- ४ 4 catur\ --&gt;</span></span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- ५ 5 pañca\ --&gt;</span></span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- ६ 6 ṣaṭ\ --&gt;</span></span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- ७ 7 sapta\ --&gt;</span></span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- ८ 8 aṣṭa\ --&gt;</span></span>
+<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- ९ 9 nava\ --&gt;</span></span>
+<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- ::: --&gt;</span></span>
+<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a>Il Mahāyāna, tuttavia, propone il bodhisattva quale ideale morale, caratterizzando questi esseri come coloro che decidono di non raggiungere la liberazione personale, ma piuttosto il pieno risveglio, al fine di facilitare la liberazione di tutti gli esseri senzienti. La loro motivazione è karuṇā, e da qui la connessione tra queste due innovazioni Mahāyāna.</span>
+<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a>Si noti che la letteratura Mahāyāna tende a trattare karuṇā non come un concetto a sé stante, ma bensì come parte di un insieme di concetti, ovvero considera karuṇā come una componente della determinazione a raggiungere il risveglio per il bene di tutti gli esseri senzienti. Nello specifico, la compassione appare nella triade gentilezza amorevole (maitrī), compassione (karuṇā), bodhicitta. Oppure come una delle quattro qualità incommensurabili (apramāṇa): gentilezza amorevole (maitrī), compassione (karuṇā), gioia (muditā), equanimità (upekṣā).</span>
+<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a>L'idea canonica è la seguente: data l'ubiquità della sofferenza che è il contenuto della prima nobile verità, la caratteristica più importante e pervasiva degli esseri senzienti è che stanno soffrendo, anche se non sempre lo sanno. Data l'entità della sofferenza che permea il mondo, l'unico modo concepibile per alleviare una tale infinita sofferenza è quello acquisire le abilità di un Buddha, di un essere completamente risvegliato. Ma ciò è estremamente difficile e richiede un enorme sforzo per un lunghissimo periodo di tempo, ovvero eoni di rinascite successive. Pertanto, intraprendere questo sforzo inumano richiede una motivazione quasi inimmaginabile. L'unica motivazione possibile è l'impegno totale volto ad alleviare la sofferenza degli altri, e questa motivazione è, appunto, karuṇā.</span>
+<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- La presente discussione prenderà in esame un insieme limitato di processi trasformativi che si sono verificati nel buddismo Mahāyāna indiano e tibetano; la selezione di materiali è stata determinata dalla rilevanza dei testi per l'addestramento secolarizzato alla compassione. --&gt;</span></span>
+<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Che cosa si intende per compassione? Quando si parla di "coltivare la compassione", che cosa si vuole sviluppare? Quale differenze si possono trovare nel concetto di compassione così come è stato inteso nella tradizione Buddhista e il concetto di compassione così come è inteso nelle pratiche correnti e secolarizzate della coltivazione della compassione? --&gt;</span></span>
+<span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Per cercare di rispondere a queste domande iniziamo qui a considerare l'area semantica all'interno della quale si situa il concetto di compassione nelle fonti testuali Buddhiste. --&gt;</span></span>
+<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a>La compassione si trova dunque al centro del buddismo Mahāyāna, i cui due "fondamenti" sono stati descritti come compassione (karuṇā) e saggezza (prajñā). Senza compassione, il sentiero Mahāyāna è impensabile. Ma altrettanto impensabile è trascurare la dimensione della prajñā (si veda il @sec-wisdom). Per ora ci limitiamo a sottolineare il fatto che la compassione e i concetti ad essa associati pervadono quasi ogni aspetto della dottrina Mahāyāna: la compassione costituisce solo un aspetto di una coltivazione mentale più complessa.</span>
+<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a>Karuṇā costituisce un aspetto di bodhicitta -- ciò che viene chiamato "bodhicitta convenzionale" -- ma tale aspetto deve essere completato dalla gnosi della vacuità (śūnyatā) -- cioè, il "bodhicitta assoluto". La relazione tra questi concetti è talvolta espressa con il termine sūnyatākaruṇāgarbha, che potrebbe essere tradotto come "la matrice della vacuità e della compassione". Il punto di tutto ciò è che, nella letteratura buddista, *la compassione non è considerata un'entità separata e nemmeno un obiettivo a sé stante*, ma bensì un aspetto di un più generale "ri-orientamento cognitivo" che porta al superamento del pensiero dualistico e il cui fine è il "risveglio". È questo fine soteriologico che giustifica e richiede karuṇā; essa dunque non può essere concepita come un obiettivo separato e distinto. Troviamo dunque qui un'importante differenza dai programmi di compassione secolarizzata, i quali invece aspirano allo sviluppo della compassione come ad un fine a sé stante.</span>
+<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-106"><a href="#cb1-106" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Karuṇā è spesso presentata come una delle cause di bodhicitta (ovvero, l'aspirazione a raggiungere il più alto obiettivo spirituale dell'illuminazione per la liberazione di tutte le creature dalla sofferenza) e i riferimenti testuali a queste due qualità spesso si sovrappongono. Secondo Śāntideva, la mente deve tornare al bodhicitta più e più volte, perché il "mindwandering" (dolāyamāna) è inevitabile. --&gt;</span></span>
+<span id="cb1-107"><a href="#cb1-107" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-108"><a href="#cb1-108" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; IV:11. Sballottato in tal guisa per le esistenze, tirato da un lato dal peso delle sue cattive azioni e, dall'altro, dalla forza del pensiero del risveglio, egli tarda a toccare terra. --&gt;</span></span>
+<span id="cb1-109"><a href="#cb1-109" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-110"><a href="#cb1-110" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; IV:12. Ciò che ho promesso io debbo dunque compierlo scrupolosamente. Se oggi stesso io non faccio uno sforzo, cadrò sempre più in basso. --&gt;</span></span>
+<span id="cb1-111"><a href="#cb1-111" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Ad esempio, il Mahāyānasūtrālaṃkāra, una delle risorse testuali seminali per comprendere la compassione, spiega bodhicitta affermando che --&gt;</span></span>
+<span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-114"><a href="#cb1-114" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; la sua radice è la compassione, la sua aspirazione il costante beneficio degli esseri. --&gt;</span></span>
+<span id="cb1-115"><a href="#cb1-115" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-116"><a href="#cb1-116" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Un commento a questo testo fornisce la seguente spiegazione: --&gt;</span></span>
+<span id="cb1-117"><a href="#cb1-117" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-118"><a href="#cb1-118" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; Bodhicitta è di due tipi: uno caratterizzato da karuṇā e uno caratterizzato da prajñā. Di questi due, quello caratterizzato da karuṇā è uno stato mentale basato sul pensiero: "Possano tutti gli esseri senzienti raggiungere il nirvāṇa". ... Quello caratterizzato da prajñā è uno stato mentale basato sul pensiero: "Poiché tutti i fenomeni sono vuoti (śūnya), non c'è essere senziente che raggiunga il nirvāṇa". ... Si noti qui l'aspetto duale di bodhicitta, vale a dire il fatto che esso è costituito da compassione (karuṇā) e saggezza (prajñā). --&gt;</span></span>
+<span id="cb1-119"><a href="#cb1-119" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-120"><a href="#cb1-120" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- In un'opera della prima letteratura Mahāyāna, colui che si impegna nel sentiero del bodhisattva esprime i seguenti voti: --&gt;</span></span>
+<span id="cb1-121"><a href="#cb1-121" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-122"><a href="#cb1-122" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; Io, con il nome tal dei tali, ... a beneficio della liberazione del mondo infinito degli esseri, per liberarli dalla sofferenza del saṃsāra, genero la mente del risveglio supremo e perfetto. ... D'ora in poi, i doni che faccio, la disciplina che osservo, la pazienza che pratico, gli sforzi che svolgo, la concentrazione che sviluppo, la saggezza che pratico, i mezzi abili che adopero, tutti questi saranno dedicati al benessere, al beneficio e alla felicità di tutti gli esseri. --&gt;</span></span>
+<span id="cb1-123"><a href="#cb1-123" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-124"><a href="#cb1-124" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Questo passaggio mostra che i due stati mentali di bodhicitta e compassione sono usati in modo intercambiabile; entrambi si preoccupano di eliminare la sofferenza di tutti gli esseri. Il sutra afferma che tutti gli esseri nel saṃsāra sperimentano sofferenza. Il tratto saliente dei bodhisattva (esseri eroici che lottano per il risveglio) è l'impegno ad alleviare quella sofferenza, e questo impulso compassionevole li costringe a generare bodhicitta. --&gt;</span></span>
+<span id="cb1-125"><a href="#cb1-125" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-126"><a href="#cb1-126" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- I bodhisattva sono considerati l'incarnazione e l'epitomo della compassione: i bodhisattva sono persone molto (mahā) compassionevoli. Inoltre, è la grande compassione (mahākaruṇā) dei bodhisattva che li motiva a rinunciare alla pace nirvāṇica per continuare a lavorare nel saṃsāra per il benessere degli esseri. In conclusione, la letteratura Mahāyāna non distingue rigorosamente la compassione, come entità separata, dall'ideale e dalla pratica del bodhicitta che sorge dalla vista della sofferenza di tutti gli esseri. --&gt;</span></span>
+<span id="cb1-127"><a href="#cb1-127" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-128"><a href="#cb1-128" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- ![Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-21.jpg) --&gt;</span></span>
+<span id="cb1-129"><a href="#cb1-129" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-130"><a href="#cb1-130" aria-hidden="true" tabindex="-1"></a><span class="al">![Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-20.jpg)</span></span>
+<span id="cb1-131"><a href="#cb1-131" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-132"><a href="#cb1-132" aria-hidden="true" tabindex="-1"></a><span class="fu">## Organizzazione dei contenuti</span></span>
+<span id="cb1-133"><a href="#cb1-133" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-134"><a href="#cb1-134" aria-hidden="true" tabindex="-1"></a>Nei capitoli seguenti cercheremo di meglio comprendere il collegamento tra karuṇā e bodhicitta, e la relazione tra questi concetti e la coltivazione secolarizzata della compassione. In particolare, nel @sec-definitions esamineremo le definizioni buddiste e secolari della compassione. Per quanto in nessuna delle due tradizioni sia possibile assegnare una definizione univoca alla nozione di compassione, ci sono chiare tensioni e notevoli differenze nel modo in cui questo concetto è stato compreso in questi due ambiti culturali.</span>
+<span id="cb1-135"><a href="#cb1-135" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-136"><a href="#cb1-136" aria-hidden="true" tabindex="-1"></a>Nel @sec-nature-nurture ci chiederemo se, secondo la tradizione buddista, la compassione è al centro della natura umana; se ci si può coltivare; cosa, precisamente, può essere coltivato. Tali domande sono attualmente esplorate da neuroscienziati, neurobiologi e psicologi che sono interessati al pensiero buddista dell'India e del Tibet premoderni. L'esplorazione della compassione e della coltivazione della compassione nella tradizione buddista Mahāyāna è però difficile in quanto entrambe queste idee si sono trasformate nel corso della storia del pensiero buddista: a karuṇā non è stata assegnata una definizione univoca (si veda il @sec-definitions); inoltre, la coltivazione della compassione è stata interpretata in modo diverso nel corso del tempo.</span>
+<span id="cb1-137"><a href="#cb1-137" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-138"><a href="#cb1-138" aria-hidden="true" tabindex="-1"></a>Nel @sec-what-is-trained, ci chiederemo che cosa esattamente viene coltivato nelle pratiche buddiste e secolarizzate: un'emozione, un'intenzione, un'azione o uno stato mentale? Il modo in cui viene concettualizzata la compassione determina infatti l'approccio pedagogico che viene seguito.</span>
+<span id="cb1-139"><a href="#cb1-139" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-140"><a href="#cb1-140" aria-hidden="true" tabindex="-1"></a>Nel @sec-which-training, verranno discussi tre diversi approcci didattici per la coltivazione della compassione nella tradizione Mahāyāna: il metodo costruttivo, il metodo decostruttivo e il metodo cognitivo-analitico. Verrà anche presa in considerazione la discussione sullo stile di vita più favorevole alla coltivazione della compassione e il tema di chi è il maggiore beneficiario della compassione: il sé o gli altri?</span>
+<span id="cb1-141"><a href="#cb1-141" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-142"><a href="#cb1-142" aria-hidden="true" tabindex="-1"></a>Il @sec-meditation-tonglen esamina la pratica della meditazione tonglen, proposta dal monaco indiano Śāntideva nel Bodhicaryāvatāra. Tale pratica è importante in quanto ha fornito il principale modello per le meditazioni guidate della coltivazione secolarizzata della compassione.</span>
+<span id="cb1-143"><a href="#cb1-143" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-144"><a href="#cb1-144" aria-hidden="true" tabindex="-1"></a>Nel @sec-wisdom, verrà discusso uno dei punti più difficili e controversi della tradizione buddhista, ovvero la nozione di śūnyatā (vacuità). Tale nozione fa riferimento ad una trasformazione cognitiva del praticante buddhista il quale, come conseguenza della pratica contemplativa, diventa in grado di sviluppare uno stile di pensiero non concettuale e non duale. Nella tradizione buddhista, questa trasformazione cognitiva rappresenta il culmine di quel percorso di trasformazione spirituale che porta alla cessazione della sofferenza. L'esame dei testi Mahāyāna renderà chiaro, inoltre, come non si può sviluppare un'imparziale e universale karuṇā senza, parallelamente, sviluppare la "realizzazione della vacuità". In questo senso, dunque, la manifestazione più autentica dell'etica buddhista, così come espressa nella mahākaruṇā, si dimostra inestricabilmente intrecciata allo sviluppo della saggezza (prajñā). Questa sembra una delle tensioni maggiori che differenziano la tradizione buddhista dalle pratiche secolarizzate di coltivazione della compassione.</span>
+<span id="cb1-145"><a href="#cb1-145" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-146"><a href="#cb1-146" aria-hidden="true" tabindex="-1"></a>Se śūnyatā è assente nelle pratiche secolarizzate, allora si tratta di capire in che modo la "realizzazione della vacuità" è stata utilizzata, nella tradizione buddhista, come guida dell'esperienza nella vita quotidiana. Per affrontare questo tema, nel @sec-vimalakirti verrà discusso un famoso sutra, il Vimalakīrti Sūtra, che discute l'incarnazione della vacuità nel comportamento, non di un monaco, ma di un laico che non ha abbandonato i "traffici del mondo".</span>
+<span id="cb1-147"><a href="#cb1-147" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-148"><a href="#cb1-148" aria-hidden="true" tabindex="-1"></a>Se la dimensione di śūnyatā, realizzabile attraverso la contemplazione, è la risposta alla domanda di come si possa ottenere la cessazione della sofferenza, una domanda parallela, e forse preliminare, è quella che ci porta a chiederci quale sia la causa della sofferenza. A questa domanda il buddhismo ha fornito la risposta della coproduzione condizionata (pratītyasamutpāda). Alle cause della sofferenza, elencate nella Ruota dell'esistenza, il buddhismo ha proposto degli "antidoti". Nel @sec-patience, verrà discusso l'"antidoto" della tolleranza (kṣānti), che è intimamente legato a śūnyatā. Anche questa discussione ha lo scopo di mettere in evidenza una tensione tra l'approccio Mahāyāna e le corrispondenti pratiche secolarizzate di coltivazione della compassione.</span>
+<span id="cb1-149"><a href="#cb1-149" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-150"><a href="#cb1-150" aria-hidden="true" tabindex="-1"></a>Data la centralità delle pratiche contemplative nella concezione buddhista, nel @sec-meditation verrà affrontato il tema della meditazione. Nuovamente, in riferimento al Vimalakīrti Sūtra ci chiederemo come la pratica della meditazione possa essere integrata, non tanto nella vita di un monaco, ma bensì nella vita quotidiana di un laico. Anche in questo caso, particolare attenzione verrà assegnata alla relazione tra meditazione e compassione. Lo scopo sarà quello di capire quali sono le possibili differenze tra la pratica e gli obiettivi della meditazione nel Mahāyāna e nelle pratiche secolarizzate di coltivazione della compassione.</span>
+<span id="cb1-151"><a href="#cb1-151" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-152"><a href="#cb1-152" aria-hidden="true" tabindex="-1"></a>Uno degli obiettivi cruciali della pratica buddhista della meditazione è quello di sviluppare prajñā, ovvero una conoscenza non duale della realtà. Ancora una volta, in riferimento al Vimalakīrti Sūtra cercheremo di capire come un pensiero che vada oltre il dualismo possa essere integrato nella vita quotidiana di un laico. Anche in questo caso vedremo che pensiero non duale e compassione sono strettamente collegati (@sec-non-dualism).</span>
+<span id="cb1-153"><a href="#cb1-153" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-154"><a href="#cb1-154" aria-hidden="true" tabindex="-1"></a>La tradizione Mahāyāna non è monolitica, come qualunque altra manifestazione culturale, ma ha avuto uno sviluppo storico all'interno del quale sono emerse molte differenze nel modo di intendere la compassione. Il @sec-tibetan-tradition descriverà lo sviluppo storico della coltivazione della compassione nella tradizione tibetana, allo scopo di meglio chiarire le somiglianze e le differenze tra questo approccio e le pratiche secolarizzate di coltivazione della compassione.</span>
+<span id="cb1-155"><a href="#cb1-155" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-156"><a href="#cb1-156" aria-hidden="true" tabindex="-1"></a>Nei capitoli successivi verranno poi esaminate le pratiche secolarizzate di coltivazione della compassione. Il messaggio fondamentale di questo intervento è che le pratiche secolarizzate, se pur in qualche modo efficaci, anche in base agli standard correnti della psicologia non sono in grado di produrre grandi cambiamenti cognitivi nell'individuo che segue tali programmi. Il confronto con le tradizioni indo-tibetane del buddhismo può dunque fornire utili elementi di riflessione. Dato che le pratiche secolarizzate riconoscono la paternità delle tradizioni indo-tibetane del buddhismo, viene spontaneo chiedersi che cosa è stato "escluso" dalle pratiche secolarizzate rispetto alle tradizioni indo-tibetane. È interessante chiedersi se una migliore conoscenza delle tradizioni indo-tibetane del buddhismo possa offrire utili spunti per un possibile miglioramento dei programmi secolarizzati.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
 </div> <!-- /content -->
 
 

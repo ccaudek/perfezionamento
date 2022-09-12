@@ -20,6 +20,69 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -243,7 +306,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-non-dualism" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Compassione e pensiero non dualistico</span></span></h1>
+<div class="quarto-title-block"><div><h1 class="title"><span id="sec-non-dualism" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Compassione e pensiero non dualistico</span></span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Codice</button></div></div>
 </div>
 
 
@@ -329,6 +392,8 @@ ul.task-list li input[type="checkbox"] {
 <p>L’autore del Vimalakīrti Sūtra, così come lo sanno i maestri Zen che praticano il silenzio, sapeva che è meglio non tacere del silenzio. L’autore del Sūtra si rende conto che il silenzio può svolgere la sua opera di liberazione solo in stretta relazione con il linguaggio del Dharma. Capisce che la separazione dualistica tra linguaggio e silenzio è una trappola, un’illusione non migliore di qualsiasi altro dualismo: scegliere una parte e rifiutare l’altra non può far altro che aggravare l’illusione. Così, il silenzio, proprio come il “non attaccamento” e il “lasciar andare”, può svolgere la sua funzione liberatrice soltanto in connessione con il linguaggio del Risveglio. L’autore del Vimalakīrti Sūtra ci dice che “l’eloquenza di Vimalakīrti” – ovvero, la sua fluidità nell’esporre il Dharma – è così intrecciata con il pensiero non duale (l’equanimità non verbale) che l’una non può esistere senza l’altro. Secondo Dale S. Wright, la comprensione (mai esplicitamente descritta) di Vimalakīrti, a proposito di cosa sia la non dualità, può essere descritta facendo riferimento al profondo equilibrio che deve esistere tra la parola del Dharma, da una parte, e il silenzio, dall’altra.</p>
 
 
+<!-- -->
+
 </section>
 
 </main> <!-- /main -->
@@ -380,6 +445,57 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
+    });
+  }
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
+        }
+      }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
+    }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
+  }
   function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
@@ -441,7 +557,77 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         <span class="nav-page-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Mezzi espedienti</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
-</nav>
+</nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Compassione e pensiero non dualistico {#sec-non-dualism}</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>Come esseri umani, siamo soggetti non solo a illusioni percettive, ma anche cognitive. Un'intuizione centrale del pensiero buddista è che queste illusioni stanno alla radice della sofferenza e che la sofferenza può essere eliminata solo se tali illusioni vengono estirpate. Tra le più pervasive e perniciose di queste illusioni c'è il senso del sé, un'entità dotata di un'identità permanente e separata da quella degli altri enti. È possibile indebolire questo senso dell'io senza cadere in una visione nichilista che ci porta a credere che esistiamo affatto, e quindi che non possediamo alcun senso di agenzia e di responsabilità personale? La risposta della tradizione buddhista è quella di arrivare a vedere noi stessi come persone, le quali posseggono un forte senso di agenzia e di responsabilità, ma sono concepite come parte di una totalità molto più ampia, e sono, per questa ragione, prive di un'identità "intrinseca", ma sono invece dipendenti da contingenze e condizioni. È proprio questo costitutivo aspetto relazionale del sé che consente la compassione.</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>Leggendo il Bodhicaryāvatāra di Śāntideva abbiamo visto, infatti, come la motivazione "ontologica" della Grande Compassione è l'idea che non vi sia una separazione netta tra gli esseri: essendo privi di natura intrinseca, essendo "śūnya", gli esseri non possono essere "divisi", ovvero separati gli uni dagli altri. Essendo esseri condizionati (saṃskāra), gli individui possono essere concepiti solo come relativi, come enti che possono esistere solo in relazione gli uni con gli altri, ovvero come parti di una totalità. Questa è la ragione per cui "il tuo dolore è anche il mio dolore", ovvero, io sono animato dalla compassione per gli altri.</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>L'"indebolimento" dell'io è un aspetto centrale della tradizione Theravāda e viene presentato nel concetto di anātman. In seguito il Mahāyāna ha esteso la negazione di identità intrinseca dal sé a tutti gli enti, mettendo śūnyatā, la vacuità, al centro della sua riflessione filosofica e soteriologica. Abbiamo visto che la dottrina della Via di Mezzo, Madhyamaka, identifica śūnyatā con pratītyasamutpāda, la co-originazione dipendente. Nella pratītyasamutpāda, il rifiuto di distinguere, al livello della realtà "ultima", tra i diversi fenomeni, significa descrivere la realtà mediante un pensiero non dualistico. Inoltre, il Madhyāntavibhāga ("Distinguere il mezzo e gli estremi") di Maitreya/Asanga afferma che il superamento della "falsa illusione" del pensiero dualistico è proprio quello che viene chiamato "liberazione". Infatti, ciò che chiamiamo "esistenza ciclica" non è null'altro che la "concezione illusoria" del pensiero dualistico.</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>Ma come si ottiene "la liberazione", ovvero, che cosa significa "pensare in maniera non dualistica"? La conoscenza non duale, advayajñāna, si riferisce ad un tipo di conoscenza che è in grado di trascendere la distinzione soggetto/oggetto, la quale governa gli stati convenzionali di coscienza; si riferisce ad un tipo di conoscenza basata che è basata su una consapevolezza che è in grado di rimanere cosciente, senza però richiedere un oggetto della coscienza. In questo capitolo cercheremo di meglio illustrare le caratteristiche del pensiero non dualistico e, per fare questo, esamineremo nuovamente il Vimalakīrti Sūtra.</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="fu">## Vimalakīrti e la non dualità</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>La conoscenza non duale è un tema centrale del Vimalakīrti Sūtra. Un capitolo del Sūtra è dedicato esplicitamente a questo tema; ma tutto il Sūtra ci presenta Vimalakīrti, il cui comportamento può essere compreso solo se ci rendiamo conto che le sue scelte e le azioni che Vimalakīrti mette in atto sono motivate da una visione non dualistica del mondo. Secondo Vimalakīrti, infatti, il modo corretto di rapportarsi al mondo è attraverso advayajñāna, ovvero, mediante una consapevolezza non duale. Un titolo alternativo per il Vimalakīrti Sūtra è stato proprio: *Il Sūtra sulla riconciliazione delle dualità*. Il Sūtra caratterizza Vimalakīrti proprio come colui che è in grado di giungere ad una conciliazione degli aspetti diversi del mondo, ovvero, che è capace di mettere al centro l'unità, piuttosto che le differenze.</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>Ma però si noti che la riconciliazione delle dualità, o differenze, non è la loro cancellazione. Vimalakīrti non si acquieta nella visione dell'unità indifferenziata di tutte le cose. Vimalakīrti vede come tutte le cose si relazionano per formare la totalità, pur rimanendo distinte l'una dall'altra. Vede con grande chiarezza la differenza tra ricchi e poveri, e lavora per superare una tale differenza. Vede la differenza tra chi soffre in modo orribile e chi no, la differenza tra chi affronta le difficoltà con abilità e compostezza e chi non è in grado di farlo. Tutte queste differenze rimangono valide: il non-dualismo di Vimalakīrti non si riduce ad una forma di monismo.</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>Questo per dire che il mondo in cui vive Vimalakīrti rimane un mondo complesso, disordinato, confuso e in rapido cambiamento, proprio come il nostro mondo. Vimalakīrti non aspira ad un mondo senza differenze, senza tensioni o conflitti; un tale mondo, infatti, sarebbe privo di vita. Mediante la sua pratica, invece, Vimalakīrti fa sorgere in sé l'interesse per questa complessità, un interesse che lo porta a volere essere consapevole di cosa realmente stia accadendo, rimanendo nel contempo saldo nella sua motivazione (vīryapāramitā: "l'entusiasmo di compiere atti virtuosi") e nella sua tolleranza (kṣāntipāramitā).</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a>Nel Sūtra, Vimalakīrti è raffigurato come qualcuno che non si innervosisce e non perde l'equilibrio quando le tensioni aumentano, o quando punti di vista diversi si sfidano a vicenda anche in maniera ruvida. Vimalakīrti è in grado di superare il disagio che tutti noi proviamo in situazioni tese e complicate. Ha coltivato compostezza, flessibilità e resilienza, e fa appello a queste capacità per trasmettere un senso di equilibrio e di speranza agli altri. Il non dualismo di Vimalakīrti è una visione operante, una comprensione esperta del tutto che non viene limitata dalla paura e non vuole escludere nessuno.</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>A cosa si deve questa compostezza? Che cosa fornisce a Vimalakīrti un supporto o un sostegno che sono sufficienti per consentirgli di intervenire in maniera così abile nella realtà? La risposta del Sūtra è che un tale fondamento è il pensiero non dualistico. Nel Sūtra, un tale modo di pensare conduce all'accettazione dell'opposizione e del conflitto come dimensioni inevitabili della realtà. Percepire le differenze e le tensioni come il tessuto stesso di cui è costituita la nostra vita consente di sviluppare un atteggiamento di equanimità, e rende possibile un lavoro di mediazione sapiente. Rendersi conto di come e perché le cose, che appaiono molto diverse tra loro, in realtà sono parte di un tutto più ampio, consente di affrontare "con abilità" le difficoltà della vita.</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a>Nel Sūtra, Vimalakīrti chiede ai bodhisattva: "cos'è la non dualità?". Ognuno di loro fornisce una risposta molto profonda.</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Quando penso 'io' e 'mio', questa è dualità. Quando 'io' e 'mio' vengono a mancare, questa è non dualità.\</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Dove c'è contaminazione e purificazione, questa è dualità. Quando si va oltre la contaminazione e la purificazione, questa è non dualità.\</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Dove ci sono atti virtuosi e non virtuosi, questa è dualità. Quando si va oltre il virtuoso e il non virtuoso, questa è non dualità.\</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Se pensi che questa sia solo la realtà mondana e che esista un altro mondo più sublime, questa è dualità. Quando vai oltre il mondano e il sublime, questa è non dualità.\</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>Gli esempi diventano sempre più elaborati e includono spiegazioni relative a tutti i Sei Pāramitā.</span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Produzione e distruzione sono due, ma ciò che non è prodotto e non accade non può essere distrutto. Così il raggiungimento della tolleranza (kṣānti) della non-nascita delle cose è l'ingresso nella non dualità.\</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>::: callout-note</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>Ricordiamo, come abbiamo visto in precedenza, che</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; </span><span class="sc">\[</span><span class="at">i bodhisattva</span><span class="sc">\]</span><span class="at"> raggiungono la tolleranza intuitiva dell'incomprensibilità ultima e della natura non-nata di tutte le cose.</span></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="at">:::</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>Inoltre:</span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Se desideri la liberazione perché non ti piace il saṃsāra, questa è dualità. L'unico modo in cui puoi realizzare la non dualità è andare oltre il desiderio della liberazione e l'antipatia per il saṃsāra.</span></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>Dopo una lunga lista di spiegazioni di cosa sia la non-dualità fornita da trentadue bodhisattva, si arriva a Mañjuśrī, il quale rivolge la sfida stessa al loro ospite, e il capitolo giunge al suo completamento in quello che è stato chiamato il "fragoroso silenzio" di Vimalakīrti. Cioè, alla domanda di Mañjuśrī, Vimalakīrti resta in silenzio. Evocando dunque la non dualità mediante il rifiuto di fare alcuna distinzione -- né affermazioni né negazioni -- Vimalakīrti fornisce una delle più note descrizioni del Dharma nella storia buddhista.</span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="fu">## Il fragoroso silenzio</span></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a>Nel nono capitolo di *Living skillfully*, Dale S. Wright cerca di articolare in qualche modo il "fragoroso silenzio" di Vimalakīrti. Dale S. Wright ci dice che, mentre la maggior parte di noi lotta con il conflitto tra la tranquillità della nostra pratica meditativa e la nostra esperienza nella vita quotidiana, Vimalakīrti sperimenta insieme queste due esperienze, indagando la loro non dualità. Vede che la trasformazione personale è resa possibile dal cambiamento storico collettivo e che il cambiamento nella comunità è spesso accelerato dall'azione individuale, ci dice Dale S. Wright. Vimalakirti capisce in modo viscerale che qualsiasi conquista del singolo individuo è la risultante di un processo molto più articolato e di lunga durata, che comprende la storia passata di tutta la società, e che ci fa capire, come le realizzazioni dei singoli individui sono in realtà il prodotto di uno sforzo collettivo che va ben al di là dell'individuo, mettendo in luce, una volta di più, l'aspetto non dualistico del mondo più ampio. Vimalakīrti trova un equilibrio tra i suoi sforzi diretti al raggiungimento dei suoi obiettivi e la gratitudine di un'appartenenza ad un qualcosa che va ben al di là dell'io, ovvero un cosmo infinitamente più grande, ovvero una realtà che si estende nello spazio e nel tempo e in cui ogni creatura e ogni fenomeno è collegato a tutto il resto.</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>Dale S. Wright ci dice che la non dualità insegnata da Vimalakīrti è la consapevolezza delle nostre illimitate connessioni, un senso di essere circondati e supportati da forze che stanno tutt'intorno a noi e vanno ben al di là di noi. Queste intuizioni suscitano un sentimento di gratitudine per il dono della nostra stessa esistenza e un'umiltà che riconosce la nostra umile posizione nell'infinitamente più vasto ambito della realtà. Secondo Dale S. Wright, è questa visione non duale ciò che ispira il "fragoroso silenzio" di Vimalakīrti. Momentaneamente sollevato da ogni responsabilità, Vimalakīrti resta in silenzio, e sorride.</span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>Ci potremmo aspettare che il Sūtra finisca qui, perché, cosa c'è da aggiungere al "fragoroso silenzio" di Vimalakīrti? Ma non è così. Il Sūtra prosegue con diversi altri capitoli. A questo punto, il narratore del Sūtra interviene per assicurarsi che i lettori abbiano afferrato il punto, affermando che</span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; quando questi insegnamenti furono dichiarati, cinquemila bodhisattva entrarono nella porta della non dualità del Dharma e raggiunsero la tolleranza (kṣānti) per la vacuità di tutte le cose.</span></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>Il Sūtra ci ricorda che le "dichiarazioni" dei bodhisattva forniscono trentadue risposte alla domanda</span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; esponetemi ciò che è, per i bodhisattva, l'entrata nella dottrina della non dualità,</span></span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a>anche se l'affermazione di Vimalakirti -- ovvero, il suo silenzio -- è stata la risposta più pregnante. Con l'evoluzione del buddismo nel corso dei secoli, il "fragoroso silenzio" di Vimalakīrti è cresciuto sempre più forte. I maestri di varie tradizioni lo hanno invocato come affermazione fondamentale per le loro interpretazioni del Dharma, proprio come ha fatto Vimalakīrti, per esempio il buddhismo Zen.</span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a>Il silenzio svolge un ruolo cruciale nel Dharma; questa è una componente significativa dell'eredità di Vimalakīrti: il silenzio ci fornisce un avvertimento sui pericoli dell'attaccamento ai dogmi del buddismo; ricorda ai praticanti che il dogmatismo e l'ego possono ricomparire quando meno ce lo aspettiamo.</span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a><span class="fu">## Considerazioni conclusive {.unnumbered}</span></span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a>L'autore del Vimalakīrti Sūtra, così come lo sanno i maestri Zen che praticano il silenzio, sapeva che è meglio non tacere del silenzio. L'autore del Sūtra si rende conto che il silenzio può svolgere la sua opera di liberazione solo in stretta relazione con il linguaggio del Dharma. Capisce che la separazione dualistica tra linguaggio e silenzio è una trappola, un'illusione non migliore di qualsiasi altro dualismo: scegliere una parte e rifiutare l'altra non può far altro che aggravare l'illusione. Così, il silenzio, proprio come il "non attaccamento" e il "lasciar andare", può svolgere la sua funzione liberatrice soltanto in connessione con il linguaggio del Risveglio. L'autore del Vimalakīrti Sūtra ci dice che "l'eloquenza di Vimalakīrti" -- ovvero, la sua fluidità nell'esporre il Dharma -- è così intrecciata con il pensiero non duale (l'equanimità non verbale) che l'una non può esistere senza l'altro. Secondo Dale S. Wright, la comprensione (mai esplicitamente descritta) di Vimalakīrti, a proposito di cosa sia la non dualità, può essere descritta facendo riferimento al profondo equilibrio che deve esistere tra la parola del Dharma, da una parte, e il silenzio, dall'altra.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
 </div> <!-- /content -->
 
 

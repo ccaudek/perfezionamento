@@ -20,6 +20,69 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -257,7 +320,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-what-is-trained" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Che cosa viene coltivato?</span></span></h1>
+<div class="quarto-title-block"><div><h1 class="title"><span id="sec-what-is-trained" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Che cosa viene coltivato?</span></span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Codice</button></div></div>
 </div>
 
 
@@ -502,6 +565,8 @@ Oh, il tuo incomparabile ruggito di leone è che non esistono fenomeni indipende
 <p>Va notato che la triplice tipologia della sofferenza (abbiamo discusso in precedenza) e le relative istruzioni pratiche mostrano come l’eliminazione della sofferenza riguarda solo in parte ciò che è doloroso, stressante, insoddisfacente ma richiede anche, e soprattutto, una profonda comprensione della struttura sottostante che crea e perpetua la sofferenza in una prospettiva a lungo termine. Per un bodhisattva, compassione significa l’eliminazione delle contaminazioni mentali inerenti al fenomeni condizionato</p>
 
 
+<!-- -->
+
 </section>
 
 </main> <!-- /main -->
@@ -553,6 +618,57 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
+    });
+  }
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
+        }
+      }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
+    }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
+  }
   function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
@@ -614,7 +730,222 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Metodi di coltivazione della compassione</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
-</nav>
+</nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Che cosa viene coltivato? {#sec-what-is-trained}</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">## La necessità dell'educazione</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>Sebbene la compassione sia intesa come un potenziale naturalmente presente, la letteratura buddista sottolinea la necessità di una coltivazione della compassione, disciplinata e prolungata, che possiamo leggere come un riconoscimento dell'importanza della dimensione dell'"educazione" nella contrapposizione tra natura e educazione.</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="al">![Particolare da Murals of Tibet di Thomas Laird.](images/thomas-laird-13.jpg)</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>Prima di esaminare le tecniche e le pratiche della coltivazione buddhista alla compassione è necessario chiarire che cosa esattamente viene coltivato (un'emozione, un'intenzione, un'azione o uno stato mentale?), poiché il modo in cui viene concettualizzata la compassione determina l'approccio pedagogico che verrà adottato.</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Se si intende karuṇā principalmente come un'*emozione*, la sua formazione mirerà a rafforzare l'affetto empatico.</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Se karuṇā viene intesa come un'*intenzione*, ci si concentrerà sulla corretta impostazione di una tale intenzione.</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Se karuṇā è concepita come uno *stato mentale* informato dalla conoscenza, la coltivazione della compassione mirerà a correggere e migliorare la dimensione cognitiva dei praticanti e a sradicare le convinzioni errate.</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Se l'enfasi è posta sull'*azione* compassionevole, allora la coltivazione della compassione si porrà il fine di rafforzare le modalità altruistiche del comportamento.</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>::: callout-note</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a>Si noti quanto queste considerazioni siano rilevanti relativamente al problema della valutazione dell'efficacia dell'intervento. Quale dimensione di un possibile cambiamento deve essere misurata?</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="fu">## La compassione è un'emozione?</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>Per determinare se karuṇā possa essere intesa come un'emozione nel senso occidentale del termine, è prima necessario discutere il significato del termine emozione e determinare come si riflette nella comprensione del buddismo Mahāyāna.</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a>Teorie recenti vedono l'emozione come un'esperienza cosciente complessa che coinvolge l'attività cognitiva e concettuale combinata con sensazioni di piacere o dispiacere. Secondo il filosofo Paul E. Griffith,</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; le emozioni traggono la loro identità dai pensieri ad esse associati.</span></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a>Questa visione filosofica delle emozioni non traccia una linea rigida tra razionalità ed emotività, e quindi assomiglia alla comprensione buddista della mente.</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="al">![Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-41.jpeg)</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="fu">### Abhidharma</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a>L'Abhidharma, spesso indicato come la psicologia buddista, offre diverse sistematizzazioni o tassonomie della mente. Tuttavia, non esiste una categoria dell'Abhidharma che possa essere utilizzata per tradurre il nostro concetto di emozione, e allo stesso modo il nostro concetto di emozione è difficile da usare per tradurre la terminologia dell'Abhidharma.</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a>Piuttosto che contrapporre elementi razionali e irrazionali della psiche, o sistemi cognitivi ed emotivi della mente, l'Abhidharma sottolinea la distinzione tra fattori mentali virtuosi e afflittivi. Pertanto, la nostra familiare distinzione occidentale tra cognizione ed emozione semplicemente non si adatta alla tipologia dell'Abhidharma.</span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a>Le tassonomie dell'Abhidharma distinguono tra coscienza (scr. citta) e fattori mentali (scr. caitta). L'Abhidharma analizza ogni stato mentale in termini di</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>un aspetto chiaro e consapevole (citta),</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>un tono emotivo che si spiega con una molteplicità di fattori mentali (caitta) che sono onnipresenti, positivi, negativi o indeterminati.</span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>La categorizzazione dei fattori mentali come positivi (kuśala), negativi (akuśala) o altro è determinata dalle loro conseguenze piacevoli o spiacevoli a breve e lungo termine. Tuttavia non tutti questi "fattori mentali" corrispondono alle idee sulle emozioni della psicologia occidentale.</span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>I fattori mentali positivi includono due che sono rilevanti per la comprensione della compassione, vale a dire,</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>l'assenza di odio (adveṣa),</span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>non nocività (ahiṃsā).</span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a>L'assenza di malevolenza (vyāpāda) o di odio (dveṣa) può essere intesa come gentilezza amorevole (maitrī), e l'assenza di crudeltà o danno (vihiṃsa) può essere intesa come compassione:</span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Che cos'è la non nocività? È la compassione (karuṇā) che fa parte dell'assenza di odio.</span></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a>È interessante notare che nel trattamento della compassione dell'Abhidharma, la compassione è definita in termini negativi, come un'assenza. Questa descrizione non cattura il tono emotivo della "com-passione" come sofferenza empatica con un altro, né include l'elemento costruttivo o proattivo volto ad alleviare attivamente il dolore degli altri. Pertanto, le descrizioni dell'Abhidharma risultano essere molto diverse dalla definizione di compassione come emozione nel senso psicologico occidentale del termine.</span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a><span class="fu">### La tradizione mahayana</span></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a>Al contrario, nella tradizione Mahayana, numerose istruzioni su come coltivare la compassione implicano gli aspetti emotivi della compassione. Per esempio, l'istruzione di Vasubandhu riguardo alla meditazione su centodieci forme di sofferenza per coltivare la mahakaruna, suggerisce che il bodhisattva è emotivamente toccato dalla sofferenza contemplata.</span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a>I testi tibetani sono più espliciti di quelli indiani relativamente agli aspetti emotivi della karuna, usando metafore quali: dovrebbero rotolare le lacrime e dovrebbero rizzarsi i peli del corpo quando si medita sulla gentilezza amorevole e sulla compassione.</span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>Le spiegazioni dell'Abhidharma, con la loro insistenza sull'assenza di ciò che impedisce la compassione, producono un'interessante affermazione pedagogica: la compassione esiste solo nella completa assenza di aggressività. Se le tendenze aggressive nella mente non vengono eliminate, è solo una questione di cause e condizioni affinché emerga l'impulso a fare del male agli altri. Pertanto, lo sradicamento delle tendenze aggressive (inclusi il pregiudizio e le categorizzazioni ingroup/outgroup) viene concepito quale parte integrante della coltivazione della compassione.</span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a>Per Vasubandhu, coltivare la compassione inizia con la fase preparatoria di "allontanamento dalla cattiva volontà", cioè con il contenimento del pensiero dannoso. La completa eliminazione della nocività, tuttavia, può solo essere raggiunta, per Vasubandhu, nell'assorbimento meditativo.</span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a><span class="al">![Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-42.jpg)</span></span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a><span class="fu">## La perfettibilità della compassione</span></span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a>Se il concetto di emozione non cattura sufficientemente le nozioni buddiste di compassione, come possiamo comprendere karuṇā in modo più appropriato? Il pensiero buddista propone un progressivo potenziamento della compassione che si basa su specifici tipi di conoscenza e intenzioni, culminando in uno stato detto di perfezione. Questo punto di vista mette in primo piano il ruolo della conoscenza e dell'impostazione delle intenzioni nella caratterizzazione della compassione dei bodhisattva e dei buddha.</span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a><span class="fu">### Mahākaruṇā (grande compassione)</span></span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a>La spiegazione di mahākaruṇā (grande compassione) nell'Abhidharmakośa chiarisce come gli studiosi Mahāyāna comprendevano uno stadio perfezionato di compassione in giustapposizione a stadi meno sviluppati, come la compassione delle persone comuni e dei seguaci di percorsi non Mahāyāna.</span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a>La compassione è l'impegno del buddha nel mondo della sofferenza che, a livelli avanzati, diventa sempre più informato dalla saggezza che, secondo Vasubandhu, è l'assenza di illusione (moha) e la conoscenza delle forme più sottili di sofferenza all'interno dei regni saṃsārici dell'esistenza. Al suo livello più avanzato, la compassione diventa Mahākaruṇā.</span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a>Vasubandhu elenca cinque caratteristiche di Mahākaruṇā:</span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>emerge in relazione al vasto accumulo di merito (puṇya) e conoscenza (jñāna),</span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>richiede la conoscenza dei tre tipi di sofferenza,</span>
+<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>ha una portata infinita e universale,</span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>possiede la qualità dell'equanimità,</span>
+<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>è dotata di una insuperabile eccellenza.</span>
+<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a>::: callout-note</span>
+<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a>Le tre forme di sofferenza.</span>
+<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>*Dukkha-dukkha*: la sofferenza della sofferenza. Questa si riferisce al disagio fisico ed emotivo e al dolore che tutti gli esseri umani sperimentano nella loro vita.</span>
+<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>*Viparinama-dukkha*: la sofferenza del cambiamento. Questa si riferisce alla sofferenza che deriva dall'incapacità di accettare il cambiamento. Le persone si aggrappano a esperienze piacevoli e si sentono tristi quando passano, e non sono in grado di accettare l'inevitabilità dell'impermanenza.</span>
+<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>*Sankhara-dukkha*: la sofferenza dell'esistenza. Questa potrebbe quasi essere descritto come una sofferenza di fondo. È la profonda insoddisfazione dell'esistenza, causata semplicemente dall'esistenza.</span>
+<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a>Secondo Vasubandhu, Mahākaruṇā differisce dai tipi ordinari di compassione nel modo seguente.</span>
+<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>La compassione ordinaria significa l'assenza di danno (adveṣa), mentre Mahākaruṇā è in aggiunta l'assenza di illusione (moha).</span>
+<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>La compassione ordinaria è una risposta a forme grossolane di sofferenza, mentre Mahākaruṇā si basa sulla comprensione di tutte le forme di sofferenza (cioè, i tre tipi di sofferenza), anche quelle nascoste e potenziali.</span>
+<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>La compassione ordinaria si concentra su un numero limitato di esseri, mentre Mahākaruṇā ha la portata più vastapossibile, abbracciando in modo imparziale e uguale tutti gli esseri dei tre regni (Skt. dhatu).</span>
+<span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Una Mahākaruṇā è accompagnata da una rinuncia sincera (vairāgya), salva e protegge (paritrāṇa) gli esseri senzienti, piuttosto che semplicemente desiderare la loro liberazione, e sorge nel flusso mentale dei buddha.</span>
+<span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a>In tutti questi aspetti, Mahākaruṇā differisce dalla compassione dei seguaci di percorsi non Mahāyāna e da quella delle persone comuni. Questa spiegazione suggerisce che, nella sua forma perfezionata, la compassione è</span>
+<span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>uno stato mentale basato su specifiche forme di conoscenza e di intenzione;</span>
+<span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>trascende la compassione ordinaria motivata emotivamente.</span>
+<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-106"><a href="#cb1-106" aria-hidden="true" tabindex="-1"></a>Esprimendo una prospettiva Yogācāra, Asaṅga presenta Mahākaruṇā come il risultato di un'intensa definizione delle intenzioni e di un processo di purificazione:</span>
+<span id="cb1-107"><a href="#cb1-107" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-108"><a href="#cb1-108" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; (1) È una forma di compassione che si sviluppa dopo aver mentalmente preso possesso della sofferenza degli esseri senzienti che è profonda, sottile e difficile da realizzare.</span></span>
+<span id="cb1-109"><a href="#cb1-109" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; (2) È una forma di compassione con cui ci si è familiarizzati per un lungo periodo di tempo ed è stata coltivata per molte centinaia di migliaia di kalpa.</span></span>
+<span id="cb1-110"><a href="#cb1-110" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; (3) È una forma di compassione che ha impegnato il suo oggetto con uno sforzo di tale intensità che il bodhisattva che è colmo rinuncerebbe a cento vite per rimuovere la sofferenza degli esseri, per non parlare una singola vita o dei beni materiali che sostengono il suo corpo fisico.</span></span>
+<span id="cb1-111"><a href="#cb1-111" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; (4) È una forma di compassione estremamente rifinita grazie alla purezza che caratterizza lo stadio di evoluzione che è stato raggiunto da quei bodhisattva che hanno ottenuto il culmine del sentiero e grazie alla purezza dello stato di un tathāgata.</span></span>
+<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a>La descrizione di Asaṅga di Mahākaruṇā sottolinea il ruolo dell'intenzione coraggiosa e dell'impegno all'azione: il testo illustra l'intensità dell'intenzione del bodhisattva di salvare gli altri e la disponibilità del bodhisattva al sacrificio.</span>
+<span id="cb1-114"><a href="#cb1-114" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-115"><a href="#cb1-115" aria-hidden="true" tabindex="-1"></a>Questo testo non parla di un accumulo di saggezza, ma del raggiungimento della purezza per elevare la compassione allo stato di Mahākaruṇā. Implicita in questo approccio è l'idea Yogācāra della trasformazione fondamentale (Skt. āśraya paravṛtti) della mente dal suo stato contaminato alla sua purezza originaria di lucida consapevolezza libera dalle macchie delle afflizioni mentali. Questo approccio riflette la convinzione che Mahākaruṇā, come aspetto della natura del buddha, si trova al centro della mente del bodhisattva e deve semplicemente essere rivelata attraverso la pratica spirituale.</span>
+<span id="cb1-116"><a href="#cb1-116" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-117"><a href="#cb1-117" aria-hidden="true" tabindex="-1"></a>Ciò che distingue Mahākaruṇā dalle forme minori di compassione è anche trovato nella tradizione testuale tibetana. Tzongkhapa afferma che non basta semplicemente pensare "Possano tutti gli esseri essere felici e liberi dalla sofferenza", ma "è necessario assumere con tutto il cuore la responsabilità di produrre in prima persona il beneficio per gli altri".</span>
+<span id="cb1-118"><a href="#cb1-118" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-119"><a href="#cb1-119" aria-hidden="true" tabindex="-1"></a>La Mahākaruṇā dei bodhisattva cerca attivamente di salvare tutti gli esseri, richiedendo un'intenzione straordinaria che implica un fermo impegno personale per impegnarsi nel percorso del risveglio. Questo stato d'animo è stato descritto come un senso di intolleranza verso la sofferenza degli altri, che porta all'impegno ad assumersi personalmente la responsabilità di salvare gli altri dalle loro sofferenze.</span>
+<span id="cb1-120"><a href="#cb1-120" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-121"><a href="#cb1-121" aria-hidden="true" tabindex="-1"></a>È questa straordinaria intenzione o volontà che distingue la Mahākaruṇā del bodhisattva da altre forme meno radicali di altruismo. Quando la compassione è diventata spontanea, il bodhisattva ha ottenuto il prerequisito per generare bodhicitta. Secondo il lam rim chen mo di Tzongkhapa, questo tipo di compassione è il fondamento del sentiero Mahāyāna: dà origine al bodhicitta e quindi segna il momento in cui un discepolo entra nel sentiero del bodhisattva.</span>
+<span id="cb1-122"><a href="#cb1-122" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-123"><a href="#cb1-123" aria-hidden="true" tabindex="-1"></a>In sintesi, come prerequisito per bodhicitta, il Mahākaruṇā del bodhisattva è inteso come l'unica qualità che permette ad un individuo di intraprendere il sentiero della buddhità. Il Mahākaruṇā di un bodhisattva non richiede una comprensione esperienziale della vacuità come suo punto di ingresso, ma si ritiene che la profondità della compassione cresca con la crescente conoscenza esperienziale della realtà ultima. In questo senso la compassione dipende dalla posizione ontologica del bodhisattva -- cioè, richiede la comprensione di sunyata. Anche se Mahākaruṇā può non essere accessibile alla maggioranza dei praticanti buddisti, è importante ricordare che essa svolge la funzione di ispirare l'ideale della compassione universale e imparziale.</span>
+<span id="cb1-124"><a href="#cb1-124" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-125"><a href="#cb1-125" aria-hidden="true" tabindex="-1"></a><span class="al">![Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-43.jpg)</span></span>
+<span id="cb1-126"><a href="#cb1-126" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-127"><a href="#cb1-127" aria-hidden="true" tabindex="-1"></a><span class="fu">### I tre Ālambana</span></span>
+<span id="cb1-128"><a href="#cb1-128" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-129"><a href="#cb1-129" aria-hidden="true" tabindex="-1"></a>Il Mahākaruṇā di un bodhisattva si riferisce a un ampio spettro di stati mentali, dall'impegno iniziale fino alla quasi perfezione della grande compassione di un buddha. All'interno di quello spettro, la tassonomia della compassione dei tre ālambana distingue tra tre livelli di compassione in base alla maturazione spirituale del bodhisattva.</span>
+<span id="cb1-130"><a href="#cb1-130" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-131"><a href="#cb1-131" aria-hidden="true" tabindex="-1"></a>Il sistema dei tre ālambana della compassione spiega quale tipo di conoscenza è richiesta ai bodhisattva per progredire con successo nella loro coltivazione della compassione. Distingue la compassione in base ai suoi possibili tre oggetti (ālambana):</span>
+<span id="cb1-132"><a href="#cb1-132" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-133"><a href="#cb1-133" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>compassione per gli esseri come oggetto (Skt. sattvālambana karunā),</span>
+<span id="cb1-134"><a href="#cb1-134" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>compassione per i fenomeni come oggetto (Skt. dharmālambana karunā),</span>
+<span id="cb1-135"><a href="#cb1-135" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>compassione senza oggetto (Skt. anālambana karunā).</span>
+<span id="cb1-136"><a href="#cb1-136" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-137"><a href="#cb1-137" aria-hidden="true" tabindex="-1"></a>Pertanto, la comprensione della compassione è legata alla comprensione ontologica del praticante.</span>
+<span id="cb1-138"><a href="#cb1-138" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-139"><a href="#cb1-139" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Sattvālambana karunā si riferisce alla compassione diretta verso gli esseri senzienti (sattvālambana) intesi come oggetti intrinsecamente esistenti. Questo tipo di compassione è condivisa con i non buddisti perché si basa sulla percezione convenzionale dell'esperienza.</span>
+<span id="cb1-140"><a href="#cb1-140" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Dharmālambana karunā nasce in dipendenza da una raffinata comprensione della realtà. Ciò significa che il bodhisattva coltiva la compassione per gli esseri mentre comprende che gli esseri sono semplici raccolte di entità costituenti, o composti di dharma; da qui il nome, compassione in riferimento ai fenomeni (dharmālambana). Mentre generano uno stato mentale altruistico, i bodhisattva sono quindi acutamente consapevoli della natura impermanente degli esseri, o della vita. A un livello più pratico, questo secondo tipo di compassione implica un focus sulle cause della sofferenza, come le afflizioni mentali.</span>
+<span id="cb1-141"><a href="#cb1-141" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Anālambana karunā è il terzo e più avanzato tipo di compassione ed è priva di qualunque punto di riferimento (anālambana). Ciò significa non solo vedere la natura composita degli esseri, ma anche la vacuità dei loro componenti costitutivi. I bodhisattva al livello dell'ottavo bhumi che "accettano il non sorgere dei dharma", "evitando persino di generare una concezione delle entità" hanno questo tipo di grande compassione non oggettivata. Anālambana karuṇā ha la qualità di essere irreversibile (avaivartika) ed è chiamata mahākaruṇā.</span>
+<span id="cb1-142"><a href="#cb1-142" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-143"><a href="#cb1-143" aria-hidden="true" tabindex="-1"></a>Il significato di questa sistematizzazione risiede nella sua concettualizzazione della compassione e dal fatto che tale concettualizzazione determinerà le pedagogie impiegate per coltivarla. Al livello più basso della tassonomia l'accento è posto sulla conoscenza, nel senso della comprensione della realtà. Le forme superiori di compassione sono presentate non come emozioni, ma come stati mentali determinati da forme superiori di conoscenza o saggezza. I tre tipi di karuṇā sono intesi gerarchicamente, il che significa che qui è presente l'idea che migliorando progressivamente la conoscenza, anche la compassione può essere progressivamente accresciuta.</span>
+<span id="cb1-144"><a href="#cb1-144" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-145"><a href="#cb1-145" aria-hidden="true" tabindex="-1"></a><span class="fu">## La triplice tipologia della sofferenza</span></span>
+<span id="cb1-146"><a href="#cb1-146" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-147"><a href="#cb1-147" aria-hidden="true" tabindex="-1"></a>Questa tassonomia a tre livelli della compassione può essere messa in relazione con i tre tipi di sofferenza che abbiamo descritto in precedenza: la sofferenza esplicita (duḥkhaduḥkhatā, lett. sofferenza della sofferenza), la sofferenza del cambiamento (vipariṇāmaduḥkhatā) e la sofferenza degli esseri condizionati (saṃskāraduḥkhatā).</span>
+<span id="cb1-148"><a href="#cb1-148" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-149"><a href="#cb1-149" aria-hidden="true" tabindex="-1"></a>Questi tre tipi di sofferenza sono caratterizzati da una loro specifica qualità esperienziale.</span>
+<span id="cb1-150"><a href="#cb1-150" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-151"><a href="#cb1-151" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>La prima, duḥkhaduḥkhatā, è vissuta come dolorosa dagli individui e comprende tutte le piccole e grandi forme di sofferenza fisica e mentale tra la nascita e la morte.</span>
+<span id="cb1-152"><a href="#cb1-152" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>La seconda, vipariṇāmaduḥkhatā, si riferisce alla potenziale sofferenza contenuta nelle esperienze piacevoli; alcune esperienze sono momentaneamente piacevoli, ma portano sempre con sé i semi di una sofferenza futura -- anche per il semplice fatto che necessariamente finiscono. La compassione per questo tipo di sofferenza richiede una raffinata comprensione della natura impermanente della realtà.</span>
+<span id="cb1-153"><a href="#cb1-153" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Il terzo tipo di sofferenza, saṃskāraduḥkhatā, è descritto come un'esperienza neutra (né piacevole né spiacevole) perché troppo sottile per essere notata dagli individui comuni. Tuttavia, è percepitA direttamente dagli ārya bodhisattva. Questo stato fondamentale di sofferenza è il risultato del fatto che i fenomeni sono condizionati (saṃskṛta) e contaminati (sāsravā), il che significa che sorgono sotto forma di contaminazioni di un individuo, come il desiderio e l'ignoranza. Secondo Chögyam Trungpa afferma che anche la gente comune ne è colpita e la descrive in termini psicologici come una "generale insoddisfazione che è sempre presente", "una sensazione di vuoto, pesantezza e miseria". Lo scopo finale del sentiero del bodhisattva è l'eliminazione di questa forma più sottile di sofferenza, poiché la sua assenza è equiparata all'estinzione di tutte le contaminazioni mentali e al nirvāṇa.</span>
+<span id="cb1-154"><a href="#cb1-154" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-155"><a href="#cb1-155" aria-hidden="true" tabindex="-1"></a><span class="fu">### Madhyamakāvatāra</span></span>
+<span id="cb1-156"><a href="#cb1-156" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-157"><a href="#cb1-157" aria-hidden="true" tabindex="-1"></a>I tre tipi di compassione che abbiamo presentato sono discussi anche dal Madhyamakāvatāra di Ciandrakirti, un'opera importante che fornisce un approccio sistematico all'integrazione tra vacuità (sunyata) e compassione. Il Madhyamakāvatāra è noto per l'attenzione particolare che Ciandrakirti presta alla compassione. Nella lode introduttiva, normalmente riservata a un omaggio al Buddha, Candrakīrti elogia la compassione come la prima causa della buddhità</span>
+<span id="cb1-158"><a href="#cb1-158" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-159"><a href="#cb1-159" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Gli Śrāvaka e i pratyekabuddha sono nati dal re Muni;\</span></span>
+<span id="cb1-160"><a href="#cb1-160" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; I Buddha nascono dai bodhisattva;\</span></span>
+<span id="cb1-161"><a href="#cb1-161" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; E dalla mente della compassione, della non dualità e del Bodhicitta nasce il bodhisattva.</span></span>
+<span id="cb1-162"><a href="#cb1-162" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-163"><a href="#cb1-163" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Poiché la compassione è vista come il seme dell'eccellente raccolto dai Conquistatori,\</span></span>
+<span id="cb1-164"><a href="#cb1-164" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; E l'acqua che la fa crescere e la fruizione che ne risulta\</span></span>
+<span id="cb1-165"><a href="#cb1-165" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Continuerà a essere goduta a lungo,\</span></span>
+<span id="cb1-166"><a href="#cb1-166" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; all'inizio lodo la compassione.</span></span>
+<span id="cb1-167"><a href="#cb1-167" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-168"><a href="#cb1-168" aria-hidden="true" tabindex="-1"></a>Il verso I,1 afferma che la compassione deve essere coltivata in combinazione con una mente non duale - intesa come comprensione della vera natura della realtà - e con il bodhicitta. Candrakīrti loda il ruolo onnipresente della compassione in ogni stadio del sentiero del bodhisattva. Con una metafora presenta l'immagine della compassione come il seme, l'acqua e il raccolto della buddhità. Quindi allude ai tre tipi di compassione per mezzo di una allegoria della natura e dell'acqua:</span>
+<span id="cb1-169"><a href="#cb1-169" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-170"><a href="#cb1-170" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Esseri indifesi, guidati come una ruota d'irrigazione,\</span></span>
+<span id="cb1-171"><a href="#cb1-171" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Alla compassione per questi esseri, mi inchino.\</span></span>
+<span id="cb1-172"><a href="#cb1-172" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Gli esseri senzienti sono come il riflesso della luna nell'acqua in movimento.\</span></span>
+<span id="cb1-173"><a href="#cb1-173" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Vedendoli vuoti nel loro cambiamento e nella loro natura\</span></span>
+<span id="cb1-174"><a href="#cb1-174" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Il figlio del vittorioso, dotato di tale intelligenza,\</span></span>
+<span id="cb1-175"><a href="#cb1-175" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; E sopraffatto dalla compassione, desidera liberare completamente tutti gli esseri.</span></span>
+<span id="cb1-176"><a href="#cb1-176" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-177"><a href="#cb1-177" aria-hidden="true" tabindex="-1"></a>In questi versi, la ruota d'irrigazione simboleggia il sattvālambana, mentre il riflesso nell'acqua in movimento simboleggia sia il dharmālambana che l'anālambana. Il primo si riferisce alla comprensione della natura impermanente degli esseri, mentre il secondo si riferisce alla realizzazione della vacuità della loro natura.</span>
+<span id="cb1-178"><a href="#cb1-178" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-179"><a href="#cb1-179" aria-hidden="true" tabindex="-1"></a><span class="fu">### Compassione e vacuità</span></span>
+<span id="cb1-180"><a href="#cb1-180" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-181"><a href="#cb1-181" aria-hidden="true" tabindex="-1"></a>La relazione tra compassione e l'idea di Anatman o di sunyata è stata oggetto di molte controversie nel dibattito accademico. Alcuni studiosi hanno sostenuto che realizzare la vacuità contraddice la compassione, perché se gli oggetti della compassione e la loro sofferenza sono in definitiva privi di esistenza intrinseca, allora non ci sono le basi per una condotta compassionevole e nessuna possibilità di un'etica normativa. Questo tema, tuttavia, non è specifico al dibattito contemporaneo, ma ha una lunga storia nella tradizione testuale buddista.</span>
+<span id="cb1-182"><a href="#cb1-182" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-183"><a href="#cb1-183" aria-hidden="true" tabindex="-1"></a>Ad esempio, Śāntideva che cita l'argomento degli scettici:</span>
+<span id="cb1-184"><a href="#cb1-184" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-185"><a href="#cb1-185" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Se gli esseri senzienti non esistono, allora a chi si rivolge la compassione?</span></span>
+<span id="cb1-186"><a href="#cb1-186" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-187"><a href="#cb1-187" aria-hidden="true" tabindex="-1"></a>Tale apparente paradosso si dissolve se consideriamo la spiegazione Madhyamaka di śūnyatā proposta da Nāgārjuna e Candrakīrti: secondo questi autori la vacuità non è il non essere, ma l'origine dipendente. Nāgārjuna, lodando il Buddha, afferma:</span>
+<span id="cb1-188"><a href="#cb1-188" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-189"><a href="#cb1-189" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Ciò che sorge in modo dipendente è esattamente ciò che consideriamo śūnyatā.\</span></span>
+<span id="cb1-190"><a href="#cb1-190" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Oh, il tuo incomparabile ruggito di leone è che non esistono fenomeni indipendenti!</span></span>
+<span id="cb1-191"><a href="#cb1-191" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-192"><a href="#cb1-192" aria-hidden="true" tabindex="-1"></a>::: callout-note</span>
+<span id="cb1-193"><a href="#cb1-193" aria-hidden="true" tabindex="-1"></a>La dottrina della pratītyasamutpāda, o origine dipendente <span class="sc">\[</span>COPRODUZIONE CONDIZIONATA, detta anche originazione interdipendente o genesi dipendente<span class="sc">\]</span>, è la tesi che ogni fenomeno dipende per la sua esistenza o il suo verificarsi da innumerevoli altri fenomeni in una vasta rete di interdipendenza. Quella rete è multidimensionale, comprende diversi tipi di relazioni causali così come relazioni di dipendenza mereologica e dipendenza dalle convenzioni umane e dall'imputazione concettuale.</span>
+<span id="cb1-194"><a href="#cb1-194" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-195"><a href="#cb1-195" aria-hidden="true" tabindex="-1"></a>La dottrina dell'origine dipendente è uno sviluppo del concetto di anātman (o non-sé) proposto dal Buddha. La nozione Therevada di anatman è stata successivamente sviluppata dall'approccio Mahayana nel concetto di śūnyatā, l'idea che né le persone né qualsiasi altro fenomeno hanno un'identità separata, che noi e qualsiasi altro fenomeno non siamo altro che un insieme di processi psicofisici collegati causalmente con un'identità meramente convenzionale.</span>
+<span id="cb1-196"><a href="#cb1-196" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-197"><a href="#cb1-197" aria-hidden="true" tabindex="-1"></a>Il confine tra sé e gli altri è considerato convenzionale e inadeguato. Pur riconoscendo l'importanza di questa distinzione nel nostro pensiero ordinario e il nostro bisogno di riconoscerla nel ragionamento pratico quotidiano, i teorici buddisti sostengono che attribuiamo troppa importanza a questa distinzione.</span>
+<span id="cb1-198"><a href="#cb1-198" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-199"><a href="#cb1-199" aria-hidden="true" tabindex="-1"></a>L'identità personale è, dal punto di vista buddista, una imputazione convenzionale. Le relazioni tra noi stessi e gli altri, le relazioni tra i fenomeni, sono semplicemente relazioni di causalità e somiglianza, non di identità. L'unica identità che abbiamo è quella che ci viene attribuita da noi stessi e dagli altri: è un'identità narrativa o convenzionale.</span>
+<span id="cb1-200"><a href="#cb1-200" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-201"><a href="#cb1-201" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-202"><a href="#cb1-202" aria-hidden="true" tabindex="-1"></a>Come descritto dalla triplice tipologia della compassione, la coltivazione della compassione precede la realizzazione della vacuità sul sentiero del bodhisattva. Pertanto, gli "esseri inesistenti" non sono un motivo di preoccupazione in quella fase preliminare. Solo a livelli più avanzati è richiesto la comprensione della vacuità, che culmina nel livello più avanzato di deoggettivazione della Mahakaruna.</span>
+<span id="cb1-203"><a href="#cb1-203" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-204"><a href="#cb1-204" aria-hidden="true" tabindex="-1"></a>In sintesi, le nozioni di compassione e sofferenza implicano che i bodhisattva evolvono progressivamente nella loro comprensione della realtà e, di conseguenza, la loro compassione si affina. Sebbene la conoscenza non sia l'unico fattore per coltivare la compassione, essa gioca un ruolo cruciale nel radicare la compassione nella ragione, fornendo un livello di profondità e stabilità che gli aspetti empatici, affettivi e aspirazionali da soli non sono in grado di raggiungere.</span>
+<span id="cb1-205"><a href="#cb1-205" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-206"><a href="#cb1-206" aria-hidden="true" tabindex="-1"></a><span class="fu">## Pedagogie</span></span>
+<span id="cb1-207"><a href="#cb1-207" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-208"><a href="#cb1-208" aria-hidden="true" tabindex="-1"></a>Secondo Tzongkhapa, l'approccio pedagogico che ci porta ad acquisire la conoscenza richiesta per lo sviluppo della compassione si sviluppa attraverso la contemplazione della propria situazione personale e della propria sofferenza. La conoscenza esperienziale della propria sofferenza è legata al senso di intolleranza nel vedere gli altri soffrire e quindi alla compassione.</span>
+<span id="cb1-209"><a href="#cb1-209" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-210"><a href="#cb1-210" aria-hidden="true" tabindex="-1"></a>Secondo Vasubandhu</span>
+<span id="cb1-211"><a href="#cb1-211" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-212"><a href="#cb1-212" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Al fine di evocare una genuina consapevolezza della sofferenza samsarica è necessario prima riflettere sul modo in cui noi stessi vaghiamo nel saṃsāra. Altrimenti, senza aver precedentemente sviluppato tale consapevolezza in relazione a noi stessi, un praticante principiante che cerca di contemplare questo aspetto in relazione agli altri esseri senzienti non sarà in grado di sviluppare la sensazione che tale sofferenza sia insopportabile. Pertanto, come descritto nel commento ai Quattrocento versi di Āryadeva, è necessario prima contemplare la sofferenza samsarica in relazione a te stessi; successivamente, è possibile meditare su di essa in relazione agli altri.</span></span>
+<span id="cb1-213"><a href="#cb1-213" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-214"><a href="#cb1-214" aria-hidden="true" tabindex="-1"></a>Va notato che la triplice tipologia della sofferenza (abbiamo discusso in precedenza) e le relative istruzioni pratiche mostrano come l'eliminazione della sofferenza riguarda solo in parte ciò che è doloroso, stressante, insoddisfacente ma richiede anche, e soprattutto, una profonda comprensione della struttura sottostante che crea e perpetua la sofferenza in una prospettiva a lungo termine. Per un bodhisattva, compassione significa l'eliminazione delle contaminazioni mentali inerenti al fenomeni condizionato</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
 </div> <!-- /content -->
 
 

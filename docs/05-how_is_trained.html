@@ -20,6 +20,69 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -253,7 +316,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-which-training" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Metodi di coltivazione della compassione</span></span></h1>
+<div class="quarto-title-block"><div><h1 class="title"><span id="sec-which-training" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Metodi di coltivazione della compassione</span></span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Codice</button></div></div>
 </div>
 
 
@@ -661,6 +724,8 @@ In questo approccio, la coltivazione della compassione include il tentativo di s
 <p>Abbiamo identificato tre approcci didattici per la coltivazione della compassione: i metodi costruttivi, decostruttivi e cognitivo-analitici. Tra essi, l’approccio più impegnativo è quello decostruttivo, poiché richiede una trasformazione radicale della relazione con se stessi, una trasformazione dei confini tra sé e gli altri, e una conseguente trasformazione dell’abitudine che ci porta a metterci in primo piano a spese degli altri.</p>
 
 
+<!-- -->
+
 </section>
 
 </main> <!-- /main -->
@@ -712,6 +777,57 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
+    });
+  }
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
+        }
+      }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
+    }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
+  }
   function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
@@ -773,7 +889,500 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Meditazione Tonglen nel Bodhicaryāvatāra</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
-</nav>
+</nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Metodi di coltivazione della compassione {#sec-which-training}</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">## Metodi contemplativi per trasformare la mente</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>Anche se noi abbiamo scoperto solo di recente la capacità di addestramento della compassione, le pratiche del sentiero spirituale buddista sono impensabili senza la convinzione che la mente possa essere radicalmente trasformata. Nelle fonti buddhiste, questa trasformazione della mente include la compassione e viene sviluppata attraverso la ripetizione, la disciplina e l'intuizione. La letteratura Mahāyāna presenta un'ampia gamma di metodi contemplativi per la coltivazione della compassione e dei relativi stati mentali. In questo capitolo analizzeremo tre approcci didattici nella coltivazione della compassione Mahāyāna.</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- vari metodi di coltivazione della compassione nel contesto Mahāyāna. --&gt;</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- -   In primo luogo, verrà presentata l'idea di una cultura della compassione, che costituisce lo sfondo sul quale vengono applicati i metodi applicati ai singoli individui. --&gt;</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- -   In secondo luogo, verranno presentati tre approcci didattici nella coltivazione della compassione Mahāyāna. Insieme, questi approcci forniscono lo sfondo storico per valutare in maniera comparativa i metodi secolarizzati della coltivazione della compassione. --&gt;</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- -   In terzo luogo, la nostra discussione tornerà sulla questione della cultura della compassione da una prospettiva più pragmatica, esplorando la questione se la coltivazione della compassione avalli uno stile di vita socialmente impegnato, piuttosto che una vita isolata e "asociale". A questa domanda si tenterà di rispondere analizzando la circolarità dei benefici della compassione per sé e per gli altri. --&gt;</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a><span class="al">![Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-12.jpg)</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- ## Cultura della compassione --&gt;</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Il buddismo Mahāyāna propone l'ideale etico del bodhisattva, ovvero di una persona che aspira al massimo bene per se stesso e per gli altri. Mediante la gentilezza amorevole (maitrī) e la compassione (karuṇā), i bodhisattva desiderano aiutare tutti gli esseri a ottenere la liberazione e il nirvāṇa, ma anche ad ottenere la prosperità materiale e il benessere (sukha) in questo mondo. La compassione è alla base delle aspirazioni del bodhisattva sia a lungo che a breve termine. Per realizzare le loro aspirazioni motivate alla compassione, i bodhisattva seguono tre tipi di precetti morali: --&gt;</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- -   moderazione --&gt;</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- -   acquisizione di qualità virtuose, --&gt;</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- -   azioni a favore degli esseri viventi. --&gt;</span></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- La moderazione è spiegata come l'impedimento di atti non virtuosi. Diversi individui mettono in pratica diversi livelli di rinuncia: da colui che segue solo alcuni precetti buddhisti nella vita quotidiana, al monaco che rinuncia a tutta la vita sociale così come la conosciamo. --&gt;</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Qui è solo importante notare che, radicata nella compassione, si è sviluppata nella tradizione buddista una complessa struttura etica, accompagnata da un insieme di voti (ovvero, l'esplicitazione dei comportamenti devono essere adottati e dei comportamenti che devono essere evitati) che ne consentono la sua applicazione pratica. Trasmessi per secoli e ancora oggi elementi costitutivi fondamentali della pratica buddista, tali voti accompagnano ogni passo di un seguace della dottrina buddista. --&gt;</span></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Questa sovrastruttura, costituita da considerazioni etiche, filosofiche e soteriologiche, è ciò che può essere chiamata "cultura della compassione" nel contesto buddista tradizionale. La presenza di una fiorente cultura della compassione fornisce agli individui molteplici punti di riferimento che supportano le proprie pratiche di coltivazione della compassione. --&gt;</span></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Quando al praticante viene chiesto di esprimere la propria compassione evitando le azioni non virtuose, il seguace ha a disposizione un elenco delle azioni non virtuose: --&gt;</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; uccidere, rubare, cattiva condotta sessuale, mentire, discorsi divisivi, discorsi aspri, discorsi oziosi, brama, ostilità, opinioni sbagliate. --&gt;</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Quando al praticante viene detto di coltivare le qualità virtuose e di lavorare a beneficio degli altri, il praticante sa che deve considerare le istruzioni delle cosiddette sei perfezioni (pāramitā): --&gt;</span></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; generosità, disciplina, pazienza, sforzo, concentrazione meditativa e saggezza. --&gt;</span></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- La cultura della compassione della tradizione Mahāyāna non è solo un ideale teorico, ma è anche stata una cultura vissuta. Ad esempio, in Tibet la recitazione del mantra di sei sillabe \[auṃ maṇi padme hūṃ\] era onnipresente, tale mantra è scolpito su rocce, pietre e oggetti vari. La devozione del popolo tibetano al Dalai Lama è stata un'espressione di esplicita adesione culturale alla compassione come valore spirituale chiave. Principi come la compassione, la tolleranza e la non nocività vengono trasmessi dai genitori ai figli, non necessariamente come virtù religiose, ma come abilità sociali. --&gt;</span></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Tenere a mente la cornice globale della cultura della compassione quando si discute delle pratiche di compassione individuali è importante per tre ragioni. --&gt;</span></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- -   In primo luogo, separare la meditazione della compassione dal suo contesto culturale e sociale ci fa correre il rischio di ridurre le pratiche di coltivazione della compassione a esercizi semplicistici. La compassione è invece integrata in numerose pratiche meditative, spesso sovrapposte ad altri aspetti, come il bodhicitta, la gentilezza amorevole (Skt. maitrī) o la generosità (Skt. dāna). Separando il tema della compassione da queste altre dimensioni, gli esercizi contemplativi possono sembrare unidimensionali o troppo semplici. Il concetto di cultura della compassione serve a ricordare che gli esercizi contemplativi individuali devono essere intesi come solo una parte di un più ampio contesto volto allo sviluppo spirituale. --&gt;</span></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- -   In secondo luogo, a causa della natura onnipresente della compassione sul sentiero del bodhisattva, ci sono numerose pratiche che contribuiscono in modo indiretto alla compassione. È importante ricordare che tutte le pratiche volte a purificare la mente da tendenze dannose come l'ignoranza, la paura o l'aggressività, migliorano la qualità e la profondità della compassione. Da questa prospettiva, anche praticare la disciplina sotto seguendo voti e precetti è un modo per esprimere la compassione, poiché l'impegno derivante dai voti aiuta le persone a perseverare e portare a buon fine la coltivazione della compassione. --&gt;</span></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- -   In terzo luogo, la cultura buddista della compassione contiene la convinzione che il potenziale naturale e innato della compassione trova la sua massima espressione solo in una persona risvegliata, un buddha. Poiché questa compassione, o mahākaruṇā, deve essere realizzata in parallelo con una comprensione della vacuità (śūnyatā), ciò implica che anche lo studio, la riflessione e la meditazione sulla realtà ultima sono sia favorevoli che indispensabili alla coltivazione della compassione. E anche se mahākaruṇā potrebbe essere inaccessibile all'inizio del percorso spiritual, credere nel suo raggiungimento fornisce una prospettiva a lungo termine per la coltivazione della compassione, aggiungendo uno scopo ulteriore al semplice atto di aiutare gli altri. --&gt;</span></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Per queste tre ragioni (vale a dire il rischio di semplificazione eccessiva, il rischio di una selezione riduzionista e il rischio che ci porta a trascurare una visione a lungo termine), è fondamentale tenere presente il più ampio contesto della cultura della compassione all'interno del quale sono presenti le pratiche della coltivazione della compassione. --&gt;</span></span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="fu">## Tre approcci didattici</span></span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>Un'analisi delle pratiche di coltivazione della compassione nella letteratura buddista consente di gettare luce sui *metodi didattici* che sono stati impiegati nella tradizione buddista, al fine di consentire uno studio comparativo con la coltivazione secolarizzata della compassione. Secondo Julia Caroline Stenzel, si possono mettere in luce tre stili didattici nella letteratura Mahāyāna:</span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>l'approccio costruttivista,</span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>l'approccio decostruttivo,</span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>l'approccio cognitivo-analitico.</span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- La discussione seguente presenterà ciascuno di questi approcci con vari esempi tratti dalla letteratura del buddista.  --&gt;</span></span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a>La maggior parte delle pratiche di coltivazione della compassione sono una combinazione di questi tre metodi didattici, ma spesso si può identificare una chiara preferenza dell'autore per uno di questi approcci.</span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a><span class="fu">### L'approccio costruttivo</span></span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a>Tra i tre approcci didattici, il più comune è quello costruttivo. Questo approccio cerca di sviluppare la coltivazione della compassione attraverso la trasformazione e il potenziamento di potenzialità già esistenti, ovvero la gentilezza amorevole, la cura, la gratitudine, il senso di responsabilità, la generosità, la perseveranza, il coraggio morale e così via.</span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a>L'approccio costruttivo comprende una varietà di metodi.</span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Un insieme di metodi fa leva sulle esperienze vissute dei meditatori. Tali esperienze personali forniscono il punto di partenza per la trasmutazione di tali esperienze in una forma universale di compassione.</span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Un altro insieme di metodi corrisponde ad una trasformazione cognitiva attuata mediante, ad esempio, la recitazione delle preghiere di aspirazione. Tali preghiere, ritenute essere le parole dei grandi bodhisattva del passato, espongono il meditatore a modi di pensare spiritualmente avanzati.</span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a>Questi due metodi utilizzano le tecniche formali di contemplazione, visualizzazione e recitazione, che vengono ripetute moltissime volte, poiché si ritiene che, attraverso la ripetizione si possono formare *nuove abitudini mentali*.</span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a>Nell'approccio "costruttivo" si possono mettere in evidenza i seguenti aspetti: il ruolo della gentilezza amorevole (Mettā), l'uso delle preghiere di aspirazione, la ri-definizione delle proprie intenzioni e l'impegno in prima persona.</span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Il ruolo di Metta nella coltivazione della compassione</span></span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a>La coltivazione di Metta spesso precede o accompagna quella della compassione. I bodhisattva vedono gli altri come loro "madre, padre, figli e figlie". L'amore materno i propri figli è un simbolo della cura disinteressata per un altro essere, il che spesso implica un sacrificio del proprio benessere. Ad esempio, nel suo Lam rim chen mo, Tzongkhapa (1357-1419) sistematizza una meditazione (detta "Le sette istruzioni di cause ed effetti") incentrata sul riconoscimento della gentilezza materna. Le sei cause e un effetto sono descritte nelle seguenti contemplazioni:</span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a><span class="ss">1.  </span>Riconoscere tutti gli esseri viventi come la propria madre.</span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a><span class="ss">2.  </span>Ricordare la loro gentilezza.</span>
+<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a><span class="ss">3.  </span>Desiderare ripagare la loro gentilezza.</span>
+<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a><span class="ss">4.  </span>Sviluppare la gentilezza amorevole.</span>
+<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a><span class="ss">5.  </span>Sviluppare la compassione.</span>
+<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a><span class="ss">6.  </span>Sviluppare una sincera risoluzione.</span>
+<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a><span class="ss">7.  </span>Ottenere la mente del risveglio.</span>
+<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a>In questa lista, si notino due aspetti:</span>
+<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>la meditazione non si esaurisce con la compassione, ma culmina nella mente del risveglio;</span>
+<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>la meditazione inizia con un elemento di equanimità, piuttosto che con il rapporto personale con la propria madre.</span>
+<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a>L'uso dell'*esperienza personale* come strumento pedagogico è degno di nota in quanto, in un contesto buddista, è un *metodo ambiguo*. Mentre l'amore e la compassione verso la propria madre sono un punto di riferimento facilmente accessibile per sviluppare la compassione universale, l'*attaccamento* inerente all'amore convenzionale è contestato. Infatti, nella dottrina buddista, possiede una connotazione negativa, essendo descritto come una combinazione di due cause fondamentali della sofferenza nel saṃsāra, vale a dire l'ignoranza (avidyā), sotto forma di falsa concezione di sé, e l'attaccamento (rāga) alla propria persona e al proprio interesse personale.</span>
+<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- La preoccupazione per la propria felicità personale è diametralmente opposta all'orientamento verso l'altro della compassione. L'ignoranza e l'attaccamento appartengono entrambi al gruppo dei fattori mentali negativi (Skt. kleśa) che dovrebbero essere eliminati; ciò nonostante sono entrambi incorporati in una delle più comuni pedagogie della compassione. Tuttavia, poiché l'amore materno è contaminato dall'attaccamento, esso è screditato come limitato e inferiore rispetto all'amore spiritualmente avanzato di un bodhisattva.  --&gt;</span></span>
+<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a>Infatti, Asanga afferma:</span>
+<span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Non esiste amore che sia irreprensibile e che non sia mondano, ma l'amore compassionevole dei bodhisattva è irreprensibile e trascendente. L'amore proprio di padre e madre contiene il desiderio (tṛṣṇā) e quindi dovrebbe essere soggetto al rimprovero. Per coloro che dimorano nella compassione mondana, sebbene essa sia irreprensibile, è pur sempre mondana. Ma l'amore del bodhisattva è fatto di compassione ed è sia irreprensibile che trascendente.</span></span>
+<span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a>Questo verso riassume la relazione ambigua tra l'amore mondano e la compassione: sebbene degno di lode, l'amore mondano e la compassione che da esso deriva sono macchiati dall'attaccamento e dall'ignoranza, e devono essere trascesi.</span>
+<span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Ma non tutte le pratiche di coltivazione della compassione si basano sull'amore materno, o sull'amore per la propria madre, come punto di partenza della meditazione. --&gt;</span></span>
+<span id="cb1-106"><a href="#cb1-106" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-107"><a href="#cb1-107" aria-hidden="true" tabindex="-1"></a>Altre meditazioni dell'approccio costruttivo usano un punto di partenza diverso, ovvero l'amore e la cura che un individuo ha per sé stesso.</span>
+<span id="cb1-108"><a href="#cb1-108" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-109"><a href="#cb1-109" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Poiché desideriamo la felicità per noi stessi, dovremmo desiderare la felicità anche per gli altri esseri.</span></span>
+<span id="cb1-110"><a href="#cb1-110" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-111"><a href="#cb1-111" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- La letteratura tibetana descrive questo stato mentale, ovvero l'amore per sé stessi, come egoistico. Proprio  --&gt;</span></span>
+<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a>Come nel caso del rapporto madre-bambino, anche l'amore per se stessi contiene una forma di attaccamento la quale deve essere trascesa durante il processo di coltivazione della compassione.</span>
+<span id="cb1-114"><a href="#cb1-114" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-115"><a href="#cb1-115" aria-hidden="true" tabindex="-1"></a>Uno dei mezzi per superare la contaminazione dell'attaccamento insito nell'amore materno o nell'amore per se stessi è quello dell'*espansione infinita*: i bodhisattva, dopo aver raccolto i sentimenti per sé o per la madre, trasferiscono progressivamente l'amore e la compassione così generati, prima agli amici intimi, poi tra gli amici meno vicini, poi agli amici lontani, poi a piccoli nemici e a grandi nemici, e infine all'infinita moltitudine di tutte le creature.</span>
+<span id="cb1-116"><a href="#cb1-116" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-117"><a href="#cb1-117" aria-hidden="true" tabindex="-1"></a>Essere attaccati a tutte le creature significa, di fatto, non avere alcun attaccamento, poiché l'attaccamento è diretto in modo imparziale a tutti gli esseri. Pertanto, nel metodo costruttivo, l'amore per se stessi e l'amore materno sono un semplice punto di partenza della meditazione, mentre l'aspetto più importante è la trasformazione del proprio atteggiamento mentale che domina la maggior parte della meditazione.</span>
+<span id="cb1-118"><a href="#cb1-118" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-119"><a href="#cb1-119" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- che non possono iniziare con nient'altro che con la loro esperienza diretta. Inoltre, la metafora dell'amore materno per il bambino simboleggia una forma ideale di amore disinteressato e di cura responsabile, fino al punto dell'abnegazione di sé. Le descrizioni dell'amore materno illustrano un atteggiamento di preoccupazione per un altro essere che è più importante della preoccupazione per la propria persona, assomigliando così all'ideale altruistico della compassione del bodhisattva. --&gt;</span></span>
+<span id="cb1-120"><a href="#cb1-120" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-121"><a href="#cb1-121" aria-hidden="true" tabindex="-1"></a>L'attaccamento al sé e l'amore materno sono dunque "mezzi abili" (upāya) a disposizione dei novizi per coltivare la compassione. I buddisti Mahayana usano spesso il termine Upāya ("mezzi abili" o "mezzi espedienti"). Molto semplicemente, upaya è qualsiasi attività che aiuti gli altri a realizzare l'illuminazione. Il punto cruciale è che l'azione viene applicata con saggezza e compassione ed è appropriato nel suo tempo e nel suo luogo. Lo stesso atto che "funziona" in una situazione può essere completamente sbagliato in un'altra. <span class="co">&lt;!-- Il concetto di upaya si basa sulla comprensione che gli insegnamenti del Buddha sono mezzi provvisori per realizzare l'illuminazione.  --&gt;</span> <span class="co">&lt;!-- Questa è un'interpretazione della parabola della zattera. Il Buddha paragonò i suoi insegnamenti a una zattera che non sarà più necessaria quando si raggiunge l'altra sponda.  --&gt;</span> È interessante notare che, secondo alcune fonti, la nozione di upāya si spinge fino all'idea che qualsiasi cosa sia permessa come upāya, compresa la rottura dei precetti. Quello che è fondamentale qui è che l'amore materno e l'amore per se stessi non sono fini in sé, ma solo strumenti provvisori che devono poi essere abbandonati per raggiungere il vero fine: la grande compassione del bodhisattva che ha le caratteristiche dell'universalità e dell'imparzialità e che trascende completamente l'amore per sé stessi.</span>
+<span id="cb1-122"><a href="#cb1-122" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-123"><a href="#cb1-123" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Possa io essere caro agli esseri senzienti come la loro stessa vita,\</span></span>
+<span id="cb1-124"><a href="#cb1-124" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; E possano gli esseri senzienti essermi ancora più cari.</span></span>
+<span id="cb1-125"><a href="#cb1-125" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-126"><a href="#cb1-126" aria-hidden="true" tabindex="-1"></a>In questo verso del Ratnāvalī di Nāgārjuna, l'idea di prendersi cura degli altri anche più di quanto ci si prenda abitualmente cura della propria vita, esprime la sublimazione dell'attaccamento.</span>
+<span id="cb1-127"><a href="#cb1-127" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-128"><a href="#cb1-128" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- L'attaccamento ai parenti e al sé è quindi usato come Upāya per i novizi per coltivare il primo stadio della compassione, ovvero la "compassione che ha gli esseri senzienti come suoi oggetti (sattvālambana)"; questo primo stadio della compassione è trasceso nelle due forme avanzate della compassione, vale a dire la compassione per i fenomeni come oggetto (dharmālambana) e la compassione senza oggetto (anālambana). --&gt;</span></span>
+<span id="cb1-129"><a href="#cb1-129" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-130"><a href="#cb1-130" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Preghiere di aspirazione e impostazione dell'intenzione</span></span>
+<span id="cb1-131"><a href="#cb1-131" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-132"><a href="#cb1-132" aria-hidden="true" tabindex="-1"></a>Il secondo insieme di metodi dell'approccio "costruttivo" è la recitazione delle preghiere di aspirazione (praṇidhāna), individualmente o in comunità. La recitazione delle preghiere di aspirazione costituisce un esercizio mentale nel quale praticante sviluppa l'intenzione di mettere in atto comportamenti altruistici.</span>
+<span id="cb1-133"><a href="#cb1-133" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-134"><a href="#cb1-134" aria-hidden="true" tabindex="-1"></a>Una delle preghiere di aspirazione più conosciute è la Bhadracaryāpraṇidhāna (L'aspirazione per un'eccellente condotta), che deriva dall'ultimo capitolo dell'Avataṃsaka Sūtra (Il Grande sutra dell'ornamento fiorito dei Buddha). La preghiera è costituita da una cinquantina di versi che descrivono l'atteggiamento altruistico di un bodhisattva, come esemplificato ad esempio dal verso seguente:</span>
+<span id="cb1-135"><a href="#cb1-135" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-136"><a href="#cb1-136" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- ::: callout-note --&gt;</span></span>
+<span id="cb1-137"><a href="#cb1-137" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-138"><a href="#cb1-138" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- L'Avataṃsaka Sūtra è uno dei sutra Mahāyāna più influenti del buddismo dell'Asia orientale. Descrive un cosmo di infiniti regni che si contengono a vicenda. È stato interpretato come una descrizione dell'universo visto da un Buddha (ovvero, il Dharmadhatu), che vede tutti i fenomeni come vacui e quindi infinitamente compenetrati. --&gt;</span></span>
+<span id="cb1-139"><a href="#cb1-139" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-140"><a href="#cb1-140" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- ::: --&gt;</span></span>
+<span id="cb1-141"><a href="#cb1-141" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-142"><a href="#cb1-142" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; In tutti i regni e in ogni direzione, placherò tutte le sofferenze dei regni sfortunati. Stabilirò tutti gli esseri nella felicità e lavorerò per il bene di tutte le creature.</span></span>
+<span id="cb1-143"><a href="#cb1-143" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-144"><a href="#cb1-144" aria-hidden="true" tabindex="-1"></a>Coloro che recitano questi versi cercano dunque di assumere il punto di vista di un bodhisattva, ovvero un atteggiamento è caratterizzato dalla vastità del campo di applicazione, dalla sincerità dell'impegno e dalla mancanza di riferimenti ai normali sentimenti di affetto per parenti e amici.</span>
+<span id="cb1-145"><a href="#cb1-145" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-146"><a href="#cb1-146" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- In sintesi, le recitazioni delle preghiere di aspirazione ha la funzione di rafforzare attivamente, attraverso la recitazione ripetuta, i modi di pensare altruistici, preparando così l'individuo a mettere in atto una condotta etica nella vita quotidiana e rafforzando l'entusiasmo per la pratica contemplativa. --&gt;</span></span>
+<span id="cb1-147"><a href="#cb1-147" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-148"><a href="#cb1-148" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- #### I quattro incommensurabili --&gt;</span></span>
+<span id="cb1-149"><a href="#cb1-149" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-150"><a href="#cb1-150" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Nelle tradizioni tibetane una preghiera di aspirazione molto utilizzata è la preghiera dei quattro incommensurabili: --&gt;</span></span>
+<span id="cb1-151"><a href="#cb1-151" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-152"><a href="#cb1-152" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; Possano tutti gli esseri possedere la felicità e la causa della felicità.\ --&gt;</span></span>
+<span id="cb1-153"><a href="#cb1-153" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-154"><a href="#cb1-154" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; Possano tutti gli esseri essere liberi dalla sofferenza e dalle cause della sofferenza.\ --&gt;</span></span>
+<span id="cb1-155"><a href="#cb1-155" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-156"><a href="#cb1-156" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; Possano tutti gli esseri non essere separati dalla sublime felicità che è libera dalla sofferenza.\ --&gt;</span></span>
+<span id="cb1-157"><a href="#cb1-157" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-158"><a href="#cb1-158" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; Possano tutti gli esseri dimorare nell'equanimità che è libera da pregiudizi e parzialità. --&gt;</span></span>
+<span id="cb1-159"><a href="#cb1-159" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-160"><a href="#cb1-160" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- I quattro incommensurabili forniscono una definizione specifica della compassione come universale (apramāṇakaruṇā) e focalizzata sull'eliminazione delle cause della sofferenza. --&gt;</span></span>
+<span id="cb1-161"><a href="#cb1-161" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-162"><a href="#cb1-162" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Riguardo alla pratica dei quattro incommensurabili, Asaṅga spiega che sono esercizi del sentiero della coltivazione mentale (Skt. bhāvanāmārga) che mira a raggiungere una misura incommensurabile delle seguenti quattro qualità: --&gt;</span></span>
+<span id="cb1-163"><a href="#cb1-163" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-164"><a href="#cb1-164" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- -   gentilezza amorevole (Skt. apramāṇamaitrī), --&gt;</span></span>
+<span id="cb1-165"><a href="#cb1-165" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-166"><a href="#cb1-166" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- -   compassione (scr. apramāṇakaruṇā), --&gt;</span></span>
+<span id="cb1-167"><a href="#cb1-167" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-168"><a href="#cb1-168" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- -   gioia (scr. apramāṇamūdita), --&gt;</span></span>
+<span id="cb1-169"><a href="#cb1-169" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-170"><a href="#cb1-170" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- -   equanimità (scr. apramāṇopekṣā). --&gt;</span></span>
+<span id="cb1-171"><a href="#cb1-171" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-172"><a href="#cb1-172" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Questa preghiera tibetana viene recitata da molti seguaci buddisti più volte al giorno. Essa fornisce una definizione di gentilezza amorevole e compassione anche per coloro che non sono impegnati nello studio della dottrina buddista. Rafforza l'abitudine al pensiero altruistico. Inoltre, la portata infinita delle aspirazioni ha lo scopo di generare una quantità incommensurabile di virtù, da cui il nome incommensurabili -- apramāṇa. --&gt;</span></span>
+<span id="cb1-173"><a href="#cb1-173" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-174"><a href="#cb1-174" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Impegno personale</span></span>
+<span id="cb1-175"><a href="#cb1-175" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-176"><a href="#cb1-176" aria-hidden="true" tabindex="-1"></a>La caratteristica fondamentale dell'approccio costruttivo è l'enfasi sulla responsabilità personale. La gentilezza amorevole, la compassione, la gioia e l'equanimità devono motivare l'impegno attivo del praticante rivolto alla liberazione degli esseri dalla sofferenza, piuttosto che rappresentare semplicemente un desiderio astratto. Le aspirazioni compassionevoli assumono dunque la forma di un impegno in prima persona, il quale viene riassunto nel voto del bodhicitta:</span>
+<span id="cb1-177"><a href="#cb1-177" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-178"><a href="#cb1-178" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Allo stesso modo dei sugata (buddha) del passato che hanno raggiunto la bodhicitta e hanno avviato il percorso dei bodhisattva, anche io risveglierò la bodhicitta e avvierò gradualmente questa trasformazione per il bene di tutti gli esseri senzienti. Oggi la mia nascita è fruttuosa, la mia condizione umana è giustificata. Oggi nasco nella famiglia dei buddha, sono figlio dei buddha. Da questo momento terrò una condotta degna di questa famiglia e non la macchierò. Come un cieco può trovare una pietra preziosa tra i rifiuti, questa bodhicitta è emersa in me. Di fronte a tutti i protettori invito tutti gli esseri senzienti a realizzare lo stato di sugata e in attesa di ciò la felicità temporanea. Possa la preziosa bodhicitta sorgere in coloro in cui non è ancora nata e in chi è già presente possa non diminuire ma sempre crescere. Che nessuno essere si allontani mai dalla bodhicitta e che gli esseri possano sempre e esclusivamente mettere in atto l'azione illuminata.</span></span>
+<span id="cb1-179"><a href="#cb1-179" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-180"><a href="#cb1-180" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Nono soltanto la compassione viene espressa come l'aspirazione di liberare tutti gli esseri senzienti dalla sofferenza, ma tale aspirazione si esprime come un impegno *personale* volto a generare la bodhicitta e ad applicarla nella vita quotidiana. A causa dell'impegno a raggiungere il risveglio, i bodhisattva manifestano compassione in *ogni* azione che compiono. --&gt;</span></span>
+<span id="cb1-181"><a href="#cb1-181" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-182"><a href="#cb1-182" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- **Conclusione.** I metodi dell'approccio costruttivo per coltivare la compassione sono quelle pratiche volte a sviluppare nuovi modi di pensare: --&gt;</span></span>
+<span id="cb1-183"><a href="#cb1-183" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-184"><a href="#cb1-184" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- -   la trasformazione psicologica dell'affetto macchiato dall'attaccamento all'interno delle relazioni famigliari ad un'imparziale preoccupazione e compassione amorosa universali, --&gt;</span></span>
+<span id="cb1-185"><a href="#cb1-185" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-186"><a href="#cb1-186" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- -   la generazione deliberata e ripetuta di aspirazioni, che dovrebbe tradursi nell'assunzione di responsabilità e nell'azione diretta. --&gt;</span></span>
+<span id="cb1-187"><a href="#cb1-187" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-188"><a href="#cb1-188" aria-hidden="true" tabindex="-1"></a><span class="fu">### L'approccio decostruttivo</span></span>
+<span id="cb1-189"><a href="#cb1-189" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-190"><a href="#cb1-190" aria-hidden="true" tabindex="-1"></a><span class="in">```{=html}</span></span>
+<span id="cb1-191"><a href="#cb1-191" aria-hidden="true" tabindex="-1"></a><span class="in">&lt;!-- , piuttosto che cercando di indebolire le propensioni antitetiche, il che corrisponde all'approccio decostruttivo. </span></span>
+<span id="cb1-192"><a href="#cb1-192" aria-hidden="true" tabindex="-1"></a><span class="in">In questo approccio, la coltivazione della compassione include il tentativo di sviluppare stati mentali correlati, come  --&gt;</span></span>
+<span id="cb1-193"><a href="#cb1-193" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb1-194"><a href="#cb1-194" aria-hidden="true" tabindex="-1"></a>L'approccio decostruttivo prende la strada opposta, ovvero decostruire le barriere mentali che impediscono la compassione. Queste includono le afflizioni mentali come la malevolenza, il disgusto, la gelosia, la rabbia e così via. Lo strumento fondamentale usato dall'approccio decostruttivo per indebolire le propensioni antitetiche è quello di *distruggere la credenza in un sé separato e sostanzialmente esistente*, minando in questo modo l'attaccamento egoistico e il pensiero dualistico.</span>
+<span id="cb1-195"><a href="#cb1-195" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-196"><a href="#cb1-196" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Le definizioni dell'Abhidharma di compassione come assenza di malevolenza (vihiṃsa) esprimono la il punto di vista secondo il quale la compassione può manifestarsi in maniera autentica solo una volta che le forze oppositive alla compassione (come rabbia, odio e aggressività) sono state eliminate. A ciò, Vasubandhu aggiunge che Mahākaruṇā è anche l'assenza di ignoranza (cioè richiede una comprensione della vacuità). --&gt;</span></span>
+<span id="cb1-197"><a href="#cb1-197" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-198"><a href="#cb1-198" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Questo punto di vista trova eco nelle spiegazioni di Asaṅga della compassione in termini negativi, vale a dire come decostruzione dell'avidità (vairagya) e malevolenza (vihiṃsa), o decostruzione della distinzione tra felice e infelice, o tra sé e l'altro. --&gt;</span></span>
+<span id="cb1-199"><a href="#cb1-199" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-200"><a href="#cb1-200" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Tutte le esperienze sono transitorie e, quindi, sono una forma di sofferenza. Pertanto, secondo Asaṅga, si dovrebbe provare compassione anche verso le persone che sembrano felici, non solo verso quelle che soffrono. Così come per Vasubandhu, anche secondo Asaṅga una genuina compassione richiede la decostruzione della falsa distinzione tra sé e l'altro. --&gt;</span></span>
+<span id="cb1-201"><a href="#cb1-201" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-202"><a href="#cb1-202" aria-hidden="true" tabindex="-1"></a>L'approccio didattico decostruttivo non si rivolte tanto alle manifestazioni evidenti della sofferenza, quanto piuttosto alle loro cause sottostanti. È quindi un approccio indiretto e a lungo termine per coltivare la compassione. È solo abbandonando il pensiero dualistico convenzionale che, secondo il Mahāyāna, possono essere eliminate le cause che ostacolano la compassione e può essere raggiunto uno stato di purezza (viśuddhi).</span>
+<span id="cb1-203"><a href="#cb1-203" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-204"><a href="#cb1-204" aria-hidden="true" tabindex="-1"></a>Il metodo didattico dell'approccio decostruttivo che consente di superare l'"imputazione di essenza intrinseca" assegnata al sé e ad altri, in base alla quale essi vengono considerati come separati, autonomi, intrinsecamente esistenti, è quello del "capovolgimento" ontologico, ovvero dello scambio di sé e altri. Questa pratica meditativa è stata proposta nel Bodhicaryāvatāra di Śāntideva e sarà discussa nel @sec-meditation-tonglen. Queste meditazioni sono conosciute collettivamente come "equalizzazione e scambio di sé e altri" (svaparasamatā parātmaparivartana) e mirano a decostruire il senso di un sé sostanziale separato e a indebolire la valutazione secondo la quale il sé è più importante degli altri. L'approccio decostruttivo sarà descritto in dettaglio nel @sec-meditation-tonglen.</span>
+<span id="cb1-205"><a href="#cb1-205" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-206"><a href="#cb1-206" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- per decostruire le barriere tra sé e l'altro (o tra soggetto e oggetto) è spiegato in modo più diretto nel Bodhicaryavatāra (Bodhicaryāvatāra). Il Bodhicaryavatāra è un breve testo in versi che presenta le pratiche di addestramento per sviluppare il carattere virtuoso del bodhisattva. Il testo è stato scritto dal monaco studioso Śāntideva, buddista Mahayana della scuola Madhyamaka residente in India, presso l'università monastica di Nālandā c. VIII secolo d.C. Una caratteristica significativa del testo è la sua incorporazione di argomentazioni filosofiche in contemplazioni volte a sviluppare un carattere virtuoso. I passaggi spesso funzionano simultaneamente come argomenti intesi a convincere un interlocutore (o se stessi) delle loro affermazioni, così come meditazioni per sviluppare la virtù in questione. I temi del testo sono lo sviluppo di bodhicitta, il desiderio di diventare un buddha pienamente illuminato ,e lo sviluppo delle virtù che costituiscono il carattere del bodhisattva. Il testo sottolinea anche lo sviluppo della compassione, dell'introspezione e della mindfulness (Skt. smṛti). --&gt;</span></span>
+<span id="cb1-207"><a href="#cb1-207" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-208"><a href="#cb1-208" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- ::: callout-note --&gt;</span></span>
+<span id="cb1-209"><a href="#cb1-209" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-210"><a href="#cb1-210" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Smṛti originariamente significava "ricordare", "rievocare", "tenere a mente", come nella tradizione vedica di ricordare i testi sacri. Il termine Smṛti significa anche "ricordare" gli insegnamenti delle scritture. Nel Satipațțhāna-sutta il termine Smṛti significa mantenere la consapevolezza della realtà, dove le percezioni sensoriali sono intese come illusioni e quindi si può vedere la vera natura dei fenomeni. --&gt;</span></span>
+<span id="cb1-211"><a href="#cb1-211" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-212"><a href="#cb1-212" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- ::: --&gt;</span></span>
+<span id="cb1-213"><a href="#cb1-213" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-214"><a href="#cb1-214" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- #### Decostruire la paura --&gt;</span></span>
+<span id="cb1-215"><a href="#cb1-215" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-216"><a href="#cb1-216" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Un argomento controverso è il rapporto del bodhisattva con la sofferenza. Ci possiamo chiedere: la coltivazione della compassione danneggia il bodhisattva? --&gt;</span></span>
+<span id="cb1-217"><a href="#cb1-217" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-218"><a href="#cb1-218" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Asaṅga riconosce che la compassione implica il dolore. Śāntideva si chiede: "La compassione ci fa provare dolore, perché dunque permettere che essa sorga contro la nostra volontà?" Entrambi questi autori sviluppano queste considerazioni affermando che eventuali esperienze dolorose saranno eventualmente, ovvero dal risultato di consentire la felicità agli altri. Ciò è particolarmente vero per i bodhisattva negli stadi più avanzati dello sviluppo spirituale, le cui esperienze emotive poggiano sulla comprensione della realtà ultima. Invece di dolore o terrore, i bodhisattva provano gioia. La tradizione buddista sottolinea la presenza di un aspetto di coraggio e impavidità nel comportamento compassionevole e descrive tale coraggio con una connotazione di gioia entusiastica. Tuttavia, una tale "gioia entusiastica" è uno stato mentale non convenzionale in cui un individuo non opera al livello ordinario di autoconservazione e si riferisce solo ai bodhisattva avanzati. --&gt;</span></span>
+<span id="cb1-219"><a href="#cb1-219" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-220"><a href="#cb1-220" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Tali considerazioni su una tale "l'eventuale gioia maggiore" propria degli stadi avanzati sulla via dei bodhisattva forniscono però la base per le pratiche contemplazione dei novizi. --&gt;</span></span>
+<span id="cb1-221"><a href="#cb1-221" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-222"><a href="#cb1-222" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Per un novizio, la pratica della compassione rende necessario il confronto con gli aspetti dolorosi dell'empatia e richiede la disponibilità a sopportare una difficoltà personale per il bene degli altri. La paura di sperimentare la sofferenza impedisce a molte individui di impegnarsi nella compassione. Un aspetto importante della coltivazione della compassione è quindi quello della decostruzione di una tale paura. --&gt;</span></span>
+<span id="cb1-223"><a href="#cb1-223" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-224"><a href="#cb1-224" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Nella tradizione buddhista, un metodo usato per decostruire una tale paura è quello di un *allenamento mentale* che si impegna ad immaginarsi le conseguenze più estreme della sofferenza come un metodo per indebolire la propria resistenza mentale, ovvero l'avversione al confronto con la sofferenza. --&gt;</span></span>
+<span id="cb1-225"><a href="#cb1-225" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-226"><a href="#cb1-226" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- La letteratura Mahāyāna è piena di esempi e istruzioni che si contrappongono al senso abituale di autoconservazione dell'individuo: --&gt;</span></span>
+<span id="cb1-227"><a href="#cb1-227" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-228"><a href="#cb1-228" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; Anche se tagliano il mio corpo in cento pezzi, io produco amore e compassione e non provo malizia nei loro confronti. --&gt;</span></span>
+<span id="cb1-229"><a href="#cb1-229" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-230"><a href="#cb1-230" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Śāntideva, nel suo Bodhicaryāvatāra, proclama con entusiasmo la sua volontà di cambiare il suo rapporto con il dolore, sia esso autoinflitto o causato da altri: --&gt;</span></span>
+<span id="cb1-231"><a href="#cb1-231" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-232"><a href="#cb1-232" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; Se per il bene degli altri mi faccio del male, allora l'eccellenza sarà la mia eredità. --&gt;</span></span>
+<span id="cb1-233"><a href="#cb1-233" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-234"><a href="#cb1-234" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- E ancora: --&gt;</span></span>
+<span id="cb1-235"><a href="#cb1-235" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-236"><a href="#cb1-236" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; Da questo corpo mi sono ora distaccato\ --&gt;</span></span>
+<span id="cb1-237"><a href="#cb1-237" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-238"><a href="#cb1-238" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; Per servire il piacere di tutti gli esseri viventi.\ --&gt;</span></span>
+<span id="cb1-239"><a href="#cb1-239" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-240"><a href="#cb1-240" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; Lascia che lo uccidano, lo disprezzino e lo abusino,\ --&gt;</span></span>
+<span id="cb1-241"><a href="#cb1-241" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-242"><a href="#cb1-242" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; Usandolo secondo i loro desideri. --&gt;</span></span>
+<span id="cb1-243"><a href="#cb1-243" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-244"><a href="#cb1-244" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Il disprezzo senza alcun timore per il proprio corpo è molto lodato fin dall'inizio della storia buddista. Le contemplazioni proposte dai testi buddisti richiedono al bodhisattva in formazione ad analizzare i presupposti relativi alla natura della sofferenza e a sperimentare cosa significa accettare gli svantaggi che derivano dal mettere gli altri al primo posto. --&gt;</span></span>
+<span id="cb1-245"><a href="#cb1-245" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-246"><a href="#cb1-246" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Le loro riflessioni proposte in tali testi includono il riconoscimento che la "sofferenza" non deve essere concepita come un'entità dotata di un'esistenza intrinseca, il che significa che un'esperienza di disagio o sofferenza può essere esperita come una sfida o come una maledizione, a seconda di come viene concettualizzata. --&gt;</span></span>
+<span id="cb1-247"><a href="#cb1-247" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-248"><a href="#cb1-248" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Portare ad un cambio di prospettiva è uno degli aspetti del metodo didattico dell'"equalizzazione e scambio di sé e dell'altro". In particolare, una tale pratica meditativa si fonda sullo scambio della propria felicità con il dolore degli altri. Questa pratica contemplativa della tradizione tibetana del Lojong è uno dei metodi attraverso i quali i meditanti sviluppano la propria capacità di sopportare il dolore. Una tale pratica contemplativa è detta *tonglen* (tib. per dare e ricevere) ed è utilizzata anche nell'addestramento secolare alla compassione. --&gt;</span></span>
+<span id="cb1-249"><a href="#cb1-249" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-250"><a href="#cb1-250" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Nella pratica del tonglen, i meditatori immaginano la sofferenza degli altri e la assorbono in sé. In questo modo rafforzano la loro resistenza al dolore. Uno degli scopi della meditazione tonglen proposta da Śāntideva è quindi quello di decostruire l'abitudine mentale di autoconservazione e autoprotezione. Nel Bodhicaryāvatāra di Śāntideva è descritta una progressione --&gt;</span></span>
+<span id="cb1-251"><a href="#cb1-251" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-252"><a href="#cb1-252" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- -   dall'esperienza della sofferenza --&gt;</span></span>
+<span id="cb1-253"><a href="#cb1-253" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-254"><a href="#cb1-254" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- -   all'accettazione della sofferenza, --&gt;</span></span>
+<span id="cb1-255"><a href="#cb1-255" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-256"><a href="#cb1-256" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- -   all'invito della sofferenza, --&gt;</span></span>
+<span id="cb1-257"><a href="#cb1-257" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-258"><a href="#cb1-258" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- -   alla trasformazione della sofferenza in gioia. --&gt;</span></span>
+<span id="cb1-259"><a href="#cb1-259" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-260"><a href="#cb1-260" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Le pratiche tonglen combinano aspetti sia decostruttivi che costruttivi poiché decostruiscono l'attaccamento al sé, ma anche sviluppano le qualità del coraggio e dell'impavidità. --&gt;</span></span>
+<span id="cb1-261"><a href="#cb1-261" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-262"><a href="#cb1-262" aria-hidden="true" tabindex="-1"></a><span class="fu">### Approccio cognitivo-analitico</span></span>
+<span id="cb1-263"><a href="#cb1-263" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-264"><a href="#cb1-264" aria-hidden="true" tabindex="-1"></a>Il terzo approccio è quello cognitivo-analitico, ovvero un approccio che combina la *meditazione analitica* con la coltivazione della compassione e del bodhicitta. Ai praticanti viene chiesto di contemplare, per esempio, i vantaggi che derivano dalla coltivazione della compassione, gli svantaggi che derivano dalla mancanza di compassione, le varietà della sofferenza e il significato dell'uguaglianza di sé e altri.</span>
+<span id="cb1-265"><a href="#cb1-265" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-266"><a href="#cb1-266" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Queste meditazioni richiedono che i praticanti analizzino da vicino i vari aspetti della realtà; le intuizioni così ottenute trasformeranno la loro visione della vita. --&gt;</span></span>
+<span id="cb1-267"><a href="#cb1-267" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-268"><a href="#cb1-268" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Le meditazioni analitiche (Skt. vicārayet, vicārabhāvanā) non si limitano alla coltivazione della compassione. Svolgono un ruolo importante nel contesto della meditazione di tranquillità e insight (Skt. śamatha e vipaśyanā), dove si riferiscono agli sforzi attraverso i quali i meditatori cercano di acquisire certezza sulla realtà. Le indagini iniziano con gli oggetti di esame (parīkṣaṇa) che sono oggetti materiali, ma poi si spostano su oggetti di forma non materiali e culminano in intuizioni sulla natura della mente. --&gt;</span></span>
+<span id="cb1-269"><a href="#cb1-269" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-270"><a href="#cb1-270" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- La meditazione analitica è giustapposta alla meditazione volta a calmare la mente (Skt. śamatha). Questo secondo tipo di meditazione si riferisce alla capacità della mente di dedicare un'attenzione rivolta unicamente all'oggetto della meditazione. Quando questa attenzione vigile è combinata con la capacità d'indagine, essa migliora notevolmente la qualità dell'indagine stessa. --&gt;</span></span>
+<span id="cb1-271"><a href="#cb1-271" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-272"><a href="#cb1-272" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Nella sua fase finale, la mente è in grado di stabilirsi in modo non duale nella realizzazione della propria natura che ha acquisito attraverso l'indagine. --&gt;</span></span>
+<span id="cb1-273"><a href="#cb1-273" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-274"><a href="#cb1-274" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Vantaggi e svantaggi</span></span>
+<span id="cb1-275"><a href="#cb1-275" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-276"><a href="#cb1-276" aria-hidden="true" tabindex="-1"></a>Secondo Śāntideva, desiderare la felicità per gli altri invece che per se stessi porta, a lungo termine, i vantaggi della prosperità (sarvasaṃpada), della felicità (sukha) e del potere (svāmitva), mentre non praticare la meditazione tonglen comporta svantaggi che includono l'impossibilità di raggiungere i risultati meditativi (sādhya), la buddhità (buddhatva), o anche solo la felicità mondana (sukha).</span>
+<span id="cb1-277"><a href="#cb1-277" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-278"><a href="#cb1-278" aria-hidden="true" tabindex="-1"></a>L'analisi dei vantaggi e degli svantaggi è una parte comune della descrizione delle pratiche di meditazione nella tradizione buddista e consente ai praticanti di stabilire un fondamento logico per le pratiche intraprese, il che aiuta il praticante a perseverare con diligenza sulla via dello sviluppo spirituale.</span>
+<span id="cb1-279"><a href="#cb1-279" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-280"><a href="#cb1-280" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Sofferenza</span></span>
+<span id="cb1-281"><a href="#cb1-281" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-282"><a href="#cb1-282" aria-hidden="true" tabindex="-1"></a>Un altro oggetto di analisi comune nella meditazione analitica è la sofferenza. Ad esempio, Śāntideva fornisce ampie descrizioni della sofferenza samsarica che risulta dal desiderio e dall'ignoranza come mezzo per rafforzare la motivazione alla meditazione tonglen di equalizzazione e scambio di sé e altri.</span>
+<span id="cb1-283"><a href="#cb1-283" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-284"><a href="#cb1-284" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Equanimità</span></span>
+<span id="cb1-285"><a href="#cb1-285" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-286"><a href="#cb1-286" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Equanimità significa serenità e imparzialità nell'assumere una posizione o nel pronunciare un giudizio. --&gt;</span></span>
+<span id="cb1-287"><a href="#cb1-287" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-288"><a href="#cb1-288" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Nella tradizione buddista, i meditatori non si pongono il problema di generare l'equanimità, ma piuttosto quello di imparare a riconoscere una tale condizione come già esistente in una realtà segnata dall'impermanenza e dalla sofferenza. In questo contesto,  --&gt;</span></span>
+<span id="cb1-289"><a href="#cb1-289" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-290"><a href="#cb1-290" aria-hidden="true" tabindex="-1"></a>L'equanimità significa il riconoscimento dell'aspirazione alla felicità di tutti gli esseri, la vulnerabilità alla sofferenza che è uguale per tutti gli esseri e la speranza di evitare il dolore che accomuna tutti gli esseri.</span>
+<span id="cb1-291"><a href="#cb1-291" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-292"><a href="#cb1-292" aria-hidden="true" tabindex="-1"></a>Il tema dell'equanimità appartiene a tutti e tre gli approcci didattici per la coltivazione della compassione, l'approccio costruttivo, l'approccio decostruttivo e l'approccio cognitivo-analitico.</span>
+<span id="cb1-293"><a href="#cb1-293" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-294"><a href="#cb1-294" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Come elemento costruttivo, l'equanimità rafforza il punto di vista secondo il quale tutti gli esseri sono uguali in quanto sono stati le nostre madri (nel ciclo infinito delle rinascite), il che conduce ad atteggiamenti di gratitudine e di cura.</span>
+<span id="cb1-295"><a href="#cb1-295" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Come elemento decostruttivo, l'equanimità conduce all'abolizione delle barriere tra sé e gli altri il che conduce al riconoscimento che entrambi sono ugualmente importanti.</span>
+<span id="cb1-296"><a href="#cb1-296" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Come elemento dell'approccio cognitivo-analitico, l'equanimità è un oggetto diretto di metitazione il quale viene utilizzato per attuare una trasformazione cognitiva nel modo in cui percepiamo il mondo e interagiamo con esso.</span>
+<span id="cb1-297"><a href="#cb1-297" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-298"><a href="#cb1-298" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Il riconoscimento dell'equanimità serve come argomento per la pratica della compassione: è un'esperienza condivisa innegabile di tutti gli esseri umani, e ancor più in generale, di tutti gli esseri senzienti. I bodhisattva percepiscono tutti gli esseri come un'unica famiglia, riconoscendo così l'interdipendenza di tutti gli esseri e la loro identità come membri della famiglia. --&gt;</span></span>
+<span id="cb1-299"><a href="#cb1-299" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-300"><a href="#cb1-300" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Riconoscere l'identità di sé e dell'altro è una delle abilità cognitive fondamentali del bodhisattva. --&gt;</span></span>
+<span id="cb1-301"><a href="#cb1-301" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-302"><a href="#cb1-302" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; Quando hai sviluppato l'atteggiamento dell'uguaglianza tra te stesso e gli altri, o l'atteggiamento per il quale ritieni gli altri più cari di te stesso, allora hai consideri il benessere degli altri come più importante del tuo stesso benessere. In tali circostanze, cosa significa contrapporre "il mio benessere" al "tuo benessere"? (Asanga) --&gt;</span></span>
+<span id="cb1-303"><a href="#cb1-303" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-304"><a href="#cb1-304" aria-hidden="true" tabindex="-1"></a>La piena comprensione dell'equanimità è riservata ai bodhisattva avanzati, in quanto richiede la piena realizzazione della vacuità. Vasubandhu afferma che</span>
+<span id="cb1-305"><a href="#cb1-305" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-306"><a href="#cb1-306" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; </span><span class="sc">\[</span><span class="at">...</span><span class="sc">\]</span><span class="at"> la compassione del bodhisattva si basa sull'equanimità a causa della sua intenzione, della retta pratica, dal fatto di essere libera dall'avidità, ed è basata sulla non percezione e sulla purificazione.</span></span>
+<span id="cb1-307"><a href="#cb1-307" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-308"><a href="#cb1-308" aria-hidden="true" tabindex="-1"></a>L'equanimità si manifesta, in primo luogo, nell'intenzione del bodhisattva, poiché la compassione dei bodhisattva è diretta in egual modo a tutti gli esseri, sia quelli infelici sia quelli felici, sapendo che tutte le esperienze potenzialmente portano con sé la qualità della sofferenza. Inoltre, nella descrizione di Vasubandhu, l'equanimità deve essere espressa mediante la "giusta pratica", che è quella che porta il bodhisattva a "proteggere tutti gli esseri". Il bodhisattva deve essere "libero dall'avidità", cioè deve manifestare un'intenzione imparziale e mai malevola. Interessante è il quarto punto delle caratteristiche elencate da Vasubandhu, ovvero la "non-percezione" (anupalambha) delle cosiddette tre sfere: sé, l'altro e la compassione stessa. Questi tre aspetti devono essere messi sullo stesso piano fino al punto in cui non ha più senso distinguerli, il che viene espresso con il riferimento alla "non-percezione". Tale "non-percezione" (ovvero, non distinzione) deriva dal fatto che la natura ultima del sé, dell'altro e della stessa compassione è la vacuità. Ogni fenomeno è coprodotto da molteplici fattori e solo così si manifesta. Ma, in realtà, l'altro, la compassione e qualsiasi concetto a cui attribuiamo un'esistenza separata sono vuoti di un'identità indipendente: è la mente che "imputa" l'apparente esistenza intrinseca ai fenomeni, portando all'illusione della loro separata e permanente stabilità. Dalla realizzazione della vactuità, e della coproduzione condizionata, discende che, ontologicamente, i fenomeni (il sé, l'altro, la compassione) sono componenti di una medesima totalità che solo il nostro pensiero dualistico suddifive arbitrariamente in componenti separate. Tale concezione ontologica dell'equanimità ulteriormente rafforza l'ultima caratteristica elencata da Vasubandhu, ovvero la "purificazione". Ciò si riferisce al fatto che, nella percezione di un bodhisattva, tutti i fenomeni sono uguali, ovvero hanno lo stesso "valore", nella loro non origine, in una visione non dualistica del reale.</span>
+<span id="cb1-309"><a href="#cb1-309" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-310"><a href="#cb1-310" aria-hidden="true" tabindex="-1"></a>Come ultimo punto, possiamo notare una conseguenza contro-intuitiva a cui può portare l'applicazione pratica della nozione di equanimità, poiché la compassione universale include anche gli oggetti apparentemente improbabili, come i criminali o le persone che non soffrono manifestamente (gli individui ricchi, sani e di successo). Tuttavia, nella prospettiva a lungo termine delle cause e delle conseguenze karmiche, tutti, ma soprattutto gli autori di azioni non virtuose, affronteranno necessariamente le inevitabili sofferenze future che derivano dalle loro azioni e, pertanto, tutti gli individui devono comunque essere ritenuti come validi oggetti di compassione.</span>
+<span id="cb1-311"><a href="#cb1-311" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-312"><a href="#cb1-312" aria-hidden="true" tabindex="-1"></a><span class="fu">##### Conclusione intermedia</span></span>
+<span id="cb1-313"><a href="#cb1-313" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-314"><a href="#cb1-314" aria-hidden="true" tabindex="-1"></a>Come uno dei tanti esempi di pratica contemplativa della compassione, il seguente passaggio da uno dei primi Sūtra Mahāyāna, l'Aṣṭasāhasrikā Prajñāpāramitā Sūtra, illustra come i tre approcci didattici descritti sopra possano essere combinati e intrecciati in un'unica e multiforme pratica contemplativa.</span>
+<span id="cb1-315"><a href="#cb1-315" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-316"><a href="#cb1-316" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Un bodhisattva, grande essere, dovrebbe percepire tutti gli esseri senzienti come se fossero sua madre, suo padre, i suoi figli e le sue figlie. Poiché ciascuno di noi desidera la felicità per se stesso, allo steso modo dovrebbe desiderare la felicità per gli altri. Dovrebbe impegnarsi per liberare dalla sofferenza di tutti gli esseri, senza eccezioni, senza rinunciare a nessuna creatura. Anche se altri tagliano il nostro corpo in cento pezzi, si dovrebbe reagire con amore e compassione, senza malizia nei loro confronti.</span></span>
+<span id="cb1-317"><a href="#cb1-317" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-318"><a href="#cb1-318" aria-hidden="true" tabindex="-1"></a>In questo passaggio dell'Aṣṭasāhasrikā Prajñāpāramitā Sūtra possiamo identificare nove temi che si intrecciano in un complesso allenamento mentale. Tali temi possono essere distinti secondo il triplice sistema didattico che è stato presentato in precedenza.</span>
+<span id="cb1-319"><a href="#cb1-319" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-320"><a href="#cb1-320" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Elementi costruttivi:</span>
+<span id="cb1-321"><a href="#cb1-321" aria-hidden="true" tabindex="-1"></a><span class="ss">    -   </span>coltivare un senso di parentela con tutti gli esseri</span>
+<span id="cb1-322"><a href="#cb1-322" aria-hidden="true" tabindex="-1"></a><span class="ss">    -   </span>apprezzare la cura di sé, applicandola agli altri</span>
+<span id="cb1-323"><a href="#cb1-323" aria-hidden="true" tabindex="-1"></a><span class="ss">    -   </span>coltivare aspirazioni (liberare gli esseri)</span>
+<span id="cb1-324"><a href="#cb1-324" aria-hidden="true" tabindex="-1"></a><span class="ss">    -   </span>coltivare la tolleranza (di fronte al dolore)</span>
+<span id="cb1-325"><a href="#cb1-325" aria-hidden="true" tabindex="-1"></a><span class="ss">    -   </span>produrre amore e compassione</span>
+<span id="cb1-326"><a href="#cb1-326" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Elementi decostruttivi:</span>
+<span id="cb1-327"><a href="#cb1-327" aria-hidden="true" tabindex="-1"></a><span class="ss">    -   </span>superare la parzialità (devono essere inclusi tutti gli esseri senza eccezioni)</span>
+<span id="cb1-328"><a href="#cb1-328" aria-hidden="true" tabindex="-1"></a><span class="ss">    -   </span>eliminare le intenzioni malevole</span>
+<span id="cb1-329"><a href="#cb1-329" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Elementi cognitivo-analitici:</span>
+<span id="cb1-330"><a href="#cb1-330" aria-hidden="true" tabindex="-1"></a><span class="ss">    -   </span>percepire l'interdipendenza di tutti gli esseri (ovvero, percepire tutte le creature come appartenenti alla stessa famiglia)</span>
+<span id="cb1-331"><a href="#cb1-331" aria-hidden="true" tabindex="-1"></a><span class="ss">    -   </span>riconoscere l'identità di sé e altri (nel desiderare la felicità)</span>
+<span id="cb1-332"><a href="#cb1-332" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-333"><a href="#cb1-333" aria-hidden="true" tabindex="-1"></a>Tutti i temi qui elencati sono importanti nella letteratura Mahāyāna e vengono discussi in molti testi. In generale, si noterà che questi tre approcci pedagogici non sono mai intesi come pratiche isolate, ma vengono sempre combinati per dare vita a pratiche contemplative complesse. Sebbene ciascuno dei tre approcci pedagogici, da solo, sia in grado di contribuire alla coltivazione della compassione, gli studiosi buddisti li hanno sempre presentati insieme, in varie combinazioni.</span>
+<span id="cb1-334"><a href="#cb1-334" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-335"><a href="#cb1-335" aria-hidden="true" tabindex="-1"></a>Dal punto di vista del meditatore, si può dire quanto segue.</span>
+<span id="cb1-336"><a href="#cb1-336" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-337"><a href="#cb1-337" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Il metodo costruttivo è il più versato nel produrre effetti a breve termine nella coltivazione della compassione;</span>
+<span id="cb1-338"><a href="#cb1-338" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>il metodo decostruttivo ha l'obiettivo di produrre risultati a lungo termine e di portare all'eliminazione delle cause della sofferenza;</span>
+<span id="cb1-339"><a href="#cb1-339" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>l'approccio cognitivo-analitico rafforza la motivazione per coltivare la compassione e fornisce un quadro teorico che ne stabilizza la pratica e aiuta il praticante a rendere la compassione un tratto stabile del suo carattere.</span>
+<span id="cb1-340"><a href="#cb1-340" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-341"><a href="#cb1-341" aria-hidden="true" tabindex="-1"></a><span class="al">![Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-33.png)</span></span>
+<span id="cb1-342"><a href="#cb1-342" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-343"><a href="#cb1-343" aria-hidden="true" tabindex="-1"></a><span class="fu">## Stile di vita</span></span>
+<span id="cb1-344"><a href="#cb1-344" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-345"><a href="#cb1-345" aria-hidden="true" tabindex="-1"></a>Quale stile di vita è più favorevole alla coltivazione della compassione? Questo argomento sarà discusso a lungo nel @sec-vimalakirti. Introduciamo qui alcuni aspetti di questa discussione.</span>
+<span id="cb1-346"><a href="#cb1-346" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-347"><a href="#cb1-347" aria-hidden="true" tabindex="-1"></a><span class="fu">### Le varianti prosociali e asociali</span></span>
+<span id="cb1-348"><a href="#cb1-348" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-349"><a href="#cb1-349" aria-hidden="true" tabindex="-1"></a>La compassione può essere coltivata mediante uno stile di vita prosociale o asociale.</span>
+<span id="cb1-350"><a href="#cb1-350" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-351"><a href="#cb1-351" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Stile di vita prosociale</span></span>
+<span id="cb1-352"><a href="#cb1-352" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-353"><a href="#cb1-353" aria-hidden="true" tabindex="-1"></a>IL dono è l'espressione prosociale più comune della compassione. Una tale generosità si manifesta in tre forme, vale a dire dare agli altri oggetti materiali, fornire agli altri supporto psicologico o dare agli altri consigli spirituali.</span>
+<span id="cb1-354"><a href="#cb1-354" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-355"><a href="#cb1-355" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; La compassione, la generosità e la fortuna aumentano sempre per il compassionevole. Da ciò deriva la felicità, nata dall'amore e dall'assistenza e prodotta dalla capacità di agire. (Asanga).</span></span>
+<span id="cb1-356"><a href="#cb1-356" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-357"><a href="#cb1-357" aria-hidden="true" tabindex="-1"></a>Asanga spiega che una delle funzioni della generosità è quella di motivare gli esseri ad adottare uno stile di vita virtuoso, ovvero ad impegnarsi in un percorso di sviluppo spirituale. Asanga ci fornisce un'indicazione importante su cosa significhi alleviare la sofferenza degli altri. Secondo Asanga, la generosità espressa nei termini del dono di beni materiali per contribuire ad alleviare povertà e sofferenza è certamente importante, ma ha un effetto a breve termine. È invece l'eliminazione delle cause della sofferenza deve essere intesa come l'obiettivo principale. Impegnarsi in azioni che educano gli altri a condurre una vita virtuosa e che porti all'eliminazione delle cause di sofferenza è, quindi, l'aspetto più importante di una visione a lungo termine dell'attività compassionevole.</span>
+<span id="cb1-358"><a href="#cb1-358" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-359"><a href="#cb1-359" aria-hidden="true" tabindex="-1"></a>È questo aspetto a lungo termine, volto all'eliminazione delle cause della sofferenza, che collega la compassione con la più ampia *struttura etica* della disciplina Mahāyāna, cioè con le cosiddette sei perfezioni (pāramitā) del sentiero del bodhisattva:</span>
+<span id="cb1-360"><a href="#cb1-360" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-361"><a href="#cb1-361" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Dāna pāramitā: generosità, donazione di sé;</span>
+<span id="cb1-362"><a href="#cb1-362" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Śīla pāramitā: virtù, moralità, disciplina, condotta corretta;</span>
+<span id="cb1-363"><a href="#cb1-363" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Kṣānti pāramitā: pazienza, tolleranza, sopportazione, accettazione, perseveranza;</span>
+<span id="cb1-364"><a href="#cb1-364" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Vīrya pāramitā: energia, diligenza, vigore, sforzo,</span>
+<span id="cb1-365"><a href="#cb1-365" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Dhyāna pāramitā: attenzione, concentrazione meditativa;</span>
+<span id="cb1-366"><a href="#cb1-366" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Prajñā pāramitā: saggezza, intuizione.</span>
+<span id="cb1-367"><a href="#cb1-367" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-368"><a href="#cb1-368" aria-hidden="true" tabindex="-1"></a><span class="fu">##### La generosità</span></span>
+<span id="cb1-369"><a href="#cb1-369" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-370"><a href="#cb1-370" aria-hidden="true" tabindex="-1"></a>La prima pāramitā è quella della generosità. Asaṅga definisce la generosità come segue:</span>
+<span id="cb1-371"><a href="#cb1-371" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-372"><a href="#cb1-372" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; 1.9.1 Qual è l'essenza della generosità? È la volizione di un bodhisattva che è indifferente verso tutti gli oggetti materiali così come il proprio corpo, e una volizione che sorge insieme a un atteggiamento libero dall'avidità. Anche gli atti del corpo e della parola sono fatti sorgere da quella volontà allo scopo di rinunciare a quegli oggetti che non sono adatti ad essere donati, così come la rinuncia irreprensibile a tutti quegli oggetti che sono adatti ad essere donati. Dovrebbe essere compreso che la natura essenziale della generosità di un bodhisattva è l'atto di donare qualcosa a un individuo che la desidera, e questo atto è compiuto da un individuo che dimora nel sistema della disciplina morale del bodhisattva, che vede cosa si può guadagnare praticando la generosità e che riconosce i risultati della pratica della generosità. (Il sentiero del Bodhisattva verso l'illuminazione insuperabile, 206)</span></span>
+<span id="cb1-373"><a href="#cb1-373" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-374"><a href="#cb1-374" aria-hidden="true" tabindex="-1"></a>Si noti qui l'enfasi non solo sull'atto del donare, ma anche sul carattere trasformativo che ha questa pāramitā nei confronti di colui che la mette in pratica.</span>
+<span id="cb1-375"><a href="#cb1-375" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-376"><a href="#cb1-376" aria-hidden="true" tabindex="-1"></a><span class="fu">##### La disciplina</span></span>
+<span id="cb1-377"><a href="#cb1-377" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-378"><a href="#cb1-378" aria-hidden="true" tabindex="-1"></a>La seconda pāramitā è quella di śīla (disciplina). Asaṅga definisce śīla come segue:</span>
+<span id="cb1-379"><a href="#cb1-379" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-380"><a href="#cb1-380" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; 1.10.1 In breve, dovrebbe essere compreso che l'essenza della śīla di un bodhisattva è composta da quattro qualità: (1) accettare correttamente śīla da un'altra persona; (2) farlo con un atteggiamento estremamente puro; (3) porre rimedio a eventuali trasgressioni; e (4) avendo l'atteggiamento che porta a rimanere liberi dalle trasgressioni, dimorare in uno stato di raccoglimento. (Il sentiero del Bodhisattva verso un'illuminazione insuperabile, 237--238)</span></span>
+<span id="cb1-381"><a href="#cb1-381" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-382"><a href="#cb1-382" aria-hidden="true" tabindex="-1"></a>Si noti che śīla è qualcosa che si riceve, ricevendo i voti o i precetti. E questo significa che ciò che costituisce śīla per ogni persona dipende dal tipo di voti o precetti che ha ricevuto. Ciò che costituisce śīla per un monaco, ad esempio, può essere diverso da ciò che costituisce śīla per un laico, riflettendo ancora una volta la relatività dell'etica buddista.</span>
+<span id="cb1-383"><a href="#cb1-383" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-384"><a href="#cb1-384" aria-hidden="true" tabindex="-1"></a>Nel quinto capitolo del Bodhicaryāvatāra, la trattazione di śīla viene sviluppata, anziché mediante una discussione che include i temi della condotta, del linguaggio e dell'azione, come tradizionalmente viene fatto, ma facendo invece riferimento alla necessità di domare la mente.</span>
+<span id="cb1-385"><a href="#cb1-385" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-386"><a href="#cb1-386" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; V:1. Chi vuole custodire la regola, deve custodire con ogni sforzo il pensiero. Chi non custodisce il pensiero, perennemente mobile, non può custodire la regola.</span></span>
+<span id="cb1-387"><a href="#cb1-387" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-388"><a href="#cb1-388" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; V:6. Tutte le paure, tutti i dolori infiniti, provengono, infatti, come ha detto il Veridico, dal solo pensiero.</span></span>
+<span id="cb1-389"><a href="#cb1-389" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-390"><a href="#cb1-390" aria-hidden="true" tabindex="-1"></a>Nel verso V-8 si afferma:</span>
+<span id="cb1-391"><a href="#cb1-391" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-392"><a href="#cb1-392" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; V:8. Tutte queste cose - ha deto il Buddha - son prodotte unicamente dal pensiero colpevole. Nessuna cosa, nei tre mondi, è quindi più spaventevole del pensiero.</span></span>
+<span id="cb1-393"><a href="#cb1-393" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-394"><a href="#cb1-394" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Segue poi un riferimento alla paramita della generosità, con la descrizione del desiderio di porre fine alla povertà degli esseri. A ciò, uno scettico potrebbe controbattere fornendo questa argomentazione: "L'aspirazione è nobile, ma ho notato che nulla è cambiato; la povertà materiale dilaga ancora come prima". E ciò è vero: lo scettico ha ragione. Ma allora la generosità è inutile? Questa è l'implicazione della critica dello scettico. Su ciò Shantideva non concorda. Ma il punto importante è come Shantideva argomenta la sua risposta a questa critica ipotetica: "Finché non affronteremo la povertà nella mente, la ridistribuzione di tutta la ricchezza del mondo non cambierà la situazione esterna". In altri termini: la presenza della povertà nel mondo materiale è una conseguenza di un modo di pensare (chiamatelo capitalismo se volete) che ha creato le condizioni dell'ingiustizia sociale. Fintanto che un tale modo di pensare non verrà superato, la povertà continuerà ad esistere, indipendentemente da tutte le donazioni che si possono fare. L'esempio che viene in mente è quello dei miliardari che, pur restando ricchissimi, dichiarano di svolgere azioni di beneficenza estremamente generose. Ma è proprio il sistema economico che ha creato i miliardari a generare la povertà. I miliardari che svolgono azioni di beneficienza sicuramente non mettono in discussione il sistema economico che è responsabile della loro ricchezza e, nel contempo, della povertà degli altri. --&gt;</span></span>
+<span id="cb1-395"><a href="#cb1-395" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-396"><a href="#cb1-396" aria-hidden="true" tabindex="-1"></a>Facendo riferimento ad un Sutra, ricordiamo che una volta una mendicante chiese del cibo al Buddha. Vedendo il suo immenso bisogno, il Buddha cercò rivelare alla mendicante la causa della sua sofferenza. Così, quando la mendicante tese la sua ciotola, il Buddha promise di dare da mangiare a lei e alla sua famiglia ogni giorno per il resto della loro vita, ma a una condizione. Chiese alla mendicante di dire "No, non ne ho bisogno" e poi aspettare qualche minuto prima di prendere il cibo. Ma la mendicante non riuscì a dire queste parole. Il Buddha le diede comunque il cibo per quel giorno, ma la mendicante non ritornò mai più. Se continuiamo ad essere animati da un desiderio che, per natura, è insaziabile, continueremo a provare dukkha (insoddisfazione, sofferenza) perché il desiderio (l'attaccamento) non può essere mai soddisfatto, in linea di principio.</span>
+<span id="cb1-397"><a href="#cb1-397" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-398"><a href="#cb1-398" aria-hidden="true" tabindex="-1"></a>Questo è proprio il punto di Shantideva. Le pāramitā (come, in questo caso, la disciplina, o la generosità) non hanno alcun effetto se vengono applicate meccanicamente da una mente che continua a restare animata dall'attaccamento e dal desiderio: le pāramitā sono inutili se non portano ad una trasformazione della mente.</span>
+<span id="cb1-399"><a href="#cb1-399" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-400"><a href="#cb1-400" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; V:13. Dove trovare tanto cuoio da ricoprire tutta la terra? Ma basta, per ricoprirla, una semplice suola di cuoio!</span></span>
+<span id="cb1-401"><a href="#cb1-401" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-402"><a href="#cb1-402" aria-hidden="true" tabindex="-1"></a>Il verso V-13 è probabilmente il verso più famoso del Bodhicharyavatara. L'analogia suggerisce di immaginare di camminare a piedi nudi sulla sabbia bollente, sulle spine o sulle pietre taglienti. Per mettere fine alla nostra sofferenza potremmo pensare di ricopriremo tutta la superficie del mondo di cuoio. Questo è, ovviamente, impossibile. Ma cosa succederebbe se avvolgiamo nel cuoio soltanto i nostri piedi? In questo modo possiamo camminare ovunque senza problemi.</span>
+<span id="cb1-403"><a href="#cb1-403" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-404"><a href="#cb1-404" aria-hidden="true" tabindex="-1"></a>Fuor di metafora, i nostri problemi non possono essere risolti eliminando tutte le possibili cause esterne. Tuttavia, sempre e ovunque gli individui adottano questo approccio: "È colpa degli altri; è colpa della situazione in cui mi trovo; è troppo difficile; è troppo faticoso. Ma se potessi sbarazzarmi di tutte queste difficoltà sarei felice". A questo punto di vista che Shantideva ribatte: se vuoi proteggere i tuoi piedi, indossa le scarpe; se se vuoi proteggerti dai dolori che il mondo ti infligge, doma la tua mente. L'antidoto alla miseria è domare la propria mente.</span>
+<span id="cb1-405"><a href="#cb1-405" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-406"><a href="#cb1-406" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Immaginiamo come cambierebbe il mondo se tutti domassero la propria mente. Una mente chiara e stabile, infatti, porta un beneficio ancora maggiore di quello che consiste nell'eliminare la sofferenza nostra e degli altri là dove essa ha origine. Per raggiungere quel tipo di mente stabile, e per mantenerci motivati, abbiamo bisogno della paramita dell'entusiasmo. --&gt;</span></span>
+<span id="cb1-407"><a href="#cb1-407" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-408"><a href="#cb1-408" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Anche anni e anni di meditazione, se praticati con la mente distratta, non ci libereranno dagli schemi abituali. La paramita della meditazione consiste nel domare la mente, non solo nel sedersi in una posizione eretta, pensando alle gioie e ai dolori della vita. --&gt;</span></span>
+<span id="cb1-409"><a href="#cb1-409" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-410"><a href="#cb1-410" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Il verso V-17 afferma: --&gt;</span></span>
+<span id="cb1-411"><a href="#cb1-411" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-412"><a href="#cb1-412" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; coloro che non conoscono questo segreto della mente,\ --&gt;</span></span>
+<span id="cb1-413"><a href="#cb1-413" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-414"><a href="#cb1-414" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; il sublime e supremo dharma,\ --&gt;</span></span>
+<span id="cb1-415"><a href="#cb1-415" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-416"><a href="#cb1-416" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; vogliono ottenere la gioia e porre fine alla sofferenza\ --&gt;</span></span>
+<span id="cb1-417"><a href="#cb1-417" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-418"><a href="#cb1-418" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; ma vagano inutimente senza alcun risultato o fine. --&gt;</span></span>
+<span id="cb1-419"><a href="#cb1-419" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-420"><a href="#cb1-420" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- In definitiva, la chiave della felicità e della libertà dalla sofferenza è l'esperienza diretta della vacuità. Questo è il picco del Dharma, l'argomento del nono capitolo del Bodhicaryāvatāra. Nessuno di noi vuole essere infelice; tutti vogliamo essere felici. Ma non possiamo raggiungere questo obiettivo se rimaniamo bloccati in un modo di pensare parziale e ristretto. Non importa quanto desideriamo la gioia, essa ci sfuggirà se continuiamo ad agire in base ai concetti di giusto e sbagliato, buono e cattivo, accettazione e rifiuto. Ciò che alla fine ci può liberare da questi schemi costrittivi è smettere di reificare la nostra esperienza e connetterci con la natura ineffabile e priva di fondamento di tutti i fenomeni -- ovvero, sunyata. --&gt;</span></span>
+<span id="cb1-421"><a href="#cb1-421" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-422"><a href="#cb1-422" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Questi frammenti del capitolo V del Bodhicaryāvatāra fanno capire che, per Shantideva, l'eliminazione della sofferenza richide un equilibrio tra samadhi e prajna, ovvero tra il controllo della mente e la comprensione della vacuità. Non c'è uso migliore della vita umana che riuscire ad esperire la luminosità e la chiarezza non concettuale e non fabbricata della mente. Questa è la fonte di tutta la saggezza e di tutta la compassione. --&gt;</span></span>
+<span id="cb1-423"><a href="#cb1-423" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-424"><a href="#cb1-424" aria-hidden="true" tabindex="-1"></a><span class="fu">##### La tolleranza</span></span>
+<span id="cb1-425"><a href="#cb1-425" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-426"><a href="#cb1-426" aria-hidden="true" tabindex="-1"></a>La terza pāramitā è la pazienza (o tolleranza). La pazienza in questo contesto denota una capacità di sopportare difficoltà e provocazioni senza soccombere alla rabbia o allo sconforto, non semplicemente la capacità di aspettare che si realizzi qualcosa che si desidera. La sua importanza risiede in gran parte nel suo status di antidoto alla rabbia, un atteggiamento sempre considerato patologico dalla psicologia buddista. La rabbia è patologica sotto diversi aspetti. Per prima cosa, si basa su un'indebita assegnazione di agenzia all'oggetto della rabbia, un'assegnazione che oscura il fatto che qualsiasi atto o atteggiamento è il risultato di una rete infinita di cause e condizioni, e non di qualche speciale agente che agisce autonomamente. La rabbia codifica così un'illusione relativa alla natura della realtà e all'azione umana all'interno di quella realtà. Inoltre, non riesce a risolvere le situazioni che la provocano, offuscando il nostro giudizio, rendendoci meno abili, e findendo solo per perpetuare un ciclo di rabbia e delusioni. La pazienza è l'antidoto alla rabbia.</span>
+<span id="cb1-427"><a href="#cb1-427" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-428"><a href="#cb1-428" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; 1.11.1 In breve, la pazienza va intesa come la sopportazione del danno causato da altri, sia la tolleranza di tutti sia la tolleranza del tutto, facendo affidamento sulla forza che viene da un'attenta considerazione o da una forma di tolleranza che si verifica naturalmente, così come una tolleranza che è accompagnata da una mente libera dal desiderio corporeo e da una forma di compassione che è assoluta. (Il sentiero del Bodhisattva verso un'illuminazione insuperabile, 313--314) --&gt;</span></span>
+<span id="cb1-429"><a href="#cb1-429" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-430"><a href="#cb1-430" aria-hidden="true" tabindex="-1"></a>Secondo Asaṅga, la pazienza è un modo di reagire alle avversità, ma non è semplicemente una ricusazione della vendetta o della rabbia. È invece la manifestazione di un atteggiamento "libero dal desiderio" e di una "compassione assoluta". Cioè, la pāramitā della tolleranza è completamente disinteressata, mettendo sullo stesso piano sé e altri, compresi gli agenti del danno, può manifestarsi soltanto nel superamento del pensiero dualistico, ovvero mediante la realizzazione della vacuità.</span>
+<span id="cb1-431"><a href="#cb1-431" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-432"><a href="#cb1-432" aria-hidden="true" tabindex="-1"></a><span class="fu">##### Lo sforzo</span></span>
+<span id="cb1-433"><a href="#cb1-433" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-434"><a href="#cb1-434" aria-hidden="true" tabindex="-1"></a>La quarta pāramitā è lo sforzo. Lo sviluppo spirituale è difficile e richiede un'attenzione costante. Śāntideva afferma</span>
+<span id="cb1-435"><a href="#cb1-435" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-436"><a href="#cb1-436" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; VII:1. In possesso della pazienza bisogna coltivare al forza, poiché il risveglio ha, come base, la forza. Senza energia, infatti, nessun merito spirituale è possibile, così come, senza vento, alcun movimento.</span></span>
+<span id="cb1-437"><a href="#cb1-437" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-438"><a href="#cb1-438" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; VII:2 Ma che cos'è al forza? Energia nel bene. E quali sono i suoi avversari? L'indolenza, l'attaccamento al male, lo scoraggiamento e il disprezzo di sé.</span></span>
+<span id="cb1-439"><a href="#cb1-439" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-440"><a href="#cb1-440" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; VII:14. Tu possiedi la nave della tua condizione di uomo. Traversa perciò li gran fiume del dolore. Insensato, non è li momento di dormire! Questa nave non è facile da ritrovare un'altra volta.</span></span>
+<span id="cb1-441"><a href="#cb1-441" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-442"><a href="#cb1-442" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; V:62. Qualunque cosa egli intraprenda, egli deve dedicarvisi appassionatamente, con ebbrezza, con animo insaziabile, come un giocatore desideroso di vincere.</span></span>
+<span id="cb1-443"><a href="#cb1-443" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-444"><a href="#cb1-444" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; V:74. Egli deve rendere il suo spirito leggero, ripensando al Sutra sull'Attenzione, per esere sempre pronto in ogni circostanza, prima ancora di cominciare ad agire.</span></span>
+<span id="cb1-445"><a href="#cb1-445" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-446"><a href="#cb1-446" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; V:75. A quel modo che un fiocco di cotone obbedisce all'andare e venire del vento, così egli deve lasciarsi guidare dall'energia. E in tal maniera egli realizza magico potere.</span></span>
+<span id="cb1-447"><a href="#cb1-447" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-448"><a href="#cb1-448" aria-hidden="true" tabindex="-1"></a><span class="fu">##### La concentrazione meditativa</span></span>
+<span id="cb1-449"><a href="#cb1-449" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-450"><a href="#cb1-450" aria-hidden="true" tabindex="-1"></a>La quinta pāramitā è la meditazione. La meditazione in questo contesto è il meccanismo che ci porta dal sapere come fare al sapere fare, da una comprensione teorica dell'orientamento etico all'adozione spontanea di quell'orientamento. Quando ci impegniamo in meditazioni etiche, come quelle progettate per coltivare karuṇā, o per coltivare la pazienza, ecc., non ci limitiamo a pensare a queste cose: ci impegniamo in esercizi volti a ri-orientare il nostro modo di vivere così da rendere spontanei gli atteggiamenti che fanno parte dell'orientamento etico Mahāyāna. La condotta etica diventa quindi naturale e senza sforzo, non è il risultato di una deliberazione, e certamente non è qualcosa che si fa per dovere nonostante l'inclinazione a volere fare altrimenti. La meditazione, nel senso di coltivare questa spontaneità, è quindi un elemento essenziale nel passaggio dal bodhicitta aspirazionale al bodhicitta impegnato.</span>
+<span id="cb1-451"><a href="#cb1-451" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-452"><a href="#cb1-452" aria-hidden="true" tabindex="-1"></a><span class="fu">##### La saggezza</span></span>
+<span id="cb1-453"><a href="#cb1-453" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-454"><a href="#cb1-454" aria-hidden="true" tabindex="-1"></a>La sesta pāramitā (si veda il @sec-wisdom), e la seconda componente di quella transizione cruciale dal bodhicitta aspirazionale a quello impegnato, è la perfezione della saggezza. Ancora una volta, mentre generalmente non pensiamo all'intuizione metafisica come ad un'importante qualità morale, da una prospettiva buddista prajñā è essenziale per l'etica. La comprensione metafisica della vacuità degli individui e di tutti i fenomeni è al centro del Mahāyāna ed è articolata nei Sūtra della Perfezione della Saggezza, così come da Nāgārjuna e dai suoi commentatori e seguaci.</span>
+<span id="cb1-455"><a href="#cb1-455" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-456"><a href="#cb1-456" aria-hidden="true" tabindex="-1"></a>L'idea è che, acquisendo la profonda comprensione della vacuità e dell'interdipendenza di tutti i fenomeni attraverso lo studio e la contemplazione, si smette di sperimentare il sé come un ego sostanziale al centro dell'universo morale. Al contrario, si matura un'esperienza del sé come interdipendente e in profonda comunità con gli altri. In tal modo, non si vedono più gli altri come esseri separati che, potenzialmente, hanno un significato morale minore in relazione al sé, ma come esseri importanti, degni di cura e gioia, al pari del sé.</span>
+<span id="cb1-457"><a href="#cb1-457" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-458"><a href="#cb1-458" aria-hidden="true" tabindex="-1"></a>Questa comprensione della vacuità è alla base dell'upekṣā, o equinimità o imparzialità, poiché implica il non essere parziale verso gli amici e ostile verso i nemici. In questo contesto, secondo Tsongkhapa, la perfezione della saggezza comprende anche l'upāya, o abilità etica, ovvero una sorta di saggezza pratica morale che rende possibile manifestare ciascuna delle sei pāramitā nell'azione concreta.</span>
+<span id="cb1-459"><a href="#cb1-459" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-460"><a href="#cb1-460" aria-hidden="true" tabindex="-1"></a>Le sei pāramitā sono generalmente intese come i mezzi che consentono al praticante di raggiungere "l'altra sponda" del risveglio. Nel contesto della coltivazione della compassione, Asaṅga ritiene che la loro pratica abbia la funzione aggiuntiva di educare coloro che agiscono in modi non virtuosi: praticare le sei pāramitā non produce solo benefici per il sé, ma anche per gli altri. Asaṅga immagina dunque che il praticante impegnato nella coltivazione della compassione sia una persona con un atteggiamento prosociale, il cui obiettivo a lungo termine è quello di liberare gli esseri dalla sofferenza, e per questo motivo si impegna a praticare e ad insegnare agli altri gli standard etici Mahāyāna.</span>
+<span id="cb1-461"><a href="#cb1-461" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-462"><a href="#cb1-462" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Stile di vita asociale</span></span>
+<span id="cb1-463"><a href="#cb1-463" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-464"><a href="#cb1-464" aria-hidden="true" tabindex="-1"></a>In contrasto con questo stile di vita prosociale, gli studiosi buddisti hanno anche proposto un punto di vista diametralmente opposto, ovvero quello di uno stile di vita asociale, ovvero una vita isolata dalla società.</span>
+<span id="cb1-465"><a href="#cb1-465" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-466"><a href="#cb1-466" aria-hidden="true" tabindex="-1"></a>Il motivo per considerare una vita in solitudine come espressione di compassione è che perfezionare delle proprie capacità spirituali diventa un mezzo per ispirare gli altri nello sviluppo del loro cammino spirituale. La relazione tra uno stile di vita isolato e contemplativo, e la compassione espressa in una vita prosociale, può essere trovata nelle seguenti parole di Śāntideva:</span>
+<span id="cb1-467"><a href="#cb1-467" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-468"><a href="#cb1-468" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Una mente assorta nella meditazione vede le cose così come sono. In un bodhisattva che vede le cose come sono, mahākaruṇā si dispiega per gli altri esseri senzienti. Una tale persona pensa: "Dovrei fare in modo che tutti gli esseri senzienti vedano tutto così com'è come risultato dell'assorbimento meditativo". Mossa dalla mahākaruṇā, questa persona completa rapidamente l'addestramento di una disciplina morale superiore, di un pensiero superiore e di una saggezza superiore, e ottiene il più genuino risveglio. (Śāntideva)</span></span>
+<span id="cb1-469"><a href="#cb1-469" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-470"><a href="#cb1-470" aria-hidden="true" tabindex="-1"></a>Secondo questo verso, praticare l'assorbimento meditativo diventa un atto compassionevole volto ad aiutare gli altri a sviluppare la propria maturità spirituale. Sono le intenzioni dell'agente che caratterizzano le sue azioni come compassionevoli. Il beneficio per gli altri non è immediatamente percepibile, poiché il "rapido completamento dell'addestramento" menzionato nel sutra può richiedere molte vite. Nel Bodhicaryāvatāra, la descrizione della meditazione tonglen (di equalizzazione e scambio) è preceduta da meditazioni su vari aspetti che motivano il meditatore a rinunciare alla vita sociale e a perseguire una vita contemplativa in isolamento, le quali sono viste da Śāntideva come l'ambiente perfetto per coltivare la compassione e il bodhicitta (si veda il @sec-meditation).</span>
+<span id="cb1-471"><a href="#cb1-471" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-472"><a href="#cb1-472" aria-hidden="true" tabindex="-1"></a><span class="fu">### Chi trae vebeficio dalla coltivazione della compassione?</span></span>
+<span id="cb1-473"><a href="#cb1-473" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-474"><a href="#cb1-474" aria-hidden="true" tabindex="-1"></a>Il materiale testuale buddista e la ricerca scientifica contemporanea accertano entrambi che i praticanti della compassione traggono vantaggio dalla loro formazione mentale. Il successo della coltivazione della compassione secolare potrebbe, in parte, essere derivato da questo fatto: che coloro che praticano la coltivazione della compassione sono i primi beneficiari di tale pratica, poiché esperimenti neuroscientifici, neurobiologici e autovalutazioni psicologiche hanno mostrato che da tale pratica derivano benefici per la salute scientificamente misurabili per i praticanti. Questo sembra però un paradosso: trarre un beneficio personale contraddice direttamente la natura stessa della compassione come desiderio orientato ad alleviare la sofferenza degli altri.</span>
+<span id="cb1-475"><a href="#cb1-475" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-476"><a href="#cb1-476" aria-hidden="true" tabindex="-1"></a>Si potrebbe pensare che anche un minimo beneficio personale possa contaminare la purezza della compassione. Questo, tuttavia, non è il punto di vista sostenuto dai pensatori buddisti. La filosofia Mahāyāna presenta l'idea dei due vantaggi:</span>
+<span id="cb1-477"><a href="#cb1-477" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-478"><a href="#cb1-478" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>il perseguimento del vantaggio personale (Skt. svārtha/ātmahita), e</span>
+<span id="cb1-479"><a href="#cb1-479" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>il beneficio degli altri (Skt. parārtha/ parahita).</span>
+<span id="cb1-480"><a href="#cb1-480" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-481"><a href="#cb1-481" aria-hidden="true" tabindex="-1"></a>Asaṅga spiega che la pratica corretta deve includere l'equilibrio di entrambi gli aspetti, insistendo sul fatto che ignorare il proprio vantaggio personale costituisce un errore. Il duplice vantaggio è ulteriormente suddiviso in risultati a breve termine e risultati finali.</span>
+<span id="cb1-482"><a href="#cb1-482" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-483"><a href="#cb1-483" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>I bodhisattva si impegnano in attività prosociali che mirano a portare la massima felicità agli altri e che forniscono agli altri una felicità anche a breve termine.</span>
+<span id="cb1-484"><a href="#cb1-484" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>Per quanto riguarda i benefici a breve termine di coloro che praticano la coltivazione della compassione, tali benefici corrispondono alla maturazione del merito. A causa dell'accumulo del merito karmico, ogni atto a favore degli altri porta, potenzialmente, ad un vantaggio personale: come conseguenza degli atti virtuosi, ai bodhisattva verranno garantite migliori rinascite future. Il massimo beneficio per coloro che perfezionano la propria compassione è il raggiungimento della buddhità.</span>
+<span id="cb1-485"><a href="#cb1-485" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-486"><a href="#cb1-486" aria-hidden="true" tabindex="-1"></a>Nonostante la circolarità del beneficio per sé e per gli altri, alcuni pensatori buddisti insistono sul fatto che per generare genuina compassione, l'intenzione deve essere orientata verso l'altro, cioè la preoccupazione per il benessere dell'altro deve essere l'obiettivo primario dell'agire compassionevole. In altre parole, la motivazione della compassione non deve essere motivata da intenzioni egoistiche.</span>
+<span id="cb1-487"><a href="#cb1-487" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-488"><a href="#cb1-488" aria-hidden="true" tabindex="-1"></a><span class="al">![Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-40.jpeg)</span></span>
+<span id="cb1-489"><a href="#cb1-489" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-490"><a href="#cb1-490" aria-hidden="true" tabindex="-1"></a><span class="fu">## Conclusione {.unnumbered}</span></span>
+<span id="cb1-491"><a href="#cb1-491" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-492"><a href="#cb1-492" aria-hidden="true" tabindex="-1"></a>Abbiamo identificato tre approcci didattici per la coltivazione della compassione: i metodi costruttivi, decostruttivi e cognitivo-analitici. Tra essi, l'approccio più impegnativo è quello decostruttivo, poiché richiede una trasformazione radicale della relazione con se stessi, una trasformazione dei confini tra sé e gli altri, e una conseguente trasformazione dell'abitudine che ci porta a metterci in primo piano a spese degli altri.</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
 </div> <!-- /content -->
 
 

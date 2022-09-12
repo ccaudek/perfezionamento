@@ -38,18 +38,22 @@ book:
       - 18-measurement.qmd
   appendices:
     - a1-meditation.qmd
+
+bibliography: compassion.bib
+csl: apa.csl
+
 format:
   html: 
     theme: 
       - cosmo
       - r4ds.scss
-    # cover-image: thomas-laird-10.jpeg
+    callout-appearance: 
+      - simple
     code-link: true
-    callout-appearance: simple
+    link-citations: yes
+    code-fold: true
+    code-tools: true
   pdf:
     toc: true
     number-sections: true
     colorlinks: true
-
-
-

@@ -20,6 +20,69 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1.6em;
   vertical-align: middle;
 }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -256,7 +319,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-patience" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">La perfezione della pazienza</span></span></h1>
+<div class="quarto-title-block"><div><h1 class="title"><span id="sec-patience" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">La perfezione della pazienza</span></span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Codice</button></div></div>
 </div>
 
 
@@ -656,6 +719,8 @@ ul.task-list li input[type="checkbox"] {
 <!-- Se una cosa è facile o difficile dipende solo da quanto la conosciamo. Tutto dipende dall'allenamento. Pertanto Śāntideva si dice che accettando piccoli disagi ora saremo in grado di sopportare difficoltà più grandi in futuro. -->
 
 
+<!-- -->
+
 </section>
 
 </main> <!-- /main -->
@@ -707,6 +772,57 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
+    });
+  }
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
+        }
+      }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
+    }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
+  }
   function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
@@ -768,7 +884,374 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">La meditazione</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
-</nav>
+</nav><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># La perfezione della pazienza {#sec-patience}</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- La Grande Compassione (karuna) dei Bodhisattva è, insieme al Pensiero del risveglio (bodhicitta), uno dei fattori importanti del Buddismo Mahayana.  --&gt;</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>Śāntideva, così come tutti gli altri pensatori della tradizione buddista, propone varie strategie per tenere sotto controllo la mente e per eliminare i kleśa (offuscazioni mentali). In questo capitolo esamineremo i kleśa in relazione alla dottrina della pratītyasamutpāda (coproduzione condizionata). Il principio della coproduzione condizionata è rappresentato dalla Ruota della vita e, all'interno di tale rappresentazione, i kleśa sono ciò che "avvelena" il ciclo delle rinascite. Tra gli antidoti alla sofferenza, qui ci soffermeremo su kṣānti (tolleranza, pazienza) che viene discussa nel sesto capitolo del Bodhicaryāvatāra.</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="fu">## I kleśa</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>I kleśa, nel buddismo, sono stati mentali che offuscano la mente e si manifestano in azioni malsane. Il termine kleśa viene tradotto come: afflizioni, contaminazioni, emozioni distruttive, emozioni disturbanti, emozioni negative, veleni mentali, nevrosi ecc. Nelle tradizioni buddiste, i tre kleśa di</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>moha: nescienza (sinonimo: avidyā),</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>rāga: attaccamento al mondo, desiderio, lussuria,</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>dveṣa: avversione, rabbia, odio (l'opposto di raga)</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>sono identificati come la fonte di tutti gli altri kleśa. Nel Mahayana sono indicati come "i tre veleni" (triviṣa). Nelle tradizioni buddiste si crede che i tre veleni siano la causa delle malattie sia fisiche che mentali. Ghesce Tashi Tsering afferma:</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Secondo il buddismo, anche la salute fisica è legata agli stati mentali. Quindi le vere minacce al nostro benessere sono attaccamento, avversione e nescienza: le tre offuscazioni mentali fondamentali che portano a tutte le altre afflizioni, sia mentali che fisiche.</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="fu">## Il principio della coproduzione condizionata</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>La sofferenza, come tutte le cose, ha una causa, un'origine, la quale si basa su una legge inderogabile, la cosiddetta coproduzione condizionata (pratītyasamutpāda). L'individuazione del ciclo di cause che vanno rimosse per giungere al nirvana è un punto centrale della pratica buddhista. Nel Pratītyasamutpāda-sutra si afferma:</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Qual è il principio della coproduzione condizionata? Il fatto che essendoci questo c'è quello, dalla nascita di questo nasce quello; cioè a dire, condizionati dalla nescienza si producono i coefficienti, condizionata dai coefficienti si produce la conoscenza, condizionato dalla conoscenza si produce nome e forma, condizionate da nome e forma si producono le sei sedi, condizionato dalle sei sedi si produce il contatto, condizionata dal contatto si produce la sensazione, condizionata dalla sensazione si produce al brama, condizionata dalla brama si produce l'appropriazione, condizionato dall'appropriazione si produce il divenire, condizionata dal divenire si produce la nascita, condizionati dala nascita si producono vecchiezza, morte, sofferenza, lamenti, dolore, scoramento e afflizioni. E così si ha la nascita di tutta questa grande massa di dolore. Questo è il cosideto principio della coproduzione condizionata.</span></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>Il principio della pratītyasamutpāda per molti aspetti è alla base della comprensione buddista di come funziona il cosmo. Come ha affermato il Buddha, "Colui che vede la coproduzione condizionata vede il Dharma; colui che vede il Dharma vede la coproduzione condizionata".</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="fu">## La ruota dell'esistenza</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a>La legge causale generale della coproduzione condizionata, ovvero il ciclo delle cause ed effetti viene descritto mediante un certo numero di anelli (nidāna), solitamente individuato in dodici.</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a>La causalità opera a tutti i livelli del cosmo saṃsārico: fisico, mentale, morale e spirituale. È chiaro dai vari passaggi in cui ricorre questa formula, tuttavia, che di solito una tale causalità va intesa non in astratto ma come applicata ai dodici anelli della coproduzione condizionata, che spiegano come soffriamo e rinasciamo, e i cui membri sorgono sulla base della presenza di determinati fattori e cessano con l'eliminazione di tali fattori.</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a><span class="al">![La ruota dell'esistenza.](images/wheel_of_life_complete.png)</span></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a><span class="fu">### I dodici anelli</span></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a>I dodici anelli sono enumerati ripetutamente nei canoni buddisti tradizionali, e, sebbene vi siano, naturalmente, variazioni, c'è una grande coerenza generale tra le presentazioni, di cui la seguente, dal Mahātaṇhasankhaya Sutta (Grande discorso sulla distruzione dell'attaccamento), è tipica:</span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Quindi, bhikkhu, con (1) l'ignoranza come condizione, (2) le formazioni </span><span class="sc">\[</span><span class="at">vengono ad essere</span><span class="sc">\]</span><span class="at">; con le formazioni come condizione, (3) coscienza; con la coscienza come condizione, (4) mentalità-materialità; con mentalità-materialità come condizione, (5) i sei sensi; con i sei sensi come condizione, (6) contatto; con il contatto come condizione, (7) sensazioni; con le sensazioni come condizione, (8) sete; con la sete (brama, desiderio) come condizione, (9) l'attaccamento; con l'attaccamento come condizione, (10) divenire; con il divenire come condizione, (11) nascita; con la nascita come condizione, (12) invecchiamento e morte, dolore, lamento, dolore, afflizione e disperazione si realizzano.</span></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a>Il sutra descrive quindi i collegamenti in ordine inverso, operando dall'invecchiamento e dalla morte fino all'ignoranza, quindi passa a descrivere come, con la cessazione dell'ignoranza, le formazioni cessano; con la cessazione delle formazioni cessa la coscienza, e così via, fino al modo in cui la cessazione della nascita comporta la cessazione dell'invecchiamento e della morte, e quindi dolore, lamento, dolore, afflizione e disperazione -- "tutta questa massa di sofferenza" -- anche cessano. Per completare la presentazione, lo "scollegamento" dei dodici fattori è descritto in ordine inverso.</span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a>Nell'iconografia buddhista la pratītyasamutpāda è raffigurata con l'immagine della Ruota dell'esistenza.</span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a>Il bordo esterno della Ruota dell'esistenza è diviso in dodici sezioni, ciascuna contenente una piccola immagine. Queste immagini rappresentano i dodici anelli della catena della coproduzione condizionata. I dodici anelli possono essere visti come stadi nell'evoluzione del singolo essere umano (o di qualsiasi altro essere vivente), ma allo stesso tempo possono essere applicati ai nostri stati mentali, che continuamente sorgono, si sviluppano e scompaiono.</span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>Nella Ruota dell'esistenza, la coproduzione condizionata è rappresentata da dodici cause disposte in modo da essere ognuna condizione del susseguente. Possiamo dunque far risalire le cause della sofferenza alle loro radici mediante i dodici anelli di questa catena. Tali anelli dovrebbero essere intesi come ciò che avviene dentro di noi in ogni momento così che, mentre attraversiamo questo ciclo, osserviamo anche la nascita, la vita e la morte dei nostri stati mentali.</span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a>I dodici anelli della Ruota dell'esistenza sono i seguenti.</span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="fu">#### La morte</span></span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>L'immagine di un cadavere portato al luogo della cremazione. È l'intero processo di invecchiamento e decadimento, che in realtà inizia non appena nasciamo. Tutto il dolore, sia fisico che mentale, nasce da qualche aspetto di perdita, distruzione o decadimento, quindi questa immagine rappresenta tutte le sofferenze dell'esistenza.</span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="al">![1. La morte.](images/wheel_1.png)</span>{width="350px"}</span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a><span class="fu">#### La nascita</span></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>L'immagine di una madre che dà alla luce un bambino. Sebbene questo anello della catena sia noto come nascita, non significa solo l'evento della nascita, ma la vita che è nata; abbraccia l'intera vita di quella particolare incarnazione. Può riferirsi alla nascita di un essere vivente, o all'apparizione fisica di qualcosa nel mondo esterno, oppure può essere interpretato come il sorgere di un pensiero o di uno stato d'animo nella mente.</span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a><span class="al">![2. La nascita.](images/wheel_2.png)</span>{width="350px"}</span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Il divenire</span></span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a>Il divenire (bhava) è talvolta raffigurato come una donna incinta e talvolta come l'unione sessuale di un uomo e una donna. Entrambe queste immagini suggeriscono il concepimento, l'inizio di una nuova vita. Esistenza significa essere nello stato di saṃsāra: esteriormente soggetto a nascita e morte, interiormente sotto l'influenza della nescienza e della confusione.</span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a><span class="al">![3. Il divenire](images/wheel_3.png)</span>{width="350px"}</span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a><span class="fu">#### L'attaccamento</span></span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a>Perché sorgono gli stati d'animo? Quando cerchiamo la causa del divenire, la troviamo nell'attaccamento (upadana). L'attaccamento è simboleggiato da una figura che raccoglie frutti da un albero. Afferrare è l'opposto di dare e di lasciare andare.</span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a><span class="al">![4. L'attaccamento.](images/wheel_4.png)</span>{width="350px"}</span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a><span class="fu">#### La sete</span></span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a>La sete (trsna) è raffigurata come una persona che beve o una persona cui viene offerto da bere. Questa è la sete di esistenza che ci fa aggrappare alla vita a tutti i costi. La sete non può mai essere soddisfatta: anche se beviamo fino a non riuscire più a bere, prima o poi tornerà. Questa sete, tradotta anche come desiderio o brama, è la causa della sofferenza. Non è la causa ultima, ma è la causa immediata e più ovvia.</span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a><span class="al">![5. La sete.](images/wheel_5.png)</span>{width="350px"}</span>
+<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a><span class="fu">#### La sensazione</span></span>
+<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a>La sensazione (vedana) è simboleggiata da un uomo trafitto nell'occhio da una freccia. Questa immagine brutale ci ricorda che l'intera serie intende esprimere l'inevitabile sofferenza del saṃsāra. È interessante notare che la parola sanscrita per "sentire" può significare dolore, oltre che sensazione in generale. Questo indica che, nel saṃsāra, tutte le sensazioni di qualsiasi tipo sono essenzialmente dolorose, perché sono legate alla nostra falsa idea di sé.</span>
+<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a><span class="al">![6. La sensazione.](images/wheel_6.jpg)</span>{width="350px"}</span>
+<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Il contatto</span></span>
+<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a>Il contatto (sparsa) tra i sensi e il loro oggetto, ovvero il dualismo soggetto/oggetto, è illustrato da un uomo e una donna che si abbracciano.</span>
+<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a><span class="al">![7. Il contatto.](images/wheel_7.jpg)</span>{width="350px"}</span>
+<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a><span class="fu">#### I sei sensi</span></span>
+<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a>Oltre ai soliti cinque sensi di vista, udito, tatto, gusto e olfatto, la funzione mentale è considerata il sesto senso. I sei sensi (sadayatana) sono raffigurati da una casa con sei finestre.</span>
+<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a><span class="al">![8. I sei sensi.](images/wheel_8.jpg)</span>{width="350px"}</span>
+<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Nome e forma</span></span>
+<span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a>Spiritualità-materialità -- più spesso tradotti come nome-e-forma -- equivale ai cinque aggregati che costituiscono una "persona": forma, o materia, e sensazioni (o sentimenti), concezioni, formazioni mentali e coscienza. Gli aspetti fisici e non fisici dell'esistenza derivano entrambi dalla stessa causa e si riflettono a vicenda. Sono raffigurati da una barca piena di passeggeri.</span>
+<span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a><span class="al">![9. Nome e forma.](images/wheel_9.jpg)</span>{width="350px"}</span>
+<span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a><span class="fu">#### La coscienza</span></span>
+<span id="cb1-106"><a href="#cb1-106" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-107"><a href="#cb1-107" aria-hidden="true" tabindex="-1"></a>La coscienza (vijnana) funziona attraverso i sei sensi ed è appropriatamente raffigurata da una scimmia irrequieta e curiosa che salta da un oggetto all'altro, senza mai fermarsi.</span>
+<span id="cb1-108"><a href="#cb1-108" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-109"><a href="#cb1-109" aria-hidden="true" tabindex="-1"></a><span class="al">![10. La coscienza.](images/wheel_10.jpg)</span>{width="350px"}</span>
+<span id="cb1-110"><a href="#cb1-110" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-111"><a href="#cb1-111" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Le formazioni carmiche</span></span>
+<span id="cb1-112"><a href="#cb1-112" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-113"><a href="#cb1-113" aria-hidden="true" tabindex="-1"></a>Le formazioni karmiche (saṃskāra) sono simboleggiate da un vasaio che fa un vaso. Questo anello della catena raffigura la forza del karma che, in ogni momento e per ogni essere vivente, crea continuamente il mondo.</span>
+<span id="cb1-114"><a href="#cb1-114" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-115"><a href="#cb1-115" aria-hidden="true" tabindex="-1"></a><span class="al">![11. Le formazioni carmiche](images/wheel_11.jpg)</span>{width="350px"}</span>
+<span id="cb1-116"><a href="#cb1-116" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-117"><a href="#cb1-117" aria-hidden="true" tabindex="-1"></a><span class="fu">#### La nescienza</span></span>
+<span id="cb1-118"><a href="#cb1-118" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-119"><a href="#cb1-119" aria-hidden="true" tabindex="-1"></a>Da dove sorgono le formazioni mentali? Come inizia l'intero processo? Il Buddha fa risalire la causa principale alla nescienza, e questo è l'ultimo e anello della catena, che ne rappresenta anche l'inizio. La nescienza è simboleggiata da una vecchia cieca, che vacilla con l'aiuto di un bastone. Trungpa Rinpoche la chiamava una nonna cieca. La nescienza da vita a generazioni di esistenza samsarica, proliferando e riproducendosi all'infinito. La nescienza significa credere nell'esistenza di un sé separato e indipendente. Trungpa Rinpoche diceva anche che l'ignoranza è molto intelligente. In realtà è l'intelligenza del saṃsāra, che combatte una continua battaglia per la sopravvivenza e cerca costantemente il modo di mantenere la propria illusione, il proprio autoinganno.</span>
+<span id="cb1-120"><a href="#cb1-120" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-121"><a href="#cb1-121" aria-hidden="true" tabindex="-1"></a><span class="al">![12. La nescienza.](images/wheel_12.jpg)</span>{width="350px"}</span>
+<span id="cb1-122"><a href="#cb1-122" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-123"><a href="#cb1-123" aria-hidden="true" tabindex="-1"></a><span class="fu">### Il carma di retribuzione</span></span>
+<span id="cb1-124"><a href="#cb1-124" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-125"><a href="#cb1-125" aria-hidden="true" tabindex="-1"></a>Il "perché" del ciclo delle rinascite si trova nella nozione di karma: azioni del corpo, della parola e della mente ("proiezione del karma") che possono essere virtuose o non virtuose, e i cui risultati ("maturazione del karma") sono commisurati alla qualità delle azioni compiute. Questi risultati possono essere sperimentati immediatamente o più tardi nella vita presente, come quando qualcuno che ho insultato o mi insulta o si vendica contro di me in seguito, o in una vita futura, come quando rinasco all'inferno per aver commesso un omicidio, o in paradiso per avere compiuto atti di generosità. E proprio come le azioni che compio ora, quando le condizioni sono giuste, daranno frutti nel prossimo o lontano futuro, così le esperienze che ho ora risulteranno dalle azioni che ho compiuto in passato, sia in questa vita che in una vita precedente.</span>
+<span id="cb1-126"><a href="#cb1-126" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-127"><a href="#cb1-127" aria-hidden="true" tabindex="-1"></a>Sebbene i dodici anelli possano essere intesi come un ciclo che si svolge in una singola vita, o anche in un singolo momento, l'interpretazione di gran lunga più comune è di vederli come una spiegazione di come ha luogo la rinascita, quindi di un processo che si estende su due, tre o più vite.</span>
+<span id="cb1-128"><a href="#cb1-128" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-129"><a href="#cb1-129" aria-hidden="true" tabindex="-1"></a>Vale la pena menzionare due punti. In primo luogo, il Buddha insiste sul fatto che uno dei vantaggi di comprendere come funziona la Ruota dell'esistenza è che così facendo saremo liberi dall'ossessione di sapere se e come siamo esistiti in passato, se e come potremmo esistere in futuro e chi, precisamente, siamo nel presente, poiché una comprensione precisa della coproduzione condizionata fornisce una rispota a tutte queste domande. E in secondo luogo, come osserva Vasubandhu, sebbene la coproduzione condizionata, in generale e i dodici anelli, in particolare, siano "leggi" universalmente applicabili che sono "stabili ed eterne... dire che esiste un certo dharma eterno chiamato <span class="sc">\[</span>coproduzione condizionata<span class="sc">\]</span>... è inammissibile". In questo senso, né l'origine dipendente né i dodici anelli esistono "essenzialmente" più di quanto non lo facciano altre entità o altri concetti. In altre parole, la coproduzione condizionata è essa stessa originata in modo dipendente.</span>
+<span id="cb1-130"><a href="#cb1-130" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-131"><a href="#cb1-131" aria-hidden="true" tabindex="-1"></a><span class="fu">### I tre veleni</span></span>
+<span id="cb1-132"><a href="#cb1-132" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-133"><a href="#cb1-133" aria-hidden="true" tabindex="-1"></a>Al centro della Ruota dell'esistenza sono riportate le tre radici della sofferenza, dette "i tre veleni". Esse sono raffigurate come un uccello o un gallo (attaccamento), un serpente (avversione) e un maiale (nescienza). I tre veleni inducono ad azioni che creano carma negativo.</span>
+<span id="cb1-134"><a href="#cb1-134" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-135"><a href="#cb1-135" aria-hidden="true" tabindex="-1"></a>La nostra vita è dominata da quello che viene chiamato "carma di retribuzione", cioè il maturarsi di quello che è stato seminato. Questa maturazione è un esaurimento dell'impulso carmico corrispondente. Il carma, attuandosi nel frutto, viene eliminato, ma la nostra volontà è libera di creare nuovo carma: noi siamo liberi di scegliere quella o questa via. In questo ciclo, l'effetto del carma negativo si manifesta di nuovo come sofferenza, che a sua volta alimenta nuovi "veleni". Il carma che si sviluppa da questi è sempre più negativo e il ciclo continua all'infinito.</span>
+<span id="cb1-136"><a href="#cb1-136" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-137"><a href="#cb1-137" aria-hidden="true" tabindex="-1"></a><span class="al">![I tre veleni.](images/center.jpg)</span>{width="350px"}</span>
+<span id="cb1-138"><a href="#cb1-138" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-139"><a href="#cb1-139" aria-hidden="true" tabindex="-1"></a><span class="fu">### I sei regni dell'esistenza</span></span>
+<span id="cb1-140"><a href="#cb1-140" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-141"><a href="#cb1-141" aria-hidden="true" tabindex="-1"></a>All'interno del bordo esterno della Ruota dell'esistenza, che occupa la parte principale della ruota, sono illustrati i sei regni dell'esistenza nel saṃsāra:</span>
+<span id="cb1-142"><a href="#cb1-142" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-143"><a href="#cb1-143" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>i mondi degli dei, Devas (il mondo degli dei è quello più piacevole tra i sei regni. Si ritiene che una rinascita in questo regno celeste derivi da un grande accumulo di karma positivo. Tuttavia, i piaceri di questo regno portano all'attaccamento, alla mancanza di attività spirituali e quindi alla mancanza del nirvana);</span>
+<span id="cb1-144"><a href="#cb1-144" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>i mondi degli dei gelosi, Asura (a causa delle loro passioni, la rinascita come Asura è considerata una delle quattro rinascite infelici, insieme alla rinascita come animale, preta o Naraka; lo stato di un Asura riflette lo stato mentale di un essere umano ossessionato dalla forza e dalla violenza, sempre alla ricerca di una scusa per litigare, arrabbiato con tutti e incapace di mantenere la calma o risolvere i problemi pacificamente);</span>
+<span id="cb1-145"><a href="#cb1-145" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>i mondi degli esseri umani, Manuṣya (una rinascita in questo regno è considerata fortunata perché offre l'opportunità di raggiungere il nirvana e porre fine al ciclo del Saṃsāra);</span>
+<span id="cb1-146"><a href="#cb1-146" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>i mondi degli animali, Tiryag (a simboleggiare un'esistenza guidata dall'impulso e dall'istinto, in cui gli esseri si depredano a vicenda e soffrono);</span>
+<span id="cb1-147"><a href="#cb1-147" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>i mondi dei fantasmi affamati, preta (a significare l'ingordigia del desiderio, l'attaccamento e la brama);</span>
+<span id="cb1-148"><a href="#cb1-148" aria-hidden="true" tabindex="-1"></a><span class="ss">-   </span>i mondi degli esseri infernali, Naraka (a simboleggiare le conseguenze di un karma malvagio come assassinio, furto, menzogna, e altri).</span>
+<span id="cb1-149"><a href="#cb1-149" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-150"><a href="#cb1-150" aria-hidden="true" tabindex="-1"></a>Da un punto di vista "esteriore", i sei regni descrivono tutte le possibili varietà di vita senziente. Sono tutte condizioni di vita in cui potremmo rinascere. Fatta eccezione per quelli degli animali e degli umani, gli altri regni ci sono invisibili, ma coesistono tutti con noi in un universo multidimensionale inconcepibilmente vasto. Da un punto di vista "interiore", i sei regni sono una rappresentazione degli stati della mente.</span>
+<span id="cb1-151"><a href="#cb1-151" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-152"><a href="#cb1-152" aria-hidden="true" tabindex="-1"></a>Spostandosi ulteriormente verso il centro della ruota, la sezione successiva è divisa in due parti: una metà chiara in cui le figure umane salgono verso l'alto e una metà scura in cui cadono in basso.</span>
+<span id="cb1-153"><a href="#cb1-153" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-154"><a href="#cb1-154" aria-hidden="true" tabindex="-1"></a><span class="al">![I sei regni dell'esistenza nel saṃsāra.](images/realms.jpg)</span></span>
+<span id="cb1-155"><a href="#cb1-155" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-156"><a href="#cb1-156" aria-hidden="true" tabindex="-1"></a><span class="fu">### Il Bardo</span></span>
+<span id="cb1-157"><a href="#cb1-157" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-158"><a href="#cb1-158" aria-hidden="true" tabindex="-1"></a>Questa immagine rappresenta l'ultima fase del periodo tra la morte e la rinascita. Le figure che salgono, nel semicerchio luminoso, stanno per rinascere come esseri umani, divinità o divinità gelose; chi scende, nel semicerchio oscuro, rinascerà tra animali o fantasmi affamati o in uno degli inferni.</span>
+<span id="cb1-159"><a href="#cb1-159" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-160"><a href="#cb1-160" aria-hidden="true" tabindex="-1"></a><span class="al">![Il Bardo.](images/light-dark.jpg)</span>{width="250px"}</span>
+<span id="cb1-161"><a href="#cb1-161" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-162"><a href="#cb1-162" aria-hidden="true" tabindex="-1"></a><span class="fu">### Yama</span></span>
+<span id="cb1-163"><a href="#cb1-163" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-164"><a href="#cb1-164" aria-hidden="true" tabindex="-1"></a>L'intera ruota è tenuta nelle mani di una figura terrificante che rappresenta l'impermanenza. Il Dalai Lama afferma:</span>
+<span id="cb1-165"><a href="#cb1-165" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-166"><a href="#cb1-166" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; L'essere feroce che tiene il volante simboleggia l'impermanenza, motivo per cui l'essere è un mostro irato ... Una volta ho fatto disegnare un dipinto del genere con uno scheletro piuttosto che un mostro, per simboleggiare più chiaramente l'impermanenza.</span></span>
+<span id="cb1-167"><a href="#cb1-167" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-168"><a href="#cb1-168" aria-hidden="true" tabindex="-1"></a>Questa figura è Yama, il Signore della morte.</span>
+<span id="cb1-169"><a href="#cb1-169" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-170"><a href="#cb1-170" aria-hidden="true" tabindex="-1"></a><span class="al">![Yama. Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-19.jpg)</span></span>
+<span id="cb1-171"><a href="#cb1-171" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-172"><a href="#cb1-172" aria-hidden="true" tabindex="-1"></a><span class="fu">## Gli antidoti</span></span>
+<span id="cb1-173"><a href="#cb1-173" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-174"><a href="#cb1-174" aria-hidden="true" tabindex="-1"></a>Le strategie per eliminare i kleśa seguono la logica degli "antidoti": la tolleranza (kṣānti) è l'antidoto alla rabbia (dveṣa); il vigore è l'antidoto alla pigrizia; il disgusto per il corpo è l'antidoto alla lussuria (rāga).</span>
+<span id="cb1-175"><a href="#cb1-175" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-176"><a href="#cb1-176" aria-hidden="true" tabindex="-1"></a><span class="fu">### La tolleranza</span></span>
+<span id="cb1-177"><a href="#cb1-177" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-178"><a href="#cb1-178" aria-hidden="true" tabindex="-1"></a>Approfondiamo qui il ruolo di kṣānti. Abbiamo già incontrato kṣānti quando abbiamo discusso il Vimalakīrti Sūtra. In quel contesto, kṣānti indicava</span>
+<span id="cb1-179"><a href="#cb1-179" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-180"><a href="#cb1-180" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; la tolleranza intuitiva dell'incomprensibilità ultima e della natura non-nata di tutte le cose</span></span>
+<span id="cb1-181"><a href="#cb1-181" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-182"><a href="#cb1-182" aria-hidden="true" tabindex="-1"></a>cioè, indicava la tolleranza alla sopportazione della realizzazione della vacuità, ovvero la capacità di accettare con fiducia e in maniera gioiosa l'esperienza dell'assenza di fondamento, dell'impermanenza e dell'assenza di sé. Ma kṣānti è anche la terza delle sei perfezioni, ovvero delle pratiche che fanno maturare la mente del bodhisattva. Kṣānti è anche tradotta come "pazienza". A kṣānti è dedicato il sesto capitolo del Bodhicaryāvatāra e il nono capitolo dell'Antologia (Siksà-samuccaya) di Śāntideva.</span>
+<span id="cb1-183"><a href="#cb1-183" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-184"><a href="#cb1-184" aria-hidden="true" tabindex="-1"></a><span class="fu">#### Kṣānti nella Siksà-samuccaya</span></span>
+<span id="cb1-185"><a href="#cb1-185" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-186"><a href="#cb1-186" aria-hidden="true" tabindex="-1"></a>Nel nono capitolo del Siksà-samuccaya, Śāntideva si occupa di kṣānti quale antidoto al terzo veleno, ovvero l'avversione (odio o rabbia). Śāntideva scrive:</span>
+<span id="cb1-187"><a href="#cb1-187" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-188"><a href="#cb1-188" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; per liberarti dalle catene delle distorsioni karmiche, devi fare uno sforzo per eliminare le emozioni reattive. Sin dall'inizio, resisti con pazienza.</span></span>
+<span id="cb1-189"><a href="#cb1-189" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-190"><a href="#cb1-190" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Coloro che non hanno studiato non conoscono né i metodi per sviluppare un'attenzione stabile, né i metodi per eliminare le emozioni reattive. Pertanto, instancabilmente cerca l'apprendimento </span><span class="sc">\[</span><span class="at">del Dharma</span><span class="sc">\]</span><span class="at">.</span></span>
+<span id="cb1-191"><a href="#cb1-191" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-192"><a href="#cb1-192" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Ma anche se sei ben informato, se la tua condotta è contaminata </span><span class="sc">\[</span><span class="at">dai kleśa</span><span class="sc">\]</span><span class="at"> sarà difficile sviluppare un'attenzione stabile. Perciò, dimora in solitudine.</span></span>
+<span id="cb1-193"><a href="#cb1-193" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-194"><a href="#cb1-194" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Chi ha un'attenzione stabile riceve come compenso l'eliminazione delle emozioni reattive. Per questa ragione, medita sull'impurità </span><span class="sc">\[</span><span class="at">del corpo</span><span class="sc">\]</span><span class="at">.</span></span>
+<span id="cb1-195"><a href="#cb1-195" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-196"><a href="#cb1-196" aria-hidden="true" tabindex="-1"></a>::: callout-note</span>
+<span id="cb1-197"><a href="#cb1-197" aria-hidden="true" tabindex="-1"></a>La meditazione sull'impurità (Skt. aśubha-bhāvanā) è una classe di tecniche volte a minare il desiderio sessuale riflettendo e visualizzando sulle impurità associate al corpo.</span>
+<span id="cb1-198"><a href="#cb1-198" aria-hidden="true" tabindex="-1"></a>:::</span>
+<span id="cb1-199"><a href="#cb1-199" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-200"><a href="#cb1-200" aria-hidden="true" tabindex="-1"></a>Queste, ci dice Śāntideva, sono le istruzioni per eliminare le emozioni reattive.</span>
+<span id="cb1-201"><a href="#cb1-201" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-202"><a href="#cb1-202" aria-hidden="true" tabindex="-1"></a>Segue poi una serie di citazioni da vari Sūtra.</span>
+<span id="cb1-203"><a href="#cb1-203" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-204"><a href="#cb1-204" aria-hidden="true" tabindex="-1"></a>Nel Ugraparipṛcchā Sūtra si afferma:</span>
+<span id="cb1-205"><a href="#cb1-205" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-206"><a href="#cb1-206" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Il ... bodhisattva ... dovrebbe rimanere libero dall'attaccamento e dalla rabbia e dovrebbe mostrarsi indifferente alle otto preoccupazioni mondane. Se ottiene beni, moglie o figli, ricchezza, grano o proprietà, non deve diventare pomposo o euforico. Se non ottiene nessuno di questi, non deve dimostrarsi scoraggiato o depresso. Dovrebbe invece riflettere così: 'Tutte le cose condizionate sono illusorie e hanno la caratteristica di essere delle costruzioni mentali. Pertanto, i genitori, i figli, la moglie, la servitù, ... i dipendenti, gli amici, i compagni, i parenti e i membri della famiglia sono tutti manifestazioni delle evoluzioni del karma. Non sono miei e io non sono loro.'</span></span>
+<span id="cb1-207"><a href="#cb1-207" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-208"><a href="#cb1-208" aria-hidden="true" tabindex="-1"></a>Śāntideva si chiede come sia possibile evitare di rimanere vittime dell'infelicità. A tale domanda risponde:</span>
+<span id="cb1-209"><a href="#cb1-209" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-210"><a href="#cb1-210" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Evita di avere una mente debole!</span></span>
+<span id="cb1-211"><a href="#cb1-211" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-212"><a href="#cb1-212" aria-hidden="true" tabindex="-1"></a>Nell'Ugraparipṛcchā Sūtra si dice:</span>
+<span id="cb1-213"><a href="#cb1-213" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-214"><a href="#cb1-214" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; ... per distruggere tutte le emozioni reattive, sviluppa una mente che è difficile da sconfiggere; per non cadere preda dell'attaccamento, sviluppa mente che non può essere conquistata, una mente che non trema quando si confronta con la moltitudine degli esseri malevoli.</span></span>
+<span id="cb1-215"><a href="#cb1-215" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-216"><a href="#cb1-216" aria-hidden="true" tabindex="-1"></a>La pratica è il mezzo per ottenere questo risultato:</span>
+<span id="cb1-217"><a href="#cb1-217" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-218"><a href="#cb1-218" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Nulla è difficile da ottenere con la ripetizione della pratica. Se con la ripetizione della pratica anche i più ignoranti </span><span class="sc">\[</span><span class="at">...</span><span class="sc">\]</span><span class="at"> evitano di venire sopraffatti dalla fatica, quanto più questo è vero se consideriamo quel lavoro i cui risultati corrispondono alla felicità dell'esistenza ciclica, alla felicità del bodhisattva e allo stadio più alto dell'assorbimento meditativo!</span></span>
+<span id="cb1-219"><a href="#cb1-219" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-220"><a href="#cb1-220" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Mediante la ripetizione ti puoi convincere che la sofferenza degli altri ti renderà felice; ma allo stesso modo, generando abitualmente pensieri felici verso tutto ciò che causa sofferenza, puoi apprendere a dimorare in uno stato mentale felice. Questa pratica produce, quale risultato, lo stadio di assorbimento meditativo che è descritto nel Sutra dell'incontro del padre e del figlio:</span></span>
+<span id="cb1-221"><a href="#cb1-221" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-222"><a href="#cb1-222" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Nell'assorbimento meditativo chiamato "Tutto è colmo di felicità" i bodhisattva provano solo sentimenti positivi verso tutto ciò di cui sono consapevoli, evitando qualunque sentimento di sofferenza o infelicità. Anche se provano le pene dell'inferno, pensano solo pensieri felici. Anche se subiscono tutte le sofferenze possibili della condizione umana -- come farsi tagliare le mani, i piedi o il naso -- pensano solo pensieri felici. Anche se vengono picchiati con dei bastoni o delle fruste, pensano solo pensieri felici. Anche se vengono gettati in prigione... o se vengono ustionati dall'olio bollente, o se vengono dati alle fiamme come una lampada a olio, pensano solo pensieri felici. Anche se vengono offerti alla bocca di un demone o alla bocca di un leone ... o se vengono tagliati a pezzi ... o se vengono schiacciati dagli elefanti, pensano solo pensieri felici. Se gli vengono strappate le ossa, o se vengono impalati sui pali, o se vengno rapiti per essere uccisi, o se gli viene tagliata la testa, pensano solo pensieri felici; mai pensieri di sofferenza, né pensieri che non siano né felici né di sofferenza.</span></span>
+<span id="cb1-223"><a href="#cb1-223" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-224"><a href="#cb1-224" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Perché questo? Tali bodhisattva, grandi esseri, hanno svolto questa pratica per molto tempo dopo aver pronunciato il seguente voto:</span></span>
+<span id="cb1-225"><a href="#cb1-225" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-226"><a href="#cb1-226" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; A tutti coloro che vogliono distruggermi, auguro di ottenere la felicità e la pace della tranquillità. A tutti coloro che possono proteggermi, trattarmi con rispetto, prendermi come loro maestro spirituale, onorarmi o farmi delle offerte, auguro di ottenere la felicità della tranquillità. E inoltre, a tutti coloro che mi maledicono, mi trattano male, mi picchiano, mi feriscono o in qualsiasi modo mi tolgono la vita, auguro di raggiungere la felicità del pieno Risveglio. Possano tutti risvegliarsi nel più alto, genuino e completo Risveglio.</span></span>
+<span id="cb1-227"><a href="#cb1-227" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-228"><a href="#cb1-228" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; I bodhisattva, con questi pensieri, con queste azioni, con questo voto, augurano in ogni occasione la felicità a tutti gli esseri senzienti. I bodhisattva esprimono spesso questo desiderio, meditano su di esso e certano ripetutamente di metterlo in pratica. Come risultato di questo pensiero e di queste azioni, raggiungono l'assorbimento meditativo chiamato 'Tutto è colmo di felicità'. Nel momento in cui un bodhisattva raggiunge un tale assorbimento meditativo non può più essere distolto da esso e per sempre sfugge dalle azioni di Māra.</span></span>
+<span id="cb1-229"><a href="#cb1-229" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-230"><a href="#cb1-230" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Questo tipo di sforzo messo in atto dai bodhisattva fortifica tutte le forme di rinuncia, rafforza ogni azione che è difficile compiere, stabilizza ogni forma di paziente sopportazione, consolida la perseveranza e potenzia la stabilità meditativa e la saggezza. Pertanto, sii sempre essere gioioso.</span></span>
+<span id="cb1-231"><a href="#cb1-231" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-232"><a href="#cb1-232" aria-hidden="true" tabindex="-1"></a>L'Akṣayamati Sūtra afferma:</span>
+<span id="cb1-233"><a href="#cb1-233" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-234"><a href="#cb1-234" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Qual è la gioia più grande? È il piacere di ricordare le qualità del Buddha; la calma e la gioia d'animo; il non essere depressi; il non essere abbattuti; la libertà dal desiderio; la rinuncia alle delizie dei sensi; il provare piacere per il Dharma; la letizia della mente, l'agio del corpo; ... il non stancarsi mai di sentire parlare degli stati virtuosi; l'affidarsi agli insegnamenti che rivelano come stanno realmente le cose; ... l'avere sempre una mente libera dall'inimicizia; l'avere una forte motivazione; il cercare di sviluppare le qualità dei Buddha ... lo sforzo che ci allontana dalle Vie limitate; lo sforzo che ci allontana dall'avidità; il donare ai mendicanti; ... il deliziarsi della propria gentilezza verso coloro che sono immorali; la purezza della propria disciplina morale...; l'avere una mente che non si antagonizza di fronte all'inimicizia; il compiacersi della pazienza; la libertà dalla presunzione; la reverenza verso gli insegnanti spirituali; l'avere sempre una faccia sorridente; il non essere mai accigliato; la cortesia e la sincerità; l'assenza di ipocrisia; l'astenersi dall'adulazione; il non misurare i risultati raggiunti; avere aspirazioni pure; avere una mente senza durezza; ... la capacità di vedere il lato positivo di ogni cosa; la capacità di riconoscere la propria confusione; il non accusare gli altri dei loro limiti; il conformarsi alle regole del comportamento appropriato.</span></span>
+<span id="cb1-235"><a href="#cb1-235" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-236"><a href="#cb1-236" aria-hidden="true" tabindex="-1"></a>Il Mahā-megha Sutra fornisce una descrizione poetica, ci dice Śāntideva, dei bodhisattva che hanno raggiunto un alto grado di maturazione spirituale:</span>
+<span id="cb1-237"><a href="#cb1-237" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-238"><a href="#cb1-238" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; </span><span class="sc">\[</span><span class="at">Tali bodhisattva</span><span class="sc">\]</span><span class="at"> hanno la disciplina di coloro che sono sempre assorbiti dal pensiero di andare all'inferno. Amano andare all'inferno. Diventano gli esperti dell'andare all'inferno. Desiderano l'inferno, sono avidi dell'inferno e sono ben familiari con il pensiero del fuoco infernale.</span></span>
+<span id="cb1-239"><a href="#cb1-239" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-240"><a href="#cb1-240" aria-hidden="true" tabindex="-1"></a>Questo conclude la spiegazione della resistenza paziente e dell'accettazione del dolore.</span>
+<span id="cb1-241"><a href="#cb1-241" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-242"><a href="#cb1-242" aria-hidden="true" tabindex="-1"></a>Queste metafore così estreme si potrebbero descrivere dicendo che il bodhisattva prende molto sul serio l'idea che il saṃsāra è il ciclo della sofferenza -- e non può essere nient'altro, al di là dei brevi momenti in cui ci dimentichiamo di questo. In questo contesto, il bodhisattva manifesta gioia, perché rimanere nel saṃsāra è una sua scelta: ha scelto di rimanere nel saṃsāra per infiniti kalpa per contribuire alla salvezza degli esseri viventi. La sofferenza, in ogni istante, gli ricorda che la situazione in cui si trova è proprio la situazione che ha scelto di vivere. E di questo è felice.</span>
+<span id="cb1-243"><a href="#cb1-243" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-244"><a href="#cb1-244" aria-hidden="true" tabindex="-1"></a>Ma come il bodhisattva è in grado di mette in atto la sua paziente sopportazione? Śāntideva cita il Sāgaramati Sūtra:</span>
+<span id="cb1-245"><a href="#cb1-245" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-246"><a href="#cb1-246" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Un bodhisattva, grande essere, quando tormentato, scosso, disturbato, minacciato o picchiato dagli altri ... o da divinità controllate da energie demoniache, o dai messaggeri di Māra, non vacilla mai davanti al desiderio di potere giungere alla completa conoscenza della realtà o dall'essere motivato da intenzioni superiori. Non esita a sviluppare mahakaruṇā per tutti gli esseri senzienti. ... Non esita dall'applicarsi a non possedere nulla. Non esita dall'aiutare tutti gli esseri senzienti a maturare ed evita di aggrapparsi alla propria felicità. Coerentemente con una virtù superiore, sopporta un trattamento sprezzante da parte degli altri; sopporta la mancanza di rispetto e la critica; sopportare la rabbia degli altri, i rimproveri e le cattive parole. Sopporta le ferite che gli altri gli infliggono. Sopporta il peso dei fardelli di tutti gli esseri senzienti. Non si stanca, non si avvilisce, non si deprime, non si dispera. Mostra forza e perseveranza. È coraggioso, è in grado di compiere lo sforzo più grande e tiene sotto controllo le infatuazioni mentali. Quando gli altri si rivolgono duramente nei suoi confronti, non risponde in modo aspro. Quando viene colpito, non reagisce colpendo gli altri. Quando gli altri si arrabbiano con lui, non si arrabbia a sua volta. Quando viene rimproverato, non rimprovera gli altri a sua volta. In questo modo indossa l'armatura della contentezza interiore.</span></span>
+<span id="cb1-247"><a href="#cb1-247" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-248"><a href="#cb1-248" aria-hidden="true" tabindex="-1"></a>Il mio commento potrebbe essere quello di dire che il bodhisattva è più forte di qualsiasi avversità e utilizza le difficoltà della vita samsarica quali occasioni per procedere sulla via dello sviluppo spirituale. Essendo tutte le cose</span>
+<span id="cb1-249"><a href="#cb1-249" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-250"><a href="#cb1-250" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; come un sogno, un'illusione, un'eco, un miraggio, un riflesso, un batter d'occhi; come l'imagine della luna sull'acqua, irreali, sempre insostanziali, sicuramente inesistenti, mendaci, (Bardo Thodol, traduzione di Giuseppe Tucci)</span></span>
+<span id="cb1-251"><a href="#cb1-251" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-252"><a href="#cb1-252" aria-hidden="true" tabindex="-1"></a>gli specifici dolori che proviamo e le specifiche malizie dirette verso di noi non devono costituire una sorpresa. Ci dobbiamo aspettare che tutto questo succeda. I dolori della vita sono le conseguenze della legge del duodecuplo nesso causale, il pratītyasamutpāda. Lo svolgimento della vita corrisponde ad un processo carmico: la vita è divenire, il divenire per presupposto è dolore. Non è utile concentrare la nostra attenzione sul singolo evento che provoca le nostre "emozioni afflittive": non abbiamo modo per porvi rimedio. Più utile è invece dirigere il nostro pensiero verso la pratītyasamutpāda: è necessario infatti conoscere questo processo per provocarne l'arresto. <span class="co">&lt;!-- totalità, al dharmakāya che ha tutte le qualità positive che si possono immaginare (e anche, soprattutto, quelle che non siamo in grado di immaginare), alla bellezza della rete di Indra, piuttosto che focalizzarci su un qualche specifico aspetto della totalità che, incidentalmente, troviamo sgradevole e che, comunque, è marginale, ma deve stare lì. --&gt;</span></span>
+<span id="cb1-253"><a href="#cb1-253" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-254"><a href="#cb1-254" aria-hidden="true" tabindex="-1"></a>Śāntideva continua con un'altra citazione:</span>
+<span id="cb1-255"><a href="#cb1-255" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-256"><a href="#cb1-256" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; Rinunciare al corpo, non avere riguardo per il proprio corpo: questa è la perfezione della generosità. Quando il proprio corpo viene fatto a pezzi, </span><span class="sc">\[</span><span class="at">i bodhisattva</span><span class="sc">\]</span><span class="at"> estendono la loro gentilezza amorevole a tutte le creature, senza lasciarsi trattenere dal dolore: questa è la perfezione della disciplina morale. Quando il loro corpo viene fatto a pezzi, </span><span class="sc">\[</span><span class="at">i bodhisattva</span><span class="sc">\]</span><span class="at"> sopportano pazientemente tutto questo allo scopo di liberare coloro che li stanno ferendo, senza ferirli neppure nell'immaginazione: questa è la perfezione della pazienza. La perseveranza con cui non rinunciano alla motivazione di una completa conoscenza, con cui sostengono la loro forza interiore, con cui sopportano l'esistenza ciclica del saṃsāra, e con cui intraprendono azioni virtuose: questa è la perfezione della perseveranza. La qualità per cui, quando vengno feriti, si preoccunano solo del Risveglio e si rivolgono solo alla pace e alla tranquillità: questa è la perfezione di stabilità meditativa. La qualità per cui, quando i loro corpi vengono fatti a pezzi, </span><span class="sc">\[</span><span class="at">i bodhisattva</span><span class="sc">\]</span><span class="at"> capiscono che il corpo è come qualsiasi altro oggetto, e tutti gli oggetti sono solo illusioni; capendo questo, </span><span class="sc">\[</span><span class="at">i bodhisattva</span><span class="sc">\]</span><span class="at"> riflettono sulla natura illusoria del loro corpo e sull'impermanenza dell'essere, sulla sofferenza dell'essere, sull'assenza di qualsiasi sé nell'essere e sulla pace dell'essere: questa è la perfezione della saggezza.</span></span>
+<span id="cb1-257"><a href="#cb1-257" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-258"><a href="#cb1-258" aria-hidden="true" tabindex="-1"></a>Di nuovo, il mio commento è che, anziché rispondere in maniera "automatica" alle difficoltà -- una senzazione di bruciore mi fa male e io "sono" questo dolore -- il bodhisattva è in grado di trasformare la sua sofferenza in modo tale che un riflesso cieco diventi un'esperienza letta attraverso le lenti del Dharma. Il problema essenziale è il superamento del dolore, cioè l'arresto del carma: il fissarsi su eventi particolari (qualcuno mi ha fatto un torto: devo fargliela pagare) non serve a questo scopo, non influisce sull'arresto del carma; pertanto, non conviene dare troppa importanza alle vicende spicciole della vita quotidiana. La perfezione di kṣānti consente la trasformazione della sofferenza attraverso la pratica del Dharma. Anziché accettare i kleśa senza metterli in discussione, avendo reso "malleabile" la mente con la pratica meditativa, i bodhisattva diventano consapevoli che</span>
+<span id="cb1-259"><a href="#cb1-259" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-260"><a href="#cb1-260" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; le cose che sono nel mondo o che imaginiamo, tutte sono in realtà un'illusione; nulla di ciò che appare è reale; tutte le cose sono irreali, false e mendaci; non sono eterne e non durano. Che vale aver attaccamento per esse, che vale temerle? (Bardo Thodol, traduzione di Giuseppe Tucci)</span></span>
+<span id="cb1-261"><a href="#cb1-261" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-262"><a href="#cb1-262" aria-hidden="true" tabindex="-1"></a>Se siamo in grado di realizzare la vacuità, il dolore assume "un colore" diverso. Più tenue. Se crediamo a Śāntideva, esso sbiadisce fino a scomparire.</span>
+<span id="cb1-263"><a href="#cb1-263" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-264"><a href="#cb1-264" aria-hidden="true" tabindex="-1"></a>Riporto qui un divertente aneddoto. Andrés Gonzaléz della *Holistic Life Foundation* racconta la storia di Janaisa, una bambina di otto anni che faceva parte del doposcuola da lui gestito, una bambina che aveva una storia di litigi con i suoi coetanei. Ragazzi o ragazze, non importava, se la prendevano in giro, lei li metteva fuori combattimento. Ma poi successe qualcosa di particolare. Un giorno, in palestra, una ragazzina fa un'osservazione denigratoria su di lei e, come al solito, Janaisa l'afferra e la sbatte contro il muro. Ma questa volta, però, dopo averla guardata in silenzio per un po', la lasciata andare, e le dice: "Sii felice che io medito". Janaisa ha imparato che, se riusciamo ad espandere la nostra consapevolezza, possiamo anche permetterci di esperire le nostre emozioni, per quanto intense possano essere. Tuttavia, una consapevolezza aumentata ci offre una possibilità che prima non avevamo, ovvero quella di non reagire in maniera automatica. Questa libertà è il frutto della pratica di kṣānti.</span>
+<span id="cb1-265"><a href="#cb1-265" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-266"><a href="#cb1-266" aria-hidden="true" tabindex="-1"></a><span class="fu">## Conclusione {.unnumbered}</span></span>
+<span id="cb1-267"><a href="#cb1-267" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-268"><a href="#cb1-268" aria-hidden="true" tabindex="-1"></a>Concluderei mettendo in evidenza l'aspetto seguente: c'è una componente eroica nel bodhisattva. Il bodhisattva è un guerriero. Non ha timore della sofferenza perché, senza la sofferenza, non potrebbe esistere. L'assenza di sofferenza nega il saṃsāra; e il bodhisattva può esistere solo nel saṃsāra. Più grande è la sofferenza, maggiore è la sua ragione d'essere. Per questo, il bodhisattva non prova paura. Nel Bodhicaryāvatāra il coraggio del bodhisattva è descritto nel modo seguente:</span>
+<span id="cb1-269"><a href="#cb1-269" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-270"><a href="#cb1-270" aria-hidden="true" tabindex="-1"></a><span class="at">&gt; VI:17-18. Vi sono alcuni che vedendo colare il proprio sangue, moltiplicano di coraggio; vi sono altri che, vedendo il sangue altrui, vengono meno. Tutto questo proviene dalla fermezza e dalla debolezza della mente. Vedi perciò di essere un difficile avversario per la sofferenza, sì da sopraffarla.</span></span>
+<span id="cb1-271"><a href="#cb1-271" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-272"><a href="#cb1-272" aria-hidden="true" tabindex="-1"></a>Il dolore provato dal bodhisattva non fa altro che aumentare il suo coraggio e la sua motivazione.</span>
+<span id="cb1-273"><a href="#cb1-273" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-274"><a href="#cb1-274" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- ## La rabbia distrugge la pace e la virtù (versi 1-11) --&gt;</span></span>
+<span id="cb1-275"><a href="#cb1-275" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-276"><a href="#cb1-276" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Śāntideva inizia il capitolo sulla pazienza del Bodhicaryāvatāra spiegando l'enorme carattere distruttivo della rabbia. La rabbia è l'opposto della pazienza, quindi, per sviluppare la pazienza, dobbiamo prima conoscere gli svantaggi della rabbia e i vantaggi della pazienza. Quando comprendiamo questo, diventa facile diminuire ed eliminare i primi e sviluppare i secondi. --&gt;</span></span>
+<span id="cb1-277"><a href="#cb1-277" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-278"><a href="#cb1-278" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- L'attaccamento è spesso descritto come come l'olio che filtra nel tessuto, perché è quasi impossibile separare la mente vittima dell'attaccamento dall'oggetto dell'attaccamento. Allo stesso modo, la rabbia è descritta come un fuoco, perché brucia completamente ogni buona qualità. La rabbia può distruggere tutto, e quindi viene spesso definita il carattere negativo più distruttivo della mente. La rabbia è l'esatto opposto di kṣānti. La rabbia è la mente che desidera danneggiare l'altro --- questa è la sua funzione --- mentre bodhicitta, l'intenzione altruistica di raggiungere l'illuminazione, è l'opposto. Pertanto, kṣānti è vitale per sviluppare bodhicitta. --&gt;</span></span>
+<span id="cb1-279"><a href="#cb1-279" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-280"><a href="#cb1-280" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; \[Un momento di\] cattiva volontà distrugge tutte le buone azioni,\ --&gt;</span></span>
+<span id="cb1-281"><a href="#cb1-281" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-282"><a href="#cb1-282" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; così come la generosità e il culto dei sugata,\ --&gt;</span></span>
+<span id="cb1-283"><a href="#cb1-283" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-284"><a href="#cb1-284" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; anche se uno li ha praticati\ --&gt;</span></span>
+<span id="cb1-285"><a href="#cb1-285" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-286"><a href="#cb1-286" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; per migliaia di cicli cosmici.\ --&gt;</span></span>
+<span id="cb1-287"><a href="#cb1-287" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-288"><a href="#cb1-288" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; --- (BCA VI:1) --&gt;</span></span>
+<span id="cb1-289"><a href="#cb1-289" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-290"><a href="#cb1-290" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Un kalpa è un intervallo di tempo che abbraccia i quattro periodi della vita di un universo: formazione, durata, distruzione e periodo di vacuità. Ciascuno di questi quattro stadi dura venti kalpa intermedi, e ottanta presi insieme sono indicati come un grande kalpa. Il Sutra dichiara che il merito di tutte le buone opere accumulate nel corso di mille di questi grandi kalpa -- la pratica della generosità verso gli esseri, il rifugiarsi nei Tre Gioielli (il Buddha o Sugata che "procede nella beatitudine", il sacro il Dharma e il Sangha) e il fare offerte, l'osservanza della disciplina e così via -- tutto viene infranto da un solo istante di rabbia. --&gt;</span></span>
+<span id="cb1-291"><a href="#cb1-291" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-292"><a href="#cb1-292" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; Non c'è male grande come l'odio,\ --&gt;</span></span>
+<span id="cb1-293"><a href="#cb1-293" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-294"><a href="#cb1-294" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; nessuna disciplina ascetica grande come la pazienza.\ --&gt;</span></span>
+<span id="cb1-295"><a href="#cb1-295" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-296"><a href="#cb1-296" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; Pertanto, coltiva attivamente la pazienza\ --&gt;</span></span>
+<span id="cb1-297"><a href="#cb1-297" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-298"><a href="#cb1-298" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; con tutti i mezzi possibili.\ --&gt;</span></span>
+<span id="cb1-299"><a href="#cb1-299" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-300"><a href="#cb1-300" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; --- (BCA VI:2) --&gt;</span></span>
+<span id="cb1-301"><a href="#cb1-301" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-302"><a href="#cb1-302" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Con la rabbia non può esserci pace. Non c'è ostacolo più grande della rabbia nel nostro viaggio sulla via dell'illuminazione. Per questo motivo, dobbiamo fare tutto il possibile per proteggere la nostra mente da questa negatività. Dobbiamo impegnarci ad osservare con attenzione la nostra mente e non permettere mai il sorgere della rabbia; dobbiamo fare questo con la stessa attenzione che utilizziamo quando stiamo camminando su uno stretto sentiero sul bordo di un precipizio. Perché nei due casi i deficit di attenzione sono tragici nello stesso modo. --&gt;</span></span>
+<span id="cb1-303"><a href="#cb1-303" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-304"><a href="#cb1-304" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; Finché la puntura dell'odio è nel tuo cuore,\ --&gt;</span></span>
+<span id="cb1-305"><a href="#cb1-305" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-306"><a href="#cb1-306" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; la tua mente non troverà riposo,\ --&gt;</span></span>
+<span id="cb1-307"><a href="#cb1-307" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-308"><a href="#cb1-308" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; né gioia né felicità,\ --&gt;</span></span>
+<span id="cb1-309"><a href="#cb1-309" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-310"><a href="#cb1-310" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; nè quiete né stabilità.\ --&gt;</span></span>
+<span id="cb1-311"><a href="#cb1-311" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-312"><a href="#cb1-312" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; --- (BCA VI:3) --&gt;</span></span>
+<span id="cb1-313"><a href="#cb1-313" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-314"><a href="#cb1-314" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Coloro che sono tormentati dalla rabbia (le cui menti sono irritate dai nemici e dalle altre persone) non conosceranno mai la beatitudine della concentrazione, uno stato di perfetta felicità mentale. Sarà impossibile per loro raggiungere la concentrazione della mente e non conosceranno né la gioia mentale né il benessere fisico, neppure di notte, perché il sonno li abbandonerà. --&gt;</span></span>
+<span id="cb1-315"><a href="#cb1-315" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-316"><a href="#cb1-316" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; Il malcontento sorge ogni volta che il nostro desiderio viene contraddetto\ --&gt;</span></span>
+<span id="cb1-317"><a href="#cb1-317" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-318"><a href="#cb1-318" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; o si verifica l'indesiderabile.\ --&gt;</span></span>
+<span id="cb1-319"><a href="#cb1-319" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-320"><a href="#cb1-320" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; Quando l'odio riceve il suo nutrimento dal malcontento,\ --&gt;</span></span>
+<span id="cb1-321"><a href="#cb1-321" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-322"><a href="#cb1-322" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; prende forza e mi distrugge.\ --&gt;</span></span>
+<span id="cb1-323"><a href="#cb1-323" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-324"><a href="#cb1-324" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; --- (BCA VI:7) --&gt;</span></span>
+<span id="cb1-325"><a href="#cb1-325" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-326"><a href="#cb1-326" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Tutto ciò che produce situazioni spiacevoli e indesiderate (come la perdita di beni) e tutto ciò che ostacola l'ottenimento di ciò che vogliamo (in termini di proprietà e benessere), tutto ciò produce uno stato di fastidio mentale, e questo è ciò di cui si alimentano la rabbia e l'odio. Come è il cibo fa crescere il corpo, così l'infelicità della mente provoca rabbia e risentimento. Ed è la rabbia che rovina ogni sorta di bontà mentale. Quindi è essenziale superare tali stati di infelicità, perché sono l'alimento di cui si nutre la rabbia. --&gt;</span></span>
+<span id="cb1-327"><a href="#cb1-327" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-328"><a href="#cb1-328" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; Nessuno desidera dolore, umiliazione,\ --&gt;</span></span>
+<span id="cb1-329"><a href="#cb1-329" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-330"><a href="#cb1-330" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; insulto e disonore per se stesso\ --&gt;</span></span>
+<span id="cb1-331"><a href="#cb1-331" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-332"><a href="#cb1-332" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; o per coloro che ama,\ --&gt;</span></span>
+<span id="cb1-333"><a href="#cb1-333" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-334"><a href="#cb1-334" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; eppure li desidera per i suoi nemici.\ --&gt;</span></span>
+<span id="cb1-335"><a href="#cb1-335" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-336"><a href="#cb1-336" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; --- (BCA VI:11) --&gt;</span></span>
+<span id="cb1-337"><a href="#cb1-337" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-338"><a href="#cb1-338" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Si dice che ci sono ventiquattro oggetti a cui applicare la pazienza: dodici cose che non vogliamo e dodici cose che ostacolano i nostri desideri. Ci sono quattro cose che non vogliamo né per noi stessi né per chi ci sta vicino. Questi sono (1) la sofferenza, (2) gli svantaggi che derivano da cose come la discriminazione, (3) l'aggressione verbale diretta, e (4) la distruzione della buona reputazione attraverso la diffusione di voci dannose. Se considerati dal punto di vista delle situazioni passate, presenti e future, questi ventiquattro oggetti costituiscono insieme settantadue cause di rabbia. Si dice che dovremmo coltivare la pazienza nei loro confronti; dovremmo essere in grado di accettare ciò che non vogliamo, e anche considerare il fatto dello stesso "volere" come un difetto. --&gt;</span></span>
+<span id="cb1-339"><a href="#cb1-339" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-340"><a href="#cb1-340" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- ## Imparare ad accettare la sofferenza --&gt;</span></span>
+<span id="cb1-341"><a href="#cb1-341" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-342"><a href="#cb1-342" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; Con grande difficoltà non si riesce quasi mai a raggiungere la felicità,\ --&gt;</span></span>
+<span id="cb1-343"><a href="#cb1-343" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-344"><a href="#cb1-344" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; ma il dolore si ripresenta senza sforzo.\ --&gt;</span></span>
+<span id="cb1-345"><a href="#cb1-345" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-346"><a href="#cb1-346" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; Ma la liberazione \[si verifica\] solo passando attraverso il dolore.\ --&gt;</span></span>
+<span id="cb1-347"><a href="#cb1-347" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-348"><a href="#cb1-348" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; Pertanto, mantieni saldo il tuo spirito!\ --&gt;</span></span>
+<span id="cb1-349"><a href="#cb1-349" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-350"><a href="#cb1-350" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; --- (BCA VI:12)\ --&gt;</span></span>
+<span id="cb1-351"><a href="#cb1-351" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-352"><a href="#cb1-352" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Nel mondo saṃsārarico, le cause della felicità sono poche e compaiono solo sporadicamente. D'altra parte, ci sono molte cause per i nostri dolori e non siamo in grado di impedire che essi accadano. Questa è la definizione stessa di saṃsāra; e fintanto che vaghiamo in esso, le cause della sofferenza sono infinite e non abbiamo altra scelta che sottometterci ad esse. Per chi lo capisce, però, c'è un aspetto positivo nel dolore. Perché senza sofferenza, non ci sarà mai rinuncia, ovvero la determinazione a liberarci dai dolori del saṃsāra. Al contrario, se soffriamo, sorgerà in noi un desiderio di libertà definitiva. Pertanto, rivolgendosi alla propria mente, Śāntideva dice a se stesso di resistere e di accettare pazientemente la sofferenza. Perché la sofferenza è uno stimolo potente che ci spinge a uscire dal saṃsāra. Vedendo quanto sia pervasiva la sofferenza, non c'è altro da fare che accettarla e, se possiamo, usarla per rinunciare a tutto il saṃsāra. Senza sofferenza non ci può essere rinuncia alla sofferenza e quindi nessuna liberazione dalla sofferenza e nessuna illuminazione. Quando sorge la sofferenza, non c'è motivo di essere sorpresi: siamo nel saṃsāra e non possiamo aspettarci nient'altro che la sofferenza. --&gt;</span></span>
+<span id="cb1-353"><a href="#cb1-353" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-354"><a href="#cb1-354" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- </span><span class="al">###</span><span class="co"> Come accettare la sofferenza --&gt;</span></span>
+<span id="cb1-355"><a href="#cb1-355" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-356"><a href="#cb1-356" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; Non c'è niente che rimanga difficile dopo l'apprendimento,\ --&gt;</span></span>
+<span id="cb1-357"><a href="#cb1-357" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-358"><a href="#cb1-358" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; quindi, se si pratica prima\ --&gt;</span></span>
+<span id="cb1-359"><a href="#cb1-359" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-360"><a href="#cb1-360" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; con afflizioni meno gravi,\ --&gt;</span></span>
+<span id="cb1-361"><a href="#cb1-361" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-362"><a href="#cb1-362" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; anche i più grandi tormenti diventeranno sopportabili.\ --&gt;</span></span>
+<span id="cb1-363"><a href="#cb1-363" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-364"><a href="#cb1-364" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- &gt; --- (BCA VI:14)\ --&gt;</span></span>
+<span id="cb1-365"><a href="#cb1-365" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-366"><a href="#cb1-366" aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- Se una cosa è facile o difficile dipende solo da quanto la conosciamo. Tutto dipende dall'allenamento. Pertanto Śāntideva si dice che accettando piccoli disagi ora saremo in grado di sopportare difficoltà più grandi in futuro. --&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
 </div> <!-- /content -->
 
 
