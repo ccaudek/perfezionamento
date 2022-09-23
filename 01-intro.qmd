@@ -1,5 +1,10 @@
 # Introduzione {#sec-intro}
 
+> Un uccello ha bisogno di due ali: saggezza e compassione.\
+> (proverbio tibetano)
+
+\
+
 Iniziamo con l'impostare il problema e con il porre delle domande generali. Il tema di cui ci occuperemo in questa discussione è quello della compassione.
 
 ![](images/eyes.jpeg)
