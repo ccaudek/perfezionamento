@@ -7,7 +7,7 @@
 
 Iniziamo con l'impostare il problema e con il porre delle domande generali. Il tema di cui ci occuperemo in questa discussione è quello della compassione.
 
-![](images/eyes.jpeg)
+<!-- ![](images/eyes.jpeg) -->
 
 La coltivazione secolare della compassione è un fenomeno culturale che è emerso recentemente ed è stato accompagnato dallo studio scientifico in campi quali le neuroscience, la psicologia, e la psicoterapia. L'interesse per il tema della compassione è in costante crescita parallelamente alla scoperta, in psicologia, delle applicazioni cliniche della compassione e, parallelamente, al crescente interesse, nel pubblico generale, delle pratiche volte alla promozione del benessere fisico e mentale.
 
@@ -132,7 +132,7 @@ Karuṇā costituisce un aspetto di bodhicitta -- ciò che viene chiamato "bodhi
 
 <!-- ![Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-21.jpg) -->
 
-![Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-20.jpg)
+<!-- ![Particolare da *Murals of Tibet* di Thomas Laird.](images/thomas-laird-20.jpg) -->
 
 ## Organizzazione dei contenuti
 
