@@ -1,0 +1,3 @@
+# Introduzione
+
+In questa seconda parte della nostra discussione esamineremo alcuni temi che non sono compresi nella versione secolarizzata della coltivaizone della compassione, ma sono invece state sviluppate dalla tradizione buddhista indo-tibetana. In particolare, esamineremo la meditazione così come è stata intesa nella dottrina buddhista, soprattutto in riferimento alla pratica del tonglen. Introdurremo il concetto della saggezza e il suo fondamento, il pensiero non dualista. Esamineremo la pratica della compassione  nella vita quotidiana, soprattutto in riferimento al Vimalakīrti Sūtra. Esamineremo le riflessioni sulla pazienza e sulla nozione di upāya. Concluderemo con alcuni accenni alle tradizioni tibetane.

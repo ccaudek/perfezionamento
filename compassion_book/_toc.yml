@@ -1,0 +1,41 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: intro
+options: # The options key will be applied to all chapters, but not sub-sections
+  numbered: True
+parts:
+  - caption: Coltivazione della compassione
+    numbered: True
+    chapters:
+      - file: chapter-1/chapter1-intro
+      - file: chapter-1/01-definitions
+      - file: chapter-1/02-nature-nurture
+      - file: chapter-1/03-what-trained
+      - file: chapter-1/04-how-trained
+  - caption: Dharma
+    numbered: True
+    chapters:
+      - file: chapter-2/chapter2-intro
+      - file: chapter-2/01-meditation
+      - file: chapter-2/02-tonglen
+      - file: chapter-2/03-wisdom
+      - file: chapter-2/04-non-dualism
+      - file: chapter-2/05-living-skillfully
+      - file: chapter-2/06-patience
+      - file: chapter-2/07-upaya
+      - file: chapter-2/08-tibet-traditions
+  - caption: Tradizioni secolarizzate
+    numbered: True
+    chapters:
+      - file: chapter-3/chapter3-intro
+      - file: chapter-3/01-secularism-1
+      - file: chapter-3/02-secularism-2
+  - caption: Bibliografia
+    numbered: True
+    chapters:
+      - file: biblio
+
+
+
