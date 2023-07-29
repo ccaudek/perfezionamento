@@ -129,7 +129,7 @@ Inoltre, è importante sottolineare che la pratica della compassione non dovrebb
 
 In conclusione, il vero stile di vita compassionevole si basa sulla generosità, sulla virtù etica, sulla pazienza, sull'energia diligente, sulla meditazione concentrata e sulla saggezza profonda. Questo cammino etico e spirituale è ciò che rende la compassione una forza trasformativa e duratura, capace di alleviare la sofferenza e portare felicità a tutti gli esseri.
 
-## Stile di vita
+### Prosociale vs asociale
 
 All'interno della prospettiva buddista, esistono due approcci distinti riguardanti lo stile di vita per coltivare la compassione: il prosociale e l'asociale. Mentre l'approccio prosociale si basa sull'interazione attiva con gli altri, l'asociale prevede una vita isolata e contemplativa.
 
@@ -141,7 +141,7 @@ Il percorso contemplativo asociale prevede la pratica di meditazioni profonde, c
 
 In sintesi, l'approccio asociale offre un ambiente ideale per coltivare la compassione, consentendo al meditatore di sviluppare una mente chiara e compassionevole. Tale compassione, a sua volta, si riflette nel mondo prosociale, guidando il bodhisattva a vivere una vita virtuosa e altruistica per il beneficio di tutti gli esseri senzienti. La dualità tra solitudine contemplativa e compassione attiva si fonde, quindi, in un unico percorso spirituale orientato verso l'illuminazione e il benessere di tutti.
 
-### Chi trae vebeficio dalla coltivazione della compassione?
+## Chi trae vebeficio dalla coltivazione della compassione?
 
 Il materiale testuale buddista e la ricerca scientifica contemporanea convergono nel dimostrare che i praticanti della compassione traggono effettivamente benefici dalla loro formazione mentale. Questo può spiegare il successo delle pratiche secolari di coltivazione della compassione, poiché coloro che si impegnano in queste pratiche sperimentano benefici tangibili per la loro salute mentale e fisica. Tuttavia, questo potrebbe sembrare un paradosso, poiché la natura intrinseca della compassione è quella di desiderare alleviare la sofferenza degli altri, senza finalità egoistiche.
 
