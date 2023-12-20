@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.251">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,9 +17,10 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
@@ -46,43 +47,13 @@ pre.numberSource code > span > a:first-child::before
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
     padding: 0 4px; width: 4em;
-    color: #aaaaaa;
   }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
 div.sourceCode
   {   }
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #40a070; } /* BaseN */
-code span.bu { color: #008000; } /* BuiltIn */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4070a0; } /* Char */
-code span.cn { color: #880000; } /* Constant */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #06287e; } /* Function */
-code span.im { color: #008000; font-weight: bold; } /* Import */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.op { color: #666666; } /* Operator */
-code span.ot { color: #007020; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #4070a0; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
 
@@ -120,7 +91,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -131,11 +103,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduzione</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./01-intro.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduzione</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -143,145 +120,174 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Training cognitivo e contemplativo per lo sviluppo della compassione</a> 
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Benvenuti</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Benvenuti</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./01-intro.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduzione</span></a>
+  <a href="./01-intro.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduzione</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./02-definitions.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Trattazioni buddiste e secolari della compassione</span></a>
+  <a href="./02-definitions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Trattazioni buddiste e secolari della compassione</span></span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./tradition.html" class="sidebar-item-text sidebar-link">Le tradizioni indo-tibetane</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a href="./tradition.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Le tradizioni indo-tibetane</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./03-nature_nurture.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Sistematizzazioni Mahāyāna</span></a>
+  <a href="./03-nature_nurture.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Sistematizzazioni Mahāyāna</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./04-what_is_trained.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Che cosa viene coltivato?</span></a>
+  <a href="./04-what_is_trained.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Che cosa viene coltivato?</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./05-how_is_trained.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Metodi di coltivazione della compassione</span></a>
+  <a href="./05-how_is_trained.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Metodi di coltivazione della compassione</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./06-meditation.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">La meditazione</span></a>
+  <a href="./06-meditation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">La meditazione</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./07-tonglen.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Meditazione Tonglen</span></a>
+  <a href="./07-tonglen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Meditazione Tonglen</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./08-wisdom.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">La perfezione della saggezza</span></a>
+  <a href="./08-wisdom.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">La perfezione della saggezza</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./09-non_dualism.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Compassione e pensiero non dualistico</span></a>
+  <a href="./09-non_dualism.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Compassione e pensiero non dualistico</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./10-living_skillfully.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">L’insegnamento di Vimalakīrti</span></a>
+  <a href="./10-nagarjuna.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Abbandonare tutti i punti di vista</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./11-patience.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">La perfezione della pazienza</span></a>
+  <a href="./11-living_skillfully.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">L’insegnamento di Vimalakīrti</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./12-upaya.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Mezzi espedienti</span></a>
+  <a href="./12-patience.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">La perfezione della pazienza</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./13-tibetan_traditions.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Le tradizioni tibetane</span></a>
+  <a href="./13-upaya.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Mezzi espedienti</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./14-secularism_1.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Pratiche secolarizzate di coltivazione della compassione</span></a>
+  <a href="./14-tibetan_traditions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Le tradizioni tibetane</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./15-secularism_2.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Il significato della secolarizzazione</span></a>
+  <a href="./15-secularism_1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Pratiche secolarizzate di coltivazione della compassione</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./16-secularism_2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Il significato della secolarizzazione</span></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./secular_programs.html" class="sidebar-item-text sidebar-link">Le secolarizzazione della compassione</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a href="./secular_programs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Le secolarizzazione della compassione</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./16-gilbert.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">The construct of compassion in psychology</span></a>
+  <a href="./17-gilbert.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">The construct of compassion in psychology</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./17-kirby.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">A Meta-Analysis of Compassion-Based Interventions</span></a>
+  <a href="./18-kirby.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">A Meta-Analysis of Compassion-Based Interventions</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./18-measurement.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Measuring the effects of psychological interventions</span></a>
+  <a href="./19-measurement.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Measuring the effects of psychological interventions</span></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Appendici</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text">Appendici</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./a1-meditation.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">La pratica della mediatazione</span></a>
+  <a href="./a1-meditation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">La pratica della mediatazione</span></span></a>
   </div>
 </li>
       </ul>
@@ -289,15 +295,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Sommario</h2>
    
   <ul>
-  <li><a href="#karuṇā" id="toc-karuṇā" class="nav-link active" data-scroll-target="#karuṇā"><span class="toc-section-number">1.1</span>  Karuṇā</a></li>
-  <li><a href="#karuṇā-e-tradizione-mahāyāna" id="toc-karuṇā-e-tradizione-mahāyāna" class="nav-link" data-scroll-target="#karuṇā-e-tradizione-mahāyāna"><span class="toc-section-number">1.2</span>  Karuṇā e tradizione Mahāyāna</a></li>
-  <li><a href="#organizzazione-dei-contenuti" id="toc-organizzazione-dei-contenuti" class="nav-link" data-scroll-target="#organizzazione-dei-contenuti"><span class="toc-section-number">1.3</span>  Organizzazione dei contenuti</a></li>
+  <li><a href="#karuṇā" id="toc-karuṇā" class="nav-link active" data-scroll-target="#karuṇā"><span class="header-section-number">1.1</span> Karuṇā</a></li>
+  <li><a href="#karuṇā-e-tradizione-mahāyāna" id="toc-karuṇā-e-tradizione-mahāyāna" class="nav-link" data-scroll-target="#karuṇā-e-tradizione-mahāyāna"><span class="header-section-number">1.2</span> Karuṇā e tradizione Mahāyāna</a></li>
+  <li><a href="#organizzazione-dei-contenuti" id="toc-organizzazione-dei-contenuti" class="nav-link" data-scroll-target="#organizzazione-dei-contenuti"><span class="header-section-number">1.3</span> Organizzazione dei contenuti</a></li>
   </ul>
 </nav>
     </div>
@@ -306,7 +313,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title"><span id="sec-intro" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduzione</span></span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Codice</button></div></div>
+<div class="quarto-title-block"><div><h1 class="title"><span id="sec-intro" class="quarto-section-identifier"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduzione</span></span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Codice</button></div></div>
 </div>
 
 
@@ -314,6 +321,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
@@ -349,7 +357,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </section>
 <section id="karuṇā-e-tradizione-mahāyāna" class="level2" data-number="1.2">
 <h2 data-number="1.2" class="anchored" data-anchor-id="karuṇā-e-tradizione-mahāyāna"><span class="header-section-number">1.2</span> Karuṇā e tradizione Mahāyāna</h2>
-<p>Iniziamo dunque ad affrontare il tema di come sia stata compresa karuṇā nella tradizione buddista. Ci focalizzeremo qui sulla tradizione Mahāyāna. La tradizione Mahāyāna è emersa tra l’ultimo secolo prima dell’inizio dell’era comune, o nel primo secolo della nostra epoca, ovvero circa 500 anni dopo la morte del Buddha storico. Il fondamento Sūtra del Mahāyāna risiede principalmente nel corpo di testi noti come Prajñā-Paramitā (Perfezione della Saggezza) Sūtra, così come in alcuni testi ausiliari, tra cui il Vimalakīrti-Nirdeśa-Sūtra (si veda il <a href="10-living_skillfully.html"><span>Capitolo&nbsp;10</span></a>).</p>
+<p>Iniziamo dunque ad affrontare il tema di come sia stata compresa karuṇā nella tradizione buddista. Ci focalizzeremo qui sulla tradizione Mahāyāna. La tradizione Mahāyāna è emersa tra l’ultimo secolo prima dell’inizio dell’era comune, o nel primo secolo della nostra epoca, ovvero circa 500 anni dopo la morte del Buddha storico. Il fondamento Sūtra del Mahāyāna risiede principalmente nel corpo di testi noti come Prajñā-Paramitā (Perfezione della Saggezza) Sūtra, così come in alcuni testi ausiliari, tra cui il Vimalakīrti-Nirdeśa-Sūtra (si veda il <a href="11-living_skillfully.html"><span>Capitolo&nbsp;11</span></a>).</p>
 <!-- Poiché sono intitolati Sūtra, questi sono presentati come le vere parole del Buddha, anche se questo è ovviamente falso considerata la loro collocazione temporale e il fatto che questi testi sono principalmente scritti in sanscrito. Per questo motivo, la prima letteratura Mahāyāna offre una nuova definizione di Buddhavacana (o parole del Buddha), ma questo è un tema che qui non affronteremo. -->
 <p>La struttura filosofica Mahāyāna è caratterizzata da tre importanti temi:</p>
 <ul>
@@ -358,7 +366,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>l’enfasi su un nuovo ideale morale per il buddismo: quello del bodhisattva.</li>
 </ul>
 <p>Nelle tradizioni non Mahāyāna, l’ideale morale a cui aspira un praticante non è quello del bodhisattva, o anche quello della buddhità, ma piuttosto quello dell’arhat. Un arhat è colui che ottiene la liberazione dal saṃsāra, e quindi la cessazione della sofferenza. Questo ideale ha senso nel contesto delle quattro nobili verità.</p>
-<div class="callout-note callout callout-style-simple">
+<div class="callout callout-style-simple callout-note">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -374,7 +382,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 </div>
 </div>
-<div class="callout-note callout callout-style-simple">
+<div class="callout callout-style-simple callout-note">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -429,11 +437,11 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>Nel <a href="05-how_is_trained.html"><span>Capitolo&nbsp;5</span></a>, verranno discussi tre diversi approcci didattici per la coltivazione della compassione nella tradizione Mahāyāna: il metodo costruttivo, il metodo decostruttivo e il metodo cognitivo-analitico. Verrà anche presa in considerazione la discussione sullo stile di vita più favorevole alla coltivazione della compassione e il tema di chi è il maggiore beneficiario della compassione: il sé o gli altri?</p>
 <p>Il <a href="07-tonglen.html"><span>Capitolo&nbsp;7</span></a> esamina la pratica della meditazione tonglen, proposta dal monaco indiano Śāntideva nel Bodhicaryāvatāra. Tale pratica è importante in quanto ha fornito il principale modello per le meditazioni guidate della coltivazione secolarizzata della compassione.</p>
 <p>Nel <a href="08-wisdom.html"><span>Capitolo&nbsp;8</span></a>, verrà discusso uno dei punti più difficili e controversi della tradizione buddhista, ovvero la nozione di śūnyatā (vacuità). Tale nozione fa riferimento ad una trasformazione cognitiva del praticante buddhista il quale, come conseguenza della pratica contemplativa, diventa in grado di sviluppare uno stile di pensiero non concettuale e non duale. Nella tradizione buddhista, questa trasformazione cognitiva rappresenta il culmine di quel percorso di trasformazione spirituale che porta alla cessazione della sofferenza. L’esame dei testi Mahāyāna renderà chiaro, inoltre, come non si può sviluppare un’imparziale e universale karuṇā senza, parallelamente, sviluppare la “realizzazione della vacuità”. In questo senso, dunque, la manifestazione più autentica dell’etica buddhista, così come espressa nella mahākaruṇā, si dimostra inestricabilmente intrecciata allo sviluppo della saggezza (prajñā). Questa sembra una delle tensioni maggiori che differenziano la tradizione buddhista dalle pratiche secolarizzate di coltivazione della compassione.</p>
-<p>Se śūnyatā è assente nelle pratiche secolarizzate, allora si tratta di capire in che modo la “realizzazione della vacuità” è stata utilizzata, nella tradizione buddhista, come guida dell’esperienza nella vita quotidiana. Per affrontare questo tema, nel <a href="10-living_skillfully.html"><span>Capitolo&nbsp;10</span></a> verrà discusso un famoso sutra, il Vimalakīrti Sūtra, che discute l’incarnazione della vacuità nel comportamento, non di un monaco, ma di un laico che non ha abbandonato i “traffici del mondo”.</p>
-<p>Se la dimensione di śūnyatā, realizzabile attraverso la contemplazione, è la risposta alla domanda di come si possa ottenere la cessazione della sofferenza, una domanda parallela, e forse preliminare, è quella che ci porta a chiederci quale sia la causa della sofferenza. A questa domanda il buddhismo ha fornito la risposta della coproduzione condizionata (pratītyasamutpāda). Alle cause della sofferenza, elencate nella Ruota dell’esistenza, il buddhismo ha proposto degli “antidoti”. Nel <a href="11-patience.html"><span>Capitolo&nbsp;11</span></a>, verrà discusso l’“antidoto” della tolleranza (kṣānti), che è intimamente legato a śūnyatā. Anche questa discussione ha lo scopo di mettere in evidenza una tensione tra l’approccio Mahāyāna e le corrispondenti pratiche secolarizzate di coltivazione della compassione.</p>
+<p>Se śūnyatā è assente nelle pratiche secolarizzate, allora si tratta di capire in che modo la “realizzazione della vacuità” è stata utilizzata, nella tradizione buddhista, come guida dell’esperienza nella vita quotidiana. Per affrontare questo tema, nel <a href="11-living_skillfully.html"><span>Capitolo&nbsp;11</span></a> verrà discusso un famoso sutra, il Vimalakīrti Sūtra, che discute l’incarnazione della vacuità nel comportamento, non di un monaco, ma di un laico che non ha abbandonato i “traffici del mondo”.</p>
+<p>Se la dimensione di śūnyatā, realizzabile attraverso la contemplazione, è la risposta alla domanda di come si possa ottenere la cessazione della sofferenza, una domanda parallela, e forse preliminare, è quella che ci porta a chiederci quale sia la causa della sofferenza. A questa domanda il buddhismo ha fornito la risposta della coproduzione condizionata (pratītyasamutpāda). Alle cause della sofferenza, elencate nella Ruota dell’esistenza, il buddhismo ha proposto degli “antidoti”. Nel <a href="12-patience.html"><span>Capitolo&nbsp;12</span></a>, verrà discusso l’“antidoto” della tolleranza (kṣānti), che è intimamente legato a śūnyatā. Anche questa discussione ha lo scopo di mettere in evidenza una tensione tra l’approccio Mahāyāna e le corrispondenti pratiche secolarizzate di coltivazione della compassione.</p>
 <p>Data la centralità delle pratiche contemplative nella concezione buddhista, nel <a href="06-meditation.html"><span>Capitolo&nbsp;6</span></a> verrà affrontato il tema della meditazione. Nuovamente, in riferimento al Vimalakīrti Sūtra ci chiederemo come la pratica della meditazione possa essere integrata, non tanto nella vita di un monaco, ma bensì nella vita quotidiana di un laico. Anche in questo caso, particolare attenzione verrà assegnata alla relazione tra meditazione e compassione. Lo scopo sarà quello di capire quali sono le possibili differenze tra la pratica e gli obiettivi della meditazione nel Mahāyāna e nelle pratiche secolarizzate di coltivazione della compassione.</p>
 <p>Uno degli obiettivi cruciali della pratica buddhista della meditazione è quello di sviluppare prajñā, ovvero una conoscenza non duale della realtà. Ancora una volta, in riferimento al Vimalakīrti Sūtra cercheremo di capire come un pensiero che vada oltre il dualismo possa essere integrato nella vita quotidiana di un laico. Anche in questo caso vedremo che pensiero non duale e compassione sono strettamente collegati (<a href="09-non_dualism.html"><span>Capitolo&nbsp;9</span></a>).</p>
-<p>La tradizione Mahāyāna non è monolitica, come qualunque altra manifestazione culturale, ma ha avuto uno sviluppo storico all’interno del quale sono emerse molte differenze nel modo di intendere la compassione. Il <a href="13-tibetan_traditions.html"><span>Capitolo&nbsp;13</span></a> descriverà lo sviluppo storico della coltivazione della compassione nella tradizione tibetana, allo scopo di meglio chiarire le somiglianze e le differenze tra questo approccio e le pratiche secolarizzate di coltivazione della compassione.</p>
+<p>La tradizione Mahāyāna non è monolitica, come qualunque altra manifestazione culturale, ma ha avuto uno sviluppo storico all’interno del quale sono emerse molte differenze nel modo di intendere la compassione. Il <a href="14-tibetan_traditions.html"><span>Capitolo&nbsp;14</span></a> descriverà lo sviluppo storico della coltivazione della compassione nella tradizione tibetana, allo scopo di meglio chiarire le somiglianze e le differenze tra questo approccio e le pratiche secolarizzate di coltivazione della compassione.</p>
 <p>Nei capitoli successivi verranno poi esaminate le pratiche secolarizzate di coltivazione della compassione. Il messaggio fondamentale di questo intervento è che le pratiche secolarizzate, se pur in qualche modo efficaci, anche in base agli standard correnti della psicologia non sono in grado di produrre grandi cambiamenti cognitivi nell’individuo che segue tali programmi. Il confronto con le tradizioni indo-tibetane del buddhismo può dunque fornire utili elementi di riflessione. Dato che le pratiche secolarizzate riconoscono la paternità delle tradizioni indo-tibetane del buddhismo, viene spontaneo chiedersi che cosa è stato “escluso” dalle pratiche secolarizzate rispetto alle tradizioni indo-tibetane. È interessante chiedersi se una migliore conoscenza delle tradizioni indo-tibetane del buddhismo possa offrire utili spunti per un possibile miglioramento dei programmi secolarizzati.</p>
 
 
@@ -469,9 +477,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -483,7 +505,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -570,24 +609,128 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>

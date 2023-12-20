@@ -1,0 +1,328 @@
+# Pratiche secolarizzate di coltivazione della compassione {#sec-secularism-1}
+
+![Dipinto di Rabkar Wangchuk.](images/Rabkar-Wangchuk.jpg)
+
+## Interventi basati sulla compassione
+
+L'interesse per la ricerca sulla compassione ha portato a un aumento di interventi basati sulla compassione. Per esempio:
+
+1.  il Compassion Cultivation Training (CCT), sviluppato da Thupten Jinpa e colleghi presso il Center for Compassion and Altruism Research and Education (CCARE) della Stanford University School of Medicine (2009);
+2.  il Cognitively-Based Compassion Training (CBCT) sviluppato da Lobsang Tenzin Negi, Charles Raison e colleghi alla Emory University (2005);
+3.  la Compassion-Focused Therapy (CFT), sviluppata da Paul Gilbert (2006), una forma di psicoterapia che include il Compassionate Mind Training (CMT);
+4.  la Mindful Self-Compassion (MSC) di Kristen Neff e Christoph Germer, (2012);
+5.  il Cultivating Emotional Balance (CEB), sviluppato da Paul Ekman, Alan Wallace, Eve Ekman, (2000);
+6.  la Compassion and Loving-Kindness Meditations (LKM), sviluppato per la prima volta da Sharon Salzberg, derivato dalle tradizioni buddiste e orientali, sviluppata da Julieta Galante (2014).
+
+Negli interventi descritti sopra, il Tonglen funge da pratica formale principale.
+
+In questo capitolo esamineremo forse il più importante programma secolarizzato della coltivazione della compassione, ovvero il Compassion Cultivation Training (CCT) sviluppato presso il Center for Compassion and Altruism Research and Education (CCARE) della Stanford University. Obiettivo del capitolo è il confronto tra i contenuti del CCT e i suoi antecedenti nelle fonti buddhiste tradizionali.
+
+-   Iniziamo con una breve contestualizzazione della coltivazione della compassione secolare nel corrente milieu che unisce fonti tradizionali buddiste e la ricerca scientifica che ha come oggetto alcuni dei temi affrontati dalle fonti buddhiste;
+-   esamineremo poi alcune sezioni del Manuale dell'istruttore (IM) della CCT, con lo scopo di evidenziarne l'approccio pedagogico, la sua struttura formale e i principali elementi di tale pratica;
+-   infine, eseguiremo un'analisi comparativa della CCT con i suoi antecedenti buddisti, evidenziandone somiglianze e tensioni.
+
+## Contesto: scienza, secolarismo e buddismo
+
+Per comprendere il costrutto Mahāyāna della compassione e la sua coltivazione, abbiamo esaminato le radici testuali del sentiero del bodhisattva. Allo stesso modo, possiamo esaminare il contesto culturale dell'addestramento alla compassione secolare.
+
+La formazione secolare alla compassione è emersa nel primo decennio del ventunesimo secolo nel contesto del dialogo tra buddismo e scienza. È noto che il buddismo si è sempre adattato a ogni nuova cultura che lo ha adottato. Pertanto, la migrazione del buddismo in Occidente ha dovuto affrontare la sfida del suo rapporto con la scienza. Poiché la cultura di destinazione in Occidente è una società laica dominata da una narrativa guidata dalla scienza e da una forte cultura materialistica consumistica, la diffusione del buddismo in occidente è stata caratterizzata da
+
+-   un apprezzamento e uno sfruttamento del buddismo come fonte di sviluppo personale e come fonte per la ricerca scientifica,
+-   un simultaneo interesse, relativamente molto minore, per il buddismo come pratica religiosa e come un sistema di credenze.
+
+Venendo in Occidente, il buddismo ha interagito con una società secolarizzata. Mentre alcuni insegnanti buddisti hanno presentato e continuano a presentare insegnamenti buddisti nella loro forma tradizionale, altri hanno cercato di raggiungere il loro pubblico adattandosi alla sensibilità della nostra cultura. Sono stati dunque proposti processi di psicologizzazione, medicalizzazione e semplificazione del Dharma. In questo contesto, la pratica della meditazione viene spesso descritta come un esercizio che ha lo scopo di migliorare la salute mentale e fisica.
+
+A partire dal 1999, nella scienza, la meditazione è stata analizzata per mezzo di neuroimaging, test neurobiologici, reattivi psicologici. I benefici della meditazione per il benessere psicologico e fisico sono stati messi in evidenza in molte pubblicazioni di ricerca. È stato suggerito che la meditazione conduce ad una maggiore stabilità dell'attenzione, a una riduzione del mind-wandering, all'aumento dello spessore corticale nelle aree associate alla pratica, ad una migliore regolazione delle emozioni, ad un miglioramento della funzione immunitaria e della risposta allo stress psicologico e ad una maggiore resistenza all'invecchiamento.
+
+Da un lato, il buddismo è stato accettato, a livello culturale, poiché viene descritto come compatibile con la scienza: una "scienza della mente", uno stile di vita, una filosofia piuttosto che una religione. D'altra parte, la meditazione secolarizzata è stata criticata da due versanti, quello scientifico e quello buddista: gli psicologi avvertono che i benefici terapeutici della meditazione potrebbero essere stati sopravvalutati; gli studiosi buddisti mettono in evidenza i pericoli di un approccio riduzionistico, ovvero il fatto che il buddismo venga ridotto a una piccola gamma di argomenti ritenuti rilevanti, mentre altri argomenti, come il ciclo delle rinascite, le capacità soprannaturali, il risveglio o il karma, vengono sminuiti o omessi.
+
+### L'esplorazione scientifica della compassione
+
+Negli ultimi dieci anni, la compassione è stata considerata come un campo di indagine che ha suscitato un interesse crescente nelle scienze naturali. Dal punto di vista della biologia evolutiva, la compassione si è evoluta dai sistemi motivazionali dei mammiferi, ed è considerata come innata e comune a tutti gli esseri umani. Dal punto di vista neuroscientifico, la ricerca sulla compassione è stata motivata da studi di neuroimaging e dall'ipotesi dei neuroni specchio. Dal punto di vista della psicologia, sono stati studiati gli effetti benefici della compassione e dell'auto-compassione.
+
+L'esplorazione scientifica della compassione opera un importante cambio di paradigma: la compassione non è più considerata il dominio della religione ma della natura umana e, quindi, può essere considerata un oggetto della ricerca scientifica:
+
+-   come fenomeno religioso, la compassione è spesso associata al sacrificio e all'eroismo sovrumani;
+-   come fenomeno naturale, la compassione diventa accessibile e si riduce ad un problema di salute mentale.
+
+## Compassion Cultivation Training (CCT)
+
+Il CCT è un corso offerto dal Center for Compassion and Altruism Research and Education (CCARE) presso la Stanford University School of Medicine. È un programma contemplativo e pedagogico che combina elementi di varie discipline, vale a dire
+
+-   meditazioni formali derivate dalle tradizioni buddiste tibetane,
+-   esercizi derivati dalla psicologia occidentale,
+-   una logica scientifica basata sui risultati della ricerca.
+
+Il CCT stato sviluppato nel 2009 da Thupten Jinpa, Ph.D., studioso tibetano, autore e traduttore ufficiale del Quattordicesimo Dalai Lama.
+
+Il protocollo del CCT, il Manuale dell'istruttore (IM), è stato prodotto nel 2009 e rivisto nel 2013. In particolare, il CCT pone l'enfasi su
+
+-   coltivazione della gentilezza amorevole,
+-   la compassione per se stessi.
+
+La coltivazione dell'auto-compassione costituisce un'importante differenza rispetto agli approcci buddisti tradizionali.
+
+### L'approccio pedagogico del CCT
+
+La CCT ha lo scopo di ottenere un cambiamento personale attraverso una modifica delle intenzioni e la trasformazione delle abitudini. Obiettivo ulteriore della formazione è l'interiorizzazione di un atteggiamento o un punto di vista radicato nella compassione, il che significa fare in modo che la compassione diventi una risposta istintiva e automatica alle situazioni incontrate nella vita quotidiana.
+
+Il metodo pedagogico di CCT per realizzare questo tipo di trasformazione personale è una combinazione di diversi elementi, vale a dire
+
+-   un'educazione psicologica che promuove una maggiore comprensione del funzionamento della mente;
+-   delle meditazioni guidate;
+-   degli esercizi interattivi, perlopiù diadici, volti a evocare determinati stati affettivi;
+-   l'applicazione delle tecniche apprese nelle situazioni della vita quotidiana.
+
+Mentre i primi due elementi hanno un carattere contemplativo, gli ultimi due riguardano le applicazioni della compassione nel comportamento.
+
+La logica alla base del CCT è l'assunzione che è possibile trasformare emozioni e affetti cambiando la propria *percezione* del mondo e il proprio *atteggiamento* verso gli altri esseri viventi. Vengono individuati cinque obiettivi di trasformazione, vale a dire
+
+1.  consapevolezza e presenza,
+2.  percezione e prospettiva,
+3.  intenzione e motivazione,
+4.  empatia e affetto,
+5.  comportamento e abitudine.
+
+Questa vasta gamma di obiettivi illustra la complessità del costrutto della compassione.
+
+### Le sei fasi della CCT
+
+L'approccio pedagogico della CCT consiste in sei fasi chiaramente strutturate e ripetibili. Il programma comprende un corso di otto o nove settimane, che si tiene una volta alla settimana per due ore e richiede anche ai partecipanti di svolgere sessioni di meditazione a casa. Le meditazioni della CCT iniziano con quindici minuti al giorno e aumentando progressivamente fino a trenta minuti.
+
+I sei moduli del programma della CCT sono i seguenti.
+
+1.  Stabilire e focalizzare la mente; definizione delle intenzioni;
+2.  Gentilezza amorevole e compassione per una persona amata;
+3.  Compassione per se stessi (3a);
+4.  Gentilezza amorevole verso se stessi (3b);
+5.  Sviluppare l'idea di un'umanità comune e condivisa e l'apprezzamento per gli altri;
+6.  Coltivare la compassione per gli altri;
+7.  Praticare attivamente la compassione (tonglen);
+8.  Conclusione: pratica quotidiana integrata di coltivazione della compassione.
+
+La prima delle otto settimane è dedicata all'acquisizione delle abilità di base necessarie per qualsiasi pratica riflessiva o contemplativa, cioè la capacit di focalizzare e stabilizzare la mente. Le tecniche di allenamento rilevanti includono i la meditazione basata sulla respirazione, il conteggio silenzioso dei cicli respiratori e l'osservazione del movimento del diaframma nella respirazione. Si ritiene che il risultato dell'apprendimento di queste tecniche preliminari porti alla consapevolezza dei propri pensieri, emozioni e distrazioni in uno stato d'animo non giudicante, non reattivo e puramente osservativo.
+
+La seconda fase include i preliminari della coltivazione della compassione, vale a dire lo sviluppo della propria capacità spontanea di connettersi e di prendersi cura. In primo luogo, i partecipanti sono portati a identificare le espressioni naturali di amore, affetto e calore per una persona cara. Per svolgere questa parte della formazione, i partecipanti vengono introdotti alla tecnica della visualizzazione, cioè tenere un'immagine mentale di una persona specifica e immaginare una luce calda che emana dal proprio cuore e si dirige fino a toccare l'altra persona.
+
+Il passo successivo, diviso in due aspetti, è dedicato a generare (3a) compassione e (3b) gentilezza amorevole per se stessi. Lo scopo di questo passaggio è riconoscere la propria aspirazione naturale alla felicità e sviluppare chiarezza sulle proprie aspirazioni profonde nella vita, generando stati mentali positivi come accettazione di sé, tenerezza, non giudizio, calore, apprezzamento, gioia e gratitudine verso se stessi.
+
+Il passaggio 4 prepara ulteriormente la generazione della compassione verso gli altri attraverso due passaggi consecutivi, vale a dire "abbracciare un'umanità comune condivisa" e "sviluppare l'apprezzamento degli altri".
+
+Il passaggio 5 coltiva la compassione verso gli altri. La tecnica di allenamento è una progressione di auguri partendo da obiettivi facili verso obiettivi più impegnativi, cioè i partecipanti iniziano con compassione per una persona amata, poi una persona neutrale, una persona difficile, e infine sviluppano un atteggiamento compassionevole verso l'intera umanità .
+
+Infine, il passaggio 6 introduce la "compassione attiva". I passaggi precedenti hanno generato un senso di urgenza e la determinazione per un impegno altruistico. Si esprime nella tecnica contemplativa del "mandare e prendere", che l'IM presenta con il suo nome tibetano tonglen. La tecnica formale del tonglen è una continuazione della visualizzazione sopra descritta. Inizia con l'aspetto del "prendere": immaginando la sofferenza di un'altra persona come nubi nere e scure, i tirocinanti la assorbono fantasiosamente nei loro cuori, pensando che, così facendo, alleviano l'altro dalla sofferenza. I tirocinanti sono quindi istruiti a visualizzare che le nuvole nere si dissolvono in una perla di luce bianca radiosa nel loro cuore, che rappresenta l'essenza della forza e della bontà in loro. La meditazione continua quindi con la sequenza di "invio", in cui i tirocinanti immaginano di inviare una luce brillante, bianca e curativa dai loro cuori, a simboleggiare un'energia curativa che agisce come un'offerta. Con questa visualizzazione contemplano di avere il potere di trasformare la sofferenza con l'energia curativa del cuore.
+
+La meditazione si conclude con gioia e dedizione.
+
+Ai partecipanti viene chiesto di sviluppare una disciplina di addestramento oltre il corso di otto settimane e di imparare ad adattare la meditazione della compassione ai propri scopi.
+
+### Structure
+
+The IM prescribes each pedagogical step in precise detail, down to the suggested minutes of meditation between each step of the guided meditations. Although instructors are encouraged to develop their own personal style, the IM gives a detailed description of each two-hour class.
+
+The class schedule expresses a balance of theory and practice, with the guided meditation only taking thirty minutes of the class time. The IM provides not only the overview and structure, but also the relevant scripts and literature recommendations for each section.
+
+### Self-Compassion and Self-Kindness
+
+CCT devotes a quarter of its training to deliberately developing *self-compassion* \[compassione per sé stessi; gentilezza verso sè\].
+
+The rationale for this step in CCT's pedagogy is the observation that many people living a highly competitive life-style dictated by modern society have lost access to these natural attitudes, entailing numerous negative health implications. As many compassion trainees suffer from excessive self-criticism \[autocriticismo\] and even self-loathing, CCT includes a two-step pedagogy, consisting of
+
+-   first dissociating with one's thoughts,\
+-   secondly introducing constructive thought patterns of self-acceptance and self-forgiveness.
+
+The goal is to arrive at a mental state that is
+
+> nonjudgmental, open, and future-oriented, rather than conditional, judgmental, recriminatory, and stuck in the past.
+
+### Interactive Exercises
+
+The IM contains eight exercises derived from the field of psychotherapy, which are added to each of the eight sessions.
+
+In contrast to the solitary contemplative experience of the meditations, these exercises provide the space for interaction with a partner, for communication, for listening and seeing, and for embodied expression of emotions.
+
+In these exercises, an important aspect of the training is to develop an *awareness of one's own mental states* that arise in parallel or as a response to the generation of compassion.
+
+The eight exercises are as follows:
+
+1.  the "well \[pozzo\] exercise". A creative mental exercise using the image of a stone thrown into a well to bring the motivation for the training into consciousness.
+2.  the stabilizing and intention-setting exercise: A breathing-relaxation exercise, followed by silently formulated wishes for a loved one's happiness and freedom from suffering; it also includes reflections about one's purpose and aspirations in life.
+3.  the exercise in embodying compassion and other feeling-states \[vivere in prima persona la compassione e altre emozioni positive\]. It includes a progression of exercises:
+
+-   tuning into the surrounding sounds \[essere partecipi dell'ambiente fisico circostanze -- suoni, luci, altre sensazioni\],
+-   remembering and recreating a positive feeling-state \[internalizzare\],
+-   expressing positive feeling through a body posture;
+-   expressing negative feeling (anger) through a body posture;
+-   a group discussion about the exercise.
+
+4.  the self-acceptance and self-forgiveness exercise \[auto-accettazione e dall'auto-perdono\]: dyadic or solitary recollection of negative self-judgement and exploration of the needs concealed in this behavior.
+5.  the self-appreciation exercise \[apprezzamento nei confronti di se stessi\]: dyadic exercise training in silent, appreciative looking at one another; alternated with dialogic exercise, asking the other to express positive thoughts about themselves, listening, and thanking.
+6.  the "empathic attunement" exercise \[condivisione empatica\]: dyadic exercise in sharing sorrow and disappointments, and receiving and offering empathic attention.
+7.  the "eyes on" exercise \[esercizio dello sguardo\]: dyadic exercise in progressive steps of
+
+-   looking at the other person,
+-   cognitive perspective taking, imagining how s/he feels being seen,
+-   considering the other as fellow human being with human sufferings,
+-   wishing him/her well.
+
+Each step is alternated with self-reflection; the exercise concludes with a group discussion.
+
+8.  the "breathe in, breathe out" exercise \[Pratica del Respiro: Respiriamo ciò che è doloroso e indesiderato con il sincero desiderio che noi e gli altri potessimo essere liberi dalla sofferenza. Espirando, inviamo sollievo dal dolore con l'intenzione che noi e gli altri siamo felici.\]: the practice of tonglen, practiced in dyads, facing one another, eyes closed, ending with looking into each others' eyes.
+
+### The Guided Meditation
+
+The meditation training is derived from compassion practices found in the Tibetan Buddhist traditions, while however deliberately eschewing explicit Buddhist concepts and terminology. Their content corresponds to the six-step pedagogy explained above.
+
+The guided meditations follow the Buddhist model in that they are individual contemplative exercises. The instructor is guiding the meditation by giving verbal instructions, which is a format unknown in traditional Buddhist settings.
+
+#### Interim conclusion
+
+In sum, this description of CCT reveals a robust program for cultivating compassion that leaves little room for deviation in its didactic approach. Although the instructors are encouraged to contribute their own experience and personality, the IM guarantees a high degree of uniformity in the education of secular compassion.
+
+## Similarities and differences between Secular and Traditional Compassion Training
+
+### Similarities
+
+**Step 1.** Secular compassion training begins with learning the skill of focusing and settling the mind. The term *mindfulness* is often used indiscriminately for various mental states such as concentrated focus, bare attention, or open monitoring. The IM emphasises the dimension of samatha \[tranquillità, ovvero calma, chiarezza ed equanimità\] e delle pratiche contemplative che tendono a sviluppare questo stato mentale.
+
+The IM explains two mental faculties, namely
+
+-   mindfulness, which helps keep our attention on the chosen object of our focus, and
+-   meta-cognition, an awareness that helps monitor whether or not our attention is still present.
+
+CCT uses breathing techniques such as counting the breathing cycles, which are common methods for settling \[rilassare\] the mind.
+
+Right from the first step of the CCT program, the trainees are asked tp continue their practice training in their day-to-day life. This is a direct reflection of the traditional Buddhist twofold aspects of
+
+-   formal practice sessions,
+-   post-sitting practices.
+
+The latter refers to the idea of applying whatever one has learned in meditation in everyday situations. In support of this instruction, the IM even cites one of Atīśa's mind training verses verbatim:
+
+> Relate whatever you encounter to your meditation practice right now.
+
+The CCT then turns to its central theme of intention setting, which is a fundamental element of every traditional Buddhist practice. A common formalized way for Buddhists to recall and establish their intentions are the recitations of taking refuge and generating bodhicitta. More importantly is to mentally cultivate the related states of directing their minds towards awakening.
+
+Another preparatory step in CCT is sharpening the awareness for suffering. The Buddhist parallel for this can be found in the contemplation known as the "four mind-changers", which comprises contemplations on impermanence, death, the shortcoming of samsaric existence, the infallibility of karma. The purpose of all these contemplations is to create a solid motivation for spiritual practice.
+
+**Step 2** The training then focuses on loving-kindness and compassion for a loved one. Many parallels to the previously presented Lojong and Lamrim instructions are obvious. Both approaches also include the generation of associated positive emotions, such as gratitude, joy, and rejoicing in the virtue of oneself and others. However, not all Buddhist scholars favor affection and attachment-based methods.
+
+**Step 3** The CCT then teaches "loving-kindness and compassion for oneself." Although it is possible to find associated ideas in Buddhist thought, *there exists no self-standing practice* of self-compassion in Buddhist traditions.
+
+**Step 4** prepares a rationale for global compassion. The challenge of developing this rationale is the fact that the traditional Buddhist ontological explanation that all beings have been mothers throughout countless lifetimes cannot be adopted by the secular CCT for its incompatibility with secularism. Instead, the IM develops the two concepts of
+
+-   common humanity \[Comune Umanità\],
+-   interdependence,
+
+echoing the two pillars of the Dalai Lama's secular ethics.
+
+-   The idea of a shared humanity and of all humans equally striving for happiness draws on Śāntideva's rationale regarding the equality of self and others.
+-   The principle of interdependence reflects an aspect of the theory of dependent origination \[coproduzione condizionata, originazione interdipendente\] of Buddhist thinking. Secular version:
+
+> My life and the lives of the countless beings on this planet are intertwined in a network of relationships on which I completely depend for my survival and well-being.
+
+In this step, the link to the Buddhist background is most clearly expressed by the emphasis on the inclusion of all beings, even one's enemies, in universal compassion.
+
+**Step 5** CCT presents the practice of "active compassion," which refers to "giving and receiving," a clear adaptation of tonglen.
+
+In sum, it is clear that, besides the explicit adoption of a formal Buddhist contemplative practice, CCT implicitely contains and adapts a large number of pedagogical elements derived from various Buddhist sources.
+
+### Differences
+
+#### Differences in Scope
+
+The most fundamental difference between traditional and secular approaches to compassion training is their respective final goal and scope.
+
+-   Buddhist compassion cultivation is a component of a larger soteriological perspective of awakening. Karuṇā is practiced as part of bodhicitta with the goal of transcending saṃsāra and becoming the perfect embodiment of karuṇā and prajñā in the state of a buddha. Bodhisattvas practice mahākaruṇā instead of ordinary compassion. They aspire to a state in which mahākaruṇā is characterized by radical impartiality, equanimity, and the ontology of emptiness and non-duality.
+
+-   Secular training eschews \[evita\] all aspects of spiritual liberation. The scope of CCT is much more modest. Five target-areas of transformation can be identified in CCT.
+
+    -   First, it aims at establishing a heightened awareness of one's state of mind and trains the capacity of staying present with it.
+    -   Second, it seeks to transform the outlook onto the world from a selfish to a compassionate perspective.
+    -   Third, it establishes altruistic intentions, which will affect one's motivation. Through deliberate training of altruistic concepts and intentions, one is able to transform one's motivation.
+    -   The fourth is to broaden our range of empathy, which should extend beyond a small circle of loved ones, beyond one's limited ingroup.
+    -   And fifth, the transformed attitude should manifest in behaviour and habit. If the training does not result in an increase of compassionate behavior, its purpose is wasted.
+
+Generally speaking, the goal of CCT training is for trainees to recognize their innate compassionate nature and reconnect with this natural potential. Thus, CCT's scope is less ambitious than its Buddhist antecedent, as it remains within the realm of *personal development*. Participants seek to improve their personal and professional relationships and to generally become happier people.
+
+In contrast, Buddhist literature on the topic does not envision the cultivation of compassion for its own sake, or for the sake of personal health or well-being, but for the sake of attaining the lofty goal of awakening.
+
+In sum, the most fundamental difference between the two approaches lies in their respective compassion cultures: Buddhist approaches include transcendent, soteriological, universal and trans-personal dimensions in its view, whereas secular approaches are immanent, relational, personal, and thus more modest in its ambition.
+
+::: callout-note
+Il concetto di pratītyasamutpāda, nel canone buddhista, spiega il prodursi dei fenomeni legati all'esistenza secondo una logica di causa ed effetto. Dal Nidānasūtra leggiamo
+
+> Il Buddha disse: "Che cos'è che si chiama senso primo della Coproduzione condizionata? Perché esiste quello, esiste questo ... Condizionate dall'ignoranza compaiono i coefficienti karmici; condizionata dai coefficienti compare la coscienza; condizionati dalla coscienza compaiono nome e forma; condizionati da nome e forma compaiono i sei sensi; condizionati dai sei sensi compare il contatto; condizionata dal contatto compare la sensazione; condizionata dalla sensazione compare la"brama"; condizionata dalla brama compare l'attaccamento; condizionata dall'attaccamento compare l'esistenza; condizionata dall'esistenza compare la nascita; condizionate dalla nascita compaiono vecchiaia e morte, tristezza e sofferenza. È ciò che si chiama il grande aggregato intero dei dolori. È tale ciò che si chiama il senso primo della Coproduzione condizionata.
+
+Si noti dunque che, nei testi Buddhisti, pratītyasamutpāda ha un significato ontologico, che riguarda tutti gli aspetti dell'esistenza, non solo il piano umano/sociale, e viene concepito come un'alternativa al nostro modo di pensare "dualistico", ovvero basato sulla formazione di categorie, cioé, astrazioni che accomunano e suddividono i fenomeni. Di tutto questo non c'è nulla nel IM.
+:::
+
+#### Differences in Method
+
+Given the different scopes of compassion cultivation, it is natural that their methods also differ.
+
+Previously, we have discussed the constructive, deconstructive and cognitive-analytic approaches in traditional Buddhist compassion cultivation. CCT works mostly with the first and third of these: the constructive in the form of intention-setting and training altruistic attitudes; the cognitive-analytic in the form of developing self-awareness, a transformed world view, and greater knowledge of compassion science.
+
+While Buddhist approaches also contain these elements, they place a comparatively greater emphasis than CCT on the cognitive-analytic method of investigating the suffering in all its various forms and manifestations. They also favor deconstructive methods that aim at leveling out attachments and aversions to others.
+
+Buddhist texts vary in their degree of deconstruction, the Bodhicaryāvatāra advocating a radical breakdown of the barriers of dualistic perception, whereas Lojong and Lamrim propose moderate forms of changing one's appreciation of self and others. These methods, however, all lead to an equanimous attitude towards all beings, which implies rejecting ingroup-outgroup thinking and giving up preferential attitutes even toward loved ones. Such radical impartiality is not a goal of secular CT.
+
+More specifically, we can distinguish between three paires of opposites: dialogic versus introspective, emotional versus dispassionate \[spassionato\], and self-compassion as primary focus versus self-compassion as side-product.
+
+##### Dialogic versus Introspective
+
+The first contrast pertains to the level of relational dynamics in compassion cultivation.
+
+An important experiential part of the CCT group session are the eight exercises contributed by psychotherapists to the program. Most of these exercises are dyadic and include verbal and non-verbal communication.
+
+-   Whereas CCT's dyadic exercises involve a high level of relational involvement in the form of dialogue and non-verbal communication with a physically present partner,
+-   the contemplative exercises of equalizing and exchange or tonglen internalize the relation to others and demand introspection and even isolation.
+
+One can say that traditional Buddhist compassion cultivation relies more heavily on methods that demand the capacity to evoke the object of compassion in one's imagination rather than interacting with other trainees. This requires that the meditators are able to sustain introspection, control their thoughts and imagine the objects of compassion and their various forms of suffering. The relational dynamic becomes important only outside the formal sessions, when meditators have to transfer the transformed attitude to everyday life situations.
+
+##### Emotional versus dispassionate
+
+The empathic involvement with the suffering of others is a method for connecting with one's inborn compassionate nature and for stimulating further cultivation of compassion. However, the method of arousing empathy and positive affects as a didactic method stands in constrast to a dispassionate understanding of conventional reality, including the dissatisfactory nature of saṃsāra, impermance, no-self and emptiness, as described in the three ālambanas of compassion or the Bodhicaryāvatāra's deconstructive didactics.
+
+While Buddhist approaches describe a progression that leads increasingly to a dispassionate approach, CCT makes heavily use of the power of emotions to touch participants and move them towards a transformation of mind.
+
+Therefore, CCT's methods are not analytical in the sense of traditional Buddhist analysis of the nature of reality, impermanence, suffering, or interdependence. Rather, CCT relies strongly on generating feelings of warmth and tenderness, evoked by recollecting specific situations with a loved one.
+
+While many Lojong and Lamrim instructions begin with the same approach, the Buddhist instructions aim at establishing a state that *transcends emotionality* and is a general outlook on life based on an understanding of reality (prajñā), rather than a response to a specific sight of suffering. In the final stage, Mahākaruṇā is radically impartial, and therefore dispassionate in the sense of being equanimous and universal.
+
+##### Self-compassion: primary focus versus as side-product
+
+Buddhist traditions do not offer explicit practices for self-compassion. However, compassion for the self is constantly included in wishes for happiness and ultimate awakening.
+
+In the Tibetan tradition, several prayers begin with the formula ("I and all beings"), ("I and all beings who have been my mothers"), which clearly expresses the inclusion of one's own benefit in all spiritual practice.
+
+The idea of a person loving and caring for themselves is taken for granted in Buddhist literature: "in order to have compassion for others it is necessary to have it for oneself". However, in all Buddhist practices, self-compassion is cultivated simultaneously with compassion for others. Śāntideva's Bodhicaryāvatāra even suggests that focusing on self-compassion alone is a cause of suffering:
+
+> All the misery the world contains\
+> Has come through wanting happiness for oneself.
+
+Therefore, it would be farfetched to claim that Buddhist literature contains instructions on cultivating self-compassion. This is however what Kristin Neff (2003) asserts when she introduces the psychological category of self-compassion as an "important Buddhist concept".
+
+Neff has popularized self-compassion as a distinct construct of Western psychology; she designed it as a new field of scientific research with its own self-compassion scale and developed a related training program called "Mindful Self-Compassion" (MSC).
+
+According to her explanations, self-compassion consists of three principal facets, namely kindness, connectedness, and mindfulness, and is therefore distinct from selfishness, self-indulgence or narcissism.
+
+While the therapy Neff developed might yield promising results, from a Buddhist studies perspective, it is inaccurate to claim that there might be a Buddhist practice with the explicit focus of training self-compassion.
+
+On the other hand, CCT conceives self-compassion as a preparatory step to developing compassion for others, but without treating it as a separate, individual practice.
+
+Despite the lack of Buddhist scriptural sources, the idea that there might be a Buddhist practice of self-compassion is gaining momentum.
+
+-   Buddhist magazine Lion's Roar, supports this idea;
+-   psychologists re-interprets the Tibetan Lojong slogans, claiming that one begins with the practice of self-compassion;
+-   there are books that present self-compassion as a Buddhist idea.
+
+## Conclusions {.unnumbered}
+
+Despite the many similarities between the comparison of compassion practice in the two contexts, secular and traditional Lojong and Lamrim, it is also evident that there are major difference between the two, expecially in the conceptual frameworks of their respective cultures which determines the aim of the training. While Buddhist compassion cultivation constitutes an essential part of the bodhisattva path to buddhahood, secular compassion is being trained with much more modest goals.
+
+While bodhisattvas develop Mahākaruṇā, universal compassion, aiming at complete impartiality, secular training aims at simply connecting and reviving the natural propensity of humans for compassion, loving-kindness, and prosocial attitudes.
+
+In sum, the previous considerations reveal that there are important differences between Buddhism as a soteriological practice, and secular CCT.
+
+This raises the question of what it means to secularize Buddhist meditation practices. Does secularization mean eliminating Buddhist terminology, amending concepts that imply transcendence, but otherwise implying a Buddhist worldview? Or is it required, for a secular perspective, to change the Buddhist worldview? And, more importantly, does the secular approach achieve its goal?

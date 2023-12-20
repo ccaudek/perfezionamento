@@ -1,0 +1,145 @@
+# A Meta-Analysis of Compassion-Based Interventions
+
+Andando più nei dettagli, esaminiamo una sintesi della letteratura psicologica fornita da una meta-analisi. Diventa così possibile capire quali sono i temi che hanno avuto maggiore risonanza.
+
+## Kirby, Tellegen, and Steindl (2017)
+
+Consideriamo qui la meta-analisi più citata, ovvero:
+
+-   Kirby, J. N., Tellegen, C. L., & Steindl, S. R. (2017). A meta-analysis of compassion-based interventions: Current state of knowledge and future directions. *Behavior Therapy*, *48*(6), 778-792.
+
+### Introduction
+
+Over the last 20 years, research has shown a number of benefits and positive associations of compassion for our physiological health, including
+
+-   influencing genetic expression in cross-sectional studies (e.g., Fredrickson et al., 2013),
+-   intervention studies (Klimecki, Leiberg, Ricard, & Singer, 2014),
+-   mental health and emotion regulation (e.g., MacBeth & Gumley, 2012),
+-   interventions on interpersonal and social relationships (e.g., Yarnell & Neff, 2013).
+
+In light of significant positive associations and benefits associated with compassion, a number of compassion-based interventions have been developed that specifically aim to cultivate compassion.
+
+### Definition
+
+Definitions of compassion vary, with some defining it as an emotion, others as a multidimensional construct, and others as a motivational system.
+
+Geshe Thupten Jinpa, who developed the Stanford Compassion Cultivation Training program, defines compassion as being a complex multidimensional construct that is comprised of four key components:
+
+-   an awareness of suffering (cognitive component),
+-   sympathetic concern related to being emotionally moved by suffering (affective component),
+-   a wish to see the relief of that suffering (intentional component),
+-   a readiness to help relieve that suffering (motivational component).
+
+Paul Gilbert, who developed Compassion-Focused Therapy, defines compassion as
+
+> the sensitivity to suffering in self and others (engagement), with a commitment to try to alleviate and prevent it (action).
+
+In a recent review, Strauss and colleagues (2016) suggested that compassion includes five elements:
+
+-   recognizing suffering;
+-   understanding the universality of suffering in human experience;
+-   feeling empathy for the person suffering and connecting with the distress (emotional resonance);
+-   tolerating uncomfortable feelings aroused in response to the suffering person (e.g., distress, anger, fear);
+-   motivation to act/acting to alleviate suffering.
+
+The notion of self-compassion has received increasing attention with the work of Kristen Neff, who defined self-compassion, based on her interpretations of Buddhist teachings, as having three components (Neff, 2003):
+
+-   being mindful, rather than overidentifying with problems;
+-   connecting with others, rather than isolating oneself;
+-   adopting an attitude of self-kindness, rather than being judgmental.
+
+Given the differing definitions of compassion, it is not surprising that several different interventions have been developed to help cultivate compassion for self and others.
+
+### Current compassion-based interventions
+
+It is possible to identify at least six currently empirically supported interventions that focus on the cultivation of compassion:
+
+-   Compassion Focused Therapy (CFT; Gilbert, 2014),
+-   Mindful Self-Compassion (MSC; Neff & Germer, 2013),
+-   Compassion Cultivation Training (CCT; Center for Compassion and Altruism Research and Education, 2015);
+-   Cognitively-Based Compassion Training (CBCT; Pace et al., 2009),
+-   Cultivating Emotional Balance (CEB; Kemeny et al., 2012), and
+-   Loving-Kindness (LKM) and Compassion Meditations (CM; e.g., Wallmark, Safarzadeh, Daukantaite, & Maddux, 2013).
+
+Although all these interventions are secular in their design, theoretically these interventions have been typically influenced by Tibetan Buddhist traditions and perspectives of human suffering.
+
+CFT is notably different from the other interventions, as the theoretical underpinning also includes a combination of evolutionary psychology, attachment theory, and social mentality theory.
+
+**All six forms of interventions have been subject to the gold- standard evaluations of randomized controlled trials (RCTs).**
+
+\[...\] it remains unknown whether the evidence base underpinning compassion-based interventions demonstrates **reductions in suffering** and **improvements in mental health**.
+
+::: callout-note
+Si noti che questi sono gli *espliciti* obiettivi della coltivazione della compassione, dal punto di vista della psicologia.
+:::
+
+### Aim
+
+The objective of this meta-analysis is to synthesize for the very first time the impacts of all compassion-based interventions in order to best understand their overall effectiveness.
+
+Studies included in this review were RCTs, involving adults wherein cultivating compassion towards self or others was a key component in the intervention.
+
+The first aim was to evaluate the success of compassion-based interventions using meta-analytic techniques on the following seven outcome variables:
+
+1.  compassion,
+2.  self-compassion,
+3.  mindfulness,
+4.  depression,
+5.  anxiety,
+6.  psychological distress,\
+7.  well-being.
+
+::: callout-note
+Si noti che i primi 3 sono possibili cambiamenti "intrinseci" della coltivazione della compassione; gli ultimi 4 sono "estrinseci". Tutte e 4 le variabili di outcome estrinseche considerano un amento di "benessere soggettivo" come lo standard di successo dell'intervento. Paradossalmente, dal punto di vista della tradizione Mahayana degli esordi, questo "successo" dovrebbe invece essere interpretato come un fallimento, ovvero come un rafforzamento dell'ego, quando il vero obiettivo è l'opposto.
+:::
+
+The second aim was to conduct moderator analyses to examine impact of potential variables on outcomes, including gender, age, intervention length, and so on.
+
+> However, it should be noted that this aim was not able to be achieved due to a lack of available data.
+
+The effect sizes were standardized mean differences, represented by d, and can be interpreted using Cohen's (1992) guidelines of small (0.2), medium (0.5), and large (0.8) effects.
+
+Effect sizes were calculated based on the pre-post change in the treatment group means minus the pre-post change in the control group means, divided by the pooled pre-intervention standard deviation.
+
+We performed analysis of compassion-based interventions compared to wait-list control conditions (n = 17), and then with the inclusion of the active comparison conditions (n = 21).
+
+All studies were conducted within a 12-year period (2005--2017). A total of 1,285 participants were included in the trials with sample sizes ranging from 24 to 228.
+
+### Results
+
+#### Comparison with a waiting-list
+
+-   compassion, d = 0.55, k = 4, 95% CI \[0.33-0.78\],
+-   self-compassion, d = 0.70, k = 13, 95% CI \[0.53-0.87\],
+-   mindfulness, d = 0.54, k = 6, 95% CI \[0.38-0.71\],
+-   depression, d = 0.64, k = 9, 95% CI \[0.45-0.82\],
+-   anxiety, d = 0.49, k = 9, 95% CI \[0.30-0.69\],
+-   psychological distress, d = 0.47, k = 14, 95% CI \[0.19-0.56\].
+
+#### Comparison with an active control group
+
+Comparison with a group involving some form of intervention.
+
+-   self-compassion, d = 0.60, k = 16, 95% CI \[0.33-0.78\],
+-   mindfulness, d = 0.46, k = 8, 95% CI \[0.28-0.65\],
+-   depression, d = 0.62, k = 10, 95% CI \[0.44-0.80\],
+-   anxiety, d = 0.42, k = 10, 95% CI \[0.19-0.64\],
+-   well-being, d = 0.48, k = 9, 95% CI \[0.28-0.67\],
+-   psychological distress, d = 0.40, k = 16, 95% CI \[0.23-0.57\].
+
+### Conclusions
+
+-   First, the current evidence base for compassion-based intervention is small.\
+-   Second, the moderate effect sizes across outcomes demonstrated the potential impact of compassion-based interventions; however, this finding is limited to largely nonclinical populations.
+-   Third, there was great variability in the outcomes measured, with a few RCTs using compassion-based self-report questionnaires.
+-   Fourth, there is a need for greater methodological rigor and improved reporting in this intervention field.
+
+When considering these findings in the context of the theoretical underpinnings of compassion, it becomes clear that there is still a lack of clarity and agreed-upon processes on how to best define and measure this construct.
+
+For example, the interventions examined had varying definitions of compassion and focused on different types of compassion (e.g., self or other), that is
+
+-   with Mindful Self-Compassion adopting a self-compassion approach as defined by Neff (2003),
+-   Compassion Cultivation Training using a multiconstruct definition of compassion defined by Jinpa (2015), focusing largely on guided meditations to cultivate compassion (Jazaieri et al., 2013),
+-   other interventions with no formal meditation/mindfulness components that instead focused on psychoeducation, writing tasks (e.g., letters), self-reflections, and imagery exercises to cultivate compassion.
+
+A clearer focus on the processes underpinning these interventions is necessary to understand the actual impact of the "compassion" elements within interventions.

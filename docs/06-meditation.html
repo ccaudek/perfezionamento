@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.251">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,9 +17,10 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
 pre > code.sourceCode { white-space: pre; position: relative; }
 pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
@@ -46,48 +47,19 @@ pre.numberSource code > span > a:first-child::before
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
     padding: 0 4px; width: 4em;
-    color: #aaaaaa;
   }
-pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
 div.sourceCode
   {   }
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-code span.al { color: #ff0000; font-weight: bold; } /* Alert */
-code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
-code span.at { color: #7d9029; } /* Attribute */
-code span.bn { color: #40a070; } /* BaseN */
-code span.bu { color: #008000; } /* BuiltIn */
-code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
-code span.ch { color: #4070a0; } /* Char */
-code span.cn { color: #880000; } /* Constant */
-code span.co { color: #60a0b0; font-style: italic; } /* Comment */
-code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
-code span.do { color: #ba2121; font-style: italic; } /* Documentation */
-code span.dt { color: #902000; } /* DataType */
-code span.dv { color: #40a070; } /* DecVal */
-code span.er { color: #ff0000; font-weight: bold; } /* Error */
-code span.ex { } /* Extension */
-code span.fl { color: #40a070; } /* Float */
-code span.fu { color: #06287e; } /* Function */
-code span.im { color: #008000; font-weight: bold; } /* Import */
-code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
-code span.kw { color: #007020; font-weight: bold; } /* Keyword */
-code span.op { color: #666666; } /* Operator */
-code span.ot { color: #007020; } /* Other */
-code span.pp { color: #bc7a00; } /* Preprocessor */
-code span.sc { color: #4070a0; } /* SpecialChar */
-code span.ss { color: #bb6688; } /* SpecialString */
-code span.st { color: #4070a0; } /* String */
-code span.va { color: #19177c; } /* Variable */
-code span.vs { color: #4070a0; } /* VerbatimString */
-code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -101,8 +73,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -139,7 +110,8 @@ div.csl-indent {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -150,11 +122,16 @@ div.csl-indent {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">La meditazione</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./tradition.html">Le tradizioni indo-tibetane</a></li><li class="breadcrumb-item"><a href="./06-meditation.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">La meditazione</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -162,145 +139,174 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Training cognitivo e contemplativo per lo sviluppo della compassione</a> 
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Benvenuti</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Benvenuti</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./01-intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduzione</span></a>
+  <a href="./01-intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Introduzione</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./02-definitions.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Trattazioni buddiste e secolari della compassione</span></a>
+  <a href="./02-definitions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Trattazioni buddiste e secolari della compassione</span></span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./tradition.html" class="sidebar-item-text sidebar-link">Le tradizioni indo-tibetane</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a href="./tradition.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Le tradizioni indo-tibetane</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./03-nature_nurture.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Sistematizzazioni Mahāyāna</span></a>
+  <a href="./03-nature_nurture.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Sistematizzazioni Mahāyāna</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./04-what_is_trained.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Che cosa viene coltivato?</span></a>
+  <a href="./04-what_is_trained.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Che cosa viene coltivato?</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./05-how_is_trained.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Metodi di coltivazione della compassione</span></a>
+  <a href="./05-how_is_trained.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Metodi di coltivazione della compassione</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./06-meditation.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">La meditazione</span></a>
+  <a href="./06-meditation.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">La meditazione</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./07-tonglen.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Meditazione Tonglen</span></a>
+  <a href="./07-tonglen.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Meditazione Tonglen</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./08-wisdom.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">La perfezione della saggezza</span></a>
+  <a href="./08-wisdom.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">La perfezione della saggezza</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./09-non_dualism.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Compassione e pensiero non dualistico</span></a>
+  <a href="./09-non_dualism.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Compassione e pensiero non dualistico</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./10-living_skillfully.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">L’insegnamento di Vimalakīrti</span></a>
+  <a href="./10-nagarjuna.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Abbandonare tutti i punti di vista</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./11-patience.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">La perfezione della pazienza</span></a>
+  <a href="./11-living_skillfully.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">L’insegnamento di Vimalakīrti</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./12-upaya.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Mezzi espedienti</span></a>
+  <a href="./12-patience.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">La perfezione della pazienza</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./13-tibetan_traditions.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Le tradizioni tibetane</span></a>
+  <a href="./13-upaya.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Mezzi espedienti</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./14-secularism_1.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Pratiche secolarizzate di coltivazione della compassione</span></a>
+  <a href="./14-tibetan_traditions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Le tradizioni tibetane</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./15-secularism_2.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Il significato della secolarizzazione</span></a>
+  <a href="./15-secularism_1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Pratiche secolarizzate di coltivazione della compassione</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./16-secularism_2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Il significato della secolarizzazione</span></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./secular_programs.html" class="sidebar-item-text sidebar-link">Le secolarizzazione della compassione</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a href="./secular_programs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Le secolarizzazione della compassione</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./16-gilbert.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">The construct of compassion in psychology</span></a>
+  <a href="./17-gilbert.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">The construct of compassion in psychology</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./17-kirby.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">A Meta-Analysis of Compassion-Based Interventions</span></a>
+  <a href="./18-kirby.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">A Meta-Analysis of Compassion-Based Interventions</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./18-measurement.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">Measuring the effects of psychological interventions</span></a>
+  <a href="./19-measurement.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Measuring the effects of psychological interventions</span></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Appendici</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text">Appendici</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./a1-meditation.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">La pratica della mediatazione</span></a>
+  <a href="./a1-meditation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">A</span>&nbsp; <span class="chapter-title">La pratica della mediatazione</span></span></a>
   </div>
 </li>
       </ul>
@@ -308,26 +314,27 @@ div.csl-indent {
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Sommario</h2>
    
   <ul>
-  <li><a href="#gli-scopi-della-meditazione" id="toc-gli-scopi-della-meditazione" class="nav-link active" data-scroll-target="#gli-scopi-della-meditazione"><span class="toc-section-number">6.1</span>  Gli scopi della meditazione</a></li>
-  <li><a href="#due-stili-di-meditazione" id="toc-due-stili-di-meditazione" class="nav-link" data-scroll-target="#due-stili-di-meditazione"><span class="toc-section-number">6.2</span>  Due stili di meditazione</a>
+  <li><a href="#gli-scopi-della-meditazione" id="toc-gli-scopi-della-meditazione" class="nav-link active" data-scroll-target="#gli-scopi-della-meditazione"><span class="header-section-number">6.1</span> Gli scopi della meditazione</a></li>
+  <li><a href="#due-stili-di-meditazione" id="toc-due-stili-di-meditazione" class="nav-link" data-scroll-target="#due-stili-di-meditazione"><span class="header-section-number">6.2</span> Due stili di meditazione</a>
   <ul class="collapse">
-  <li><a href="#il-calmo-dimorare" id="toc-il-calmo-dimorare" class="nav-link" data-scroll-target="#il-calmo-dimorare"><span class="toc-section-number">6.2.1</span>  Il calmo dimorare</a></li>
-  <li><a href="#lintuizione-diretta" id="toc-lintuizione-diretta" class="nav-link" data-scroll-target="#lintuizione-diretta"><span class="toc-section-number">6.2.2</span>  L’intuizione diretta</a></li>
-  <li><a href="#il-genuino-samādhi" id="toc-il-genuino-samādhi" class="nav-link" data-scroll-target="#il-genuino-samādhi"><span class="toc-section-number">6.2.3</span>  Il genuino samādhi</a></li>
-  <li><a href="#precondizioni" id="toc-precondizioni" class="nav-link" data-scroll-target="#precondizioni"><span class="toc-section-number">6.2.4</span>  Precondizioni</a></li>
-  <li><a href="#gioia" id="toc-gioia" class="nav-link" data-scroll-target="#gioia"><span class="toc-section-number">6.2.5</span>  Gioia</a></li>
+  <li><a href="#il-calmo-dimorare" id="toc-il-calmo-dimorare" class="nav-link" data-scroll-target="#il-calmo-dimorare"><span class="header-section-number">6.2.1</span> Il calmo dimorare</a></li>
+  <li><a href="#lintuizione-diretta" id="toc-lintuizione-diretta" class="nav-link" data-scroll-target="#lintuizione-diretta"><span class="header-section-number">6.2.2</span> L’intuizione diretta</a></li>
+  <li><a href="#il-genuino-samādhi" id="toc-il-genuino-samādhi" class="nav-link" data-scroll-target="#il-genuino-samādhi"><span class="header-section-number">6.2.3</span> Il genuino samādhi</a></li>
+  <li><a href="#precondizioni" id="toc-precondizioni" class="nav-link" data-scroll-target="#precondizioni"><span class="header-section-number">6.2.4</span> Precondizioni</a></li>
+  <li><a href="#gioia" id="toc-gioia" class="nav-link" data-scroll-target="#gioia"><span class="header-section-number">6.2.5</span> Gioia</a></li>
   </ul></li>
-  <li><a href="#le-conseguenze-del-risveglio-nel-vimalakīrti-sūtra" id="toc-le-conseguenze-del-risveglio-nel-vimalakīrti-sūtra" class="nav-link" data-scroll-target="#le-conseguenze-del-risveglio-nel-vimalakīrti-sūtra"><span class="toc-section-number">6.3</span>  Le conseguenze del risveglio nel Vimalakīrti Sūtra</a>
+  <li><a href="#le-conseguenze-del-risveglio-nel-vimalakīrti-sūtra" id="toc-le-conseguenze-del-risveglio-nel-vimalakīrti-sūtra" class="nav-link" data-scroll-target="#le-conseguenze-del-risveglio-nel-vimalakīrti-sūtra"><span class="header-section-number">6.3</span> Le conseguenze del risveglio nel Vimalakīrti Sūtra</a>
   <ul class="collapse">
-  <li><a href="#la-consapevolezza-del-respiro" id="toc-la-consapevolezza-del-respiro" class="nav-link" data-scroll-target="#la-consapevolezza-del-respiro"><span class="toc-section-number">6.3.1</span>  La consapevolezza del respiro</a></li>
-  <li><a href="#la-meditazione-come-coltivazione-dellinsight" id="toc-la-meditazione-come-coltivazione-dellinsight" class="nav-link" data-scroll-target="#la-meditazione-come-coltivazione-dellinsight"><span class="toc-section-number">6.3.2</span>  La meditazione come coltivazione dell’insight</a></li>
-  <li><a href="#mindfulness-dallautoconsapevolezza-allautotrasformazione" id="toc-mindfulness-dallautoconsapevolezza-allautotrasformazione" class="nav-link" data-scroll-target="#mindfulness-dallautoconsapevolezza-allautotrasformazione"><span class="toc-section-number">6.3.3</span>  Mindfulness: dall’autoconsapevolezza all’autotrasformazione</a></li>
+  <li><a href="#la-consapevolezza-del-respiro" id="toc-la-consapevolezza-del-respiro" class="nav-link" data-scroll-target="#la-consapevolezza-del-respiro"><span class="header-section-number">6.3.1</span> La consapevolezza del respiro</a></li>
+  <li><a href="#la-meditazione-come-coltivazione-dellinsight" id="toc-la-meditazione-come-coltivazione-dellinsight" class="nav-link" data-scroll-target="#la-meditazione-come-coltivazione-dellinsight"><span class="header-section-number">6.3.2</span> La meditazione come coltivazione dell’insight</a></li>
+  <li><a href="#mindfulness-dallautoconsapevolezza-allautotrasformazione" id="toc-mindfulness-dallautoconsapevolezza-allautotrasformazione" class="nav-link" data-scroll-target="#mindfulness-dallautoconsapevolezza-allautotrasformazione"><span class="header-section-number">6.3.3</span> Mindfulness: dall’autoconsapevolezza all’autotrasformazione</a></li>
   </ul></li>
   <li><a href="#conclusione" id="toc-conclusione" class="nav-link" data-scroll-target="#conclusione">Conclusione</a></li>
   <li><a href="#bibliografia" id="toc-bibliografia" class="nav-link" data-scroll-target="#bibliografia">Bibliografia</a></li>
@@ -339,7 +346,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title"><span id="sec-meditation" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">La meditazione</span></span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Codice</button></div></div>
+<div class="quarto-title-block"><div><h1 class="title"><span id="sec-meditation" class="quarto-section-identifier"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">La meditazione</span></span></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Codice</button></div></div>
 </div>
 
 
@@ -347,6 +354,7 @@ div.csl-indent {
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
@@ -372,7 +380,7 @@ div.csl-indent {
 <!-- Prima di esaminare la meditazione tonglen, spenderemo alcune parole sulla pratica della meditazione in generale. Questo è un argomento complesso che può essere presentato da molti punti di vista. Il recente *The Oxford Handbook of Meditation*, Miguel Farias (ed.) del 2021, ad esempio, presenta una trattazione sistematica di questo tema.  -->
 <p>Il tema della meditazione è un argomento complesso che può essere presentato da molti punti di vista <span class="citation" data-cites="farias2021oxford">(per una recente trattazione sistematica, si veda ad esempio <a href="#ref-farias2021oxford" role="doc-biblioref">Farias et al., 2021</a>)</span>. In generale, possiamo dire che le pratiche contemplative sono presenti in molte culture diverse con significati molto diversi. All’inizio del IX secolo, per esempio, il mistico sufi iracheno al-Hallaj dichiarò che il suo sempre più profondo assorbimento in Dio lo aveva portato all’unione con il divino; questa controversa affermazione contribuì in seguito alla sua esecuzione come eretico e ribelle contro le autorità locali. In quello stesso periodo, nelle grotte della Thailandia, i monaci buddisti dedicavano innumerevoli ore per restare immobili allo scopo di sviluppare la loro consapevolezza. Più a ovest, i monaci cristiani sedevano nelle loro celle recitando le scritture, allo scopo di consentire alla luce divina di affondare sempre più profondamente nei loro cuori. In generale si può dire che ciò che questi e molti altri tipi di “meditazione” hanno in comune, nel corso della storia, non è tanto l’obiettivo di ottenere una maggiore “focalizzazione della consapevolezza”, ma piuttosto l’aspirazione a controllare e a modellare il “sé” attraverso delle tecniche mentali che <span class="citation" data-cites="foucault1988technologies">Foucault et al. (<a href="#ref-foucault1988technologies" role="doc-biblioref">1988</a>)</span> ha chiamato “tecnologie del sé” e Ignazio Loyola ha chiamato “esercizi spirituali”.</p>
 <p>Nella letteratura buddista, non esiste un unico termine che corrisponda esattamente a ciò che in italiano viene definito come “meditazione”. <span class="citation" data-cites="cousins2022meditations">Cousins (<a href="#ref-cousins2022meditations" role="doc-biblioref">2022</a>)</span> nota come il termine sanscrito che corrisponde più da vicino alla parola “meditazione” è il termine bhāvanā: “pratica” o, più letteralmente, “portare in essere”. Ma questo termine ha un uso molto più ampio della parola “meditazione”, che è considerata riferita a tecniche piuttosto specifiche di coltivazione mentale. Bhāvanā, invece, si riferisce al portare in essere non solo gli stati mentali, ma anche l’intero ottuplice sentiero, comprese gli aspetti della retta parola, della retta azione e della retta vita. È molto più di una semplice tecnica mentale.</p>
-<div class="callout-note callout callout-style-simple">
+<div class="callout callout-style-simple callout-note">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -466,7 +474,7 @@ div.csl-indent {
 </section>
 <section id="le-conseguenze-del-risveglio-nel-vimalakīrti-sūtra" class="level2" data-number="6.3">
 <h2 data-number="6.3" class="anchored" data-anchor-id="le-conseguenze-del-risveglio-nel-vimalakīrti-sūtra"><span class="header-section-number">6.3</span> Le conseguenze del risveglio nel Vimalakīrti Sūtra</h2>
-<p>L’ultima parte di questo capitolo è dedicato all’esame della meditazione nel Vimalakīrti Sūtra. Questo Sūtra (descritto in maniera più approfondita nel <a href="10-living_skillfully.html"><span>Capitolo&nbsp;10</span></a>) mostra come la meditazione possa fungere da potente strumento di trasformazione personale e di guida nella vita quotidiana per la realizzazione della compassione.</p>
+<p>L’ultima parte di questo capitolo è dedicato all’esame della meditazione nel Vimalakīrti Sūtra. Questo Sūtra (descritto in maniera più approfondita nel <a href="11-living_skillfully.html"><span>Capitolo&nbsp;11</span></a>) mostra come la meditazione possa fungere da potente strumento di trasformazione personale e di guida nella vita quotidiana per la realizzazione della compassione.</p>
 <!-- Il Mahāyāna sottolinea l'aspirazione del bodhisattva a raggiungere il completo risveglio (bodhi) e realizzare il proprio scopo spirituale e quello di condurre gli altri alla stessa realizzazione. La mente del risveglio (bodhicitta) è la ragion d'essere di tutte le pratiche contemplative tibetane ed è coltivata nutrendo le quattro attitudini mentali (brahmavihāras) per la coltivazione della mente (bhāvanā, ovvero "meditazione"): la gentilezza amorevole (mettā), la compassione (karuṇā), la gioia compartecipe, ovvero gioia per il benessere degli altri (muditā) ed l'equanimità (upekkhā). -->
 <p>Il Vimalakīrti Sūtra <span class="citation" data-cites="wright2021living">(si veda <a href="#ref-wright2021living" role="doc-biblioref">Wright, 2021</a>)</span> illustra quali sono le conseguenze degli effetti della meditazione nella vita quotidiana. Il Sūtra presenta il suo protagonista, Vimalakīrti, come un maestro della meditazione, un praticante capace di applicare gli effetti liberatori della meditazione (bhāvanā) in ogni aspetto della sua vita. L’autore del Sūtra ci dice che le pratiche contemplative “generano l’idoneità della mente” a superare una lunga lista di debolezze umane: agitazione mentale, incapacità di concentrazione, mancanza di scopo, senso di futilità nella vita, depressione, disperazione, assorbimento di sé, aggressività, esaltazione del sé, noia, risentimento, rabbia, avidità, odio, illusione, paura, desideri sensuali, disprezzo di sé e molti altri. Inoltre, secondo il Sūtra, gli esercizi meditativi non influenzano soltanto gli stati mentali; i loro effetti riguardano anche la “disciplina del corpo, della parola e della mente”.</p>
 <p>Ciò che rende il Vimalakīrti Sūtra particolarmente interessante è che Vimalakīrti non è un monaco. Non vive in un ambiente monastico in cui ogni aspetto della vita è progettato per facilitare la “coltivazione della mente” (bhāvanā). Nel Sūtra, quasi sempre incontriamo Vimalakīrti mentre è coinvolto in attività mondane, piuttosto essere assorto nella meditazione. Vimalakirti ha un sacco di lavoro da fare. Quasi sempre insegna, anche quando potrebbe sembrare che non lo stia facendo. A prima vista è un uomo d’affari che si impegna nella sua attività economica, ma il modo in cui conduce gli affari ci rivela che, così facendo, sta anche insegnando il Dharma. È un padrone di casa che supervisiona le sue proprietà, un padre e un marito che si prende cura dei bisogni della sua famiglia, un funzionario del governo che discute le questioni del giorno, un aiutante che lavora nelle scuole e un comune cittadino che trascorre il suo tempo nei bar e nei casinò. Ma sempre, in tutte queste attività, Vimalakirti insegna il Dharma.</p>
@@ -482,7 +490,7 @@ div.csl-indent {
 <section id="la-consapevolezza-del-respiro" class="level3" data-number="6.3.1">
 <h3 data-number="6.3.1" class="anchored" data-anchor-id="la-consapevolezza-del-respiro"><span class="header-section-number">6.3.1</span> La consapevolezza del respiro</h3>
 <p>Se nulla esula dall’ambito della meditazione, da dove dobbiamo incominciare? Sebbene possiamo seguire lo slogan di John Cage “Begin anywhere”, e ciò è sensato alla luce di ciò che Vimalakīrti ci dice nel Sūtra, questo non è il consiglio più comune nella tradizione buddhista. Invece, la tradizione buddista, a partire da ciò che il Buddha stesso ci ha detto, e nel corso di due millenni e mezzo di storia, sostiene che il punto di partenza migliore sia la consapevolezza del respiro.</p>
-<p>Il Buddha ha istruito i suoi discepoli a dimorare nella concentrazione per mezzo della consapevolezza del respiro. Il meditatore deve diventare perfettamente consapevole del respiro e, insieme, di tutti gli atti e movimenti del corpo, delle sue sensazioni, delle sue percezioni, dei suoi vari pensieri, positivi o negativi. Man mano che questa pratica si sviluppa e si approfondisce, il legame tra respirazione e consapevolezza mentale diventa sempre più forte. Nulla conduce ad uno stato di concentrazione e aumentata consapevolezza più della consapevolezza del respiro. Quando si indebolisce la consapevolezza del respiro, ricadiamo nei nostri schemi abituali di vagabondaggio mentale e di agitazione. Questa distrazione, poi, ci rende preda delle afflizioni mentali (kleśa; si veda il <a href="11-patience.html"><span>Capitolo&nbsp;11</span></a>), ovvero, delle emozioni disfunzionali. Questa è la ragione per cui è utile applicarsi alla meditazione. Lo scopo è quello di raggiungere uno stato di calma interiore che ci consente di eliminare quei cicli ansiosi e ripetitivi di pensieri carichi di emozioni, quei cicli malsani di preoccupazioni, pianificazioni e fantasticherie, che costantemente occupano la nostra mente, e sui quali non abbiamo alcun controllo. Man mano che la concentrazione cresce attraverso la pratica, queste compulsioni mentali si indeboliscono e la nostra mente inizia a manifestare una modalità di esperienza più serena e più libera.</p>
+<p>Il Buddha ha istruito i suoi discepoli a dimorare nella concentrazione per mezzo della consapevolezza del respiro. Il meditatore deve diventare perfettamente consapevole del respiro e, insieme, di tutti gli atti e movimenti del corpo, delle sue sensazioni, delle sue percezioni, dei suoi vari pensieri, positivi o negativi. Man mano che questa pratica si sviluppa e si approfondisce, il legame tra respirazione e consapevolezza mentale diventa sempre più forte. Nulla conduce ad uno stato di concentrazione e aumentata consapevolezza più della consapevolezza del respiro. Quando si indebolisce la consapevolezza del respiro, ricadiamo nei nostri schemi abituali di vagabondaggio mentale e di agitazione. Questa distrazione, poi, ci rende preda delle afflizioni mentali (kleśa; si veda il <a href="12-patience.html"><span>Capitolo&nbsp;12</span></a>), ovvero, delle emozioni disfunzionali. Questa è la ragione per cui è utile applicarsi alla meditazione. Lo scopo è quello di raggiungere uno stato di calma interiore che ci consente di eliminare quei cicli ansiosi e ripetitivi di pensieri carichi di emozioni, quei cicli malsani di preoccupazioni, pianificazioni e fantasticherie, che costantemente occupano la nostra mente, e sui quali non abbiamo alcun controllo. Man mano che la concentrazione cresce attraverso la pratica, queste compulsioni mentali si indeboliscono e la nostra mente inizia a manifestare una modalità di esperienza più serena e più libera.</p>
 <p>Vimalakīrti è raffigurato nel Sūtra come un maestro di questa profonda libertà interiore. A causa del samādhi, può disporre di grandi abilità mentali. <!-- Questa dimensione della meditazione, la calma e la concentrazione, è il fondamento su cui poi vengono sviluppati gli altri aspetti della pratica della mediazione.  --> Il Sūtra descrive Vimalakīrti come saldamente radicato in questo stato di calma concentrazione mentre conduce la sua vita complicata, pienamente coinvolto nelle vicende della comunità a cui appartiene.</p>
 <p>Una descrizione della tecnica della meditazione basata sul respiro è fornita nella <a href="a1-meditation.html"><span>Appendix&nbsp;A</span></a>.</p>
 <!-- I praticanti devono provare le sensazioni fisiche della respirazione, concentrandosi completamente su quell'unico processo interno: sentire l'aria entrare nel naso, sentire l'addome espandersi e contrarsi con la flessione e il rilascio del diaframma. Per facilitare la concentrazione in modo che la consapevolezza non si allontani in altre direzioni, gli istruttori spesso consigliano di contare ogni respiro fino a dieci e poi ricominciare, da uno a dieci. Ai meditatori viene insegnato a non forzare o riformare questo naturale processo respiratorio, ma solo a guardare e sentire, senza analisi o sforzo per migliorare. Osserva come i nostri corpi eseguono la danza ritmica del respiro che hanno fatto dal loro primo momento di ingresso nel mondo. -->
@@ -553,32 +561,32 @@ div.csl-indent {
 
 <!-- -->
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="doc-bibliography">
-<div id="ref-catherine2022beyond" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="ref-catherine2022beyond" class="csl-entry" role="listitem">
 Catherine, S. (2022). <em>Beyond distraction: Five practical ways to focus your mind</em>. Wisdom Publications.
 </div>
-<div id="ref-cousins2022meditations" class="csl-entry" role="doc-biblioentry">
+<div id="ref-cousins2022meditations" class="csl-entry" role="listitem">
 Cousins, L. (2022). <em>Meditations of the pali tradition: Illuminating buddhist doctrine, history, and practice</em>. Shambhala Publications.
 </div>
-<div id="ref-farias2021oxford" class="csl-entry" role="doc-biblioentry">
+<div id="ref-farias2021oxford" class="csl-entry" role="listitem">
 Farias, M., Brazier, D., &amp; Lalljee, M. (2021). <em><span class="nocase">The Oxford Handbook of Meditation</span></em>. Oxford University Press.
 </div>
-<div id="ref-foucault1988technologies" class="csl-entry" role="doc-biblioentry">
+<div id="ref-foucault1988technologies" class="csl-entry" role="listitem">
 Foucault, M. et al. (1988). Technologies of the self. <em>Technologies of the Self: A Seminar with Michel Foucault</em>, <em>18</em>.
 </div>
-<div id="ref-frazier2021self" class="csl-entry" role="doc-biblioentry">
+<div id="ref-frazier2021self" class="csl-entry" role="listitem">
 Frazier, J. (2021). The self in meditation. <em>The Oxford Handbook of Meditation</em>, 401.
 </div>
-<div id="ref-nanamoli1995middle" class="csl-entry" role="doc-biblioentry">
+<div id="ref-nanamoli1995middle" class="csl-entry" role="listitem">
 Nanamoli, B., &amp; Bodhi, B. (1995). <em>The middle length discourses of the <span>Buddha</span>. A translation of the <span>Majjhima Nikaya</span></em>. Wisdom Publications.
 </div>
-<div id="ref-rimpoche1986progressive" class="csl-entry" role="doc-biblioentry">
+<div id="ref-rimpoche1986progressive" class="csl-entry" role="listitem">
 Thrangu, K. (1986). <em>Progressive stages of meditation on emptiness</em>. Longchen Foundation.
 </div>
-<div id="ref-wright2009six" class="csl-entry" role="doc-biblioentry">
+<div id="ref-wright2009six" class="csl-entry" role="listitem">
 Wright, D. S. (2009). <em>The six perfections: <span>Buddhism</span> and the cultivation of character</em>. Oxford University Press.
 </div>
-<div id="ref-wright2021living" class="csl-entry" role="doc-biblioentry">
+<div id="ref-wright2021living" class="csl-entry" role="listitem">
 Wright, D. S. (2021). <em>Living skillfully: <span>Buddhist</span> philosophy of life from the <span>Vimalakirti Sutra</span></em>. Oxford University Press.
 </div>
 </div>
@@ -612,9 +620,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -626,7 +648,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -713,24 +752,128 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>

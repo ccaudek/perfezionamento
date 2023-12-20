@@ -1,0 +1,85 @@
+# Measuring the effects of psychological interventions
+
+## How effectiveness can be measured?
+
+First, let us consider the issue of measurement, from a psychological standpoint. Meaurements of psychological phenomena have different dimensions:
+
+-   measure development and validation:
+    -   reliability,
+    -   validity,
+-   methodology:
+    -   self-report,
+    -   ecological momentary assessment,
+    -   psychophysiological measures,
+
+Once a measurement tool has been developed, it can be used to assess treatment efficacy:
+
+-   Randomized Versus Nonrandomized Trials
+
+    -   pre-post
+    -   comparison with waiting list
+    -   comparison with alternative intervection
+
+    Studies of change in time:
+
+    -   follow-up / longitudinal studies
+    -   growth modeling
+    -   multivariate models
+
+    Observational studies
+
+    Mediation and Moderation effects
+
+    Issues of statistical power
+
+    -   problems with under-powered designs
+
+    Single case studies
+
+    Meta-analisys
+
+    Replication and trasparency
+
+## Mindfulness and accemptance-based treatments
+
+MABTs promote a suite of conceptually coherent strategies designed to promote skillful responses to, and adaptive behavioral choices, in the face of challenging internal experiences (thoughts, emotions, and sensations (Keng et al., 2015; Norton et al., 2015).
+
+Mindfulness represents one core set of strategies. These strategies seek to train dimensions of mindfulness, which include living in the present moment, as well as awareness of, labeling of, nonreactivity to, and nonjudgment of internal and external stimuli.
+
+MABTs promote a willingness to experience all aspects of one's present experience (acceptance) **in the service of meeting one's immediate goals and ultimate personal values**.
+
+MABTs also feature metacognitive and decentering strategies that help the patient recognize, in real time, that internal experiences are simply transient neural phenomena (versus an absolute arbiter of "truth").
+
+MABTs include a number of specific treatments components.
+
+-   acceptance and commitment therapy (ACT) is a therapeutic approach that uses acceptance and mindfulness processes as well as values-guided commitment and behavioral change processes to enhance psychological flexibility and valued living.
+-   Mindfulness-based cognitive therapy (MBCT) teaches practices that foster acceptance and decentering from thoughts, emotions, and physical sensations. MBCT has a heavy focus on mindfulness meditation practice, during which patients are asked to turn toward and accept any discomfort that arises, but also use the cognitive strategy of decentering from these internal experiences.
+-   Dialectical behavior therapy (DBT) encompasses the dialectic of acceptance and change. It has four skill modules, two of which are primarily focused on acceptance (mindfulness, distress tolerance) and two of which are primarily focused on change (interpersonal effectiveness, emotion regulation).
+
+Let us consider some examples.
+
+### ACT for anxiety and OCD
+
+Many different types of mindfulness and acceptance-based interventions have been tested for anxiety disorders and OCD. However, ACT and its variants appear to represent the most commonly applied mindfulness and acceptance-based psychotherapies for anxiety disorders and OCD.
+
+ACT treatments for anxiety disorders and OCD aim to reduce experiential avoidance by cultivating the ability to acknowledge, notice, and willingly experience thoughts, feelings, urges, and sensations associated with anxiety and fear (e.g., Twohig et al., 2018) and to more flexibly and objectively related to anxiety-related cognitions.
+
+ACT treatments for anxiety disorders "also draw on personal values to help clients deliberately engage with feared and avoided, but valued, contexts and stimuli."
+
+Scholars concluded that ACT was similarly effective as cognitive behavioral treatments, g = .00 (k = 5, 95% CI \[--0.24, 0.25\]) for OCD. Similar conclusions were drawn in a meta-analysis of diverse ACT trials that showed no differences between ACT and classic CBT for anxiety outcomes, g = .14 (k = 9, 95% CI \[--0.18, 0.45\]).
+
+Mindfulness and acceptance-based interventions for anxiety disorders (and related symptoms), and particularly ACT and its variants, represent viable treatment approaches that shows similar efficacy to classic CBT and have been successfully delivered in multiple formats (individual, group, therapist-guided online, bibliotherapy). The number and size of trials of mindfulness and acceptance-based interventions for anxiety disorders does not yet match that of classic CBT, which has been evaluated in large trials for anxiety disorders over a significantly longer period of time. Nonetheless, we conclude that ACT provides an important treatment approach for anxiety disorders for at least three reasons.
+
+-   First, ACT provides an important behavioral option for treating anxiety disorders. Thus, ACT provides patients and therapists with choice regarding behavioral approaches to treatment anxiety disorders, as some clients and therapists may resonate more with one behavioral approach than another. Just as psychiatric medications offer multiple medications within the same medication class, which offers patients and providers a sense of choice to select one according to its particular characteristics, and options if one fails, so too do anxiety disorder and OCD patients and providers benefit from choice regarding behavioral approaches to treatment.
+-   Second, many people with anxiety disorders and OCD do not respond to CBT (Loerinc et al., 2015). ACT provides one important alternative. Nascent evidence in panic disorder shows that adults who failed to improve after a course of CBT show significant improvement after ACT. Relatedly, nascent evidence suggests that baseline client characteristics predict different outcomes in ACT and CBT, and that treatment matching may be possible. Thus, in addition to providing choice, some clients respond better to ACT than to classic CBT.
+-   Third, the ACT theoretical model has expanded the field's understanding of the core processes involved in the development and maintenance of anxiety disorders. Specifically, theory-derived ACT processes (cognitive defusion, acceptance, experiential avoidance) have been shown to mediate outcomes from both ACT and other evidence-based behavioral therapies for anxiety disorders, including classic CBT and cued relaxation. ACT processes also predict clinically relevant responses to anxiety in laboratory studies (e.g., Campbell-Sills et al., 2005; Eifert & Heffner, 2003), suggesting that they are likely involved in the development of anxiety disorders as well as their maintenance (Forsyth et al., 2006). In summary, mindfulness- and acceptance-based psychotherapy approaches, most prominently ACT, have made important theoretical and applied contributions to the treatment of "made important theoretical and applied contributions to the treatment of anxiety disorders and OCD.
+
+## Eichholz, Schwartz, Meule, Heese, Neumüller, and Voderholzer (2020)
+
+Consideriamo un esempio di una recente ricerca nella quale una componente della compassione, ovvero la compassione verso di sè, viene messa in relazione con l'OCD. Si noti l'enfasi sulla self-compassion.
+
+-   Eichholz, A., Schwartz, C., Meule, A., Heese, J., Neumüller, J., & Voderholzer, U. (2020). Self‐compassion and emotion regulation difficulties in obsessive--compulsive disorder. *Clinical psychology & psychotherapy*, *27*(5), 630-639.
+
+## The Self-compassion Scale
+
+L'applicazione più popolare del concetto di compassione nella letteratura psicologica corrisponde al concetto di self-compassion proposto da Neff. La quale propone anche un intervento basato su questo concetto.
