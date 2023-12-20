@@ -22,6 +22,7 @@ parts:
       - file: chapter-2/02-tonglen
       - file: chapter-2/03-wisdom
       - file: chapter-2/04-non-dualism
+      - file: chapter-2/04a-nagarjuna
       - file: chapter-2/05-living-skillfully
       - file: chapter-2/06-patience
       - file: chapter-2/07-upaya
