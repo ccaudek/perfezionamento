@@ -1,9 +1,10 @@
 (tibet-notebook)=
-# Le tradizioni tibetane 
+
+# Le tradizioni tibetane
 
 ## Allenamento mentale
 
-Le tradizioni buddiste tibetane hanno sviluppato approcci unici, pragmatici e concreti per la coltivazione della gentilezza amorevole, della compassione e del bodhicitta, chiamati *lojong* (addestramento della mente). Usando un linguaggio occidentale, potremmo chiamare tali pratiche "tecnologie del sé" usando un termine di Michel Foucault, perché corrispondono a pratiche contemplative e immaginative che sono specificamente rivolte ad una trasformazione personale, ovvero a fornire un insieme di linee guida pratiche volte a modellare l'esperienza quotidiana.
+Le tradizioni buddiste tibetane hanno sviluppato approcci unici, pragmatici e concreti per la coltivazione della gentilezza amorevole, della compassione e del bodhicitta, chiamati _Lojong_ (addestramento della mente). Usando un linguaggio occidentale, potremmo chiamare tali pratiche "tecnologie del sé" usando un termine di Michel Foucault, perché corrispondono a pratiche contemplative e immaginative che sono specificamente rivolte ad una trasformazione personale, ovvero a fornire un insieme di linee guida pratiche volte a modellare l'esperienza quotidiana.
 
 Nella tradizione buddista tibetana, testi come "L'allenamento mentale in sette punti" o "Le trentasette pratiche del bodhisattva" godono di una grande popolarità. Quando il Dalai Lama parlò a una folla di quasi centomila persone nel Central Park di New York nel 1999, scelse gli "Otto versi sull'allenamento mentale" come base del suo intervento. Quando il Dalai Lama tornò a parlare ancora una volta a Central Park nel 2002, scelse come argomento del suo intervento il testo "Bodhisattva's Jewel Garland" di Atiśa, un importante testo della letteratura Lojong. La letteratura Lojon è, infatti, quella parte del canone buddista che risulta maggiormente accessibile ad un pubblico occidentale. L'influenza di Śāntideva nelle pratiche Lojon è innegabile e significativa, ma il rapporto con la fonte è spesso complesso. In questo capitolo esamineremo come, nella tradizione tibetana, gli insegnamenti Śāntideva sono stati adattati negli sviluppi della pratica contemplativa del Tonglen.
 
@@ -19,14 +20,14 @@ Il primo aspetto include contemplazioni preliminari che mettono in luce il signi
 
 La principale pratica contemplativa del Lojong è il Tonglen, "dare e ricevere". La tecnica è abbastanza semplice, ed è composta da
 
--   immaginare di dare agli altri la propria felicità, fortuna e karma positivo,
--   ricevere la sofferenza, la sfortuna e il karma negativo degli altri.
+- immaginare di dare agli altri la propria felicità, fortuna e karma positivo,
+- ricevere la sofferenza, la sfortuna e il karma negativo degli altri.
 
 Lo scopo di contemplare ripetutamente tali pensieri è il completo capovolgimento di tutti gli atteggiamenti egocentrici in una visione genuinamente altruistica della vita, che implica qualità come coraggio e resilienza.
 
 Nelle parole di Dharmarakṣita, i bodhisattva devono "convertire afflizioni che assomigliano a una giungla di veleni in un elisir", il che allude alle capacità trasformative quasi alchemiche del Tonglen.
 
-Oltre agli esercizi contemplativi, grande importanza viene attribuita all'aspetto attivo della formazione, alle sue applicazioni pratiche. L'ideale altruistico acquisito nella contemplazione deve essere attuato nella vita quotidiana. Per farlo è necessario un accresciuto stato di autocoscienza, in particolare nei confronti dei "tre veleni della mente" (l'attaccamento, la rabbia e l'ignoranza), e la volontà di affrontare le condizioni avverse della vita *usandole come opportunità per trasformare questi veleni*. Condizioni avverse, come la perdita, la malattia e persino la morte, diventano così opportunità di crescita spirituale.
+Oltre agli esercizi contemplativi, grande importanza viene attribuita all'aspetto attivo della formazione, alle sue applicazioni pratiche. L'ideale altruistico acquisito nella contemplazione deve essere attuato nella vita quotidiana. Per farlo è necessario un accresciuto stato di autocoscienza, in particolare nei confronti dei "tre veleni della mente" (l'attaccamento, la rabbia e l'ignoranza), e la volontà di affrontare le condizioni avverse della vita _usandole come opportunità per trasformare questi veleni_. Condizioni avverse, come la perdita, la malattia e persino la morte, diventano così opportunità di crescita spirituale.
 
 Le istruzioni di Lojong sono fornite in brevi e concise "linee guida per l'allenamento della mente" che sono accompagnate da commenti.
 
@@ -42,7 +43,7 @@ Una recente traduzione in inglese è "Always mantain a joyful mind" di Pema Chod
 > Abbandona ogni speranza di fruizione.\
 > Non essere così prevedibile.\
 > Qualunque cosa accada, buona o cattiva, sii paziente.\
-> Medita sempre su tutto ciò che provoca risentimento.\
+> Medita sempre su tutto ciò che provoca risentimento.
 
 Gioia e dolore, salute e malattia, piaceri e dispiaceri dovrebbero essere vissuti senza preferenze o avversioni, in modo da generare una resilienza equilibrata o, per usare un'espressione moderna, per favorire l'autoregolazione emotiva.
 
@@ -68,20 +69,20 @@ Nel primo testo presenta l'ossatura della pratica del tonglen: La meditazione co
 
 Il testo successivo differisce da quello precedente in quanto aggiunge ulteriori istruzioni per la meditazione. Precisa che ciò che deve essere dato sono "corpo, risorse e radici di virtù".
 
--   Si noti che i primi oggetti del dare sono di natura concreta e materiale (corpo, risorse).
--   Un'altra caratteristica importante di questo secondo testo è la natura dei destinatari della compassione: essi includono gli esseri non umani e viene posta particolare attenzione agli oggetti della compassione controversi, come i nemici personali o i criminali.
+- Si noti che i primi oggetti del dare sono di natura concreta e materiale (corpo, risorse).
+- Un'altra caratteristica importante di questo secondo testo è la natura dei destinatari della compassione: essi includono gli esseri non umani e viene posta particolare attenzione agli oggetti della compassione controversi, come i nemici personali o i criminali.
 
 #### Allenamento mentale in sette punti di Chekawa
 
 Nel terzo testo, la pratica del Lojong viene descritta in sette punti, che sono poi diventati la presentazione standard di Lojong:
 
-1)  I preliminari
-2)  L'effettivo allenamento nella mente dell'illuminazione
-3)  Trasformare le avversità nel sentiero del risveglio
-4)  Condensare la pratica in una vita
-5)  La misura dell'allenamento mentale
-6)  Gli impegni dell'addestramento mentale
-7)  I precetti dell'allenamento mentale
+1.  I preliminari
+2.  L'effettivo allenamento nella mente dell'illuminazione
+3.  Trasformare le avversità nel sentiero del risveglio
+4.  Condensare la pratica in una vita
+5.  La misura dell'allenamento mentale
+6.  Gli impegni dell'addestramento mentale
+7.  I precetti dell'allenamento mentale
 
 Ad esempio, il secondo punto contiene le seguenti istruzioni:
 
@@ -94,21 +95,23 @@ Ad esempio, il secondo punto contiene le seguenti istruzioni:
 > Tre oggetti, tre veleni e tre radici di virtù: esercitati in ogni attività mediante le parole.\
 > Inizia da te stesso la sequenza del prendere.
 
-Il tonglen viene descritto, appunto, nel secondo punto, e rappresenta la pratica principale del Lojong.
+Il Tonglen viene descritto, appunto, nel secondo punto, e rappresenta la pratica principale del Lojong.
 
-Il test distingue il duplice schema di bodhicitta ultimo e convenzionale e stabilisce il tonglen come la principale forma di meditazione per coltivare il *bodhicitta convenzionale*.
+Il test distingue il duplice schema di bodhicitta ultimo e convenzionale e stabilisce il tonglen come la principale forma di meditazione per coltivare il _bodhicitta convenzionale_.
 
 Nella tradizione indiana, il bodhicitta definitivo o ultimo è attribuito soltanto ai bodhisattva che hanno raggiunto la capacità di conoscere i fenomeni per come sono "veramente", ovvero come sunyata. Come abbiamo già accennato, la tradizione tibetana utilizza due strumenti ermeneutici per assegnare un'interpretazione meno impegnativa e radicale al principio di equalizzazione e scambio:
 
--   il passaggio dal bodhicitta ultimo al bodhicitta relativo,
--   il passaggio dal rifiuto dell'attaccamento al sè ad un cambiamento di atteggiamento verso il sé: piuttosto che "scambiare letteralmente identità", la tradizione tibetana ha optato per l'interpretazione meno radicale di un cambiamento di atteggiamento verso il sé, un trasferimento dell'amore per se stessi verso l'amore per l'altro.
+- il passaggio dal bodhicitta ultimo al bodhicitta relativo,
+- il passaggio dal rifiuto dell'attaccamento al sè ad un cambiamento di atteggiamento verso il sé: piuttosto che "scambiare letteralmente identità", la tradizione tibetana ha optato per l'interpretazione meno radicale di un cambiamento di atteggiamento verso il sé, un trasferimento dell'amore per se stessi verso l'amore per l'altro.
 
 La seconda innovazione fornita in questo testo è l'introduzione di una visualizzazione. Ai praticanti viene detto di immaginare: "Prendi le sofferenze e accumulale nel tuo cuore in strisce pulite, come se fossero strati tagliati via da un coltello affilato". Nel tempo, poi, il tonglen si è arricchito di vari ulteriori elementi di visualizzazione e la visualizzazione è diventata un modo standard per praticare il tonglen.
 
 La funzione psicologica della visualizzazione è duplice.
 
--   In primo luogo, vengono fornite istruzioni per stimolare le emozioni.
--   In secondo luogo, le visualizzazioni hanno la funzione di condensare il contenuto concettuale in simboli. \#### Linee di base incorporate nell'allenamento mentale Mahāyāna
+- In primo luogo, vengono fornite istruzioni per stimolare le emozioni.
+- In secondo luogo, le visualizzazioni hanno la funzione di condensare il contenuto concettuale in simboli.
+
+#### Linee di base incorporate nell'allenamento mentale Mahāyāna
 
 Il quarto testo mostra forti parallelismi con quello di Chekawa. Tuttavia, si differenzia per la sua totale assenza di stimoli affettivi emotivi positivi. Le istruzioni hanno quindi un tono molto più freddo, dando più importanza all'imparzialità e all'equanimità che alla stimolazione emotiva.
 
@@ -134,8 +137,8 @@ Esaminiamo con attenzione ciò che viene omesso, dalla fonte originale, e ciò c
 
 La prima differenza riguarda la comprensione della vacuità (śūnyatā) e il suo ruolo nello scambio del Bodhicaryāvatāra e nelle pratiche tonglen. Nelle fonti testuali precedenti, la pratica dell'equalizzazione e dello scambio è considerata una pratica avanzata sul sentiero del bodhisattva, mentre il tonglen è relativamente meno impegnativo, richiede meno prerequisiti e preparazioni.
 
--   Śāntideva presenta l'equalizzazione e lo scambio in relazione alla stabilità meditativa; vede la compassione come una logica conseguenza della contemplazione dell'uguaglianza di sé e dell'altro *che si basa sull'idea che il sé sia privo di una realtà intrinseca*.
--   Al contrario, la tradizione Lojong minimizza l'importanza di meditare sulla vacuità, che viene concepita nei termini bodhicitta finale. Invece, la pratica principale del Lojong, ovvero il tonglen, viene concepita come appartenere all'ambito del bodhicitta convenzionale, e quindi include il pensiero dualistico.
+- Śāntideva presenta l'equalizzazione e lo scambio in relazione alla stabilità meditativa; vede la compassione come una logica conseguenza della contemplazione dell'uguaglianza di sé e dell'altro _che si basa sull'idea che il sé sia privo di una realtà intrinseca_.
+- Al contrario, la tradizione Lojong minimizza l'importanza di meditare sulla vacuità, che viene concepita nei termini bodhicitta finale. Invece, la pratica principale del Lojong, ovvero il tonglen, viene concepita come appartenere all'ambito del bodhicitta convenzionale, e quindi include il pensiero dualistico.
 
 Il punto da notare qui è che il carattere radicale dello scambio-contemplazione di Śāntideva è stato significativamente "indebolito" nel contesto del Lojong: la pratica del tonglen è diventata uno scambio di oggetti o di beni, ovvero la propria felicità contro la sofferenza degli altri, e corrisponde al tipo meno impegnativo di scambio descritto nel Bodhicaryāvatāra. Il tonglen richiede un cambiamento di atteggiamento, ma non richiede il trasferimento radicale e destabilizzante dell'autoidentificazione ipotizzato dal Bodhicaryāvatāra.
 
@@ -165,27 +168,27 @@ Il Bodhicaryāvatāra, non potendo fare riferimento alla fisica quantistica, giu
 
 > Ma se tutti gli esseri devono essere visti in questo modo dai bodhisattva, allora come viene generata la gentilezza verso tutti gli esseri?
 
-> Vimalakirti disse: "Manjusri, quando un bodhisattva osserva: 'Avendo appreso questa verità, dovrei mostrarla a queste persone', allora genera gentilezza verso tutti gli esseri, un vero rifugio: gentilezza tranquilla a causa della mancanza di appropriazione; gentilezza senza dolore che non produce afflizioni; gentilezza verso qualsiasi cosa a causa dell'identità di passato, presente e futuro; gentilezza senza conflitto per il fatto di non essere mai sopraffatto; gentilezza non duale, perché dentro e fuori non sono divisi; gentilezza imperturbabile, a causa della stabilità; gentilezza costante, a causa del diamante di un'indistruttibile intenzione; pura gentilezza, a causa della purezza intrinseca; gentilezza imparziale, a causa dell'imparzialità del cuore; la gentilezza dei santi, per aver eliminato le afflizioni e l'ignoranza; la gentilezza dei bodhisattva, a causa dell'inarrestabile progressione spirituale; e anche la gentilezza dei Realizzati, per aver trovato la verità; la gentilezza dei Buddha, a causa dell'abilità di risvegliare le persone dal sonno; gentilezza autoesistente, a causa del risveglio di sé; la gentilezza dell'illuminazione, a causa dell'uguaglianza essenziale; gentilezza senza imposizione, a causa dell'abbandono dell'amore e dell'odio; la gentilezza di Mahakaruna, che manifesta il Grande Veicolo; gentilezza instancabile, a causa dell'osservazione della vacuità e dell'altruismo; la gentilezza di impartire insegnamenti, per il fatto di non avere il pugno chiuso come un insegnante; la gentilezza del carattere, avendo riguardo per le persone con cattive abitudini; la gentilezza della tolleranza, per proteggere se stessi e gli altri; la gentilezza della diligenza, sopportando i fardelli di tutte le persone; la gentilezza della meditazione, senza assaporarla; la gentilezza dell'intuizione, in ragione della realizzazione tempestiva; la gentilezza di Upāya, che mostra tutte le porte; la gentilezza senza ipocrisia, a causa della purificazione dell'intenzione; la gentilezza stabile, a causa \[dell'assenza\] del rimpianto; la gentilezza della determinazione, a causa dell'essere senza macchia; la gentilezza che non è ingannevole, essendo senza artificiosità; la gentilezza della beatitudine, che fornisce la beatitudine dei Buddha. Manjusri, questa è la gentilezza di un bodhisattva.
+> Vimalakirti disse: "Manjusri, quando un bodhisattva osserva: 'Avendo appreso questa verità, dovrei mostrarla a queste persone', allora genera gentilezza verso tutti gli esseri, un vero rifugio: gentilezza tranquilla a causa della mancanza di appropriazione; gentilezza senza dolore che non produce afflizioni; gentilezza verso qualsiasi cosa a causa dell'identità di passato, presente e futuro; gentilezza senza conflitto per il fatto di non essere mai sopraffatto; gentilezza non duale, perché dentro e fuori non sono divisi; gentilezza imperturbabile, a causa della stabilità; gentilezza costante, a causa del diamante di un'indistruttibile intenzione; pura gentilezza, a causa della purezza intrinseca; gentilezza imparziale, a causa dell'imparzialità del cuore; la gentilezza dei santi, per aver eliminato le afflizioni e l'ignoranza; la gentilezza dei bodhisattva, a causa dell'inarrestabile progressione spirituale; e anche la gentilezza dei Realizzati, per aver trovato la verità; la gentilezza dei Buddha, a causa dell'abilità di risvegliare le persone dal sonno; gentilezza autoesistente, a causa del risveglio di sé; la gentilezza dell'illuminazione, a causa dell'uguaglianza essenziale; gentilezza senza imposizione, a causa dell'abbandono dell'amore e dell'odio; la gentilezza di Mahakaruna, che manifesta il Grande Veicolo; gentilezza instancabile, a causa dell'osservazione della vacuità e dell'altruismo; la gentilezza di impartire insegnamenti, per il fatto di non avere il pugno chiuso come un insegnante; la gentilezza del carattere, avendo riguardo per le persone con cattive abitudini; la gentilezza della tolleranza, per proteggere se stessi e gli altri; la gentilezza della diligenza, sopportando i fardelli di tutte le persone; la gentilezza della meditazione, senza assaporarla; la gentilezza dell'intuizione, in ragione della realizzazione tempestiva; la gentilezza di Upāya, che mostra tutte le porte; la gentilezza senza ipocrisia, a causa della purificazione dell'intenzione; la gentilezza stabile, a causa [dell'assenza] del rimpianto; la gentilezza della determinazione, a causa dell'essere senza macchia; la gentilezza che non è ingannevole, essendo senza artificiosità; la gentilezza della beatitudine, che fornisce la beatitudine dei Buddha. Manjusri, questa è la gentilezza di un bodhisattva.
 
 ### Aggiunta: stimoli emotivi
 
 La seconda differenza tra il Tonglen e il Bodhicaryāvatāra riguarda il ruolo delle emozioni nella coltivazione della compassione. Mentre Śāntideva vede la comprensione (ontologica) dell'uguaglianza di sé e dell'altro come la base da cui si manifestano compassione e bodhicitta, per generare karuna la tradizione del Lojong promuove la stimolazione di affetti positivi, come la gratitudine, l'amore materno, o l'empatia nel senso di "sentirsi con" al vista della sofferenza di un altro.
 
--   Śāntideva promuove le esperienze dolorose, e persino forme di auto-denigrazione, come strumenti dell'approccio didattico decostruttivo che mira ad indebolire l'attaccamento al sé e al rafforzamento della compassione.
--   Invece, il Lojong opera mediante l'approccio costruttivo, ovvero mediante la stimolazione e il rafforzamento delle emozioni, positive e negative, come catalizzatori per la crescita spirituale. La stimolazione di ricordi, immagini e affetti corrisponde ad un approccio psicologico ed emotivo alla coltivazione della compassione, piuttosto che ad un metodo concettuale o razionale.
+- Śāntideva promuove le esperienze dolorose, e persino forme di auto-denigrazione, come strumenti dell'approccio didattico decostruttivo che mira ad indebolire l'attaccamento al sé e al rafforzamento della compassione.
+- Invece, il Lojong opera mediante l'approccio costruttivo, ovvero mediante la stimolazione e il rafforzamento delle emozioni, positive e negative, come catalizzatori per la crescita spirituale. La stimolazione di ricordi, immagini e affetti corrisponde ad un approccio psicologico ed emotivo alla coltivazione della compassione, piuttosto che ad un metodo concettuale o razionale.
 
 #### Conclusione intermedia
 
 In conclusione, possiamo distinguere due diversi approcci didattici per la coltivazione della compassione nella pratica della meditazione.
 
--   I metodi didattici di Śāntideva sono caratterizzati da un approccio radicale e decostruttivo che, per stabilire un comportamento autenticamente disinteressato, mira all'eliminazione dell'autoidentificazione e alla rottura delle barriere dualistiche.
--   Le pratiche Tonglen, d'altra parte, non minano la percezione dualistica. L'approccio Tonglen segono invece un approccio relazionale e psicologico che mira a ristrutturare i propri atteggiamenti e le proprie emozioni. Il Tonglen fa leva sulla stimolazione affettiva per spingere i tirocinanti all'azione.
+- I metodi didattici di Śāntideva sono caratterizzati da un approccio radicale e decostruttivo che, per stabilire un comportamento autenticamente disinteressato, mira all'eliminazione dell'autoidentificazione e alla rottura delle barriere dualistiche.
+- Le pratiche Tonglen, d'altra parte, non minano la percezione dualistica. L'approccio Tonglen segono invece un approccio relazionale e psicologico che mira a ristrutturare i propri atteggiamenti e le proprie emozioni. Il Tonglen fa leva sulla stimolazione affettiva per spingere i tirocinanti all'azione.
 
 Si potrebbe concludere che l'approccio decostruttivo implica un impegno a lungo termine, mentre l'approccio Lojong è più facilmente accessibile per i principianti e promette risultati a medio e breve termine che portano ad un rafforzamento della compassione e della gioia che il praticante prova nel mettere in atto la compassione.
 
 ## Sviluppi dell'approccio Lojong nella cultura tibetana
 
-Un testo che ha attirato una grande attenzione nel pubblico moderno tibetano e occidentale sono le *Le Trentasette Pratiche dei Bodhisattva* di Thokmé Sangpo (2004). Tale testo che viene regolarmente utilizzato dal Quattordicesimo Dalai Lama nei suoi insegnamenti. Nei 37 versi di questo testo, Thokmé Sangpo fornisce consigli relativi alle applicazioni nella vita quotidiana dell'ideale del bodhisattva.
+Un testo che ha attirato una grande attenzione nel pubblico moderno tibetano e occidentale sono le _Le Trentasette Pratiche dei Bodhisattva_ di Thokmé Sangpo (2004). Tale testo che viene regolarmente utilizzato dal Quattordicesimo Dalai Lama nei suoi insegnamenti. Nei 37 versi di questo testo, Thokmé Sangpo fornisce consigli relativi alle applicazioni nella vita quotidiana dell'ideale del bodhisattva.
 
 Il verso 11 delle Trentasette Pratiche riassume la coltivazione della compassione nel modo seguente:
 
@@ -205,31 +208,31 @@ L'esposizione di Tzongkhapa della coltivazione della compassione è unica per la
 
 1.  La pratica delle sette cause ed effetti è preceduta da meditazioni sull'equanimità e sull'apprezzamento per tutti gli esseri. La pratica delle sette istruzioni di causa ed effetto è simile al Lojong in quanto entrambe si concentrano prima sulla madre, per stimolare affetti positivi, per poi ampliare tali affetti in modo da includere tutti gli esseri, i quali vengono riconosciuti come madri delle vite precedenti. Il bodhisattva quindi sviluppa progressivamente gratitudine, determinazione, gentilezza amorevole, compassione e una mente intenta al risveglio (ovvero, l'aspirazione al bodhicitta).
 
-    -   Riconoscere che tutti gli esseri sono stati le nostre madri.
-    -   Ricordare la gentilezza delle nostre madri.
-    -   Volere ripagare la gentilezza delle nostre madri.
-    -   Coltivare l'amore verso tutti gli esseri.
-    -   Coltivare la compassione verso tutti gli esseri.
-    -   Coltivare la speciale determinazione di raggiungere il risveglio per il bene di tutti gli esseri.
-    -   Generare bodhicitta.
+    - Riconoscere che tutti gli esseri sono stati le nostre madri.
+    - Ricordare la gentilezza delle nostre madri.
+    - Volere ripagare la gentilezza delle nostre madri.
+    - Coltivare l'amore verso tutti gli esseri.
+    - Coltivare la compassione verso tutti gli esseri.
+    - Coltivare la speciale determinazione di raggiungere il risveglio per il bene di tutti gli esseri.
+    - Generare bodhicitta.
 
 2.  Il secondo modo per sviluppare bodhicitta è la contemplazione dello scambio fra sé e l'altro. Anche se Tzongkhapa cita ampiamente la Bodhicaryāvatāra, non segue l'approccio radicale di Śāntideva che richiede uno scambio dell'identità personale. Invece, proprio come i commentatori tibetani della Bodhicaryāvatāra discussi in precedenza, le istruzioni di Tzongkhapa mirano ad uno scambio di affetti, e quindi a un cambiamento di atteggiamento e di attaccamento.
 
-> Le frasi "scambiare sé stessi e l'altro" \[...\] non indicano la formazione in un atteggiamento che porta a pensare "io sono un altro" \[...\]. Indicano un cambiamento nell'orientamento dei due stati mentali corrispondenti all'amore di sé e al trascurare gli altri; in questa trasformazione viene sviluppato l'atteggiamento nel quale amiamo gli altri come ora amiamo noi stessi, e trascuriamo noi stessi come ora trascuriamo gli altri.
+> Le frasi "scambiare sé stessi e l'altro" [...] non indicano la formazione in un atteggiamento che porta a pensare "io sono un altro" [...]. Indicano un cambiamento nell'orientamento dei due stati mentali corrispondenti all'amore di sé e al trascurare gli altri; in questa trasformazione viene sviluppato l'atteggiamento nel quale amiamo gli altri come ora amiamo noi stessi, e trascuriamo noi stessi come ora trascuriamo gli altri.
 
 L'amore così espresso è un atteggiamento di generosità, come nella letteratura Lojong. L'addestramento alla compassione di Tzongkhapa ha lo scopo di sviluppare il bodhicitta all'interno di una pratica rituale codificata.
 
 L'ordine degli stadi differisce da Śāntideva in questo
 
--   il Bodhicaryāvatāra presenta l'equalizzazione e lo scambio come una meditazione impegnativa da praticare negli stadi avanzati del sentiero del bodhisattva;
--   Tzongkhapa, invece, presensta la compassione come la pratica di base da praticare all'inizio e come prerequisito dello sviluppo di bodhicitta. Si potrebbe dire che, nel Lam rim chen mo, il Bodhicaryāvatāra è "addomesticato" in un duplice senso: in primo luogo inserendo le idee del Bodhicaryāvatāra in una struttura sistematica e ben definita; dall'altro, omettendo l'aspetto più radicale della meditazione sullo scambio fra sé e l'altro.
+- il Bodhicaryāvatāra presenta l'equalizzazione e lo scambio come una meditazione impegnativa da praticare negli stadi avanzati del sentiero del bodhisattva;
+- Tzongkhapa, invece, presensta la compassione come la pratica di base da praticare all'inizio e come prerequisito dello sviluppo di bodhicitta. Si potrebbe dire che, nel Lam rim chen mo, il Bodhicaryāvatāra è "addomesticato" in un duplice senso: in primo luogo inserendo le idee del Bodhicaryāvatāra in una struttura sistematica e ben definita; dall'altro, omettendo l'aspetto più radicale della meditazione sullo scambio fra sé e l'altro.
 
-## Conclusioni {.unnumbered}
+## Conclusioni
 
-La pratica tibetana del tonglen è l'adattamento più noto della pratica dello scambio fra sé e l'altro ed è diventata un metodo pedagogico standard per la coltivazione della compassione.
+La pratica tibetana del Tonglen è l'adattamento più noto della pratica dello scambio fra sé e l'altro ed è diventata un metodo pedagogico standard per la coltivazione della compassione.
 
--   La maggior parte delle variazioni tibetane dell'addestramento alla compassione sottolineano la natura contestuale e sociale delle vite umane, utilizzando la relazione emotiva positiva con la madre come un espediente per sviluppare un altruismo imparziale.
--   La didattica di Śāntideva, invece, non comporta una costruzione affettiva positiva, ma deriva da fondamenti epistemologici e ontologici. Richiede che il riconoscimento dell'assenza di un sé sostanzialmente esistente è una necessaria trasformazione mentale per l'estinzione della sofferenza.
+- La maggior parte delle variazioni tibetane dell'addestramento alla compassione sottolineano la natura contestuale e sociale delle vite umane, utilizzando la relazione emotiva positiva con la madre come un espediente per sviluppare un altruismo imparziale.
+- La didattica di Śāntideva, invece, non comporta una costruzione affettiva positiva, ma deriva da fondamenti epistemologici e ontologici. Richiede che il riconoscimento dell'assenza di un sé sostanzialmente esistente è una necessaria trasformazione mentale per l'estinzione della sofferenza.
 
 Sminuendo l'enfasi sulla dimensione epistemologica dell'addestramento alla compassione, che viene ritenuta accessibile solo ai bodhisattva avanzati, gli studiosi tibetani si sono impegnati in un processo di semplificazione e divulgazione della coltivazione della compassione. Hanno messo tra parentesi la meditazione di Śāntideva sullo scambio dell'identità fra il sé e l'altro, ricollocandola negli stadi più avanzati, e che non vengono considerati, del sentiero del bodhisattva.
 

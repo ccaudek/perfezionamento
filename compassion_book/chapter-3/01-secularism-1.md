@@ -1,4 +1,5 @@
 (secularism1-notebook)=
+
 # Pratiche secolarizzate di coltivazione della compassione
 
 ## Interventi basati sulla compassione: una panoramica
@@ -57,7 +58,7 @@ Il corso si struttura in sei fasi ben definite:
 
 Il programma è strutturato in otto o nove settimane, con sessioni settimanali di due ore e sessioni di meditazione a casa. La pedagogia del CCT comprende meditazioni guidate, esercizi interattivi tra i partecipanti e un equilibrio tra teoria e pratica.
 
-Un aspetto importante del CCT è il dedicare un quarto della formazione a sviluppare consapevolmente la *compassione per sé stessi* per contrastare l'autocriticismo e favorire l'accettazione e il perdono verso se stessi.
+Un aspetto importante del CCT è il dedicare un quarto della formazione a sviluppare consapevolmente la _compassione per sé stessi_ per contrastare l'autocriticismo e favorire l'accettazione e il perdono verso se stessi.
 
 Gli esercizi interattivi durante le sessioni includono attività di comunicazione, ascolto, espressione emotiva e condivisione empatica. Questi esercizi consentono ai partecipanti di sviluppare una maggiore consapevolezza dei propri stati mentali durante la pratica della compassione.
 
@@ -122,7 +123,7 @@ Sebbene gli approcci buddisti descrivano una progressione che porta sempre più 
 
 Pertanto, i metodi del CCT non sono analitici nel senso dell'analisi tradizionale buddista sulla natura della realtà, l'impermanenza, la sofferenza o l'interdipendenza. Al contrario, il CCT si basa fortemente sulla generazione di sentimenti di calore e tenerezza, evocati ricordando situazioni specifiche con una persona cara.
 
-Anche se molte istruzioni Lojong e Lamrim iniziano con lo stesso approccio, le istruzioni buddiste mirano a stabilire uno stato che *trascende l'emozionalità* ed è una visione generale della vita basata sulla comprensione della realtà (prajñā), piuttosto che una risposta a una specifica vista della sofferenza. Nella fase finale, la Mahākaruṇā è radicalmente imparziale, e quindi impassibile nel senso di essere equanime e universale.
+Anche se molte istruzioni Lojong e Lamrim iniziano con lo stesso approccio, le istruzioni buddiste mirano a stabilire uno stato che _trascende l'emozionalità_ ed è una visione generale della vita basata sulla comprensione della realtà (prajñā), piuttosto che una risposta a una specifica vista della sofferenza. Nella fase finale, la Mahākaruṇā è radicalmente imparziale, e quindi impassibile nel senso di essere equanime e universale.
 
 ## Autocommiserazione: Focus principale o prodotto secondario
 

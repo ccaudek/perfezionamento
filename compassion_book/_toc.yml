@@ -21,12 +21,13 @@ parts:
       - file: chapter-2/01-meditation
       - file: chapter-2/02-tonglen
       - file: chapter-2/03-wisdom
-      - file: chapter-2/04-non-dualism
-      - file: chapter-2/04a-nagarjuna
-      - file: chapter-2/05-living-skillfully
-      - file: chapter-2/06-patience
-      - file: chapter-2/07-upaya
-      - file: chapter-2/08-tibet-traditions
+      - file: chapter-2/04-dream
+      - file: chapter-2/05-non-dualism
+      - file: chapter-2/06-nagarjuna
+      - file: chapter-2/07-living-skillfully
+      - file: chapter-2/08-patience
+      - file: chapter-2/09-upaya
+      - file: chapter-2/10-tibet-traditions
   - caption: Tradizioni secolarizzate
     numbered: True
     chapters:

@@ -1,9 +1,10 @@
 (vimalakirti-notebook)=
+
 # L'insegnamento di Vimalakīrti
 
 Vivere una buona vita, una vita sana, spensierata e ben consapevole delle realtà che deve affrontare, dipende dallo sviluppo di determinate abilità. La principale raccomandazione buddista a questo proposito è quella di coltivare alcune capacità spendibili nella vita quotidiana. Tali capacità richiedono una chiara percezione della situazione in cui ci troviamo e un costante allenamento mentale atto ad evitare "i tre veleni" dell'avidità, dell'odio e dell'illusione. La metafora utilizzata dai buddisti per questo modo di vivere è quella di un "percorso" che può essere esplorato da chiunque speri di rispondere alle sfide della vita con una maggiore saggezza e abilità.
 
-Sono state presentate molte versioni del percorso che fornisce ai buddisti guida e direzione. Un testo sacro per i buddisti, il Vimalakīrti Sūtra, offre diverse descrizioni di percorsi validi e mostra come diversi tipi di persone sono in grado di applicare i "mezzi abili" (upāya) per affrontare le vicende della vita. In questo capitolo farò riferimento alla lettura di questo Sūtra fornita da {cite:t}`wright2021living` nel suo libro *Living skillfully*.
+Sono state presentate molte versioni del percorso che fornisce ai buddisti guida e direzione. Un testo sacro per i buddisti, il Vimalakīrti Sūtra, offre diverse descrizioni di percorsi validi e mostra come diversi tipi di persone sono in grado di applicare i "mezzi abili" (upāya) per affrontare le vicende della vita. In questo capitolo farò riferimento alla lettura di questo Sūtra fornita da {cite:t}`wright2021living` nel suo libro _Living skillfully_.
 
 ## La compassione nella vita quotidiana
 
@@ -39,22 +40,21 @@ Pertanto, quando Vimalakīrti cerca di illuminare le persone che mostrano deboli
 
 La nozione di coproduzione condizionata (pratītya-samutpāda) è sovrapponibile a quella di śūnyatā. Possiamo dunque pensare che la nobile aspirazione del bodhisattva sia quella trasformazione cognitiva lo porta ad "incarnare" (embody) śūnyatā nella sua esperienza concreta. L'obiettivo è dunque quello di trasformare la meditazione su śūnyatā, da una riflessione razionale, a ciò che plasma le nostre emozioni e le nostre sensazioni nella vita quotidiana, portandoci a sviluppare un nuovo atteggiamento mentale che guida ogni nostra azione.
 
-
 ## L'incarnazione della saggezza
 
 Intesa in questo modo, la saggezza è la capacità di vedere oltre le convenzioni e le abitudini che guidano la nostra vita quotidiana al fine di comprendere noi stessi e il mondo in un modo più completo, più perspicace, e privo di illusioni egocentriche. Per Vimalakīrti, nel Sūtra, questa comprensione della natura della realtà più completa e più perspicace non è comunque l'intera "saggezza", perché la saggezza non è semplicemente una questione di una più accurata conoscenza concettuale. La saggezza presentata da Vimalakīrti va al di là del livello di comprensione concettuale del mondo per trasformare il nostro modo di essere nel mondo. La saggezza di Vimalakīrti è la capacità di vivere l'esperienza quotidiana in accordo con la vera natura della realtà, ovvero di mettere in atto un nuovo allineamento con la realtà in tutto ciò che si fa.
 
 La trasformazione da una visione "intellettuale" di śūnyatā ad un'interpretazione "operante" (nella vita quotidiana) non è improvvisa, ma è piuttosto un cambiamento graduale che avviene attraverso la pratica quotidiana. Conoscere qualcosa (in senso intellettuale) e la "saggezza" non sono la stessa cosa. La saggezza si manifesta come un modo di vivere in armonia con la realtà che, includendo l'intelletto, lo supera per includere le altre quattro componenti (skandha) della vita umana. In questo senso, l'autentica saggezza è pienamente incarnata.
 
-::: callout-note 
-Gli skandha ("aggregati") sono: (1) materia, o corpo (rūpa) -- terra, aria, fuoco e acqua; (2) sensazioni o sentimenti (vedanā); (3) percezioni degli oggetti dei sensi (saṃjñā); (4) formazioni mentali (saṃskāra); e (5) consapevolezza o coscienza, degli altri aggregati mentali (vijñāna). 
-:::
+```{note}
+Gli skandha ("aggregati") sono: (1) materia, o corpo (rūpa) -- terra, aria, fuoco e acqua; (2) sensazioni o sentimenti (vedanā); (3) percezioni degli oggetti dei sensi (saṃjñā); (4) formazioni mentali (saṃskāra); e (5) consapevolezza o coscienza, degli altri aggregati mentali (vijñāna).
+```
 
 La saggezza è riconoscere la vacuità di tutte le cose e vivere in armonia con questa realizzazione.
 
 Vimalakīrti è un bodhisattva. È interessante che Vimalakīrti sia un laico e da questo punto di vista più simile alla maggior parte di noi. Ma era anche un cittadino estremamente ricco e di spicco della sua città e quindi ci fornisce un buon banco di prova per le pratiche di altruismo che stiamo esaminando.
 
-La domanda che questo testo sacro ci pone è: se non sei un monaco o una monaca e devi quindi vivere nel mondo delle attività mondane, come puoi attuare il tipo di comprensione che vediamo personificata nei bodhisattva? Vimalakīrti ci dice che\
+La domanda che questo testo sacro ci pone è: se non sei un monaco o una monaca e devi quindi vivere nel mondo delle attività mondane, come puoi attuare il tipo di comprensione che vediamo personificata nei bodhisattva? Vimalakīrti ci dice che
 
 > la dimora del bodhisattva è un profondo pensiero sul significato della vacuità.
 
@@ -182,11 +182,11 @@ La parola usata nel Vimalakīrti Sūtra per descrivere questo aspetto della sagg
 
 > vincendo l'abitudine di aggrapparsi ad un fondamento ultimo
 
-i bodhisattva imparano a *tollerare* la verità della realtà:
+i bodhisattva imparano a _tollerare_ la verità della realtà:
 
-> \[I bodhisattva\] raggiungono la tolleranza intuitiva dell'incomprensibilità ultima e della natura non-nata di tutte le cose.
+> [I bodhisattva] raggiungono la tolleranza intuitiva dell'incomprensibilità ultima e della natura non-nata di tutte le cose.
 
-Il Sūtra immagina dunque un bodhisattva che dimora con fiducia, libero dalle illusioni delle abitudini mentali, in un mondo mutevole che non è mai completamente afferrabile, un mondo fatto di contingenze, di contraddizioni e di dissonanze. Insieme alla capacità di *tollerare* questa realizzazione, il bodhisattva è anche in grado di lasciarsi alle spalle tutta quell'ansia repressa che è sempre alla ricerca della sicurezza e della certezza, riuscendo invece ad aprirsi all'incomparabile bellezza di un mondo completamente interdipendente e alla gioia che deriva dal lasciarsi andare.
+Il Sūtra immagina dunque un bodhisattva che dimora con fiducia, libero dalle illusioni delle abitudini mentali, in un mondo mutevole che non è mai completamente afferrabile, un mondo fatto di contingenze, di contraddizioni e di dissonanze. Insieme alla capacità di _tollerare_ questa realizzazione, il bodhisattva è anche in grado di lasciarsi alle spalle tutta quell'ansia repressa che è sempre alla ricerca della sicurezza e della certezza, riuscendo invece ad aprirsi all'incomparabile bellezza di un mondo completamente interdipendente e alla gioia che deriva dal lasciarsi andare.
 
 ## Śūnyatā e karuṇā
 
@@ -226,7 +226,7 @@ Di fronte a ciò che ci sembra insopportabile e immutabile, ci deprimiamo. In qu
 
 In conclusione, possiamo attribuire un duplice significato al termine "illusione" che, nel Sūtra, viene assegnato agli esseri senzienti. Da una parte, l'illusione è ciò di cui sono vittima gli individui, quando scambiano le loro proiezioni mentali per qualcosa di "esistente in sé", piuttosto che per qualcosa di transiente; d'altra parte, considerare gli esseri senzienti come "illusioni" significa pensare che gli altri non sono necessariamente sempre uguali a sé stessi, ma possono cambiare. È proprio per questa ragione il loro risveglio dalle sofferenze inutili può essere considerato come qualcosa che, in definitiva, è possibile.
 
-## Conclusione 
+## Conclusione
 
 Il Sutra di Vimalakirti afferma che non ci sono situazioni pure e situazioni impure di per sé: la differenza sta unicamente nell'orientamento della nostra mente. Una mente annebbiata dalle illusioni derivate dalle oscurazioni mentali è come uno specchio appannato che, però, una volta lucidato, sicuramente diverrà limpido e rifletterà la natura essenziale dei fenomeni e il vero aspetto della realtà.
 

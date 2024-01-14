@@ -1,5 +1,6 @@
 (secularism2-notebook)=
-# Il significato della secolarizzazione 
+
+# Il significato della secolarizzazione
 
 Nel capitolo precedente abbiamo confrontato la pratica tradizionale buddista con l'approccio secolarizzato alla coltivazione della compassione, analizzando le basi filosofiche e psicologiche di entrambi. Sono emerse similitudini riguardo al potenziale naturale della compassione negli esseri umani, ma anche differenze nella concezione delle forme avanzate di compassione. Mentre il buddismo sviluppa complessi schemi per distinguere livelli ordinari e avanzati di compassione, l'approccio secolarizzato si concentra principalmente sugli stadi iniziali.
 
@@ -38,15 +39,15 @@ La secolarizzazione delle pratiche contemplative buddiste ha ricevuto due critic
 
 In primo luogo, la prima critica riguarda il fatto che le pratiche buddiste si basano su modelli di salute mentale diversi da quelli cercati dal pubblico occidentale.
 
-::: callout-note
+```{note}
 È particolarmente importante tenere presente questo punto quando si valuta l'efficacia delle pratiche contemplative buddiste secolarizzate.
-:::
+```
 
-Ad esempio, i primi sūtra buddisti raffigurano la sofferenza come un ingrediente *inevitabile* dell'esistenza. Essi sostengono che l'unico rimedio genuino alla sofferenza sia l'uscita completa da saṃsāra (il mondo fenomenale), e ciò richiede, tra le altre cose, di abbandonare la speranza che la felicità in questo mondo sia possibile. Tuttavia, questa disperazione, considerata nello spirito buddista uno stato di *maturità spirituale*, viene vista nella cultura occidentale contemporanea come una forma di depressione.
+Ad esempio, i primi sūtra buddisti raffigurano la sofferenza come un ingrediente _inevitabile_ dell'esistenza. Essi sostengono che l'unico rimedio genuino alla sofferenza sia l'uscita completa da saṃsāra (il mondo fenomenale), e ciò richiede, tra le altre cose, di abbandonare la speranza che la felicità in questo mondo sia possibile. Tuttavia, questa disperazione, considerata nello spirito buddista uno stato di _maturità spirituale_, viene vista nella cultura occidentale contemporanea come una forma di depressione.
 
 La nostra cultura moderna preferisce considerare la pratica spirituale come una "scienza della felicità".
 
-Al contrario, i pensatori buddisti come Śāntideva riconoscono che la sofferenza può fungere da catalizzatore per la pratica spirituale. Pertanto, la pratica contemplativa buddista *non mira a lenire la sofferenza a breve termine*, ma piuttosto a eliminare le cause della sofferenza a lungo termine.
+Al contrario, i pensatori buddisti come Śāntideva riconoscono che la sofferenza può fungere da catalizzatore per la pratica spirituale. Pertanto, la pratica contemplativa buddista _non mira a lenire la sofferenza a breve termine_, ma piuttosto a eliminare le cause della sofferenza a lungo termine.
 
 Tuttavia, i modelli occidentali di salute mentale tendono a vedere la sofferenza e la depressione come stati mentali indesiderati che devono essere corretti.
 
@@ -65,4 +66,3 @@ Inoltre, è evidente che la storia del pensiero buddista mostra la presenza di c
 Pertanto, la mercificazione rappresenta solo un aspetto di questo fenomeno, l'altro riguarda la progressiva adattabilità della pratica buddista nel corso dei secoli per rispondere alle esigenze delle diverse culture ospitanti.
 
 Infine, è inevitabile che i concetti religiosi subiscano una trasformazione quando una religione si confronta con la scienza. Nel contesto attuale, la compassione diventa una categoria naturale e psicologica, una qualità universale di ogni essere umano, al centro della natura umana, piuttosto che un imperativo etico.
-

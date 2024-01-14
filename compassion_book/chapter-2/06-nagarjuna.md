@@ -1,4 +1,5 @@
 (nagarjuna-notebook)=
+
 # Abbandonare tutti i punti di vista
 
 Per comprendere il concetto di non-dualismo nel pensiero buddista, è utile esplorare le idee di Nagarjuna, fondatore della scuola Madhyamaka della filosofia buddista indiana, e autore dei "Versi Fondamentali sulla Via di Mezzo" ("Mūlamadhyamakakārikā"). Quest'opera, molto influente, inizia e termina con riferimenti alla "cessazione della concettualizzazione" e all'"abbandono di tutti i punti di vista", concetti che Nagarjuna considera sostanzialmente equivalenti. Nel suo testo, Nagarjuna sfida le posizioni filosofiche tradizionali della filosofia classica indiana. L'enfasi di Nagarjuna sull'abbandono di tutti i punti di vista, incluso il suo, aspira ad un completo esaurimento di tutti i concetti metafisici, epistemici e dogmatici. Secondo Nagarjuna, questo processo è caratteristico del nirvana, dove tutti i punti di vista e le credenze sono lasciati alle spalle.
@@ -80,7 +81,7 @@ Nagarjuna, nel suo approccio filosofico, enfatizza che la liberazione dal karma 
 
 Secondo Nagarjuna, tutti i concetti (nozioni, posizioni, vedute, credenze) anziché facilitare, possono effettivamente ostacolare la comprensione della realtà. Questa visione è in linea con l'insegnamento centrale del Buddhismo, che considera la comprensione profonda della realtà come un passaggio cruciale nel percorso spirituale. Per Nagarjuna, la realtà non si conforma a queste costruzioni concettuali:
 
-> Non da ottenersi tramite altri, libera \[dalla natura intrinseca\], non popolata dall'ipostatizzazione,\
+> Non da ottenersi tramite altri, libera [dalla natura intrinseca], non popolata dall'ipostatizzazione,\
 > priva di concettualizzazione falsificante, non avente molti significati separati -- questa è la natura della realtà (MK18:9)
 
 In sintesi, la posizione filosofica di Nagarjuna enfatizza la necessità di andare oltre le limitazioni imposte dai nostri modi abituali di pensare e vedere il mondo. Nagarjuna ci invita a esplorare una visione della realtà che rispecchia l'interconnessione e l'interdipendenza di tutte le cose, una prospettiva fondamentale nel Buddhismo. Questo percorso di trascendenza dei concetti limitanti è essenziale per avanzare verso il nirvana, l'obiettivo ultimo nell'impresa buddhista.
