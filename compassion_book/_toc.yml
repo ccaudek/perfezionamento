@@ -18,6 +18,7 @@ parts:
     numbered: True
     chapters:
       - file: chapter-2/chapter2-intro
+      - file: chapter-2/00-meditation
       - file: chapter-2/01-meditation
       - file: chapter-2/02-tonglen
       - file: chapter-2/03-wisdom
@@ -38,6 +39,3 @@ parts:
     numbered: True
     chapters:
       - file: biblio
-
-
-
