@@ -2,15 +2,51 @@
 
 # La versione standard della meditazione
 
-Secondo {cite:t}`mcmahan2023rethinking`, la meditazione, spesso presentata come una pratica neutra e universale, è in realtà profondamente radicata in contesti culturali specifici, con un'evoluzione storica che ne modella significativamente la pratica e l'interpretazione. La meditazione, come praticata e intesa oggi, è il risultato di una serie di adattamenti e reinterpretazioni che rispecchiano i bisogni, le aspettative e i contesti socio-culturali dei praticanti moderni.
+{cite:t}`mcmahan2023rethinking` sostiene che la meditazione, frequentemente percepita come una pratica neutra e universale, è in realtà profondamente radicata nei contesti culturali specifici dei suoi praticanti. Questa evoluzione storica ne ha plasmato significativamente tanto la pratica quanto l'interpretazione. La meditazione contemporanea, con le sue radici nei movimenti ascetici antichi, era orientata a elevati scopi spirituali, contrapponendosi nettamente alla percezione moderna di una pratica passiva e non giudicante.
 
-La meditazione, così com'è praticata oggi in occidente, trae le sue radici da tradizioni buddiste che possono essere tracciate fino al contesto storico del buddismo antico. Queste pratiche emersero all'interno di movimenti ascetici che sfidavano i valori e le istituzioni religiose dominanti dell'epoca. Tuttavia, contrariamente alle pratiche moderne, la meditazione nell'antico buddismo era spesso orientata a obiettivi spirituali elevati, come la trascendenza dal mondo nella beatitudine del nirvana.
+Per approfondire questa tematica, esaminiamo il testo fondamentale sulla presenza mentale, il Satipaṭṭhāna Sutta.
+
+## Presenza Mentale
+
+Nel Satipaṭṭhāna Sutta, il Buddha afferma che la presenza mentale è l'unico modo per purificare la mente, superare sofferenze e dolori, percorrere la via e raggiungere il nirvana, la pace perfetta:
+
+> Monaci, questa è la via diretta per la purificazione degli esseri, per superare dolore e lamento, per eliminare il dukkha e il disagio, per ottenere il metodo corretto, per la realizzazione del Nibbāna, tramite le quattro satipaṭṭhāna.
+
+Quali sono le quattro satipaṭṭhāna?
+
+- Il campo della prima satipaṭṭhāna, la contemplazione del corpo, va dalla consapevolezza del respiro, delle posture e delle attività, all'analisi del corpo nelle sue parti anatomiche ed elementi, fino alla meditazione su un cadavere in decomposizione.
+
+- Le due satipaṭṭhāna successive riguardano la contemplazione delle sensazioni e della mente.
+
+- La quarta satipaṭṭhāna enumera cinque tipi di dhamma per la contemplazione: gli ostacoli mentali, gli aggregati, le sfere sensoriali, i fattori dell'illuminazione e le quattro nobili verità.
+
+Nel Sutta, una formula particolare segue ciascuna pratica di meditazione. Questo "ritornello" di satipaṭṭhāna completa ogni istruzione enfatizzando ripetutamente gli aspetti importanti della pratica.
+
+> In questo modo, in riferimento al corpo, egli dimora contemplando il corpo internamente, oppure contempla il corpo esternamente, o entrambi. Egli dimora contemplando la natura dell'insorgere nel corpo, o la natura del dissolversi nel corpo, o entrambi. La consapevolezza che 'c'è un corpo' è stabilita in lui nella misura necessaria per una conoscenza pura e una consapevolezza continua. E dimora indipendente, non attaccato a nulla nel mondo. È così che egli dimora contemplando il corpo.
+
+Secondo questo "ritornello", la contemplazione satipaṭṭhāna copre fenomeni interni ed esterni, e si occupa della loro nascita e dissoluzione. Il "ritornello" sottolinea anche che la consapevolezza dovrebbe essere stabilita solo per lo sviluppo di una conoscenza pura e per ottenere una continuità di consapevolezza. Inoltre, una corretta contemplazione satipaṭṭhāna avviene libera da ogni dipendenza o attaccamento.
+
+La sequenza delle contemplazioni elencate nel Satipaṭṭhāna Sutta rivela un modello progressivo: la contemplazione del corpo si sviluppa dall'esperienza rudimentale delle posture e attività corporee alla contemplazione dell'anatomia del corpo. La sensibilità aumentata sviluppata in questo modo costituisce la base per la contemplazione delle sensazioni, spostando la consapevolezza dagli aspetti fisici immediatamente accessibili dell'esperienza alle sensazioni come oggetti di consapevolezza più raffinati e sottili.
+
+La contemplazione delle sensazioni divide le sensazioni non solo secondo la loro qualità affettiva in piacevoli, spiacevoli e neutre, ma le distingue anche in base alla loro natura mondana o ultramondana. La parte finale della contemplazione delle sensazioni introduce quindi una distinzione etica delle sensazioni, che funge da trampolino di lancio per dirigere la consapevolezza verso la distinzione etica tra stati mentali sani e malsani, menzionata all'inizio della successiva satipaṭṭhāna, la contemplazione della mente.
+
+La contemplazione della mente procede dalla presenza o assenza di quattro stati mentali malsani (desiderio, rabbia, delusione e distrazione) alla contemplazione della presenza o assenza di quattro stati mentali superiori. La preoccupazione per gli stati mentali superiori nella parte finale della contemplazione della mente si presta naturalmente a un'indagine dettagliata di quei fattori che ostacolano particolarmente livelli più profondi di concentrazione. Questi sono gli ostacoli, il primo oggetto di contemplazione dei dhamma.
+
+Dopo aver coperto gli ostacoli alla pratica meditativa, la contemplazione dei dhamma progredisce verso due analisi dell'esperienza soggettiva: i cinque aggregati e le sei sfere sensoriali. Queste analisi sono seguite dai fattori dell'illuminazione, la prossima contemplazione dei dhamma.
+
+Il culmine della pratica satipaṭṭhāna è raggiunto con la contemplazione delle quattro nobili verità, la cui piena comprensione coincide con la realizzazione.
+
+Considerata in questo modo, la sequenza delle contemplazioni satipaṭṭhāna conduce progressivamente da livelli più grossolani a livelli più sottili. Questa progressione lineare ha una rilevanza pratica, poiché le contemplazioni del corpo si raccomandano come esercizio fondamentale per costruire una base di sati, mentre la contemplazione finale delle quattro nobili verità copre l'esperienza del Nibbāna (la terza nobili verità riguardante la cessazione del dukkha) e quindi corrisponde al culmine di qualsiasi attuazione riuscita di satipaṭṭhāna.
+
+Si osservi quindi che, persino nel testo chiave della consapevolezza mentale, il Satipaṭṭhāna Sutta, una tale pratica non è "neutra", ovvero una mera osservazione passiva di ciò che esiste. Al contrario, essa è direzionata verso una trasformazione: da una consapevolezza rudimentale a una più raffinata e elevata, intrisa di valori etici e strettamente connessa al Dharma.
+
+È quindi necessario rendersi conto che la meditazione, così com'è praticata oggi in occidente, trae le sue radici da tradizioni antiche che possono essere tracciate fino al contesto storico del buddismo delle origini. Queste pratiche emersero all'interno di movimenti ascetici che sfidavano i valori e le istituzioni religiose dominanti dell'epoca. Tuttavia, contrariamente alle pratiche moderne, la meditazione nell'antico buddismo era spesso orientata a obiettivi spirituali elevati, come la trascendenza dal mondo nella beatitudine del nirvana.
 
 Le pratiche meditative dell'epoca erano complesse, coinvolgevano pensiero concettuale, giudizio e un forte coinvolgimento emotivo, e avevano come scopo la trasformazione del praticante a vari livelli. Questo contrasta nettamente con la concezione moderna di meditazione come pratica passiva, non concettuale e non giudicante.
 
 ## La versione Standard
 
-Uno degli autori contemporanei che di più hanno contribuito a popolarizzare la meditazione è stato Jon Kabat-Zinn, uno dei pionieri del movimento contemporaneo della mindfulness. La pratica della mindfulness, così come formulata da Jon Kabat-Zinn è definita come
+Esaminiamo le caratteristiche della versione corrente della meditazione/mindfulness. Uno degli autori contemporanei che di più hanno contribuito a popolarizzare la meditazione è stato Jon Kabat-Zinn, uno dei pionieri del movimento contemporaneo della mindfulness. La pratica della mindfulness, così come formulata da Jon Kabat-Zinn è definita come
 
 > la consapevolezza che nasce dall'attenzione intenzionale, nel momento presente, e in modo non giudicante.
 

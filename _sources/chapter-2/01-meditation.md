@@ -2,7 +2,7 @@
 
 # La meditazione buddhista
 
-Possiamo esaminare in modo più dettagliato la considerazione della meditazione nel contesto del buddismo delle origini, con particolare riferimento a un famoso sutra noto come il Vimalakīrti Sūtra. All'interno di questo sutra, la meditazione assume un ruolo che differisce significativamente dalle nostre attuali concezioni sulla pratica meditativa.
+Allargando il discorso, possiamo esaminare in modo più dettagliato il modo in cui era concepita la meditazione nel contesto del buddismo delle origini, con particolare riferimento a un famoso sutra noto come il Vimalakīrti Sūtra. All'interno di questo sutra, la meditazione assume un ruolo che differisce significativamente dalle nostre attuali concezioni sulla pratica meditativa.
 
 Nel Vimalakīrti Sūtra, la meditazione non è affrontata in modo tradizionale o convenzionale, come potremmo immaginare oggi. Invece, il sutra enfatizza un approccio alla spiritualità che va oltre le pratiche formali di meditazione isolata. Piuttosto, mette in primo piano l'idea che la vera meditazione dovrebbe essere integrata nella vita quotidiana e nelle interazioni con gli altri.
 
