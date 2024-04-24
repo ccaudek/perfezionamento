@@ -4,15 +4,21 @@
 
 {cite:t}`mcmahan2023rethinking` sostiene che la meditazione, frequentemente percepita come una pratica neutra e universale, è in realtà profondamente radicata nei contesti culturali specifici dei suoi praticanti. Questa evoluzione storica ne ha plasmato significativamente tanto la pratica quanto l'interpretazione. La meditazione contemporanea, con le sue radici nei movimenti ascetici antichi, era orientata a elevati scopi spirituali, contrapponendosi nettamente alla percezione moderna di una pratica passiva e non giudicante.
 
-Per approfondire questa tematica, esaminiamo il testo fondamentale sulla presenza mentale, il Satipaṭṭhāna Sutta.
+Per approfondire questa tematica, esaminiamo il testo fondamentale sulla presenza mentale (_sati_, mindfulness, consapevolezza), ovvero il Satipaṭṭhāna Sutta.
 
 ## Presenza Mentale
 
-Nel Satipaṭṭhāna Sutta, il Buddha afferma che la presenza mentale è l'unico modo per purificare la mente, superare sofferenze e dolori, percorrere la via e raggiungere il nirvana, la pace perfetta:
+Nel Satipaṭṭhāna Sutta, il Buddha afferma che sati (la presenza mentale) è l'unico modo per purificare la mente, superare sofferenze e dolori, percorrere la via e raggiungere il nirvana, la pace perfetta.
+
+Il termine "sati" è comunemente tradotto come "presenza mentale", e può essere altresì reso con i termini "consapevolezza" o "mindfulness". Questo concetto è centrale nelle pratiche buddhiste e si riferisce alla capacità di mantenere l'attenzione consapevole sugli oggetti di meditazione, le sensazioni, i pensieri e le azioni nel momento presente. La sati nel contesto del Satipaṭṭhāna Sutta è fondamentale per lo sviluppo della comprensione profonda e della visione chiara necessarie per il progresso spirituale e il raggiungimento del nirvana.
+
+Forse l'aspetto più cruciale della pratica descritta nel Satipaṭṭhāna Sutta è rimanere nel momento presente.
 
 > Monaci, questa è la via diretta per la purificazione degli esseri, per superare dolore e lamento, per eliminare il dukkha e il disagio, per ottenere il metodo corretto, per la realizzazione del Nibbāna, tramite le quattro satipaṭṭhāna.
 
-Quali sono le quattro satipaṭṭhāna?
+Il termine "Satipaṭṭhāna" può essere tradotto come "stabilire la presenza mentale" o "fondamenti della consapevolezza". È spesso interpretato in due parti: "sati", che significa "presenza mentale" o "consapevolezza", e "paṭṭhāna", che può significare "stabilire" o "fondare". Pertanto, Satipaṭṭhāna si riferisce alla pratica di stabilire o fondare la consapevolezza su determinati oggetti di meditazione per sviluppare la comprensione profonda e la liberazione.
+
+Quali sono dunque le quattro satipaṭṭhāna a cui fa riferimento il Sutta?
 
 - Il campo della prima satipaṭṭhāna, la contemplazione del corpo, va dalla consapevolezza del respiro, delle posture e delle attività, all'analisi del corpo nelle sue parti anatomiche ed elementi, fino alla meditazione su un cadavere in decomposizione.
 
@@ -44,9 +50,29 @@ Si osservi quindi che, persino nel testo chiave della consapevolezza mentale, il
 
 Le pratiche meditative dell'epoca erano complesse, coinvolgevano pensiero concettuale, giudizio e un forte coinvolgimento emotivo, e avevano come scopo la trasformazione del praticante a vari livelli. Questo contrasta nettamente con la concezione moderna di meditazione come pratica passiva, non concettuale e non giudicante.
 
+### La Pratica di Sati
+
+Le istruzioni sulla meditazione Satipaṭṭhāna enfatizzano l'importanza della consapevolezza di tutti gli stati mentali, anche lussuria o rabbia, o i cinque ostacoli, proprio nel momento in cui si manifestano nella mente. È essenziale mantenere la mindfulness stabile anche di fronte a condizioni mentali negative; infatti, la presenza di impurità è un momento cruciale per esercitare sati. Questa pratica non esclude nessuna condizione mentale dall'osservazione diretta, ma mira a trasformare l'osservazione in un'esperienza benefica.
+
+Sati, è una qualità mentale che deve essere attivamente sviluppata e non è una condizione automatica o permanente come la coscienza, che è uno dei cinque aggregati e sempre presente come processo di conoscenza. La concezione buddista originaria distingue nettamente tra la consapevolezza continua e sati, che deve essere coltivata e non è sempre presente.
+
+Immaginare la pratica della mindfulness come il rientro della presenza di un buon amico può aiutare a evitare di confonderla con un'iper-attenzione forzata che richiede sforzo. Sati dovrebbe essere caratterizzata da una recettività aperta e una mite allerta a ciò che accade.
+
+Una volta che sati è stabilita, è possibile che coesista con l'uso di concetti. Le istruzioni nel Satipaṭṭhāna-sutta promuovono l'uso sagace dei concetti per favorire la stabilizzazione di sati. Non è necessario mantenere la mente libera da concetti per avanzare verso la liberazione; piuttosto, il compito è di coltivare una mente libera anche in presenza di concetti, utilizzando abilmente quelli che favoriscono la comprensione profonda. In questo senso, i concetti sani diventano strumenti di progresso.
+
+È importante riconoscere che nei discorsi buddisti più antichi non esiste una netta distinzione tra concetti e realtà ultime; l'unica realtà ultima riconosciuta è il Nibbāna, dove i concetti non trovano spazio.
+
+Un approccio efficace per combinare un atteggiamento aperto con la piena presenza nel momento richiede un ancoraggio, che può essere la propriocezione del corpo o la consapevolezza del respiro.
+
+Inoltre, è cruciale evitare di creare una divisione rigida tra la meditazione formale e le attività quotidiane. Affrontare le situazioni di tutti i giorni con un sorriso interiore rilassato, vedendo ogni evento come un'opportunità per sperimentare vari modi di essere con sati, può essere estremamente benefico.
+
+Ogni momento di sati è un passo nella giusta direzione. Non è necessario rimproverarsi per i momenti di distrazione; l'importante è riconoscere che ogni passo verso sati aiuta a indebolire le tendenze distrattive della mente.
+
+Un breve ricollegamento con sati attraverso la consapevolezza del corpo o del respiro può funzionare come un interruttore interno per attivare un atteggiamento meditativo che trasforma qualsiasi esperienza, sia sul posto di lavoro che a casa, in una parte integrante del nostro progresso sul cammino spirituale.
+
 ## La versione Standard
 
-Esaminiamo le caratteristiche della versione corrente della meditazione/mindfulness. Uno degli autori contemporanei che di più hanno contribuito a popolarizzare la meditazione è stato Jon Kabat-Zinn, uno dei pionieri del movimento contemporaneo della mindfulness. La pratica della mindfulness, così come formulata da Jon Kabat-Zinn è definita come
+Esaminiamo ora, per fare un confronto, le caratteristiche della versione corrente della mindfulness. Uno degli autori contemporanei che di più hanno contribuito a popolarizzare la meditazione è stato Jon Kabat-Zinn, uno dei pionieri del movimento contemporaneo della mindfulness. La pratica della mindfulness, così come formulata da Jon Kabat-Zinn è definita come
 
 > la consapevolezza che nasce dall'attenzione intenzionale, nel momento presente, e in modo non giudicante.
 
