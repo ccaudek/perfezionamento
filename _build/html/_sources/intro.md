@@ -1,6 +1,6 @@
-# CORSO DI PERFEZIONAMENTO POST-LAUREA
+# Meditazione, compassione e gestione emozionale per le professioni di aiuto
 
-## Meditazione, compassione e gestione emozionale per le professioni di aiuto
+## CORSO DI PERFEZIONAMENTO POST-LAUREA
 
 ### A.A. 2024/2025
 
