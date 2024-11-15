@@ -1,0 +1,92 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "Training cognitivo e contemplativo per lo sviluppo della compassione"
+  subtitle: "Meditazione, compassione e gestione emozionale per le professioni di aiuto"
+  author: "Corrado Caudek"
+  date: "last-modified"
+  search: true
+  # cover-image: figures/icon_course.jpeg
+  repo-url: https://github.com/ccaudek/perfezionamento/
+  repo-actions: [edit]
+  site-url: https://ccaudek.github.io/perfezionamento/intro.html
+  page-footer:
+    left: |
+      Materiale didattico a cura di Corrado Caudek
+    right: |
+      Creato con <a href="https://quarto.org/">Quarto</a>
+  sidebar:
+    collapse-level: 1
+    pinned: true
+
+  chapters:
+    - index.qmd
+
+    - part: "Coltivazione della compassione"
+      chapters:
+        - file: chapters/chapter-1/chapter1-intro.qmd
+        - file: chapters/chapter-1/01-definitions.qmd
+        - file: chapters/chapter-1/02-nature-nurture.qmd
+        - file: chapters/chapter-1/03-what-trained.qmd
+        - file: chapters/chapter-1/04-how-trained.qmd
+
+    - part: "Dharma"
+      chapters:
+        - file: chapters/chapter-2/chapter2-intro.qmd
+        - file: chapters/chapter-2/00-meditation.qmd
+        - file: chapters/chapter-2/01-meditation.qmd
+        - file: chapters/chapter-2/02-tonglen.qmd
+        - file: chapters/chapter-2/03-wisdom.qmd
+        - file: chapters/chapter-2/04-dream.qmd
+        - file: chapters/chapter-2/05-non-dualism.qmd
+        - file: chapters/chapter-2/06-nagarjuna.qmd
+        - file: chapters/chapter-2/07-living-skillfully.qmd
+        - file: chapters/chapter-2/08-patience.qmd
+        - file: chapters/chapter-2/09-upaya.qmd
+        - file: chapters/chapter-2/10-tibetan-traditions.qmd
+
+    - part: "Tradizioni secolarizzate"
+      chapters:
+        - file: chapters/chapter-3/chapter3-intro.qmd
+        - file: chapters/chapter-3/01-secularism-1.qmd
+        - file: chapters/chapter-3/02-secularism-2.qmd
+
+toc: true
+toc-depth: 5
+
+bibliography: ./references.bib
+biblio-style: apalike
+csl: apa.csl
+link-citations: true
+
+lang: it
+
+format:
+  html:
+    format-options:
+      html:
+        table-class: table table-striped table-hover table-bordered
+    smooth-scroll: true
+    theme:
+      light: [cosmo] 
+      dark: [cosmo] 
+    code-link: true
+    code-overflow: wrap
+    author-meta: "Corrado Caudek"
+    callout-appearance: simple
+
+editor: source
+url_sanitize: false
+
+highlight-style: github
+
+website:
+  cookie-consent:
+    type: express
+    style: headline
+    palette: dark
+  google-analytics:
+    tracking-id: "G-TP2WLBPMS6"
+    anonymize-ip: true
