@@ -1,0 +1,75 @@
+project:
+  type: book
+  output-dir: _site
+
+book:
+  title: "Training cognitivo e contemplativo per lo sviluppo della compassione"
+  subtitle: "Meditazione, compassione e gestione emozionale per le professioni di aiuto"
+  author: "Corrado Caudek"
+  date: "last-modified"
+  search: true
+  # Uncomment and specify a valid cover image if needed
+  # cover-image: figures/icon_course.jpeg
+  repo-url: https://github.com/ccaudek/perfezionamento/
+  repo-actions: [edit]
+  site-url: https://ccaudek.github.io/perfezionamento/intro.html
+  page-footer:
+    left: |
+      Materiale didattico a cura di Corrado Caudek
+    right: |
+      Creato con <a href="https://quarto.org/">Quarto</a>
+  sidebar:
+    collapse-level: 1 # Collapses sidebar beyond the first level
+    pinned: true # Keeps the sidebar visible when scrolling
+    background: "#EAECEE" # Light gray background
+    search: true # Enables search in the sidebar
+
+  chapters:
+    - index.qmd
+  
+    - part: "Coltivazione della compassione"
+      chapters:
+        - file: chapters/chapter-1/chapter1-intro.qmd
+        - file: chapters/chapter-1/01-definitions.qmd
+        - file: chapters/chapter-1/02-nature-nurture.qmd
+        - file: chapters/chapter-1/03-what-trained.qmd
+        - file: chapters/chapter-1/04-how-trained.qmd
+
+    - part: "Dharma"
+      chapters:
+        - file: chapters/chapter-2/chapter2-intro.qmd
+        - file: chapters/chapter-2/01-experience.qmd
+        - file: chapters/chapter-2/02-sati.qmd
+        - file: chapters/chapter-2/03-mindfulness.qmd
+        - file: chapters/chapter-2/04-tonglen.qmd
+        - file: chapters/chapter-2/05-patience.qmd
+        - file: chapters/chapter-2/06-tibetan-traditions.qmd
+        # - file: chapters/chapter-2/wisdom.qmd
+        # - file: chapters/chapter-2/dream.qmd
+        # - file: chapters/chapter-2/non-dualism.qmd
+        # - file: chapters/chapter-2/nagarjuna.qmd
+        # - file: chapters/chapter-2/living-skillfully.qmd
+        # - file: chapters/chapter-2/upaya.qmd
+        
+    - part: "Tradizioni secolarizzate"
+      chapters:
+        - file: chapters/chapter-3/chapter3-intro.qmd
+        - file: chapters/chapter-3/01-secularism-1.qmd
+        - file: chapters/chapter-3/02-secularism-2.qmd
+
+bibliography: ./references.bib
+biblio-style: apalike
+csl: apa.csl # Citation Style Language file
+link-citations: true # Enables hyperlinking for citations
+
+lang: it # Sets the default language to Italian
+
+format:
+  html:
+    theme: cosmo # Change to 'united' for a darker theme
+    number-sections: true # Enables numbered sections
+    number-depth: 2 # Depth of numbering
+
+editor: source # Default editor mode
+
+
