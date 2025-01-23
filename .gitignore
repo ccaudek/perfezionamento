@@ -1,51 +1,56 @@
-# History files
+# Ignora la cartella generata per l'output del sito
+_site/
+
+# Ignora file di configurazione specifici di macOS
+.DS_Store
+
+# Ignora file di log di sistema
+*.log
+
+# Ignora file temporanei di macOS
+.AppleDouble
+.LSOverride
+
+# Ignora cartelle di backup di macOS
+Icon?
+__MACOSX/
+
+# Ignora file di configurazione IDE/editor
+.Rproj.user
 .Rhistory
-.Rapp.history
-
-# Session Data files
 .RData
-.RDataTmp
-
-# User-specific files
 .Ruserdata
+.idea/
+.vscode/
+*.Rproj
 
-# Example code in package build process
-*-Ex.R
-
-# Output files from R CMD build
-/*.tar.gz
-
-# Output files from R CMD check
-/*.Rcheck/
-
-# RStudio files
-.Rproj.user/
-
-# produced vignettes
-vignettes/*.html
-vignettes/*.pdf
-
-# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
-.httr-oauth
-
-# knitr and R markdown default cache directories
-*_cache/
-/cache/
-
-# Temporary files created by R markdown
-*.utf8.md
+# Ignora eventuali file temporanei generati da Quarto
 *.knit.md
+*.utf8.md
+*.tex
+*.pdf
 
-# R Environment Variables
-.Renviron
+# Ignora backup di editor
+*~
 
-# pkgdown site
-docs/
+# Ignora file di compilazione LaTeX (se generi PDF)
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
 
-# translation temp files
-po/*~
+# Ignora file Python Bytecode
+*.pyc
+__pycache__/
 
-# RStudio Connect folder
-rsconnect/
+# Ignora cartelle specifiche di GitHub Pages
+.node_modules/
+
+# Ignora cartelle di test o di sviluppo locale
+test/
+tests/
+
 
 /.quarto/

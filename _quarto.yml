@@ -8,10 +8,9 @@ book:
   author: "Corrado Caudek"
   date: "last-modified"
   search: true
-  # Uncomment and specify a valid cover image if needed
-  # cover-image: figures/icon_course.jpeg
   repo-url: https://github.com/ccaudek/perfezionamento/
   repo-actions: [edit]
+  reader-mode: true
   site-url: https://ccaudek.github.io/perfezionamento/intro.html
   page-footer:
     left: |
@@ -21,12 +20,11 @@ book:
   sidebar:
     collapse-level: 1 # Collapses sidebar beyond the first level
     pinned: true # Keeps the sidebar visible when scrolling
-    background: "#EAECEE" # Light gray background
     search: true # Enables search in the sidebar
 
   chapters:
     - index.qmd
-  
+
     - part: "Coltivazione della compassione"
       chapters:
         - file: chapters/chapter-1/chapter1-intro.qmd
@@ -50,7 +48,7 @@ book:
         # - file: chapters/chapter-2/nagarjuna.qmd
         # - file: chapters/chapter-2/living-skillfully.qmd
         # - file: chapters/chapter-2/upaya.qmd
-        
+
     - part: "Tradizioni secolarizzate"
       chapters:
         - file: chapters/chapter-3/chapter3-intro.qmd
@@ -66,10 +64,11 @@ lang: it # Sets the default language to Italian
 
 format:
   html:
-    theme: cosmo # Change to 'united' for a darker theme
+    theme:
+      light: cosmo # Light theme (current)
+      dark: darkly # Dark theme
     number-sections: true # Enables numbered sections
     number-depth: 2 # Depth of numbering
 
 editor: source # Default editor mode
-
 
