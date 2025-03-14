@@ -65,8 +65,8 @@ lang: it # Sets the default language to Italian
 format:
   html:
     theme:
-      light: cosmo # Light theme (current)
-      dark: darkly # Dark theme
+      light: [cosmo, custom.scss] # Light theme (current)
+      # dark: darkly # Dark theme
     number-sections: true # Enables numbered sections
     number-depth: 2 # Depth of numbering
 

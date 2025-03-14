@@ -1,12 +1,11 @@
 # Mindfulness {#sec-meditation}
 
-In questa sezione esploriamo la meditazione buddhista partendo dalla presentazione di Bhikkhu Analayo, considerato uno dei maggiori esperti contemporanei del buddhismo antico. Analizzeremo due suoi contributi recenti, che offrono prospettive utili sia per i ricercatori che per i praticanti.
+Dopo avere esaminato la tensione tra due diverse concezioni della pratiche contemplative, quella del buddismo delle origini e la cosiddetta versione Standard della meditazione, in questo capitolo esploreremo più in prodondità la meditazione buddhista, utilizzando alcuni recenti articoli scritti da Bhikkhu Analayo, che è considerato uno dei maggiori esperti contemporanei del buddhismo antico. Analizzeremo due suoi contributi recenti, che offrono prospettive utili sia per i ricercatori che per i praticanti.
 
-Il primo testo esamina la relazione tra la *mindfulness* e uno dei meccanismi psicologici disfunzionali più rilevanti: la rigidità cognitiva, caratterizzata dalla reiterazione di comportamenti e schemi di pensiero anche quando questi risultano chiaramente controproducenti. L’obiettivo è mostrare come la *mindfulness* possa rappresentare un fattore protettivo contro questa forma di rigidità mentale, alla base di molte difficoltà psicologiche.
+- Il primo contributo esamina la relazione tra la *mindfulness* e uno dei meccanismi psicologici disfunzionali più rilevanti: la rigidità cognitiva, caratterizzata dalla reiterazione di comportamenti e schemi di pensiero anche quando questi risultano chiaramente controproducenti. L’obiettivo è mostrare come la *mindfulness* possa rappresentare un fattore protettivo contro questa forma di rigidità mentale, alla base di molte difficoltà psicologiche.
+- Il secondo contributo include cinque brevi articoli che introducono la *mindfulness* nel buddhismo antico, con un linguaggio accessibile anche ai praticanti. Pubblicati recentemente sulla rivista scientifica *mindfulness*, questi articoli utilizzano riferimenti e concetti tipici della psicologia contemporanea per connettere antiche pratiche meditative alle esigenze odierne. 
 
-Il secondo contributo include cinque brevi articoli che introducono la *mindfulness* nel buddhismo antico, con un linguaggio accessibile anche ai praticanti. Pubblicati recentemente sulla rivista scientifica *mindfulness*, questi articoli utilizzano riferimenti e concetti tipici della psicologia contemporanea per connettere antiche pratiche meditative alle esigenze odierne. 
-
-Come discusso nei capitoli precedenti, questo approfondimento si propone di evidenziare il carattere *trasformativo* delle pratiche contemplative, quando svolte secondo le modalità proposte nel contesto culturale del buddhismo antico. L’obiettivo è mostrare come tali pratiche, in questo specifico quadro, possano offrire un contributo alla risoluzione di problematiche identificate dalla psicologia contemporanea.
+Come discusso nei capitoli precedenti, questo approfondimento si propone di evidenziare il carattere *trasformativo* delle pratiche contemplative del buddismo, quando svolte secondo le modalità proposte nel contesto culturale del buddhismo antico. Seguendo la proposta di Bhikkhu Analayo, l'obiettivo complessivo è mostrare come pratiche sviluppate in un contesto culturale distante possano offrire strumenti preziosi per affrontare problematiche psicologiche contemporanee, evidenziando il carattere  trasformativo della meditazione buddhista.
 
 ## La *mindfulness* come fattore protettivo contro la rigidità cognitiva
 
@@ -262,7 +261,7 @@ Un’acronimo proposto per riassumere le qualità della *mindfulness* è **PEARL
 
 Come una perla che si forma attorno a un elemento irritante, la *mindfulness* trasforma le sfide in resilienza e bellezza interiore.
 
-In conclusione, la *mindfulness*, nel primo Buddhismo, è un tema vasto e inesauribile. Il Buddha stesso affermava che si sarebbe potuto insegnare sulle quattro fondazioni della *mindfulness* per cent’anni senza esaurirne gli argomenti. Questa serie di analisi di @analayo2024early5  rappresenta solo un'introduzione al tema, lasciando spazio ad ulteriori contributi che possano gettare nuova luce sulla ricca "perla" della *mindfulness*.
+In conclusione, la *mindfulness*, nel primo Buddhismo, è un tema vasto. Il Buddha stesso affermava che si sarebbe potuto insegnare sulle quattro fondazioni della *mindfulness* per cent’anni senza esaurirne gli argomenti. Questa serie di analisi di @analayo2024early5  rappresenta solo un'introduzione al tema, lasciando spazio ad ulteriori contributi che possano gettare nuova luce sulla ricca "perla" della *mindfulness*.
 
 ## Il Vimalakīrti Sūtra 
 
