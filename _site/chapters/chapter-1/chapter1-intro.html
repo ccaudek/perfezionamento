@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="it" xml:lang="it"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.40">
+<meta name="generator" content="quarto-1.7.29">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -31,15 +51,16 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="../../">
 <link href="../../chapters/chapter-1/01-definitions.html" rel="next">
 <link href="../../index.html" rel="prev">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-70d37b45c5086134dc26dbb10e888fc0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-252d06eed5f00a5f1bf48dbda2d4bbd1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-c90334cbebaf30a237f6b5a3afb199de.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-3ef6ddd0513051fc63d12affe6c9023d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -68,10 +89,39 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-sidebar floating quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -253,18 +303,15 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#introduzione" id="toc-introduzione" class="nav-link active" data-scroll-target="#introduzione"><span class="header-section-number">1.1</span> Introduzione</a></li>
-  <li><a href="#karuṇā-la-compassione-come-percorso-di-trasformazione" id="toc-karuṇā-la-compassione-come-percorso-di-trasformazione" class="nav-link" data-scroll-target="#karuṇā-la-compassione-come-percorso-di-trasformazione"><span class="header-section-number">1.2</span> Karuṇā: la Compassione come Percorso di Trasformazione</a>
+  <li><a href="#la-coltivazione-della-compassione" id="toc-la-coltivazione-della-compassione" class="nav-link" data-scroll-target="#la-coltivazione-della-compassione"><span class="header-section-number">1.2</span> La Coltivazione della Compassione</a></li>
+  <li><a href="#karuṇā-la-compassione-come-percorso-di-trasformazione" id="toc-karuṇā-la-compassione-come-percorso-di-trasformazione" class="nav-link" data-scroll-target="#karuṇā-la-compassione-come-percorso-di-trasformazione"><span class="header-section-number">1.3</span> Karuṇā: la Compassione come Percorso di Trasformazione</a>
   <ul class="collapse">
-  <li><a href="#karuṇā-e-lideale-del-bodhisattva" id="toc-karuṇā-e-lideale-del-bodhisattva" class="nav-link" data-scroll-target="#karuṇā-e-lideale-del-bodhisattva">Karuṇā e l’ideale del Bodhisattva</a></li>
   <li><a href="#metodi-di-coltivazione-della-compassione" id="toc-metodi-di-coltivazione-della-compassione" class="nav-link" data-scroll-target="#metodi-di-coltivazione-della-compassione">Metodi di Coltivazione della Compassione</a></li>
+  <li><a href="#lincompatibilità-dellauto-compassione-con-la-pratica-mahāyāna-e-una-possibile-eccezione" id="toc-lincompatibilità-dellauto-compassione-con-la-pratica-mahāyāna-e-una-possibile-eccezione" class="nav-link" data-scroll-target="#lincompatibilità-dellauto-compassione-con-la-pratica-mahāyāna-e-una-possibile-eccezione">L’Incompatibilità dell’Auto-compassione con la Pratica Mahāyāna e una Possibile Eccezione</a></li>
   </ul></li>
-  <li><a href="#la-compassione-e-la-vacuità" id="toc-la-compassione-e-la-vacuità" class="nav-link" data-scroll-target="#la-compassione-e-la-vacuità"><span class="header-section-number">1.3</span> La Compassione e la Vacuità</a>
+  <li><a href="#rinuncia-e-autocompassione" id="toc-rinuncia-e-autocompassione" class="nav-link" data-scroll-target="#rinuncia-e-autocompassione"><span class="header-section-number">1.4</span> Rinuncia e autocompassione</a>
   <ul class="collapse">
-  <li><a href="#śūnyatā-superamento-del-dualismo-e-compassione-senza-attaccamento" id="toc-śūnyatā-superamento-del-dualismo-e-compassione-senza-attaccamento" class="nav-link" data-scroll-target="#śūnyatā-superamento-del-dualismo-e-compassione-senza-attaccamento">Śūnyatā: Superamento del Dualismo e Compassione Senza Attaccamento</a></li>
-  </ul></li>
-  <li><a href="#buddhismo-e-compassione-secolarizzata" id="toc-buddhismo-e-compassione-secolarizzata" class="nav-link" data-scroll-target="#buddhismo-e-compassione-secolarizzata"><span class="header-section-number">1.4</span> Buddhismo e Compassione Secolarizzata</a>
-  <ul class="collapse">
-  <li><a href="#integrare-le-due-prospettive" id="toc-integrare-le-due-prospettive" class="nav-link" data-scroll-target="#integrare-le-due-prospettive">Integrare le due prospettive</a></li>
+  <li><a href="#la-compassione-la-vacuità-e-lintegrazione-delle-prospettive" id="toc-la-compassione-la-vacuità-e-lintegrazione-delle-prospettive" class="nav-link" data-scroll-target="#la-compassione-la-vacuità-e-lintegrazione-delle-prospettive">La Compassione, la Vacuità e l’Integrazione delle Prospettive</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/ccaudek/perfezionamento/edit/main/chapters/chapter-1/chapter1-intro.qmd" class="toc-action"><i class="bi bi-github"></i>Modifica questa pagina</a></li></ul></div></nav>
@@ -297,301 +344,324 @@ ul.task-list li input[type="checkbox"] {
 <p>“Un uccello ha bisogno di due ali: saggezza e compassione.”<br>
 <em>(Proverbio tibetano)</em></p>
 </blockquote>
-<p>La <strong>coltivazione della compassione</strong> è un tema centrale nelle tradizioni buddhiste e, più recentemente, oggetto di crescente interesse nelle pratiche e ricerche psicologiche contemporanee. La compassione, definita come una consapevolezza profonda della sofferenza altrui (<em>duḥkha</em>, दुःख) accompagnata dal desiderio di alleviarla, è un concetto antico che la tradizione buddhista ha sviluppato in modo sistematico e approfondito, influenzando il pensiero religioso, filosofico e, più di recente, la psicologia moderna.</p>
-<p>Questo capitolo esplora le molteplici sfaccettature della compassione e le modalità della sua coltivazione, mettendo a confronto le prospettive buddhiste e quelle contemporanee secolarizzate. Inizieremo con un’analisi della compassione nel buddhismo, con particolare attenzione alla tradizione Mahāyāna e al suo ruolo nella pratica del bodhisattva. Proseguiremo approfondendo i principali metodi di coltivazione della compassione, tra cui la meditazione, la pratica di <strong>Tonglen</strong>, e la riflessione sulla non-dualità (<em>advaya</em>, अद्वय). Infine, esamineremo il modo in cui la compassione viene reinterpretata nelle pratiche secolarizzate e quali elementi possono essere stati trascurati o trasformati nel processo di adattamento alla contemporaneità.</p>
-<p>Il nostro intento non è semplicemente risalire alle radici buddhiste della compassione, ma piuttosto comprendere ciò che le moderne interpretazioni secolarizzate hanno tralasciato. Questo ci permette di cogliere aspetti forse trascurati o ridimensionati nel processo di adattamento alla contemporaneità, con l’obiettivo di ampliare e arricchire sia la comprensione teorica sia la pratica della compassione.</p>
+<p>Un aneddoto illuminante, spesso citato nei dialoghi tra le tradizioni buddhiste e il pensiero occidentale, riguarda uno scambio avvenuto nel 1990 tra Sua Santità il Dalai Lama e la meditante Sharon Salzberg, durante un convegno del Mind and Life Institute sul tema “Emozioni e Salute”. Alla domanda sul suo pensiero riguardo all’odio verso sé stessi (“self-hatred”), il Dalai Lama rispose semplicemente: “Cos’è?”.</p>
+<p>Questa reazione, sorprendente per molti partecipanti occidentali abituati a confrontarsi con profondi sentimenti di inadeguadezza e auto-giudizio (come testimoniato dalla stessa Salzberg anni dopo), rivela un divario concettuale nel modo di intendere certe esperienze interne e le risposte ad esse.</p>
+<p>Questa discordanza non si limita a specifiche emozioni, ma si estende a come determinati concetti chiave delle tradizioni buddhiste, in particolare quella indo-tibetana, vengano compresi e applicati nel contesto contemporaneo, specialmente in ambito psicologico e clinico.</p>
+<p>Un esempio rilevante di tale divergenza, esplorato a fondo da Dunne e Manheim (2023) nel loro articolo <span class="citation" data-cites="Dunne2023Compassion">(<a href="#ref-Dunne2023Compassion" role="doc-biblioref">Dunne &amp; Manheim, 2023</a>)</span>, concerne il rapporto tra compassione e auto-compassione. Sebbene le fonti buddhiste abbiano indubbiamente ispirato il concetto moderno di auto-compassione in ricerca e pratica clinica, gli autori argomentano che le tradizioni buddhiste indo-tibetane intendano la compassione (tradizionalmente orientata verso gli altri) in modi che risultano incompatibili con la nozione contemporanea di dirigere la compassione <em>verso sé stessi</em>. Il loro lavoro esamina approfonditamente queste differenze teoriche e pratiche.</p>
+<p>Partendo dall’osservazione di come anche nozioni apparentemente vicine, come i concetti di compassione e auto-compassione, rivelino profonde differenze di interpretazione tra la tradizione buddhista e la modernità, in questa presentazione ci proponiamo di esplorare in profondità il concetto di compassione (karuṇā) così come viene inteso, articolato e praticato nella tradizione buddhista indo-tibetana. Analizzeremo le sue molteplici dimensioni, confrontandole criticamente con le semplificazioni o i fraintendimenti comuni al fine di offrire una prospettiva più ricca, accurata e fedele alle fonti originali.</p>
 </section>
-<section id="karuṇā-la-compassione-come-percorso-di-trasformazione" class="level2" data-number="1.2">
-<h2 data-number="1.2" class="anchored" data-anchor-id="karuṇā-la-compassione-come-percorso-di-trasformazione"><span class="header-section-number">1.2</span> Karuṇā: la Compassione come Percorso di Trasformazione</h2>
-<p>Nel buddhismo, il termine sanscrito <strong>karuṇā</strong> (करुणा) viene tradotto generalmente come “compassione”, ma, come suggerisce Jay L. Garfield in <em>Buddhist Ethics</em> (2022), una traduzione più precisa potrebbe essere <strong>“cura”</strong>. A differenza di una semplice emozione empatica, <strong>karuṇā è un impegno attivo verso l’alleviamento della sofferenza altrui</strong>.</p>
+<section id="la-coltivazione-della-compassione" class="level2" data-number="1.2">
+<h2 data-number="1.2" class="anchored" data-anchor-id="la-coltivazione-della-compassione"><span class="header-section-number">1.2</span> La Coltivazione della Compassione</h2>
+<p>La <strong>coltivazione della compassione</strong> è un tema centrale in tutte le tradizioni buddhiste. La compassione (Skt., <em>karuṇā</em>), definita come una consapevolezza profonda della sofferenza altrui (<em>duḥkha</em>, दुःख) accompagnata dal desiderio di alleviarla, è un concetto antico che il Buddhismo ha sviluppato in modo sistematico e approfondito fin dalle sue origini.</p>
+<p>Sebbene la compassione sia apprezzata universalmente in tutte le correnti buddhiste, essa divenne un tema particolarmente centrale nella letteratura, teoria e pratica del Grande Veicolo o Mahāyāna, la cui emergenza in Asia meridionale risale all’inizio dell’Era Comune (Gethin, 1998). Con la diffusione del Buddhismo Mahāyāna in altre parti dell’Asia, la compassione mantenne la sua importanza fondamentale, divenendo un aspetto particolarmente saliente e distintivo del Buddhismo Tibetano.</p>
+<p>Le pratiche focalizzate sulla coltivazione deliberata della compassione sono una caratteristica onnipresente delle forme tipiche di contemplazione quotidiana trovate attraverso tutte le tradizioni tibetane (Jamgon Kongtrul, 2005). In collaborazione con maestri indiani, i Tibetani svilupparono inoltre uno stile unico, centrato sulla compassione, di letteratura e pratica noto come “Addestramento Mentale” (Tib., <em>blo sbyong</em>) (Jinpa et al., 2006). Le tradizioni tibetane si dimostrarono particolarmente attente alla letteratura filosofica e contemplativa sanscrita che articolava il ruolo centrale della compassione nel Buddhismo Mahāyāna, come testimoniato, ad esempio, dalla grande popolarità del testo di Śāntideva del VII secolo, il <em>Bodhicaryāvatāra</em> o <em>Guida allo stile di vita del Bodhisattva</em> (Jinpa, 2019).</p>
+<p>Più recentemente, la compassione e la sua coltivazione sono diventate anche oggetto di crescente interesse nelle pratiche e ricerche psicologiche contemporanee, influenzando la psicologia moderna proprio partendo dalle sue radici religiose e filosofiche nel Buddhismo.</p>
+<p>Questa presentazione si propone di esplorare le molteplici sfaccettature della compassione e le modalità della sua coltivazione, mettendo a confronto le profonde prospettive buddhiste tradizionali e le interpretazioni contemporanee secolarizzate. Il nostro intento non è semplicemente risalire alle radici buddhiste della compassione, ma piuttosto comprendere ciò che le moderne interpretazioni secolarizzate potrebbero aver tralasciato o modificato nel processo di adattamento. Questo ci permette di cogliere aspetti forse trascurati o ridimensionati, con l’obiettivo di ampliare e arricchire sia la comprensione teorica sia la pratica della compassione oggi.</p>
+<p>A tal fine, inizieremo con un’analisi della compassione nel buddhismo, con particolare attenzione alla tradizione Mahāyāna e al suo ruolo fondamentale nella pratica del bodhisattva. Proseguiremo approfondendo alcuni dei principali metodi di coltivazione della compassione, tra cui la meditazione, la pratica specifica di <strong>Tonglen</strong>, e la riflessione sulla non-dualità (<em>advaya</em>, अद्वय). Infine, esamineremo il modo in cui la compassione viene reinterpretata nelle pratiche secolarizzate e quali elementi distintivi della tradizione buddhista possano essere stati persi o trasformati in tale processo.</p>
+</section>
+<section id="karuṇā-la-compassione-come-percorso-di-trasformazione" class="level2" data-number="1.3">
+<h2 data-number="1.3" class="anchored" data-anchor-id="karuṇā-la-compassione-come-percorso-di-trasformazione"><span class="header-section-number">1.3</span> Karuṇā: la Compassione come Percorso di Trasformazione</h2>
+<p>Nel buddhismo, il termine sanscrito <strong>karuṇā</strong> (<span class="math inline">\(karuṇā\)</span>, करुणा), generalmente tradotto come “compassione”, è meglio reso, come suggerito da Jay L. Garfield in <em>Buddhist Ethics</em> (2022), come <strong>“cura”</strong>. Questa scelta terminologica sottolinea che karuṇā non è un mero sentimento o risonanza empatica, ma, come evidenziato dalla citazione</p>
 <blockquote class="blockquote">
-<p>“Karuṇā non è un mero sentimento, ma una determinazione ad agire per alleviare la sofferenza degli esseri senzienti.”</p>
+<p>non è un mero sentimento, ma una determinazione ad agire per alleviare la sofferenza degli esseri senzienti.”</p>
 </blockquote>
-<p>Questa distinzione evidenzia che la compassione buddhista è <strong>intrinsecamente attiva</strong>: essa non si limita alla risonanza emotiva con la sofferenza altrui, ma implica una partecipazione consapevole alla trasformazione del proprio rapporto con il mondo. Nel Mahāyāna, <strong>karuṇā</strong> e <strong>prajñā</strong> (प्रज्ञा, saggezza) sono i due pilastri dell’etica e della pratica spirituale.</p>
-<section id="karuṇā-e-lideale-del-bodhisattva" class="level3">
-<h3 class="anchored" data-anchor-id="karuṇā-e-lideale-del-bodhisattva">Karuṇā e l’ideale del Bodhisattva</h3>
-<p>La tradizione Mahāyāna pone al centro della sua dottrina l’ideale del <strong>bodhisattva</strong>, ovvero un praticante che, invece di ricercare l’illuminazione solo per sé stesso, si impegna a liberare tutti gli esseri dal ciclo di nascita e morte (<em>saṃsāra</em>, संसार). Questo impegno nasce dalla <strong>bodhicitta</strong> (बोधिचित्त), la “mente del risveglio”, che unisce il desiderio altruistico di aiutare gli altri alla saggezza che comprende la realtà ultima.</p>
-<p>Alla base di questo percorso si trova <strong>mahākaruṇā</strong> (महाकरुणा), la “grande compassione”, che spinge il bodhisattva a un impegno attivo per il bene di tutti gli esseri. Tuttavia, questa compassione non è fondata su un attaccamento emotivo, ma su una comprensione profonda dell’interdipendenza di tutti i fenomeni (<em>pratītyasamutpāda</em>, प्रतीत्यसमुत्पाद).</p>
-</section>
+<p>Questa distinzione cruciale indica che la compassione buddhista è intrinsecamente attiva e implica una partecipazione consapevole alla trasformazione del proprio rapporto con il mondo. Nella tradizione Mahāyāna (Grande Veicolo), emersa in Asia meridionale intorno all’inizio dell’Era Comune e in cui karuṇā divenne un tema centrale (Gethin, 1998), la compassione e la saggezza (<em>prajñā</em>, प्रज्ञा) sono considerate i due pilastri fondamentali dell’etica e della pratica spirituale.</p>
+<p>L’ideale del bodhisattva, centrale nel Mahāyāna, incarna questo principio: egli non cerca l’illuminazione solo per sé, ma si impegna a liberare tutti gli esseri dal <em>saṃsāra</em> (संसार), spinto dalla <em>bodhicitta</em> (बोधिचित्त), la “mente del risveglio” che unisce altruismo e saggezza.</p>
+<p>Alla base di questo impegno vi è la <strong>mahākaruṇā</strong> (महाकरुणा), la “grande compassione”, non fondata su attaccamento emotivo ma sulla profonda comprensione dell’interdipendenza (<em>pratītyasamutpāda</em>, प्रतीत्यसमुत्पाद).</p>
+<p>Il forte accento sulla compassione nel Buddhismo Mahāyāna Indo-Tibetano emerge dai testi filosofici sanscriti fondamentali (Dreyfus, 2003) che articolano come il raggiungimento del più alto obiettivo spirituale, la buddhità (<em>bodhi</em>), richieda la coltivazione congiunta di saggezza e compassione (Kamalaśīla, 1985; McClintock, 2010). Mentre la saggezza permette di sradicare l’ignoranza (<em>avidyā</em>) e ottenere la cessazione della propria sofferenza (<em>mokṣa</em>), per la buddhità completa è indispensabile la <em>mahākaruṇā</em> imparziale per tutti gli esseri senzienti.</p>
+<p>Questa necessità teorica risiede, in parte, nel suo immenso potere motivazionale (Candrakīrti, 1970; McClintock, 2910): sebbene il desiderio di liberarsi dalla propria sofferenza sia sufficiente a rimuovere l’oscurazione “afflitta” (<em>kliṣṭa</em>), la seconda e più sottile oscurazione, quella “riguardante ciò che è da conoscere” (<em>jñeya</em>), che impedisce la saggezza onnisciente di un Buddha, può essere eliminata solo dalla motivazione ben più potente fornita dalla <em>mahākaruṇā</em>, orientata a eliminare la sofferenza di <em>infiniti</em> esseri senzienti (Mi pham rgya mtsho, 2002; Paṇ chen Bsod nams grags pa, 2006; Tsoṅ kha pa Blo bzaṅ grags pa, 2000b).</p>
+<p>Questa prospettiva teorica, che distingue la compassione dall’amore (<em>maitrī</em>) definendola come l’aspirazione che un altro essere sia libero dalla sofferenza (Dalai Lama et al., 2020; Makransky, 2012), implica che la compassione distoglie l’attenzione da sé stessi e la dirige verso gli altri, rompendo l’autocompiacimento e trovando la sofferenza altrui “insopportabile” per i bodhisattva (Anālayo, 2017; Dalai Lama et al., 2020; Sthiramati, 1925, p.&nbsp;28, che cita una etimologia linguistica per <em>karuṇā</em> come <em>kaṃ ruṇaddhi</em>, “ciò che blocca la felicità”).</p>
+<p>L’enfasi sulla preoccupazione per gli altri porta a considerare un’altra nozione chiave nelle tradizioni tibetane: il “prendersi cura di sé” o “auto-accudimento” (Tib., <em>rang gces’dzin</em>), identificato come il principale bersaglio della tradizione tibetana dell’“Addestramento Mentale” (<em>blo sbyong</em>) (Jinpa, 2019), che mira a invertire radicalmente la tendenza a dare priorità al proprio benessere rispetto a quello altrui.</p>
+<p>Questa attenzione ubiqua alla coltivazione della compassione nelle forme tipiche di contemplazione quotidiana attraverso tutte le tradizioni tibetane (Jamgon Kongtrul, 2005), l’elaborazione di metodi specifici come il <em>blo sbyong</em> (Jinpa et al., 2006), e l’attenzione alla letteratura sanscrita che articola il ruolo centrale della compassione (come il <em>Bodhicaryāvatāra</em> di Śāntideva - Jinpa, 2019), sottolineano un punto chiave nella teoria Mahāyāna: la compassione è necessariamente orientata verso gli altri, al punto che la stessa nozione di “auto-compassione” è considerata problematica, quasi un ossimoro (“conspicuous by its absence” nelle costruzioni della compassione Mahāyāna, con la precisazione che il raggiungimento della buddhità include anche la propria emancipazione dalla sofferenza - Anālayo e Dhammadinnā, 2021). Sebbene la natura problematica dell’“auto-compassione” dalla prospettiva teorica Mahāyāna sia chiara, la considerazione delle pratiche tibetane può aggiungere ulteriore chiarezza, pur sollevando la possibilità che qualcosa di simile all’auto-compassione possa essere reinterpretato in modo coerente con la prospettiva Mahāyāna (Anālayo &amp; Dhammadinnā, 2021).</p>
 <section id="metodi-di-coltivazione-della-compassione" class="level3">
 <h3 class="anchored" data-anchor-id="metodi-di-coltivazione-della-compassione">Metodi di Coltivazione della Compassione</h3>
-<p>Il Mahāyāna propone diversi <strong>approcci didattici</strong> per la coltivazione della compassione:</p>
-<ol type="1">
-<li><p><strong>Metodo Costruttivo</strong>: sviluppo di qualità come la gentilezza (<em>maitrī</em>, मैत्री) e la generosità (<em>dāna</em>, दान), per favorire una compassione spontanea e radicata in un atteggiamento di apertura.</p></li>
-<li><p><strong>Metodo Decostruttivo</strong>: dissoluzione delle barriere che impediscono la compassione, tramite la comprensione della vacuità (<em>śūnyatā</em>) e della non-dualità (<em>advaya</em>).</p></li>
-<li><p><strong>Metodo Cognitivo-Analitico</strong>: riflessione sulle cause della sofferenza, ovvero:</p>
-<ul>
-<li><strong>Tṛṣṇā (तृष्णा)</strong> – Desiderio insaziabile.<br>
-</li>
-<li><strong>Upādāna (उपादान)</strong> – Attaccamento.<br>
-</li>
-<li><strong>Avidyā (अविद्या)</strong> – Ignoranza della realtà.</li>
-</ul></li>
-</ol>
-<p>Una pratica fondamentale per la coltivazione della compassione è la meditazione <strong>Tonglen</strong> (གཏོང་ལེན་, “prendere e dare”), in cui il meditante visualizza l’atto di accogliere la sofferenza altrui durante l’inspirazione e di offrire sollievo e benessere durante l’espirazione.</p>
-<p>Questi approcci forniscono un <strong>percorso integrato</strong> che unisce emozione, saggezza e trasformazione cognitiva, portando a una pratica più profonda e radicata.</p>
+<p>Le tradizioni del Mahāyāna propongono diversi <strong>approcci didattici</strong> per la coltivazione della compassione, che mirano a renderla una qualità spontanea e profondamente radicata. Tra questi si distinguono un <strong>Metodo Costruttivo</strong>, volto a sviluppare qualità positive come la gentilezza (<em>maitrī</em>, मैत्री) e la generosità (<em>dāna</em>, दान) per favorire un atteggiamento di apertura; un <strong>Metodo Decostruttivo</strong>, che lavora sulla dissoluzione delle barriere alla compassione tramite la comprensione della vacuità (<em>śūnyatā</em>) e della non-dualità (<em>advaya</em>, अद्वय<em>);</em> e un <strong>Metodo Cognitivo-Analitico</strong>, basato sulla riflessione consapevole e analitica sulle cause della sofferenza (<em>tṛṣṇā</em>, तृष्णा – desiderio insaziabile; <em>upādāna</em>, उपादान – attaccamento; <em>avidyā</em>, अविद्या – ignoranza della realtà).</p>
+<p>Le tradizioni tibetane hanno sviluppato, sulla base di precedenti indiani ma con caratteristiche uniche, specifiche pratiche contemplative per coltivare la compassione, attestate nella letteratura tibetana almeno dal XII secolo. Tre di queste pratiche spiccano per la loro unicità: la Pratica delle Sette Cause ed Effetti (Tib., <em>rgyu ’bras man ngag bdun</em>) (Tsoṅ kha pa Blo bzaṅ grags pa, 2000b), il Dare e Prendere (Tib., <em>gtong len</em>) (Jinpa et al., 2006), e l’Uguagliare e Scambiare Sé Stesso con Gli Altri (Tib., <em>bdag bzhan mnyam brje</em>) (Rdza dpal sprul, 1998; Tsoṅ kha pa Blo bzaṅ grags pa, 2000b). Sebbene debitrici a precedenti indiani (specialmente la terza), le istruzioni e l’interpretazione di queste pratiche sono distintamente tibetane. I loro set di istruzioni, sistematizzati non più tardi del XIV secolo, sono rimasti stabili nel corso dei secoli, come dimostrano le loro recenti presentazioni da parte di autorevoli maestri tibetani (es. Dalai Lama XIV, 2003). Tali pratiche hanno inoltre ispirato vari aspetti degli interventi contemporanei basati sulla compassione, inclusi in particolare il <em>Cognitive Based Compassion Training</em> (CBCT) e il <em>Compassion Cultivation Training</em> (CCT) (Lavelle, 2017). L’analisi di queste pratiche rivela caratteristiche che ci aiutano a comprendere perché il concetto di “auto-compassione” sia “cospicuo per la sua assenza” nel Mahāyāna Indo-Tibetano, non solo a livello teorico ma anche nella pratica contemplativa.</p>
+<p>Queste pratiche tibetane presentano diverse caratteristiche rilevanti. Una chiave è che, pur non implicando la direzione della propria compassione verso sé stessi, iniziano con visualizzazioni o altre tecniche attraverso cui si sperimenta il <strong>ricevere compassione da un altro</strong>, in particolare da un essere spiritualmente realizzato come un buddha (Condon &amp; Makransky, 2020b; Makransky, 2012).</p>
+<p>Nelle prime due pratiche (Sette Cause ed Effetti e Dare e Prendere), si inizia ricevendo compassione da un parente stretto o un caregiver. Questa strategia mira a sviluppare la “grande compassione” imparziale per <em>tutti</em> gli esseri attingendo all’inclinazione verso la compassione parziale per i propri cari. Le pratiche iniziano con intense visualizzazioni di persone care, paradigmaticamente la propria madre, verso cui si prova profondo affetto (Tib., <em>yid’ong gi byams pa</em>), sperimentando il ricevere cura e attenzione. Successivamente, si visualizza la persona amata che sperimenta difficoltà per evocare e potenziare quella compassione spontanea che tendiamo a sentire per i parenti stretti o per chi ci identifichiamo (Goetz et al., 2010; Zaki, 2020). Vengono poi utilizzate tecniche per includere altri esseri nella cerchia dei propri cari, estendendo così la stessa compassione spontanea a loro fino a raggiungere la compassione imparziale che è l’obiettivo finale (Tsoṅ kha pa Blo bzaṅ grags pa, 2000b). Il punto fondamentale è che la fenomenologia di queste pratiche assume una postura <strong>relazionale, di “seconda persona”</strong> (Zahavi, 2015): non si evoca la propria sofferenza (prima persona), né si osserva quella altrui in modo distaccato (terza persona), ma ci si impegna empaticamente con la sofferenza altrui in modo relazionale.</p>
+<p>La seconda caratteristica rilevante si applica in particolare alla pratica più cognitiva dell’Uguagliare e Scambiare Sé Stesso con Gli Altri. Questa pratica, che può seguire o meno l’evocazione di relazioni familiari, inizia con la considerazione della nostra “umanità comune” (Dalai Lama XIV, 2012), in particolare il desiderio universale di felicità e l’assenza del desiderio di sofferenza. Il praticante è quindi invitato a riflettere sulla propria reazione spontanea per alleviare la propria sofferenza (l’esempio della mano che si ritrae dal fuoco) e a interrogarsi sul perché la propria sofferenza sia di maggiore interesse di quella altrui. Si contemplano vari argomenti (Dunne, 2019) intesi a disattivare le distinzioni tra sé/altri e ingroup/outgroup. Mentre la versione indiana di Śāntideva sembra richiedere un vero e proprio scambio di identità, l’approccio tibetano enfatizza uno <strong>scambio di priorità</strong>, in modo che la sofferenza altrui venga considerata più importante della propria (Jinpa, 2019). Valutando le caratteristiche di questa pratica, emergono due punti chiave: vi è un certo coinvolgimento con la propria sofferenza in prima persona, ma solo per evidenziare i propri pregiudizi e l’impulso spontaneo all’auto-liberazione; e la prioritarizzazione della sofferenza altrui deve portare a una <strong>mancanza di preoccupazione per la propria felicità</strong>, a favore di una fortissima enfasi sulla felicità degli altri. Questo è splendidamente evocato dal noto verso di Śāntideva: “Tutti coloro che nel mondo sono sofferenti lo sono perché desiderano la propria felicità. Tutti coloro che nel mondo sono felici lo sono perché desiderano la felicità altrui” (<em>ye kecid duḥkhitā loke sarve te svasukhecchayā / ye kecit sukhitā loke sarve te’nyasukecchayā</em>; Śāntideva, 1960, p.&nbsp;163; citato da Anālayo &amp; Dhammadinnā, 2021).</p>
+<p>Questi approcci tradizionali forniscono un <strong>percorso integrato</strong> che unisce saggezza, analisi cognitiva ed esperienza relazionale trasformativa, andando oltre la mera emozione, e che porta a una pratica della compassione più profonda e radicata, intrinsecamente orientata verso gli altri.</p>
+</section>
+<section id="lincompatibilità-dellauto-compassione-con-la-pratica-mahāyāna-e-una-possibile-eccezione" class="level3">
+<h3 class="anchored" data-anchor-id="lincompatibilità-dellauto-compassione-con-la-pratica-mahāyāna-e-una-possibile-eccezione">L’Incompatibilità dell’Auto-compassione con la Pratica Mahāyāna e una Possibile Eccezione</h3>
+<p>Per valutare l’auto-compassione in relazione alla pratica Mahāyāna Indo-Tibetana, è utile chiarire cosa si intende per “auto-compassione” secondo l’approccio sviluppato da Neff e colleghi, incluso Christopher Germer. Concordiamo con Strauss e colleghi (2016) i quali affermano che Neff, partendo da una precedente definizione di compassione orientata verso gli altri, “ha sviluppato questa definizione di compassione per gli altri in un modello di auto-compassione, sostenendo che l’auto-compassione può essere vista come compassione diretta interiormente verso il sé” (p.&nbsp;17). Secondo questo modello, l’auto-compassione richiede un tipo di <strong>auto-oggettificazione</strong>, un “vedere sé stessi come altro”, che consente di prendere il proprio sé come oggetto della propria compassione. Per Neff, Germer e colleghi, l’auto-compassione presenta tre caratteristiche principali (Neff, 2012; Neff &amp; Germer, 2017, 2018): la “self-kindness” (gentilezza verso sé stessi), che implica essere calorosi e comprensivi verso il proprio sé <em>come oggetto</em> di tale gentilezza; la “common humanity” (umanità comune), che consiste nel riconoscere la sofferenza come aspetto universale e inevitabile dell’esistenza umana; e la “mindfulness” (consapevolezza), intesa in gran parte nelle sue applicazioni cliniche contemporanee derivate principalmente dal lavoro di Jon Kabat-Zinn e colleghi (Kabat-Zinn, 2011).</p>
+<p>Di queste tre caratteristiche, la <em>mindfulness</em> è la meno problematica da una prospettiva buddhista, poiché si può argomentare che la <em>mindfulness</em> contemporanea, pur emergendo da molteplici influenze, presenta chiare continuità con le tradizioni buddhiste (Dunne, 2011, 2015). La seconda caratteristica, l’<em>umanità comune</em>, se intesa semplicemente come una tecnica per coltivare la compassione, non è affatto problematica per le tradizioni Indo-Tibetane (Dalai Lama et al., 2020; Dalai Lama XIV, 2012). Tuttavia, se l’umanità comune è intesa come una caratteristica <em>essenziale</em> della compassione stessa, questa richiesta non è facilmente accettabile, poiché queste tradizioni sostengono che l’obiettivo delle loro pratiche è precisamente una vita senza sofferenza (Gethin, 1998; Jamgon Kongtrul, 2005; Rdza dpal sprul, 1998; Tsoṅ kha pa Blo bzaṅ grags pa, 2000b). Come sottolineano Strauss e colleghi (2016), l’umanità comune potrebbe essere riassunta nella frase “Ci vado anch’io, se non fosse per grazia divina” (traduzione approssimativa di “There but for the grace of God go I”, p.&nbsp;17). Ma se si è raggiunto uno stato in cui la sofferenza non è più possibile, quella frase non è più applicabile, anche se la compassione universale per tutti gli esseri permane. Ciò detto, la prima caratteristica, la <em>self-kindness</em> (gentilezza verso sé stessi), è la più problematica, poiché è articolata in modo molto diretto come un’oggettificazione del sé (vedersi come altro) al fine di diventare oggetto della propria benevola attenzione, con lo scopo di auto-conforto e auto-cura.</p>
+<p>L’auto-oggettificazione richiesta da questo approccio all’auto-compassione appare incompatibile con le caratteristiche chiave delle pratiche di compassione tibetane discusse in precedenza. Nelle prime due pratiche (Sette Cause ed Effetti e Dare e Prendere), la fenomenologia richiede una prospettiva relazionale, di <strong>seconda persona</strong>. Ci si deve concentrare sulla sofferenza <em>altrui</em>, non sul sé. E chiaramente, se la pratica non invita l’attenzione sulla propria sofferenza, l’auto-compassione non sarà una caratteristica di tale pratica. Nella pratica dell’Uguagliare e Scambiare Sé Stesso con Gli Altri, la propria sofferenza viene evocata, ma <em>solo</em> per evidenziare la natura distorta della propria risposta spontanea per evitare o alleviare la sofferenza. E poiché il punto d’arrivo di quella specifica pratica è promuovere una <strong>mancanza di preoccupazione per la propria felicità</strong> a favore di una preoccupazione fortemente potenziata per la felicità altrui, è difficile vedere come questa possa coltivare l’auto-compassione intesa come direzione della compassione verso il sé.</p>
+<p>Esiste, tuttavia, un’eccezione possibile e interessante all’incompatibilità generale dell’auto-compassione con le pratiche di compassione tibetane. Si trova in alcuni dei testi più antichi sull’Addestramento Mentale (<em>blo sbyong</em>), come le <em>Root Lines of Mahāyāna Training</em> (Jinpa et al., 2006). Un esempio comparativamente più tardo appare nel <em>Great Path of Awakening</em> (Tib., <em>Byang chub gzhung lam</em>), un testo sull’Addestramento Mentale di Jamgön Kongtrül Lodrö Tayé (‘Jam mgon kong sprul blo gros mtha’ yas), un celebre filosofo contemplativo tibetano del XIX secolo (traduzione inglese completa in Jamgön Kongtrül, 2005). L’istruzione in questione fa parte della pratica del Dare e Prendere precedentemente menzionata. Per dirla in modo conciso, in quella pratica si usa il respiro come ancoraggio attentivo e, insieme a varie visualizzazioni, si “prende” la sofferenza di tutti gli esseri senzienti con l’inspiro e si “dà” tutta la propria felicità a loro con l’espiro; questo continua in una sequenza di inspiri ed espiri. Dopo aver descritto dettagliatamente questa pratica, Jamgön Kongtrül (1979) incluse un’istruzione presente in alcuni resoconti di questa pratica: <strong>“Inizia la sequenza del prendere [la sofferenza] con te stesso”</strong> (p.&nbsp;253). Spiegò brevemente in seguito:</p>
+<blockquote class="blockquote">
+<p>“Per poter prendere su di sé la sofferenza altrui, all’inizio della sequenza inizia con te stesso. Cioè, prendi su di te in questo momento tutta la sofferenza che maturerà per te in futuro, e dopo averla purificata, prendi su di te le sofferenze altrui.” (p.&nbsp;253).</p>
+</blockquote>
+<p>A prima vista, questo potrebbe sembrare un caso di auto-compassione, anche se non è nominato come tale. Dopotutto, proprio come si prende su di sé la sofferenza di altri esseri, così si sta prendendo una sofferenza che, sebbene futura, potrebbe comunque essere interpretata come “propria”. In alcuni modi, la caratteristica fenomenologica della seconda persona precedentemente notata potrebbe essere presente anche in questo caso, poiché questa pratica potrebbe comportare la visualizzazione dei propri sé futuri come se fossero “altri”. Allo stesso modo, il prendere su di sé la sofferenza dei propri sé futuri nel presente sembra sminuire l’idea che si debba scontare la preoccupazione per la propria felicità.</p>
+<p>Tuttavia, nonostante queste caratteristiche, questo particolare passaggio, presente solo in alcune versioni della pratica del Dare e Prendere, non sembra essere un caso compiuto di pratica di auto-compassione. Mentre si rimuove immaginativamente la sofferenza dei propri sé futuri, si sta anche deliberatamente <em>invitando</em> la sofferenza sul proprio sé presente. Allo stesso modo, mentre si prende certamente la propria sofferenza (futura), non ci si impegna poi nella parte del “dare” della pratica, in cui si darebbe la propria felicità presente ai propri sé futuri. E la motivazione per prendere su di sé la propria sofferenza futura ammonta a una preparazione coraggiosa per prendere su di sé la sofferenza di <em>tutti</em> gli esseri, piuttosto che la risposta compassionevole e di auto-conforto alla propria sofferenza che è tipica delle pratiche di auto-compassione (Neff, 2012; Neff &amp; Germer, 2017). Infatti, una spiegazione tradizionale di questa istruzione è che il suo scopo è ridurre la paura che si può provare nel prendere su di sé la sofferenza altrui, piuttosto che essere motivati da una compassione focalizzata sul sé (Jinpa et al., 2006). Nonostante queste precisazioni, questa particolare variazione della pratica del Dare e Prendere risuona comunque con la nozione di auto-compassione e presenta una certa somiglianza con la nozione di “rinuncia” come forma di auto-compassione. È questa una questione che esploreremo ora.</p>
 </section>
 </section>
-<section id="la-compassione-e-la-vacuità" class="level2" data-number="1.3">
-<h2 data-number="1.3" class="anchored" data-anchor-id="la-compassione-e-la-vacuità"><span class="header-section-number">1.3</span> La Compassione e la Vacuità</h2>
-<section id="śūnyatā-superamento-del-dualismo-e-compassione-senza-attaccamento" class="level3">
-<h3 class="anchored" data-anchor-id="śūnyatā-superamento-del-dualismo-e-compassione-senza-attaccamento">Śūnyatā: Superamento del Dualismo e Compassione Senza Attaccamento</h3>
-<p>Nel Mahāyāna, la <strong>vacuità</strong> (<em>śūnyatā</em>, शून्यता) rappresenta una componente essenziale del percorso spirituale. Il concetto di vacuità (<em>śūnyatā</em>, शून्यता) non indica il “nulla”, ma piuttosto la <strong>mancanza di un’esistenza intrinseca</strong> (<em>svabhāva</em>, स्वभाव) <strong>e indipendente</strong> in tutti i fenomeni. Ogni cosa esiste solo in relazione ad altre condizioni, secondo il principio della <strong>originazione dipendente</strong> (<em>pratītyasamutpāda</em>, प्रतीत्यसमुत्पाद), che descrive l’interconnessione di tutti gli esseri e fenomeni nel ciclo del divenire. Ogni cosa esiste solo in relazione ad altre condizioni: nulla sussiste da sé, nemmeno il sé individuale (<em>anātman</em>, अनात्मन्).</p>
-<p>Questa realizzazione ha un impatto diretto sulla compassione: dissolvendo la visione dualistica tra sé e gli altri, permette l’emergere di una <strong>compassione più autentica</strong>, priva di attaccamenti egoistici. Il bodhisattva, comprendendo che il sé e gli altri non sono entità separate, sviluppa una <strong>mahākaruṇā</strong> che non è più condizionata dalla paura della perdita o dall’identificazione personale con la sofferenza altrui.</p>
-</section>
-</section>
-<section id="buddhismo-e-compassione-secolarizzata" class="level2" data-number="1.4">
-<h2 data-number="1.4" class="anchored" data-anchor-id="buddhismo-e-compassione-secolarizzata"><span class="header-section-number">1.4</span> Buddhismo e Compassione Secolarizzata</h2>
-<p>Negli ultimi decenni, la compassione è diventata un tema centrale anche nelle pratiche psicologiche e nella mindfulness. Tuttavia, le pratiche secolarizzate differiscono significativamente dall’approccio buddhista:</p>
-<ul>
-<li><strong>Focalizzazione sul benessere individuale</strong>: le pratiche moderne enfatizzano il miglioramento del benessere psicologico e delle relazioni interpersonali, mentre nel Mahāyāna la compassione è un mezzo per trascendere la nozione di sé separato e lavorare per la liberazione di tutti gli esseri.<br>
-</li>
-<li><strong>Mancanza di una dimensione cognitiva profonda</strong>: l’approccio secolare si concentra sugli aspetti emotivi della compassione, mentre il buddhismo la integra in una <strong>trasformazione cognitiva radicale</strong>, basata sulla saggezza (<em>prajñā</em>) e sulla comprensione della vacuità (<em>śūnyatā</em>).<br>
-</li>
-<li><strong>Assenza del voto del bodhisattva</strong>: mentre la tradizione Mahāyāna include un impegno etico e spirituale profondo, le pratiche secolarizzate non implicano necessariamente un voto altruistico o una visione del mondo basata sull’interdipendenza.</li>
-</ul>
-<section id="integrare-le-due-prospettive" class="level3">
-<h3 class="anchored" data-anchor-id="integrare-le-due-prospettive">Integrare le due prospettive</h3>
-<p>Pur essendo strumenti preziosi, le pratiche secolari possono trarre beneficio dalla comprensione buddhista della compassione come processo di trasformazione della consapevolezza. Unire la prospettiva Mahāyāna alla pratica contemporanea permetterebbe di ampliare l’approccio alla compassione, non solo come risposta emotiva, ma come <strong>un percorso di trasformazione della visione della realtà e della connessione con gli altri esseri</strong>.</p>
-<p>In definitiva, sebbene le pratiche secolari e quelle buddhiste condividano l’obiettivo di promuovere la compassione, differiscono nei mezzi e nelle finalità. Mentre la compassione secolare si concentra sugli aspetti emotivi e comportamentali, il buddhismo offre un percorso cognitivo e spirituale che porta a una nuova comprensione della realtà.</p>
-<p>L’integrazione di <strong>saggezza</strong> (prajñā) e <strong>compassione</strong> (karuṇā) nella tradizione Mahāyāna crea una compassione che non solo risponde alla sofferenza, ma conduce a una <strong>visione radicalmente trasformata</strong> della propria connessione con il mondo e con tutti gli esseri.</p>
+<section id="rinuncia-e-autocompassione" class="level2" data-number="1.4">
+<h2 data-number="1.4" class="anchored" data-anchor-id="rinuncia-e-autocompassione"><span class="header-section-number">1.4</span> Rinuncia e autocompassione</h2>
+<p>Sulla scia della discussione sulla potenziale eccezione riscontrata in alcune variazioni della pratica tibetana del Dare e Prendere, che sembrava presentare delle affinità con il concetto di auto-compassione, si pone la domanda se la nozione tradizionale di <strong>rinuncia</strong> (<em>niryāṇa</em>) possa essere interpretata essa stessa come una forma di auto-compassione. È interessante notare come alcuni interventi contemporanei basati sulla compassione, come il <em>Cognitive-Based Compassion Training</em> (CBCT) e il <em>Compassion Cultivation Training</em> (CCT), che traggono ispirazione dalle tradizioni tibetane, includano pratiche che mirano all’auto-compassione, sebbene il concetto o il termine esplicito di “auto-compassione” sia del tutto assente nelle tradizioni tibetane stesse (Ash et al., 2021; Jinpa, 2015; Lavelle, 2017). Nonostante ciò, si potrebbe sostenere che l’auto-compassione sia implicita nella nozione di rinuncia, come suggerito da Lobsang Tenzin Negi, il creatore del CBCT (comunicazione personale). Esploriamo questa possibilità, evidenziando al contempo alcune problematicità.</p>
+<p>Nel complesso, la nozione di rinuncia si collega in modo particolare alla Verità della Sofferenza (<em>Duḥkha</em>), la prima delle Quattro Nobili Verità fondamentali nel Buddhismo. In breve, senza riconoscere di essere effettivamente in uno stato di sofferenza, non è possibile accedere al sentiero buddhista per uscirne (Rdza dpal sprul, 1998; Tsoṅ kha pa Blo bzaṅ grags pa, 2005). Esiste un notevole parallelo in contesti psicoterapeutici con le barriere al trattamento che emergono quando si nega o si minimizza il proprio livello di disfunzione (Mojtabai et al., 2011). Nelle tradizioni buddhiste Mahāyāna (e anche in altre tradizioni buddhiste), la “rinuncia” è sia il riconoscimento di questa sofferenza sia la fervida aspirazione a trascenderla (Rdza dpal sprul, 1998; Tsoṅ kha pa Blo bzaṅ grags pa, 2000a). La traduzione inglese “renunciation” (e di conseguenza “rinuncia” in italiano), come resa del termine sanscrito standard (<em>niryāṇa</em>, निर्याण), è in qualche modo sfortunata, poiché perde la valenza positiva di questa espressione. Piuttosto che “rinunciare” o rifiutare qualcosa che si desidera evitare, il termine tradizionale sottolinea che ci si sta muovendo in avanti o “emergendo definitivamente” dalla sofferenza, per usare una resa letterale della traduzione tibetana (<em>nges’byung</em>, ངེས་འབྱུང་) del termine sanscrito.</p>
+<p>Appare già evidente una certa risonanza con le nozioni contemporanee di auto-compassione. In particolare, la rinuncia richiede non solo di prestare attenzione diretta alla <em>propria</em> sofferenza, ma anche di cercare attivamente di porvi fine. A questo riguardo, essa è quindi strettamente parallela alla compassione (orientata agli <em>altri</em>), e i teorici buddhisti hanno esplicitamente notato questo parallelismo. L’influente filosofo tibetano Tsongkhapa (2000b), ad esempio, osservò che compassione e rinuncia hanno “oggetti” diversi (Tib., <em>dmigs pa</em>): la compassione si focalizza sugli altri, mentre la rinuncia si focalizza su sé stessi. Tuttavia, per Tsongkhapa, questi due stati mentali hanno la stessa “forma”: entrambi cercano di alleviare la sofferenza per i loro rispettivi oggetti. Dicendo che rinuncia e auto-compassione (sic - qui si intende probabilmente la compassione che si estende al sé) differiscono nei loro oggetti ma non nella loro forma, Tsongkhapa potrebbe sembrare affermare che la rinuncia sia semplicemente compassione diretta verso il sé.</p>
+<p>Nonostante questi paralleli, i resoconti buddhisti tradizionali della rinuncia presentano certe caratteristiche che rendono difficile interpretarla semplicemente come auto-compassione, così come è intesa da Neff e colleghi. Una differenza chiave è <strong>motivazionale</strong>. I resoconti sull’auto-compassione e le sue pratiche spesso notano come una delle sue funzioni sia “confortare e calmare noi stessi” (es. Neff &amp; Germer, 2018, p.&nbsp;2), o in qualche modo fare una pausa e riflettere su quanto possa essere difficile la nostra sofferenza (Neff, 2012; Neff &amp; Germer, 2017). È apparentemente questa funzione calmante e di pausa a sollevare il dubbio che l’auto-compassione possa essere “pigra” o minare le proprie motivazioni (Neff &amp; Germer, 2017). Al contrario, la rinuncia buddhista mira a instillare un senso di <strong>urgenza</strong> riguardo alla propria condizione e a motivare fortemente a sfuggire alle sofferenze dell’“esistenza ciclica” o saṃsāra. Come mezzo viscerale per evocare questo senso di urgente sforzo, viene spesso citata l’immagine di essere intrappolati in una casa in fiamme (Tsoṅ kha pa Blo bzaṅ grags pa, 2000a), o, ancora più visceralmente, si dice che l’intensità dello sforzo e il senso di urgenza dovrebbero essere simili a ciò che si sentirebbe se si avesse la testa in fiamme (Rgyal sras thogs med bzang po, 2012). Queste metafore per il senso di urgenza e sforzo che la rinuncia promuove non sembrano compatibili con l’auto-conforto che è una caratteristica dell’auto-compassione.</p>
+<p>Un altro modo particolarmente importante in cui i resoconti buddhisti della rinuncia sembrano incompatibili con l’auto-compassione riguarda le loro rispettive <strong>strutture fenomenologiche</strong> nel contesto della propria sofferenza. Alcuni passaggi testuali nel corpus dell’Addestramento Mentale, quando affrontano la rinuncia, adottano una postura di <strong>seconda persona</strong> verso sé stessi per offrire critiche volte a potenziare gli sforzi verso la rinuncia, come quando Śāntideva (1960) disse a sé stesso: “Stupido! Non è tempo di dormire…” (p.&nbsp;112). Ma nel contesto della <em>propria sofferenza</em> (come esperienza), le metafore e la retorica adottano una postura di <strong>prima persona</strong>, come evocato dall’immagine di essere in una casa in fiamme o avere la testa in fiamme. Al contrario, l’auto-compassione assume spesso una struttura fenomenologica in cui ci si osserva deliberatamente <em>come se si stesse osservando un altro</em> che soffre. Come affermano Neff e Germer (2017), nell’auto-compassione “assumiamo la postura di un ‘altro’ compassionevole verso noi stessi” (p.&nbsp;480). Questo “vedere sé stessi come altro” può essere espresso come una conversazione interiore, dove “l’auto-compassione è espressa in dialoghi interni che sono benevoli e incoraggianti piuttosto che crudeli o denigratori” (p.&nbsp;479). Questa stessa struttura fenomenologica si ritrova in alcuni item della Scala di Auto-compassione (Self-Compassion Scale), come “Cerco di essere amorevole verso me stesso quando provo dolore emotivo” o “Quando sto attraversando un momento molto difficile, mi do la cura e la tenerezza di cui ho bisogno” (Neff, 2003, p.&nbsp;231). Questa struttura fenomenologica dell’“oggettivare” il sé sofferente, riconosciuta (e implicitamente criticata) anche da Quaglia et al.&nbsp;(2020), sembra incompatibile con il modo in cui la propria sofferenza viene trattata nelle presentazioni tradizionali buddhiste della rinuncia.</p>
+<p>Infine, una terza incompatibilità tra i tipici resoconti buddhisti della rinuncia e l’auto-compassione riguarda un’<strong>assunzione fondamentale</strong> fatta dalle tradizioni buddhiste: in breve, si assume che tutti gli esseri senzienti abbiano un pronto accesso a “un’aspirazione intatta al benessere”, come elegantemente affermano Anālayo e Dhammadinnā (2021) (p.&nbsp;1357). La metafora della “testa in fiamme” assume chiaramente che, una volta riconosciuta la profondità della propria sofferenza, si è istantaneamente pronti a fare qualsiasi cosa per alleviarla. Questo è illustrato dalle numerose storie di grandi praticanti buddhisti, come Kisā Gotamī, le cui carriere spirituali emergono da grande sofferenza (Nyanaponika &amp; Hecker, 2003). Un rifiuto di riconoscere la propria situazione o una confusione su come procedere possono essere grandi ostacoli, ma tali racconti non assumono che il praticante <em>non voglia</em> sfuggire alla sofferenza, una volta che questa sia stata pienamente riconosciuta e ammessa. Al contrario, i numerosi sforzi scientifici e clinici che hanno portato allo sviluppo delle pratiche di auto-compassione sembrano essere motivati precisamente dall’apparente mancanza di questa aspirazione spontanea e intatta al benessere sperimentata da così tanti individui nelle nostre culture contemporanee.</p>
+<p>In sintesi, nonostante alcune somiglianze superficiali e il parallelismo riconosciuto da teorici come Tsongkhapa riguardo alla “forma” (cercare sollievo dalla sofferenza per il proprio oggetto), le profonde differenze nella motivazione (urgenza vs.&nbsp;auto-conforto), nella fenomenologia (prima persona/critica in seconda persona vs.&nbsp;auto-oggettificazione) e nelle assunzioni fondamentali sull’aspirazione al benessere rendono difficile equiparare la rinuncia tradizionale buddhista con l’auto-compassione così come è intesa oggi in ambito psicologico.</p>
+<section id="la-compassione-la-vacuità-e-lintegrazione-delle-prospettive" class="level3">
+<h3 class="anchored" data-anchor-id="la-compassione-la-vacuità-e-lintegrazione-delle-prospettive">La Compassione, la Vacuità e l’Integrazione delle Prospettive</h3>
+<p>Dopo aver esaminato la natura profonda della compassione (<em>karuṇā</em>) nella tradizione Mahāyāna e le sue modalità di coltivazione, inclusa l’analisi del rapporto con le nozioni contemporanee di auto-compassione, è utile riflettere sulla sua utilità e sulle possibilità di integrazione. Sebbene persistano alcuni dubbi sull’efficacia clinica di certi aspetti dell’auto-compassione (Muris &amp; Otgaar, 2020), è innegabile che molte persone l’abbiano trovata utile (Ferrari et al., 2019). Pertanto, nel sottolineare le incompatibilità dell’auto-compassione con la teoria e la pratica buddhista Mahāyāna, il nostro intento non è minare la sua utilità come “mezzo abile” (<em>upāya</em>), ma piuttosto potenziarne l’efficacia. In quest’ottica, è importante riflettere su due questioni emerse: l’apparente compromissione dell’aspirazione al benessere che l’auto-compassione cerca di affrontare e il ruolo che l’“oggettificazione” fenomenologica del sé (il vedersi come altro) gioca nell’affrontare tale compromissione.</p>
+<p>Come precedentemente discusso, le tradizioni buddhiste partono dall’assunto di un’aspirazione intatta al benessere (Anālayo &amp; Dhammadinnā, 2021), il che solleva la domanda sul perché l’auto-compassione sia così necessaria nel contesto contemporaneo. Concordiamo con Condon e Makransky (2020b) che risposte plausibili si trovino nel modo in cui la modernità ha costruito identità altamente individualistiche, rendendo gli individui suscettibili a sentimenti di alienazione, isolamento e disconnessione sociale. È qui rilevante la nozione di Charles Taylor (1989) sul “cambiamento soggettivo” (<em>subjective turn</em>) nel mondo occidentale moderno, che ha portato a un nuovo senso di soggettività caratterizzato da un’accresciuta auto-riflessività (McMahan, 2008). L’individuo moderno non è solo autonomo (e spesso alienato), ma immerso in un contesto culturale che insegna a rivolgersi verso l’interno e focalizzarsi sul sé, spesso in forma narrativa (Schechtman, 2011). Le correlazioni tra questo auto-focus e la depressione, insieme alla prevalenza di narrative auto-ruminative e schemi negativi del sé (Nolen-Hoeksema et al., 2008; Tackman et al., 2019; Wielgosz et al., 2019), possono spiegare le compromissioni nell’aspirazione al benessere personale. In questi casi, la “storia del sé” sembra essersi inceppata, non permettendo al benessere di farne parte. Si potrebbe ipotizzare che culture pre-moderne o non fortemente incentrate sul sé non manifestassero questo problema nella stessa misura, non necessitando quindi di pratiche esplicite di auto-compassione.</p>
+<p>Da questa prospettiva, l’auto-compassione come “mezzo abile” ci invita a raccontare storie diverse, più benevole, sul sé e a farlo in modi che, enfatizzando l’umanità comune, riducono l’alienazione (Neff &amp; Germer, 2017, 2018). Tuttavia, ci si deve anche chiedere se l’“oggettificazione” del sé — l’atto di vedersi come altro — insita in molte pratiche di auto-compassione non possa talvolta perpetuare il problema sottostante. Il cambiamento soggettivo, specialmente nella sua forma narrativa, implica proprio questa stessa fenomenologia di distaccarsi dal sé come “altro” per raccontare storie. La correlazione tra auto-focus e depressione suggerisce che raccontare <em>più</em> storie sul sé potrebbe essere controproducente, soprattutto per chi trova difficile ricevere compassione da sé o dagli altri (Condon &amp; Makransky, 2020b; Gilbert et al., 2011).</p>
+<p>Nel complesso, gli interventi sull’auto-compassione potrebbero beneficiare da approcci che non richiedono auto-oggettificazione e che riducono la necessità di costruire narrative sul sé. In tali approcci, si sperimenta la compassione da una prospettiva di <strong>prima persona</strong>, non per sé stessi come “altro”. In questo senso, promettente è il <em>Sustainable Compassion Training</em> (SCT) di John Makransky, che invita a sperimentare il ricevere compassione e amore senza “oggettificarsi” (Condon &amp; Makransky, 2020a; Makransky, 2007). Allo stesso modo, interventi che utilizzano la realtà virtuale per far sperimentare la ricezione di compassione da sé stessi in modi che riducono l’auto-oggettificazione mostrano potenziale (Falconer et al., 2016). Per chi trova difficile simulare il ricevere compassione, un metodo che aiuti a mettere da parte lo schema negativo del sé e la sua narrativa potrebbe essere il più efficace. Qui, certi aspetti della mindfulness – già presenti nell’approccio di Neff, Germer e colleghi – potrebbero essere maggiormente enfatizzati: specificamente, l’importanza di “uscire dalla linea narrativa della nostra sofferenza” e “lasciar andare la storia di ciò che sta accadendo”, in particolare la storia del sé (Neff &amp; Germer, 2018, p.&nbsp;44). Questa caratteristica della mindfulness, definita “dereificazione” (vedere storie e pensieri come tali), sta emergendo dalla ricerca per il suo potente impatto clinico (Lutz et al., 2015; Segal et al., 2019), soprattutto per chi è “cognitivamente bloccato” nelle proprie narrative (Joormann et al., 2011). Dalla prospettiva buddhista, sebbene sostituire storie negative con altre più benevole possa aiutare, talvolta lasciar andare <em>tutte</em> le storie, anche quelle positive, può essere ancora più efficace.</p>
+<p>Passando ora al nucleo trasformativo della compassione nel Mahāyāna, la <strong>vacuità</strong> (<em>śūnyatā</em>, शून्यता) rappresenta una componente essenziale del percorso spirituale. Il concetto di vacuità non indica il “nulla”, ma piuttosto la <strong>mancanza di un’esistenza intrinseca</strong> (<em>svabhāva</em>, स्वभाव) <strong>e indipendente</strong> in tutti i fenomeni. Ogni cosa, incluso il sé individuale (<em>anātman</em>, अनात्मन्), esiste solo in relazione ad altre condizioni, secondo il principio della <strong>originazione dipendente</strong> (<em>pratītyasamutpāda</em>, प्रतीत्यसमুৎपाद), che descrive l’interconnessione di tutti gli esseri e fenomeni nel ciclo del divenire. Questa realizzazione ha un impatto diretto sulla compassione: dissolvendo la visione dualistica e radicata nell’ignoranza che percepisce un sé intrinsecamente esistente e separato dagli altri, permette l’emergere di una <strong>compassione più autentica</strong>, intrinsecamente connessa alla realtà dell’interdipendenza e priva degli attaccamenti egoistici. Il bodhisattva, comprendendo che il sé e gli altri non sono entità separate e indipendenti, sviluppa una <strong>mahākaruṇā</strong> che non è più condizionata dalla paura della perdita (legata all’attaccamento a un sé solido) o dall’identificazione personale con la sofferenza altrui in modo egoico, ma scaturisce dalla profonda consapevolezza dell’interconnessione universale.</p>
+<p>Negli ultimi decenni, la compassione è diventata un tema centrale anche nelle pratiche psicologiche e nella <em>mindfulness</em> secolarizzata. Tuttavia, è importante notare che le pratiche secolarizzate differiscono significativamente dall’approccio buddhista tradizionale. Le pratiche moderne tendono a <strong>focalizzarsi sul benessere individuale</strong> e sul miglioramento delle relazioni interpersonali, mentre nel Mahāyāna la compassione è primariamente un mezzo per trascendere la nozione di sé separato e lavorare per la liberazione di <em>tutti</em> gli esseri. Vi è poi una <strong>mancanza di una dimensione cognitiva profonda</strong> nell’approccio secolare, che si concentra sugli aspetti emotivi e comportamentali, mentre il buddhismo integra la compassione in una <strong>trasformazione cognitiva radicale</strong>, basata sulla saggezza (<em>prajñā</em>, प्रज्ञा) e sulla comprensione della vacuità (<em>śūnyatā</em>). Infine, a differenza della tradizione Mahāyāna che implica un impegno etico e spirituale profondo attraverso il voto del bodhisattva e una visione del mondo basata sull’interdipendenza universale, le pratiche secolarizzate non implicano necessariamente tale impegno o visione globale.</p>
+<p>Ciononostante, pur essendo strumenti preziosi nel loro contesto, le pratiche secolari possono trarre enorme beneficio dalla comprensione buddhista della compassione non solo come risposta emotiva, ma come <strong>un processo di trasformazione della consapevolezza e della visione della realtà</strong>. Integrare la prospettiva Mahāyāna con la pratica contemporanea permetterebbe di ampliare l’approccio alla compassione, non solo come tecnica per gestire la sofferenza individuale, ma come <strong>un percorso che trasforma radicalmente la visione della propria connessione con il mondo e con tutti gli altri esseri</strong>.</p>
+<p>In definitiva, sebbene le pratiche secolari e quelle buddhiste condividano l’obiettivo generale di promuovere una maggiore benevolenza, differiscono significativamente nei mezzi, nelle finalità ultime e nel quadro concettuale. Mentre la compassione secolare si concentra principalmente sugli aspetti emotivi e comportamentali per il benessere individuale, il buddhismo offre un percorso <strong>cognitivo, etico e spirituale</strong> che porta a una nuova e più profonda comprensione della realtà interconnessa. L’integrazione di <strong>saggezza</strong> (<em>prajñā</em>) e <strong>compassione</strong> (<em>karuṇā</em>) nella tradizione Mahāyāna non solo risponde alla sofferenza, ma conduce a una <strong>visione radicalmente trasformata</strong> del sé, del mondo e della propria posizione in esso, che è il segno distintivo della liberazione.</p>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-Dunne2023Compassion" class="csl-entry" role="listitem">
+Dunne, J. D., &amp; Manheim, J. (2023). Compassion, Self-compassion, and Skill in Means: a Mahāyāna Perspective. <em>Mindfulness</em>, <em>14</em>, 2374–2382. <a href="https://doi.org/10.1007/s12671-022-01864-0">https://doi.org/10.1007/s12671-022-01864-0</a>
+</div>
+</div>
 </section>
 </section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
-    }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
-      }
-    }
-    return false;
-  }
-  const onCopySuccess = function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copiato!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copiato!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  }
-  const getTextToCopy = function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-    text: getTextToCopy
-  });
-  clipboard.on('success', onCopySuccess);
-  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-      text: getTextToCopy,
-      container: window.document.getElementById('quarto-embedded-source-code-modal')
-    });
-    clipboardModal.on('success', onCopySuccess);
-  }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/ccaudek\.github\.io\/perfezionamento\/intro\.html");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-      }
-    }
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-    const config = {
-      allowHTML: true,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start',
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
     };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
         }
       }
+      return false;
     }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copiato!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copiato!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
           }
         }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
+        return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/ccaudek\.github\.io\/perfezionamento\/intro\.html");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
         }
-        return container.innerHTML
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
       } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
         if (window.Quarto?.typesetMath) {
           window.Quarto.typesetMath(note);
         }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
       }
     }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
           }
         } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
           .then(res => res.text())
           .then(html => {
             const parser = new DOMParser();
             const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
+            const note = htmlDoc.querySelector('main.content');
             if (note !== null) {
-              const html = processXRef(id, note);
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
               instance.setContent(html);
             } 
           }).finally(() => {
@@ -599,185 +669,161 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
-    });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            div.style.left = 0;
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+      }, function(instance) {
       });
     }
-  }
-});
-</script>
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="../../index.html" class="pagination-link" aria-label="Benvenuti">
