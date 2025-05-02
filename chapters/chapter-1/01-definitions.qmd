@@ -2,7 +2,7 @@
 
 ### Compassione nel Buddhismo e nel Contesto Secolare
 
-La compassione (*karuṇā*) è un concetto centrale sia nelle tradizioni contemplative che nella ricerca scientifica moderna. Tuttavia, il modo in cui essa viene concepita e praticata varia significativamente tra le diverse culture e scuole di pensiero. In questo capitolo, esploreremo due prospettive principali: quella neuroscientifica e secolare, che interpreta la compassione come un insieme di processi cognitivi ed emotivi, e quella buddhista Mahāyāna, che la considera una qualità trasformativa, inseparabile dalla saggezza (*prajñā*). Attraverso l'analisi della "Pattern Theory of Compassion" e delle concezioni filosofiche e psicologiche della compassione, evidenzieremo il ruolo dell'etimologia, delle pratiche meditative e delle implicazioni etiche di ciascun approccio.
+La compassione (*karuṇā*) è un concetto centrale sia nelle tradizioni contemplative che nella ricerca scientifica moderna. Tuttavia, come evidenziato nel capitolo precedente, il modo in cui essa viene concepita e praticata varia significativamente tra le diverse culture e scuole di pensiero. In questo capitolo, esploreremo due prospettive principali: quella neuroscientifica e secolare, che interpreta la compassione come un insieme di processi cognitivi ed emotivi, e quella buddhista Mahāyāna, che la considera una qualità trasformativa, inseparabile dalla saggezza (*prajñā*). Attraverso l'analisi della "Pattern Theory of Compassion" [@gallagher2024pattern] e delle concezioni filosofiche e psicologiche della compassione, evidenzieremo il ruolo dell'etimologia, delle pratiche meditative e delle implicazioni etiche di ciascun approccio.
 
 ### Etimologia e Interpretazione
 
@@ -10,38 +10,38 @@ Il termine "compassione" ha origini diverse nella tradizione occidentale e nel B
 
 In latino, "compassione" deriva da *compassio*, che significa "soffrire insieme" (*cum* = insieme, *pati* = soffrire). Questa etimologia enfatizza la condivisione del dolore e una forma di empatia passiva, influenzata dalla tradizione cristiana, che ha posto l'accento sulla partecipazione alla sofferenza altrui come atto di amore e solidarietà. Tuttavia, questo approccio rischia di condurre a una sovrapposizione tra compassione e angoscia empatica, generando una difficoltà nel mantenere il necessario distacco emotivo.
 
-Nel Buddhismo Mahāyāna, il termine sanscrito corrispondente è *karuṇā*, che non implica soltanto la comprensione della sofferenza altrui, ma soprattutto un impegno attivo per alleviarla. *Karuṇā* è inscindibile dalla saggezza (*prajñā*), che assicura un'azione efficace e non condizionata dall'attaccamento emotivo. 
+Nel Buddhismo Mahāyāna, il termine sanscrito corrispondente è *karuṇā*, che non implica soltanto la comprensione della sofferenza altrui, ma soprattutto un impegno attivo per alleviarla [abbiamo visto che è stato proposto di tradurre karuṇā come "cura"; @garfield2022buddhist]. Un altro aspetto cruciale è che *karuṇā* è inscindibile dalla saggezza (*prajñā*), che assicura un'azione efficace e non condizionata dall'attaccamento emotivo. 
 
-A differenza della *compassio* occidentale, che può favorire un coinvolgimento emotivo intenso e potenzialmente paralizzante, *karuṇā* è funzionale alla liberazione dalla sofferenza (*mokṣa*), sia propria che altrui, e si manifesta attraverso azioni consapevoli e trasformative.
+A differenza della *compassio* occidentale, che può includere un coinvolgimento emotivo intenso e potenzialmente paralizzante, *karuṇā* si manifesta attraverso azioni consapevoli e trasformative che sono funzionali alla liberazione dalla sofferenza (*mokṣa*), sia propria che altrui.
 
-Un'altra differenza fondamentale è che *karuṇā* è una qualità imprescindibile del bodhisattva, colui che sceglie di rimanere nel ciclo delle rinascite per aiutare gli esseri senzienti. In questo contesto, la compassione non è solo un'emozione o un atteggiamento morale, ma un aspetto motivazionale che guida l'intero percorso di pratica etica e meditativa.
+Un'altra differenza fondamentale è che *karuṇā* è una qualità del bodhisattva, colui che sceglie di rimanere nel ciclo delle rinascite per aiutare gli esseri senzienti. In questo contesto, la compassione non è solo un'emozione o un atteggiamento morale, ma un aspetto motivazionale che guida l'intero percorso di pratica etica e meditativa.
 
-Queste distinzioni suggeriscono due approcci differenti alla compassione: l'Occidente tende a sottolineare l'identificazione con il dolore altrui, mentre il Buddhismo Mahāyāna enfatizza la responsabilità attiva nella trasformazione della sofferenza in saggezza e liberazione.
+Queste distinzioni suggeriscono due approcci differenti alla compassione: l'Occidente tende a sottolineare l'identificazione con il dolore altrui, mentre il Buddhismo Mahāyāna enfatizza la responsabilità attiva nella trasformazione della sofferenza in saggezza e in un percorso di liberazione.
 
 ### La Teoria dei Pattern della Compassione
 
-Recentemente, il concetto di compassione è stato approfondito nell'ambito delle neuroscienze cognitive attraverso la "Pattern Theory of Compassion", proposta da @gallagher2024pattern. Questo approccio distingue nettamente la compassione dall'empatia e dalla simpatia, ponendo l'accento su una rete dinamica di processi fisiologici, cognitivi e motivazionali.
+Nell'ambito delle neuroscienze cognitive, recentemente, il concetto di compassione è stato interpretato nei termini di un approccio chiamato "Pattern Theory of Compassion" [@gallagher2024pattern], che va al di là di una semplice *compassio*, distinguendo nettamente la compassione dall'empatia e ponendo l'accento su una **rete dinamica** di processi fisiologici, cognitivi e motivazionali.
 
-Secondo Gallagher et al., la compassione non è semplicemente un'emozione, bensì un modello complesso di processi interconnessi, che include:
+Secondo @gallagher2024pattern, la compassione non è semplicemente un'emozione, bensì un modello complesso di processi interconnessi, che include:
 
-- **Processi fisiologici**, tra cui l'attivazione del sistema nervoso parasimpatico e il rilascio di ossitocina;
-- **Motivazione all'azione**, che distingue la compassione dall'empatia passiva;
-- **Regolazione emotiva**, necessaria per evitare il distress empatico e favorire un equilibrio affettivo;
-- **Cognizione e valutazione**, che implica la consapevolezza della sofferenza altrui e delle risorse disponibili per alleviarla.
+- **processi fisiologici**, tra cui l'attivazione del sistema nervoso parasimpatico e il rilascio di ossitocina;
+- **motivazione all'azione**, che distingue la compassione dall'empatia passiva;
+- **regolazione emotiva**, necessaria per evitare il distress empatico e favorire un equilibrio affettivo;
+- **cognizione e valutazione**, che implica la consapevolezza della sofferenza altrui e delle risorse disponibili per alleviarla.
 
-Questi aspetti riflettono un modello interattivo e dinamico, dove la compassione si manifesta non come un semplice stato affettivo, ma come una predisposizione attiva verso il benessere altrui. Questa proposta molto recente si avvicina per diversi aspetti al significato originario Mahāyāna.
+Questi aspetti riflettono un modello interattivo e dinamico, dove la compassione si manifesta non come un semplice stato affettivo, ma come una predisposizione attiva verso il benessere altrui. Questa proposta, per diversi aspetti, si avvicina al significato originario Mahāyāna.
 
 ### Compassione nel Buddhismo Mahāyāna
 
-Nel Buddhismo Mahāyāna, la compassione (*karuṇā*) è considerata una delle qualità fondamentali del bodhisattva, colui che sceglie di rinviare la propria illuminazione per alleviare la sofferenza degli esseri senzienti. A differenza delle concezioni occidentali, la compassione buddhista non si limita all'empatia o all'afflizione per la sofferenza altrui, ma è sostenuta dalla saggezza (*prajñā*), che ne garantisce un'azione efficace e non condizionata dall'attaccamento emotivo.
+Nel Buddhismo Mahāyāna, *karuṇā* è una delle qualità fondamentali del bodhisattva, colui che sceglie di rinviare la propria illuminazione per alleviare la sofferenza degli esseri senzienti. A differenza delle concezioni tradizionali occidentali, la compassione buddhista non si limita all'empatia o all'afflizione per la sofferenza altrui, ma è sostenuta dalla saggezza (*prajñā*) che garantisce un'azione efficace e non condizionata dall'attaccamento emotivo.
 
-Questa visione si differenzia dalla teoria dei pattern nella misura in cui considera la compassione non solo come una risposta a un evento, ma come un principio di trasformazione personale e universale, orientato alla liberazione dalla sofferenza (*mokṣa*).
+Questa visione si differenzia dalla Teoria dei Pattern della Compassione, a cui abbiamo riferimento sopra, nella misura in cui considera la compassione non solo come una risposta a un evento, ma come un principio di **trasformazione personale e universale**, orientato alla liberazione dalla sofferenza (*mokṣa*).
 
-### Differenze tra la Pattern Theory e il Buddhismo Mahāyāna
+### Differenze tra la Teoria dei Pattern della Compassione e il Buddhismo Mahāyāna
 
-Un elemento chiave che distingue la prospettiva neuroscientifica dalla tradizione Mahāyāna è l'importanza attribuita alla **saggezza**. Nella visione buddhista, la compassione senza saggezza rischia di essere **inefficace** o di **generare attaccamento emotivo**. La Pattern Theory enfatizza l'importanza della regolazione emotiva come meccanismo per evitare il distress empatico, senza tuttavia collegare direttamente la compassione a una comprensione profonda della realtà ultima (*paramārtha-satya*).
+Un elemento chiave che distingue la prospettiva neuroscientifica della Teoria dei Pattern della Compassione dalla tradizione Mahāyāna è l'importanza attribuita alla **saggezza**. Nella visione buddhista, la compassione senza saggezza rischia di essere **inefficace** o di **generare attaccamento emotivo**. La Teoria dei Pattern della Compassione enfatizza l'importanza della regolazione emotiva come meccanismo per evitare il distress empatico, senza tuttavia collegare direttamente la compassione a una comprensione profonda della realtà ultima (*paramārtha-satya*).
 
-Inoltre, mentre la compassione nella Pattern Theory è descritta attraverso componenti misurabili, nel Mahāyāna essa assume una dimensione soteriologica che si sviluppa attraverso pratiche meditative e l'impegno (*bodhicitta*) nel sentiero del bodhisattva.
+Nel Mahāyāna karuṇā è una dimensione di un più ampio percorso soteriologico che si sviluppa attraverso pratiche meditative e l'impegno (*bodhicitta*) nel sentiero del bodhisattva; nella Teoria dei Pattern della Compassione, invece, la compassione è scomposta in una serie di componenti misurabili senza ovviamente alcuna dimensione soteriologica.
 
 ### Convergenze e Complementarietà
 
@@ -55,17 +55,20 @@ Nonostante queste differenze, vi sono punti di convergenza. Entrambe le prospett
 
 ### Livelli di Compassione nel Buddhismo Mahāyāna
 
-Nel Buddhismo Mahāyāna, la compassione si sviluppa su tre livelli progressivi:
+Nel Buddhismo Mahāyāna, la compassione (*karuṇā*) si sviluppa attraverso tre livelli progressivi:
 
-1. **Compassione per gli esseri senzienti (*sattvālambana karuṇā*)** – una risposta empatica alla sofferenza altrui.
-2. **Compassione per i fenomeni (*dharmālambana karuṇā*)** – il riconoscimento che la sofferenza è parte dell'impermanenza (*anityatā*).
-3. **Compassione senza oggetto (*anālambana karuṇā*)** – una compassione universale, non condizionata dall'attaccamento a un soggetto specifico, ma radicata nella saggezza.
+1. **Compassione per gli esseri senzienti (*sattvālambana karuṇā*)** – una risposta empatica alla sofferenza altrui, fondata sul riconoscimento del dolore degli altri;
+2. **Compassione per i fenomeni (*dharmālambana karuṇā*)** – la comprensione che la sofferenza è intrinseca all'impermanenza (*anityatā*) e alla natura condizionata dell'esistenza;
+3. **Compassione senza oggetto (*anālambana karuṇā*)** – una forma di compassione universale, non vincolata a un soggetto specifico, radicata nella saggezza (*prajñā*) e libera da attaccamento.
 
-L'ultima forma, *mahākaruṇā*, rappresenta la "grande compassione" del bodhisattva, in cui empatia e saggezza si fondono nel cammino verso l'illuminazione.
+Quest’ultima forma, spesso denominata *mahākaruṇā* (“grande compassione”), è propria del bodhisattva: una compassione illuminata, in cui empatia e saggezza si integrano nella consapevolezza dell’interdipendenza di tutti gli esseri e nella comprensione della realtà ultima, oltre le illusioni e le distorsioni cognitive del pensiero ordinario.
 
-### Convergenze e Differenze tra il Contesto Buddhista e Secolare
 
-Mentre il Buddhismo Mahāyāna enfatizza l'abnegazione e il superamento dell'ego, il contesto secolare tende a bilanciare la cura di sé e degli altri. Questa differenza riflette due concezioni fondamentali: nel Buddhismo, la compassione è una via di trasformazione radicale del sé, mentre nella psicologia occidentale essa è prevalentemente focalizzata sull'azione sociale e sull'equilibrio emotivo.
+### Convergenze e Differenze tra il Contesto Buddhista e quello Secolare
+
+Il Buddhismo Mahāyāna pone l’accento sull’abnegazione e sul superamento dell’ego, considerati passi fondamentali verso la liberazione. Al contrario, nell’ambito secolare, la compassione è spesso concepita come un equilibrio tra cura di sé e cura degli altri. 
+
+Questa differenza riflette due concezioni fondamentali: nella prospettiva buddhista, la compassione è un **processo trasformativo profondo** del sé, volto alla liberazione dalla sofferenza attraverso la dissoluzione dell’illusione dell’io; nella psicologia occidentale contemporanea, invece, essa è prevalentemente intesa come una **competenza** relazionale ed emotiva, orientata al benessere individuale e sociale.
 
 ### Conclusioni
 
