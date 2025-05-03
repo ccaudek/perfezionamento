@@ -28,6 +28,7 @@ book:
     - part: "Coltivazione della compassione"
       chapters:
         - file: chapters/chapter-1/chapter1-intro.qmd
+        - file: chapters/chapter-1/00-anatman.qmd
         - file: chapters/chapter-1/01-definitions.qmd
         - file: chapters/chapter-1/02-nature-nurture.qmd
         - file: chapters/chapter-1/03-what-trained.qmd
