@@ -41,8 +41,8 @@ book:
         - file: chapters/chapter-2/02-sati.qmd
         - file: chapters/chapter-2/03-mindfulness.qmd
         - file: chapters/chapter-2/04-tonglen.qmd
-        - file: chapters/chapter-2/05-patience.qmd
-        - file: chapters/chapter-2/06-tibetan-traditions.qmd
+        # - file: chapters/chapter-2/05-patience.qmd
+        # - file: chapters/chapter-2/06-tibetan-traditions.qmd
         # - file: chapters/chapter-2/wisdom.qmd
         # - file: chapters/chapter-2/dream.qmd
         # - file: chapters/chapter-2/non-dualism.qmd

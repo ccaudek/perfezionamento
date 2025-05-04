@@ -36,7 +36,7 @@ Nel buddhismo, il termine sanscrito **karuṇā** (karuṇā, करुणा), 
 
 > non è un mero sentimento, ma una determinazione ad agire per alleviare la sofferenza degli esseri senzienti.
 
-Questa distinzione indica che la compassione buddhista è **intrinsecamente attiva** e implica una partecipazione consapevole alla trasformazione del proprio rapporto con il mondo. Nella tradizione Mahāyāna (Grande Veicolo), emersa in Asia meridionale intorno all'inizio dell'Era Comune e in cui karuṇā divenne un tema centrale [@gethin1998foundations], la compassione e la saggezza (*prajñā*) sono considerate i due pilastri fondamentali dell'etica e della pratica spirituale. 
+Questa distinzione indica che la compassione buddhista è **intrinsecamente attiva** e implica una partecipazione consapevole alla trasformazione del proprio rapporto con il mondo. Nella tradizione Mahāyāna, in cui karuṇā divenne un tema centrale [@gethin1998foundations], la compassione e la saggezza (*prajñā*) sono considerate i due pilastri fondamentali dell'etica e della pratica spirituale. 
 
 L'ideale del bodhisattva, centrale nel Mahāyāna, incarna questo principio: egli non cerca l'illuminazione solo per sé, ma si impegna a liberare tutti gli esseri dal *saṃsāra*, spinto dalla *bodhicitta*, la "mente del risveglio" che unisce altruismo e saggezza. 
 
@@ -145,10 +145,13 @@ Partendo dall'assunto buddhista di un'aspirazione intatta al benessere, presente
 
 Una risposta plausibile, suggerita da diversi autori [@Dunne2023Compassion; @Condon2020Recovering], si trova nelle caratteristiche della modernità occidentale. La costruzione di identità altamente individualistiche e l'enfasi sull'autonomia, spesso associate a sentimenti di alienazione e isolamento, sono aggravate da quello che Charles Taylor ha definito il "cambiamento soggettivo" (*subjective turn*) [@Taylor1989SourcesSelf]. Questo cambiamento ha portato a un nuovo senso di soggettività, caratterizzato da un'accresciuta auto-riflessività [@McMahan2008BuddhistModernism]. L'individuo moderno è così immerso in un contesto culturale che lo porta a rivolgersi costantemente verso l'interno e a focalizzarsi sul sé, frequentemente attraverso una lente narrativa [@Schechtman2011NarrativeSelf].
 
+::: {.callout-note}
+Da *How to lose yourself* [@garfield2025lose], leggere *Letting go of anxiety*.
+:::
+
 Sebbene l'auto-riflessione possa essere positiva, questo costante auto-focus, specialmente quando assume forme negative e auto-ruminative legate a schemi mentali dannosi sul sé, è fortemente correlato a disturbi come la depressione [@NolenHoeksema2008]. È proprio in questi schemi negativi e narrative "inceppate" sul sé che l'aspirazione innata al benessere sembra rimanere bloccata o inaccessibile. La "storia del sé", saturata di negatività e focalizzata sulle mancanze, impedisce al desiderio fondamentale di benessere di tradursi in azione o persino di essere pienamente percepito. L'individuo può *volere* stare meglio a un livello profondo, ma la sua narrativa interna ostacola l'accesso a quella stessa volontà.
 
 Si può quindi ipotizzare che culture pre-moderne o meno marcatamente individualistiche e meno centrate su questo tipo di auto-riflessività problematica non presentassero la stessa diffusa difficoltà nell'accedere all'aspirazione innata al benessere. In tali contesti, la necessità di pratiche esplicite di auto-compassione, volte a creare uno spazio di gentilezza e accettazione per superare l'auto-critica e la ruminazione, potrebbe essere stata minore. Visto in quest'ottica, lo sviluppo contemporaneo dell'auto-compassione emerge come una risposta specifica e necessaria alle sfide psicologiche create dalle particolari condizioni culturali e fenomenologiche della modernità, che sembrano ostacolare l'accesso all'innata aspirazione al benessere.
-
 
 In risposta a queste sfide della modernità, l'auto-compassione può essere vista come un potenziale **"mezzo abile"** (*Upaya*), uno strumento volto a contrastare l'alienazione e a mitigare gli effetti negativi dell'auto-critica. L'intento è quello di incoraggiare l'individuo a rivolgersi a sé stesso con maggiore gentilezza, promuovendo narrative interne più benevole e un senso di umanità comune che riduca l'isolamento [@Neff2017SelfCompassionWellbeing].
 
