@@ -38,6 +38,8 @@ book:
       chapters:
         - file: chapters/chapter-2/chapter2-intro.qmd
         - file: chapters/chapter-2/01-experience.qmd
+        - file: chapters/chapter-2/non-dualism.qmd
+        - file: chapters/chapter-2/nagarjuna.qmd
         - file: chapters/chapter-2/02-sati.qmd
         - file: chapters/chapter-2/03-mindfulness.qmd
         - file: chapters/chapter-2/04-tonglen.qmd
@@ -45,8 +47,6 @@ book:
         # - file: chapters/chapter-2/06-tibetan-traditions.qmd
         # - file: chapters/chapter-2/wisdom.qmd
         # - file: chapters/chapter-2/dream.qmd
-        # - file: chapters/chapter-2/non-dualism.qmd
-        # - file: chapters/chapter-2/nagarjuna.qmd
         # - file: chapters/chapter-2/living-skillfully.qmd
         # - file: chapters/chapter-2/upaya.qmd
 
