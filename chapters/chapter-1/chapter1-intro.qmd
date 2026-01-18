@@ -7,9 +7,9 @@
 
 Un episodio spesso citato nei dialoghi tra Buddhismo e psicologia contemporanea illumina con semplicità un problema tutt’altro che marginale. Nel 1990, durante un incontro del *Mind and Life Institute* dedicato a “Emozioni e Salute”, Sharon Salzberg chiese al Dalai Lama cosa pensasse dell’odio verso sé stessi (*self-hatred*). La risposta fu disarmante: «Che cos’è?».
 
-Lo stupore dei presenti — e la riflessione che la stessa Salzberg avrebbe riportato negli anni successivi — non riguarda soltanto una curiosa differenza terminologica. Rivela piuttosto che **alcune configurazioni esperienziali che oggi consideriamo centrali** (autocritica cronica, vergogna, ruminazione narrativa sul sé, senso di inadeguatezza) **non sono universali** in senso forte. Dipendono da specifiche cornici culturali, da modelli impliciti del sé e da abitudini dell’attenzione che caratterizzano la modernità occidentale.
+Lo stupore dei presenti, e la riflessione che la stessa Salzberg avrebbe riportato negli anni successivi, non riguardano soltanto una curiosa differenza terminologica. Rivela piuttosto che **alcune configurazioni esperienziali che oggi consideriamo centrali** (autocritica cronica, vergogna, ruminazione narrativa sul sé, senso di inadeguatezza) **non sono universali** in senso forte. Queste configurazioni dipendono da specifiche cornici culturali, da modelli impliciti del sé e da abitudini dell'attenzione che caratterizzano la modernità occidentale.
 
-Questo dato è cruciale per chi lavora nelle professioni di aiuto. Molti degli strumenti oggi più diffusi — mindfulness, training compassionevoli, auto-compassione — nascono per rispondere a queste configurazioni di sofferenza contemporanea. E in molti casi **funzionano**: riducono stress, aumentano regolazione emotiva, migliorano la qualità relazionale, aiutano a prevenire il burnout. Sarebbe ingenuo negarlo.
+Questo dato è cruciale per chi lavora nelle professioni di aiuto. Molti degli strumenti oggi più diffusi, come la mindfulness, il training compassionevole e l'auto-compassione, sono nati per rispondere a queste configurazioni di sofferenza contemporanea. E in molti casi **funzionano**: riducono lo stress, migliorano la regolazione emotiva, la qualità delle relazioni e aiutano a prevenire il burnout. Sarebbe ingenuo negarlo.
 
 E tuttavia, nella pratica clinica ed educativa emerge spesso una sensazione condivisa: queste tecniche **funzionano, ma non sempre abbastanza**.
 
@@ -17,7 +17,7 @@ E tuttavia, nella pratica clinica ed educativa emerge spesso una sensazione cond
 - Funzionano per un periodo e poi perdono efficacia.
 - Funzionano sui sintomi, ma lasciano intatti nuclei profondi di sofferenza: rigidità identitaria, autocritica strutturale, cinismo, iper-responsabilità, collasso empatico.
 
-È da questa tensione — non da un rifiuto della psicologia contemporanea — che nasce il presente lavoro.
+È da questa tensione, non da un rifiuto della psicologia contemporanea, che nasce il presente lavoro.
 
 ## La domanda di fondo
 
@@ -25,9 +25,9 @@ L’ipotesi che guida l’intero percorso è la seguente:
 
 > **Le pratiche contemplative e compassionevoli contemporanee funzionano perché attingono a intuizioni profonde della tradizione buddhista; ma funzionano “troppo poco” perché, nel processo di adattamento, hanno spesso lasciato sullo sfondo proprio quegli elementi che rendevano la compassione stabile, non reattiva e sostenibile.**
 
-Il punto non è che la psicologia “abbia sbagliato”, ma che abbia **selezionato** alcuni aspetti del buddhismo — quelli più compatibili con le sensibilità moderne — **dimenticandone altri**. E questi elementi dimenticati non sono marginali: riguardano il modo in cui il sé viene concepito, il ruolo della sofferenza, la funzione della compassione e il rapporto tra cura ed ego.
+Il punto non è che la psicologia “abbia sbagliato”, ma che abbia **selezionato** alcuni aspetti del buddhismo, ovvero quelli più compatibili con le sensibilità moderne, **dimenticandone altri**. Questi elementi dimenticati non sono marginali, ma riguardano il modo in cui viene concepito il sé, il ruolo della sofferenza, la funzione della compassione e il rapporto tra cura ed ego.
 
-Da qui sorgono le domande che strutturano questo progetto:
+Da qui sorgono le domande che strutturano il mio intervento:
 
 * Che cosa intende realmente il Buddhismo Mahāyāna quando parla di *karuṇā*?
 * Perché, in quella tradizione, la compassione non è mai separata dalla saggezza (*prajñā*)?
@@ -37,39 +37,39 @@ Da qui sorgono le domande che strutturano questo progetto:
 
 ## Compassione come via di trasformazione (non solo come emozione)
 
-Questo lavoro propone di esplorare la *karuṇā* non come una “emozione positiva” o una competenza relazionale isolata, ma come **una via di trasformazione della mente**. Nel Mahāyāna, la compassione non è separabile da una revisione profonda dell’idea di un io intrinseco (*anātman*), dalla comprensione dell’interdipendenza (*pratītyasamutpāda*) e, infine, dalla realizzazione della vacuità (*śūnyatā*).
+La mia riflessione propone di esplorare la *karuṇā* non come una “emozione positiva” o una competenza relazionale isolata, ma come **una via di trasformazione della mente**. Nel Mahāyāna, la compassione non può essere separata da una profonda revisione dell'idea di un sé intrinseco (*anātman*), dalla comprensione dell’interdipendenza (*pratītyasamutpāda*) e, infine, dalla realizzazione della vacuità (*śūnyatā*).
 
-In altre parole, nel quadro buddhista la compassione non è semplicemente qualcosa che *si prova*, ma qualcosa che **cambia il modo in cui il mondo appare**. Questo spostamento è decisivo: molte difficoltà che incontriamo nel lavoro di aiuto non dipendono solo da un “deficit di empatia”, ma da **strutture percettive e cognitive** che rendono la cura instabile, selettiva o estenuante.
+In altre parole, secondo il buddhismo, la compassione non è semplicemente qualcosa che *si prova*, ma qualcosa che **cambia il modo in cui il mondo appare**. Questo spostamento è decisivo: molte difficoltà che incontriamo nel lavoro di aiuto non dipendono solo da un “deficit di empatia”, ma da **strutture percettive e cognitive** che rendono la cura instabile, selettiva o estenuante.
 
-Un banco di prova particolarmente istruttivo di questa differenza è il rapporto tra compassione e auto-compassione. Come mostrano Dunne e Manheim (2023), la nozione contemporanea di *self-compassion* — pur ispirata a fonti buddhiste e clinicamente utile — risulta spesso difficile da sovrapporre alle concezioni indo-tibetane della compassione, che tendono a orientarla primariamente verso gli altri e a guardare con sospetto la sua interiorizzazione verso un sé reificato [@Dunne2023Compassion].
+Un banco di prova particolarmente istruttivo di questa differenza è il rapporto tra compassione e auto-compassione. Come mostrano Dunne e Manheim (2023), la nozione contemporanea di *self-compassion*, pur ispirata a fonti buddhiste e utile dal punto di vista clinico, risulta spesso difficile da sovrapporre alle concezioni indo-tibetane della compassione, che tendono a orientarla principalmente verso gli altri e a guardare con sospetto la sua interiorizzazione verso un sé reificato. [@Dunne2023Compassion].
 
-Questo non implica che le pratiche moderne siano da rigettare. Implica però che **stiamo lavorando con due antropologie diverse**, e che chiarire questa differenza non è un esercizio teorico astratto, ma una questione di efficacia clinica ed etica professionale.
+Ciò non implica che le pratiche moderne debbano essere rigettate. Implica, però,  che **stiamo lavorando con due antropologie diverse**, e che chiarire questa differenza non è un esercizio teorico astratto, ma una questione di efficacia clinica ed etica professionale.
 
 ## Perché questo percorso è rilevante per le professioni di aiuto
 
 Gli operatori delle professioni di aiuto si trovano quotidianamente a fare i conti con tre sfide ricorrenti:
 
-1. **Esporsi alla sofferenza senza esserne travolti**
-2. **Prendersi cura senza identificarsi nel ruolo di “salvatore”**
-3. **Restare umani senza bruciarsi emotivamente**
+1. **esporsi alla sofferenza senza esserne travolti**;
+2. **prendersi cura senza identificarsi nel ruolo di “salvatore”**;
+3. **restare umani senza bruciarsi emotivamente**.
 
-Il buddhismo — nelle sue formulazioni più mature — ha affrontato esattamente questi problemi, ma in un contesto culturale molto diverso dal nostro. Le sue soluzioni non sono immediatamente trasferibili, ma contengono intuizioni strutturali che possono essere riformulate come **strumenti critici e operativi** per il lavoro contemporaneo.
+Il buddhismo, nelle sue formulazioni più mature, ha affrontato esattamente questi problemi, ma in un contesto culturale molto diverso dal nostro. Le sue soluzioni non sono immediatamente trasferibili, ma contengono intuizioni strutturali che possono essere riformulate come **strumenti critici e operativi** per il lavoro contemporaneo.
 
-Questo corso non propone di “applicare il buddhismo” alla clinica. Propone piuttosto di usarlo come **specchio e laboratorio**: per interrogare i modelli impliciti della mente che utilizziamo, per capire perché alcune pratiche funzionano solo fino a un certo punto, e per esplorare se integrare ciò che è stato dimenticato — non-sé, equanimità, decentramento, non-dualità — possa rendere la compassione **più affidabile, più stabile e più sostenibile**.
+Questo corso non propone di “applicare il buddhismo” alla clinica. Propone piuttosto di usarlo come **specchio e laboratorio**: per interrogare i modelli impliciti della mente che utilizziamo, per capire perché alcune pratiche funzionano solo fino a un certo punto, e per esplorare se integrare ciò che è stato dimenticato, ovvero i concetti di non-sé, equanimità, decentramento, non-dualità, possa rendere la compassione **più affidabile, più stabile e più sostenibile**.
 
 ## Struttura del percorso
 
-Il cammino che seguirà è costruito per rispondere progressivamente alle domande poste fin qui:
+Il cammino che seguirà è costruito per rispondere progressivamente alle domande poste in precedenza:
 
 1. **Radici filosofiche**: come il Buddhismo analizza l’illusione dell’ego e la struttura della sofferenza (*anātman*, *śūnyatā*).
 2. **Sistematizzazioni Mahāyāna**: perché la compassione diventa il cuore del percorso del bodhisattva.
 3. **Pratiche contemplative**: come meditazione, Incommensurabili e *tonglen* lavorano sulla struttura dell’esperienza, non solo sull’emozione.
 4. **Incontro con la modernità**: cosa cambia quando queste pratiche vengono secolarizzate.
-5. **Ritorno alla pratica**: che cosa può essere recuperato — criticamente e responsabilmente — per il lavoro concreto degli operatori di aiuto.
+5. **Ritorno alla pratica**: che cosa può essere recuperato, criticamente e responsabilmente, per il lavoro concreto degli operatori di aiuto.
 
-L’obiettivo finale non è una sintesi teorica, ma una **ri-fondazione pratica**: mostrare che alcune delle difficoltà più frequenti nel lavoro clinico ed educativo non richiedono solo nuove tecniche, ma **un modello della mente leggermente diverso**.
+L’obiettivo finale non è una sintesi teorica, ma una riflessione su una possibile **ri-fondazione operativa**: si tratta di mostrare come alcune delle difficoltà ricorrenti nel lavoro clinico ed educativo (burnout, controtransfert paralizzante, impotenza, conflitti relazionali cronici) possano essere rilette non solo come problemi tecnici o emotivi, ma anche come sintomi di un **modello implicito della mente e della relazione** che potrebbe essere rivisto.
 
-È a partire da questa esigenza che le conclusioni del corso — e i progetti finali richiesti ai partecipanti — trovano il loro senso.
+È a partire da questa proposta che devono essere lette sia le conclusioni del mio intervento, sia i progetti finali che verranno richiesti ai partecipanti.
 
 ## Bibliografia {.unnumbered}
 
