@@ -11,7 +11,7 @@ In termini generali, il confronto che segue oppone due cornici:
 
 Per articolare l’analisi adotteremo un metodo interdisciplinare: (a) un breve confronto etimologico e culturale; (b) l’impiego del modello proposto da Shaun Gallagher nella *Pattern Theory of Compassion* [@gallagher2024pattern] come dispositivo comparativo; (c) una ricostruzione dei nuclei distintivi della *karuṇā* mahāyāna in relazione a *śūnyatā* e *bodhicitta*.
 
-## Etimologia e orizzonti culturali: da *compassio* a *karuṇā*
+## Etimologia e orizzonti culturali: da *compassio* a *karunā*
 
 Le genealogie linguistiche non determinano da sole i significati, ma spesso rivelano gli **orizzonti impliciti** in cui un concetto si è storicamente consolidato. In Occidente, “compassione” deriva dal latino *compassio* (“soffrire insieme”: *cum* + *pati*). Questa origine privilegia un registro di **condivisione del dolore**, che in molte tradizioni etiche (in particolare cristiane) è stata associata alla solidarietà e alla cura del prossimo. Tuttavia, se isolata dalla dimensione attiva e trasformativa, tale accentuazione può scivolare verso forme di coinvolgimento emotivo non regolato, vicine a ciò che in letteratura viene definito **angoscia empatica** (*empathic distress*): una partecipazione al dolore altrui che, anziché sostenere l’azione, può produrre paralisi, evitamento o esaurimento.
 
@@ -32,7 +32,7 @@ Questo schema è particolarmente utile perché, pur restando interno a un orizzo
 
 Tuttavia, la convergenza resta parziale. Il modello di Gallagher tende a operare sul piano dei meccanismi individuali (psicofisiologici e cognitivi), mentre la prospettiva mahāyāna colloca la compassione entro una trasformazione più ampia della visione del sé e della realtà, cioè entro una cornice ontologica e soteriologica.
 
-## *Karuṇā* nel Mahāyāna: ontologia, soteriologia e prassi
+## *Karunā* nel Mahāyāna: ontologia, soteriologia e prassi
 
 Nel Mahāyāna, *karuṇā* non è soltanto una disposizione etica: è un principio che attraversa l’intero percorso di liberazione. Essa è inseparabile dall’ideale del *bodhisattva* e nasce dalla comprensione di *śūnyatā* e *pratītyasamutpāda*: quando la realtà è riconosciuta come interdipendente e priva di essenze intrinseche, anche la separazione rigida tra “me” e “altro” perde consistenza, rendendo possibile una compassione non discriminante e non appropriante.
 

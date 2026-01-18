@@ -62,23 +62,23 @@ Nel Mahāyāna, la compassione non è una disposizione isolata, ma si sviluppa a
 
 Rielaborati in chiave mahāyāna, i Brahmavihāra non sono semplici virtù morali, ma pratiche inseparabili dalla *bodhicitta*. Essi sostengono una compassione che non diventa né selettiva né paternalistica, e che rimane coerente con la visione non dualistica della realtà.
 
-### Maitrī (Amorevole Gentilezza) 
+### Maitrī (Amorevole Gentilezza) {.unnumbered .unlisted}
 
 La maitrī, o mettā, è definita come il desiderio attivo che tutti gli esseri possano sperimentare felicità e benessere. Nel Mahāyāna, essa svolge una funzione generativa rispetto alla compassione: non si limita a reagire alla sofferenza, ma stabilisce un orientamento positivo e proattivo verso il bene altrui. In questo senso, la maitrī costituisce il movente affettivo della bodhicitta, impedendo che la karuṇā si riduca a una risposta puramente reattiva o gravata da tonalità emotive negative. Dal punto di vista filosofico, la maitrī contribuisce a dissolvere l’atteggiamento strumentale verso gli altri, favorendo una relazione non utilitaristica e non gerarchica con gli esseri senzienti. Essa prepara il terreno per una compassione che non distingue rigidamente tra “chi soffre” e “chi aiuta”, ma si radica in una visione relazionale del sé. 
 
-#### Karuṇā (Compassione) 
+### Karuṇā (Compassione) {.unnumbered .unlisted}
 
 All’interno dei Brahmavihāra, la karuṇā occupa una posizione centrale, ma non autosufficiente. Essa è definita come la capacità di riconoscere la sofferenza (duḥkha) degli altri, accompagnata dal desiderio autentico di alleviarla. Nel Mahāyāna, la compassione è inseparabile dalla prajñā: solo la comprensione della vacuità (śūnyatā) consente di agire senza rafforzare le illusioni dell’io e dell’altro. Tuttavia, senza il sostegno degli altri Brahmavihāra, la karuṇā rischia di diventare selettiva, emotivamente instabile o carica di attaccamento. È precisamente l’integrazione sistemica di questi stati mentali a permettere il passaggio da una compassione ordinaria a una mahākaruṇā autenticamente non dualistica. 
 
-### Muditā (Gioia Compartecipe) 
+### Muditā (Gioia Compartecipe) {.unnumbered .unlisted}
 
 La muditā, spesso trascurata nelle analisi filosofiche, riveste un ruolo cruciale nel percorso del bodhisattva. Essa consiste nella capacità di gioire sinceramente della felicità, dei successi e del progresso spirituale degli altri, superando l’invidia e la competizione. In un contesto Mahāyāna, la muditā funge da correttivo delle dinamiche sottili dell’ego, che possono manifestarsi anche all’interno della pratica altruistica. La gioia compartecipe impedisce che la compassione assuma una forma paternalistica o asimmetrica, in cui il bodhisattva si percepisce come “salvatore” di esseri inferiori. Essa rafforza invece una visione paritaria e interdipendente, coerente con la dottrina dell’anātman e dell’origine condizionata (pratītyasamutpāda). 
 
-### Upekṣā (Equanimità) 
+### Upekṣā (Equanimità) {.unnumbered .unlisted}
 
 L’upekṣā rappresenta il principio di equilibrio che stabilizza e universalizza gli altri Brahmavihāra. Definita come uno stato di imparzialità e serenità non reattiva, essa consente al praticante di estendere amore, compassione e gioia senza discriminazioni, attaccamenti o avversioni. Nel Mahāyāna, l’upekṣā è profondamente connessa alla prajñā e alla comprensione della vacuità: riconoscendo l’assenza di un sé sostanziale, il bodhisattva può agire con compassione senza identificarsi con i risultati dell’azione. In particolare nella prospettiva Madhyamaka, l’upekṣā garantisce che la compassione non ricada in forme sottili di dualismo cognitivo. Essa rende possibile un agire etico che non reifica né il soggetto agente né l’oggetto dell’azione, allineando la pratica altruistica con la visione della śūnyatā. 
 
-### Brahmavihāra come Stati Incommensurabili 
+### Brahmavihāra come stati incommensurabili {.unnumbered .unlisted}
 
 Nel Mahāyāna, i Brahmavihāra sono qualificati come appamaññā (“senza misura”), poiché, attraverso la pratica meditativa (bhāvanā), possono essere estesi senza limite a tutti gli esseri senzienti. Questa incommensurabilità riflette l’orizzonte universalistico della bodhicitta e il superamento progressivo dei confini mentali che separano sé e altro. In questo senso, i Brahmavihāra non sono semplicemente strumenti di regolazione emotiva, ma pratiche trasformative che riconfigurano la struttura stessa dell’esperienza soggettiva. Essi preparano e sostengono la realizzazione della mahākaruṇā, intesa non come stato emotivo eccezionale, ma come modalità stabile di essere-nel-mondo fondata sull’interdipendenza e sulla non-dualità.
 
@@ -94,6 +94,6 @@ L’analisi delle sistematizzazioni mahāyāna mette in luce una tensione fecond
 
 Come suggerisce Garfield, la *karuṇā* mahāyāna trascende l’opposizione tra natura e cultura, mostrando come l’innatezza e la coltivazione si integrino nel cammino verso il risveglio [@garfield2025lose]. In questo senso, la compassione non è solo il cuore etico del Mahāyāna, ma la sua espressione più profonda sul piano ontologico, cognitivo e relazionale.
 
-## Bibliografia {.unnumbered}
+## Bibliografia {.unnumbered .unlisted}
 
 

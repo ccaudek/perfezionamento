@@ -10,19 +10,19 @@ La tesi operativa non è “tornare al buddhismo” come religione, né importar
 
 ## Cosa abbiamo imparato: tre snodi che cambiano la pratica
 
-### 1) Compassione non è solo emozione: è una postura cognitiva e relazionale
+### 1) Compassione non è solo emozione: è una postura cognitiva e relazionale {.unnumbered .unlisted}
 
 Nel percorso mahāyāna, *karuṇā* non è un sentimento “caldo” da generare, ma una forma di **cura**: una disposizione orientata ad alleviare la sofferenza, sostenuta da lucidità e da una comprensione più ampia del sé e dell’altro. Questo sposta l’attenzione: il problema non è “provare abbastanza compassione”, ma **strutturare la mente** in modo che la compassione non collassi in ansia empatica, compiacimento, iper-responsabilità o fuga.
 
 Per un operatore questo significa: non misurare la qualità del lavoro sulla quantità di emozione, ma sulla capacità di restare presenti **senza perdersi**.
 
-### 2) La non-dualità non è metafisica astratta: è un antidoto contro la reificazione
+### 2) La non-dualità non è metafisica astratta: è un antidoto contro la reificazione {.unnumbered .unlisted}
 
 Le sezioni su non-dualità e Nāgārjuna hanno mostrato una tesi forte: la sofferenza non nasce solo da eventi o emozioni, ma da **illusioni cognitive**—in particolare dalla reificazione: trattare come solidi e assoluti il sé, l’altro, le storie interne, i ruoli (“salvatore”, “incapace”, “vittima”, “colpevole”). Questo è sorprendentemente vicino a un obiettivo clinico contemporaneo: ridurre la “presa di realtà” dei contenuti mentali (dereificazione, defusione, metacognizione).
 
 Qui il contributo “dimenticato” è scomodo ma potente: molte difficoltà emotive persistono perché non è in gioco solo la regolazione dell’affetto, ma **il modo in cui costruiamo il mondo**.
 
-### 3) Le pratiche avanzate (brahmavihāra, tonglen) sono “tecnologie morali” per l’imparzialità
+### 3) Le pratiche avanzate (brahmavihāra, tonglen) sono “tecnologie morali” per l’imparzialità {.unnumbered .unlisted}
 
 La radiazione illimitata degli Incommensurabili e la logica del tonglen non sono semplici esercizi di immaginazione. Sono addestramenti a:
 
@@ -37,7 +37,7 @@ Per le professioni di aiuto questo è centrale: l’imparzialità non è freddez
 
 Qui sotto propongo **sette piste operative** (alcune applicabili subito, altre come domande di ricerca e sperimentazione). L’obiettivo non è “buddhistizzare” la clinica, ma usare alcune intuizioni tradizionali come **correttivi** e come **amplificatori** di ciò che già funziona.
 
-### 1) Dal “prendermi cura di me” al “decentrarmi da me” (senza auto-negazione)
+### 1) Dal “prendermi cura di me” al “decentrarmi da me” (senza auto-negazione) {.unnumbered .unlisted}
 
 Molti operatori sono intrappolati tra due estremi: iper-sacrificio e auto-protezione difensiva. Il materiale indo-tibetano introduce una terza via: non negare il sé, ma **ridurne la centralità**.
 
@@ -46,7 +46,7 @@ Molti operatori sono intrappolati tra due estremi: iper-sacrificio e auto-protez
 * *“In questo momento sto proteggendo il paziente o sto proteggendo la mia immagine di professionista?”*
   Non è colpevolizzazione: è un modo per vedere dove il sé si irrigidisce. Spesso lì nasce burnout e cinismo.
 
-### 2) Distinguere compassione da angoscia empatica, con un indicatore corporeo
+### 2) Distinguere compassione da angoscia empatica, con un indicatore corporeo {.unnumbered .unlisted}
 
 Nella pratica clinica “funzionare troppo poco” è spesso: *mi coinvolgo troppo → mi irrigidisco → mi distacco*. La tradizione distingue implicitamente tra *karuṇā* e distress: la prima è stabile e orientata, il secondo è collasso.
 
@@ -56,7 +56,7 @@ Nella pratica clinica “funzionare troppo poco” è spesso: *mi coinvolgo trop
 * se il respiro resta disponibile e l’attenzione è chiara → è più vicino a compassione.
   Questo non richiede “meditazione formale” in seduta: è una micro-competenza di autoregolazione.
 
-### 3) Reintrodurre un elemento “decostruttivo” nelle pratiche di mindfulness
+### 3) Reintrodurre un elemento “decostruttivo” nelle pratiche di mindfulness {.unnumbered .unlisted}
 
 Molte mindfulness contemporanee restano a livello di attenzione e non-giudizio. Il contributo “dimenticato” è la funzione di *vipassanā*: vedere **impermanenza, dipendenza, non-sostanzialità** delle storie mentali.
 
@@ -65,7 +65,7 @@ Molte mindfulness contemporanee restano a livello di attenzione e non-giudizio. 
 * *“Questo è un evento mentale condizionato: da cosa è sostenuto proprio adesso?”*
   È un ponte tra pratica contemplativa e formulazione clinica (triggers, schemi, contesti).
 
-### 4) Tonglen “clinicamente compatibile”: come pratica di esposizione compassionevole
+### 4) Tonglen “clinicamente compatibile”: come pratica di esposizione compassionevole {.unnumbered .unlisted}
 
 Tonglen è potente ma rischioso se viene inteso letteralmente o usato senza stabilità emotiva. In chiave operativa può essere trattato come un addestramento a:
 
@@ -80,7 +80,7 @@ Tonglen è potente ma rischioso se viene inteso letteralmente o usato senza stab
 
 **Domanda aperta:** in quali setting (oncologia, psichiatria, emergenza, hospice) questa micro-pratica riduce davvero l’evitamento? E quando invece aumenta distress?
 
-### 5) Recuperare l’“imparzialità” come competenza, non come ideale morale
+### 5) Recuperare l’“imparzialità” come competenza, non come ideale morale {.unnumbered .unlisted}
 
 Nella cultura contemporanea l’imparzialità suona disumana; nella tradizione è la condizione perché la compassione sia affidabile e non selettiva.
 
@@ -91,7 +91,7 @@ Nella cultura contemporanea l’imparzialità suona disumana; nella tradizione �
 
 Questo traduce l’equanimità in qualità del lavoro e sicurezza clinica.
 
-### 6) Auto-compassione: utile, ma con una correzione strutturale
+### 6) Auto-compassione: utile, ma con una correzione strutturale {.unnumbered .unlisted}
 
 Il materiale discusso suggerisce una tensione: l’auto-compassione moderna funziona spesso perché risponde a autocritica e vergogna; ma rischia di rinforzare la postura narrativa “io-osservatore che tratta me-oggetto”.
 
@@ -102,7 +102,7 @@ Il materiale discusso suggerisce una tensione: l’auto-compassione moderna funz
 
 **Domanda aperta:** nei pazienti con vergogna e attaccamento disorganizzato, funziona meglio “darsi cura” o “imparare a riceverla”?
 
-### 7) Una nuova metrica di efficacia: non solo sintomi, ma “capacità di non reificare”
+### 7) Una nuova metrica di efficacia: non solo sintomi, ma “capacità di non reificare” {.unnumbered .unlisted}
 
 Se misuriamo solo stress e umore, molte pratiche sembrano limitate. Se misuriamo anche:
 
@@ -131,10 +131,9 @@ La proposta conclusiva del percorso è quindi una posizione intermedia:
 In altre parole: se mindfulness e auto-compassione “funzionano”, bene. Ma se “funzionano troppo poco”, la risposta non è necessariamente più intensità o più esercizi. Può essere **più profondità strutturale**: rivedere il modello di mente che stiamo implicitamente usando. Ed è qui che il materiale mahāyāna, con tutte le sue scomodità, diventa sorprendentemente rilevante per le professioni di aiuto: non come ideologia, ma come laboratorio millenario di trasformazione di attenzione, emozione e identità.
 
 
-
 ## Compito per casa 1
 
-### **Dalla tecnica alla struttura: rivedere un intervento esistente**
+### Dalla tecnica alla struttura: rivedere un intervento esistente {.unnumbered .unlisted}
 
 **Obiettivo**
 Verificare in che modo un intervento clinico o educativo già utilizzato (mindfulness, auto-compassione, training emotivo, psicoeducazione) **presupponga un certo modello di mente e di sé**, e come potrebbe essere rafforzato integrando gli elementi “dimenticati” del buddhismo discussi nel corso.
@@ -167,7 +166,7 @@ Verificare in che modo un intervento clinico o educativo già utilizzato (mindfu
 
 ## Compito per casa 2
 
-### **Progettare una micro-pratica “scomoda” ma clinicamente sostenibile**
+### Progettare una micro-pratica “scomoda” ma clinicamente sostenibile {.unnumbered .unlisted}
 
 **Obiettivo**
 Tradurre un elemento “scomodo” del buddhismo (non-sé, equanimità, tonglen, decentramento dell’ego) in una **micro-pratica applicabile**, rispettando i limiti e le responsabilità del lavoro professionale.
@@ -204,7 +203,7 @@ Scheda operativa (1–2 pagine) + breve commento teorico che spieghi:
 
 ## Compito per casa 3
 
-### **Dal “funziona” al “perché funziona”: ridefinire i criteri di efficacia**
+### Dal “funziona” al “perché funziona”: ridefinire i criteri di efficacia {.unnumbered .unlisted}
 
 **Obiettivo**
 Spostare il focus da *“questa pratica funziona?”* a
