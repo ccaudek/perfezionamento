@@ -1,103 +1,87 @@
 # Incontri tra Culture {#sec-incontri-culture}
 
-## Convergenze e Divergenze Filosofiche
+## Convergenze e divergenze filosofiche
 
-Iniziamo ora un approfondimento critico del concetto di *karuṇā* attraverso un confronto tra la visione buddhista Mahāyāna e le interpretazioni contemporanee della compassione nel contesto occidentale e scientifico. Questo dialogo interculturale permette di evidenziare non solo differenze terminologiche ed etimologiche, ma soprattutto divergenze fondamentali nella comprensione della compassione come **pratica trasformativa** rispetto a una sua riduzione a mero stato emotivo.
+Dopo aver chiarito, nei capitoli precedenti, il legame strutturale tra *karuṇā*, *anātman* e *śūnyatā*, possiamo ora avviare un confronto critico tra la concezione mahāyāna della compassione e le interpretazioni contemporanee sviluppate in ambito occidentale, in particolare nel contesto neuroscientifico e psicologico. Questo dialogo interculturale non mira soltanto a registrare differenze terminologiche o genealogie storiche, ma a mettere in luce divergenze più profonde circa lo statuto della compassione: **pratica trasformativa orientata alla liberazione**, nel Mahāyāna, oppure **costrutto psico-affettivo e competenza prosociale**, in molti approcci secolari.
 
-La compassione (*karuṇā*) occupa un ruolo centrale sia nelle tradizioni contemplative dell’Asia orientale che nelle ricerche neuroscientifiche e psicologiche moderne. Tuttavia, come illustrato nel capitolo precedente, le sue radici filosofiche, i meccanismi operativi e gli obiettivi ultimi differiscono profondamente. In questo capitolo esploreremo due prospettive principali:  
+In termini generali, il confronto che segue oppone due cornici:
 
-1. L’approccio neuroscientifico e secolare, che interpreta la compassione come un insieme di processi cognitivi, emotivi e fisiologici.  
-2. La prospettiva buddhista Mahāyāna, dove la *karuṇā* è inseparabile dalla saggezza (*prajñā*) e si configura come un impegno etico attivo verso la liberazione dalla sofferenza (*duḥkha*).  
+1. un approccio secolare e neuroscientifico, che descrive la compassione come un insieme di processi cognitivi, affettivi e fisiologici osservabili e in parte misurabili;
+2. una prospettiva buddhista mahāyāna, per la quale la *karuṇā* è inseparabile dalla *prajñā* e si configura come orientamento soteriologico ed etico, cioè come impegno attivo contro il *duḥkha*.
 
-Per strutturare questa analisi, adotteremo un approccio interdisciplinare, integrando l’etimologia, le pratiche meditative e il modello teorico proposto da Shaun Gallagher nella sua *Pattern Theory of Compassion* [@gallagher2024pattern]. Questo framework ci permetterà di confrontare le implicazioni epistemologiche e pratiche delle due visioni.
+Per articolare l’analisi adotteremo un metodo interdisciplinare: (a) un breve confronto etimologico e culturale; (b) l’impiego del modello proposto da Shaun Gallagher nella *Pattern Theory of Compassion* [@gallagher2024pattern] come dispositivo comparativo; (c) una ricostruzione dei nuclei distintivi della *karuṇā* mahāyāna in relazione a *śūnyatā* e *bodhicitta*.
 
-## Etimologia e Fondamenti Culturali: Da *Compassio* a *Karuṇā*
+## Etimologia e orizzonti culturali: da *compassio* a *karuṇā*
 
-L’origine linguistica dei termini rivela già una divergenza fondamentale nella concezione della compassione.  
+Le genealogie linguistiche non determinano da sole i significati, ma spesso rivelano gli **orizzonti impliciti** in cui un concetto si è storicamente consolidato. In Occidente, “compassione” deriva dal latino *compassio* (“soffrire insieme”: *cum* + *pati*). Questa origine privilegia un registro di **condivisione del dolore**, che in molte tradizioni etiche (in particolare cristiane) è stata associata alla solidarietà e alla cura del prossimo. Tuttavia, se isolata dalla dimensione attiva e trasformativa, tale accentuazione può scivolare verso forme di coinvolgimento emotivo non regolato, vicine a ciò che in letteratura viene definito **angoscia empatica** (*empathic distress*): una partecipazione al dolore altrui che, anziché sostenere l’azione, può produrre paralisi, evitamento o esaurimento.
 
-Nella tradizione occidentale, il termine "compassione" deriva dal latino *compassio* (letteralmente "soffrire insieme", da *cum* = insieme e *pati* = soffrire). Questa radice sottolinea una condivisione passiva del dolore, spesso associata all’etica cristiana, che enfatizza la solidarietà con la sofferenza umana come espressione di amore fraterno. Tuttavia, questa prospettiva rischia di confondere la compassione con l’**angoscia empatica** (*empathic distress*), un coinvolgimento emotivo che può generare esaurimento o paralisi d’azione.  
+Nel lessico buddhista, *karuṇā* indica sì una sensibilità alla sofferenza, ma si definisce soprattutto come **orientamento operativo**: una disposizione a intervenire per alleviarla. In questa direzione, Garfield suggerisce che *karuṇā* sia meglio resa come “cura compassionevole”, proprio per evitare una lettura meramente reattiva o sentimentale [@garfield2022buddhist]. La differenza è decisiva: nel Mahāyāna la compassione non è un episodio emotivo, ma una competenza coltivata e resa stabile dalla *prajñā*, che impedisce alla cura di trasformarsi in attaccamento, controllo o appropriazione morale.
 
-Nel Buddhismo Mahāyāna, il termine sanscrito *karuṇā* va oltre la mera identificazione con la sofferenza: implica un **impegno attivo** per alleviarla. Come notato da Garfield, *karuṇā* potrebbe essere più precisamente tradotta come "cura compassionevole" o "azione alleviante" [@garfield2022buddhist]. Crucialmente, questa qualità è sempre accompagnata dalla *prajñā* (saggezza), che garantisce un’azione non condizionata dall’attaccamento o dal desiderio di controllo.  
+Questa impostazione emerge con chiarezza nell’ideale del *bodhisattva*: la compassione non è un “sentire con”, ma una prassi che tende alla liberazione dalla sofferenza e dal *saṃsāra*. In tal senso, *karuṇā* non si limita a rispondere alla sofferenza: contribuisce a dissolvere i confini rigidi tra sé e altro, poiché è radicata nella comprensione del non-sé (*anātman*) e della vacuità (*śūnyatā*).
 
-Un’altra distinzione chiave riguarda il ruolo della compassione nel percorso spirituale. Nel Mahāyāna, *karuṇā* è la motivazione centrale del *bodhisattva*, l’ideale spirituale che rinuncia al proprio nirvana per aiutare tutti gli esseri senzienti a liberarsi dal ciclo delle rinascite (*saṃsāra*). In questo contesto, la compassione non è solo un sentimento, ma una **forza trasformativa** che dissolve i confini tra sé e altro, tra soggetto e oggetto.  
+## Un ponte concettuale: la *Pattern Theory of Compassion* di Gallagher
 
-Queste differenze suggeriscono un contrasto radicale: mentre l’Occidente tende a enfatizzare l’identificazione emotiva con il dolore altrui, il Buddhismo Mahāyāna vede la compassione come un processo di **liberazione reciproca**, dove l’azione compassionevole è inseparabile dalla dissoluzione dell’illusione del sé (*anātman*).
+Per rendere il confronto meno impressionistico, è utile introdurre un modello contemporaneo che concepisca la compassione come un fenomeno complesso e non riducibile a una singola emozione. In questa direzione, la *Pattern Theory of Compassion* proposta da Shaun Gallagher [@gallagher2024pattern] descrive la compassione come un **pattern dinamico** composto da dimensioni intrecciate, tra cui:
 
+1. **Processi fisiologici**, come l’attivazione del sistema parasimpatico e la modulazione neurochimica associata alla connessione sociale;
+2. **Motivazione all’azione**, che distingue la compassione dall’empatia passiva;
+3. **Regolazione emotiva**, necessaria per evitare sovraccarico e collasso empatico;
+4. **Componenti cognitive e valutative**, che permettono di comprendere la situazione e scegliere modalità d’intervento appropriate.
 
-## La *Pattern Theory of Compassion*: Un Ponte tra Neuroscienze e Pratica Contemplativa
+Questo schema è particolarmente utile perché, pur restando interno a un orizzonte secolare, riconosce elementi che risultano compatibili con la tradizione contemplativa: l’idea che la compassione richieda addestramento, stabilità, motivazione e discernimento. In questo senso, la teoria di Gallagher offre un **linguaggio ponte** per descrivere alcune funzioni della *karuṇā* senza ridurla a un’emozione istantanea.
 
-Recentemente, le neuroscienze cognitive hanno proposto modelli per definire la compassione in termini di processi dinamici e interconnessi. Tra questi, la *Pattern Theory of Compassion* di Shaun Gallagher [@gallagher2024pattern] offre una prospettiva utile per confrontarla con la visione buddhista. Secondo Gallagher, la compassione non è riducibile a una singola emozione, ma a un **pattern complesso** che integra quattro componenti principali:
+Tuttavia, la convergenza resta parziale. Il modello di Gallagher tende a operare sul piano dei meccanismi individuali (psicofisiologici e cognitivi), mentre la prospettiva mahāyāna colloca la compassione entro una trasformazione più ampia della visione del sé e della realtà, cioè entro una cornice ontologica e soteriologica.
 
-1. **Processi fisiologici**: Includono l’attivazione del sistema nervoso parasimpatico, il rilascio di ossitocina e altre sostanze neurochimiche associate alla connessione sociale.  
-2. **Motivazione all’azione**: A differenza dell’empatia passiva, la compassione implica un’urgenza motivazionale per alleviare la sofferenza.  
-3. **Regolazione emotiva**: Necessaria per evitare il rischio di sovraccarico empatico e mantenere un equilibrio affettivo.  
-4. **Cognizione e valutazione**: Richiede la consapevolezza della situazione altrui e la capacità di valutare le risorse disponibili per intervenire efficacemente.  
+## *Karuṇā* nel Mahāyāna: ontologia, soteriologia e prassi
 
-Questo modello, pur nascendo da un contesto scientifico, presenta diverse analogie con la visione Mahāyāna. La *karuṇā*, infatti, richiede:  
+Nel Mahāyāna, *karuṇā* non è soltanto una disposizione etica: è un principio che attraversa l’intero percorso di liberazione. Essa è inseparabile dall’ideale del *bodhisattva* e nasce dalla comprensione di *śūnyatā* e *pratītyasamutpāda*: quando la realtà è riconosciuta come interdipendente e priva di essenze intrinseche, anche la separazione rigida tra “me” e “altro” perde consistenza, rendendo possibile una compassione non discriminante e non appropriante.
 
-- una **presenza corporea consapevole** (analoga alla regolazione fisiologica);  
-- un’**azione intenzionale** guidata da motivazione altruistica;  
-- la **dissoluzione dell’ego-centrismo** (parallela alla regolazione emotiva e alla non-identificazione con il dolore altrui);  
-- la **saggezza (*prajñā*)** come base per una valutazione etica e contestuale dell’intervento.  
+Qui la differenza con molte concezioni occidentali diventa più netta. In numerosi approcci secolari la compassione viene interpretata come risposta prosociale che può essere coltivata per il benessere individuale e relazionale; nel Mahāyāna, invece, la compassione è parte di un processo di **trasformazione radicale della soggettività**. È per questo che la *prajñā* non è un’aggiunta opzionale: è la condizione che permette alla compassione di non degenerare in angoscia empatica, bisogno di controllo o identificazione con il ruolo di “salvatore”. Come nota Garfield, *karuṇā* implica una forma di cura attiva, non una semplice partecipazione passiva alla sofferenza [@garfield2022buddhist].
 
-Tuttavia, una differenza critica persiste: mentre la *Pattern Theory* si concentra su meccanismi individuali e neurobiologici, la *karuṇā* buddhista insiste sull’**interdipendenza universale** (*pratītyasamutpāda*), dove la compassione si estende a tutti gli esseri senza discriminazione.  
+In altri termini: laddove Gallagher descrive un pattern funzionale e regolato, il Mahāyāna descrive una prassi che trasforma il modo stesso in cui l’agente si comprende. La compassione non è soltanto ben regolata; è progressivamente *de-egocentrata*.
 
-## Compassione nel Buddhismo Mahāyāna: Un Percorso Trasformativo
+## Differenze decisive: *prajñā* e dissoluzione del sé vs meccanismi descrittivi
 
-Nel Buddhismo Mahāyāna, *karuṇā* non è solo un’emozione o una virtù morale, ma un **principio ontologico** e **soteriologico** che permea l’intero percorso spirituale. Essa si manifesta come il cuore dell’ideale del *bodhisattva*, colui che, pur avendo raggiunto la soglia dell’illuminazione, sceglie di rimanere nel ciclo delle rinascite (*saṃsāra*) per alleviare la sofferenza di tutti gli esseri senzienti. Questo impegno non è frutto di altruismo astratto, ma nasce dalla comprensione profonda della **vacuità** (*śūnyatā*) e dell’**interdipendenza universale** (*pratītyasamutpāda*): solo dissolvendo l’illusione dell’io separato (*anātman*), la compassione può espandersi senza limiti.
+La divergenza più profonda riguarda il ruolo della saggezza. Nel Mahāyāna, la compassione efficace dipende dalla comprensione della verità ultima (*paramārtha-satya*): la vacuità di ogni fenomeno e l’assenza di un sé sostanziale. Senza questa base, l’azione altruistica rischia di essere contaminata da dinamiche sottili: attaccamento ai risultati, desiderio di riconoscimento, bisogno di essere “buoni”, identificazione con la sofferenza altrui.
 
-A differenza delle concezioni occidentali tradizionali, che spesso riducono la compassione a una risposta emotiva alla sofferenza altrui, il Mahāyāna la vede come un processo di **trasformazione radicale del sé**, dove la saggezza (*prajñā*) agisce da guida. La *prajñā* non è mera conoscenza intellettuale, ma una visione diretta della natura illusoria delle dualità (sé/altro, soggetto/oggetto), che permette di agire con compassione senza cadere nell’attaccamento o nell’angoscia empatica. Come scrive Garfield, *karuṇā* potrebbe essere tradotta come "cura compassionevole" perché implica un’intenzionalità attiva e non una semplice reazione passiva [@garfield2022buddhist].
+La *Pattern Theory* di Gallagher, pur includendo elementi di regolazione e valutazione, non richiede un’analisi del sé e della sua illusorietà. Il suo orizzonte rimane descrittivo e funzionale: spiega come la compassione operi e come possa essere facilitata, ma non la collega necessariamente a una trasformazione ontologica dell’esperienza. Per il Mahāyāna, invece, la regolazione emotiva non è principalmente una tecnica di autocontrollo: è l’esito di una visione più corretta della realtà. Se il sé non è intrinseco, anche la separazione rigida dall’altro si indebolisce; e con essa si indeboliscono molte cause dell’angoscia empatica.
 
-Questa visione si distingue nettamente dalla *Pattern Theory of Compassion* di Gallagher, che analizza la compassione come un insieme di processi fisiologici, cognitivi e motivazionali misurabili [@gallagher2024pattern]. Mentre il modello neuroscientifico enfatizza la regolazione emotiva e l’efficacia dell’azione prosociale, il Mahāyāna insiste sull’importanza della **liberazione dal sé** come premessa per un’azione veramente compassionevole. Per il Buddhismo, la compassione senza *prajñā* è come un uccello senza ali: può riconoscere la sofferenza, ma non può elevarsi al di sopra di essa.
+A questo si lega una seconda differenza: la **dimensione soteriologica**. Nel Mahāyāna la compassione fa parte di un cammino orientato alla liberazione; nelle cornici secolari è spesso compresa come competenza utile al benessere, alla coesione sociale o alla prevenzione del burnout. Non si tratta di una differenza marginale, perché modifica lo scopo della pratica e, di conseguenza, il significato stesso di “successo” compassionevole.
 
+## Convergenze operative e possibili sinergie
 
-## Differenze Fondamentali: Saggezza vs. Meccanismi Neuronali
+Nonostante tali divergenze, esistono punti d’incontro significativi. In primo luogo, entrambe le prospettive concordano sul fatto che la compassione **si coltivi**. Il Mahāyāna propone pratiche contemplative e impegni etici (tra cui la *bodhicitta*), mentre il contesto contemporaneo ha sviluppato protocolli secolari (ad es. CCT e MSC) mirati a potenziare cura e regolazione emotiva. In secondo luogo, entrambe riconoscono la necessità di evitare il collasso empatico: la compassione efficace richiede equilibrio tra apertura alla sofferenza e stabilità interiore.
 
-Una divergenza cruciale tra Mahāyāna e neuroscienze moderne riguarda il **ruolo della saggezza**. Nel pensiero buddhista, la *karuṇā* è inseparabile dalla comprensione della realtà ultima (*paramārtha-satya*), che nega l’esistenza intrinseca di ogni fenomeno. Questa visione implica che la compassione efficace richiede la dissoluzione delle illusioni cognitive che alimentano l’ego-centrismo. Senza questa base, ogni atto compassionevole rischia di essere contaminato da attaccamento, desiderio di riconoscimento o identificazione con la sofferenza altrui – dinamiche che generano ulteriore sofferenza.
+Ciò che cambia, tuttavia, è l’interpretazione del “distanziamento”: in ambito clinico può essere valorizzato come tecnica per ridurre stress e ruminazione; nel Mahāyāna esso è inserito in un processo più ampio di dissoluzione della presa dell’ego, cioè in una trasformazione che riguarda il modo stesso in cui l’esperienza è strutturata.
 
-Al contrario, la *Pattern Theory of Compassion* si concentra su meccanismi individuali come l’attivazione del sistema parasimpatico, il rilascio di ossitocina e la motivazione all’azione, senza collegarli a una visione metafisica della realtà. Anche se Gallagher enfatizza la necessità di regolazione emotiva per evitare l’angoscia empatica, il modello manca di una riflessione sulla natura dell’io e sulla sua dissoluzione, aspetti centrali nel Mahāyāna. Per il Buddhismo, la regolazione emotiva non è solo una strategia di autocontrollo, ma il risultato di un’esperienza diretta della vacuità: quando non esiste un "sé" separato, non può esserci nemmeno un "altro" da cui distinguersi.
+## Tre livelli della compassione nel Mahāyāna: dal relazionale al non duale
 
-Un’altra differenza riguarda la **dimensione soteriologica**. Nel Mahāyāna, la compassione è parte di un percorso che mira alla liberazione (*mokṣa*) dal ciclo delle rinascite, attraverso pratiche meditative come la *mettā bhāvanā* (coltivazione dell’amore benevolo) e il *lojong* tibetano (addestramento mentale). Queste pratiche non mirano solo a migliorare il benessere psicologico, ma a trasformare radicalmente la percezione dell’esistenza. La *karuṇā* diventa così una via per dissolvere i confini tra sé e mondo, tra sofferente e compassionevole. Nella prospettiva secolare, invece, la compassione è spesso ridotta a una "competenza emotiva" da sviluppare per migliorare la resilienza individuale o le relazioni sociali.
+Per chiarire ulteriormente la specificità mahāyāna, può essere utile richiamare una tipologia tripartita della compassione, che ne descrive la progressiva radicalizzazione:
 
+1. **Compassione orientata agli esseri senzienti (*sattvālambana karuṇā*)**
+   È la forma più immediata: una risposta alla sofferenza di individui o gruppi. Pur essendo preziosa, resta spesso legata a un senso implicito di separazione tra chi aiuta e chi è aiutato.
 
-## Convergenze e Sinergie: Pratiche Collettive e Regolazione Emotiva
+2. **Compassione orientata ai fenomeni (*dharmālambana karuṇā*)**
+   Qui l’attenzione si amplia: la sofferenza è compresa come strutturalmente connessa all’impermanenza (*anityatā*) e all’origine condizionata. La compassione si accompagna a una comprensione più profonda della vacuità, riducendo la tendenza a reificare soggetti e oggetti.
 
-Nonostante queste divergenze, vi sono punti di incontro significativi. Entrambe le prospettive riconoscono che la compassione richiede **allenamento e coltivazione**: nel Mahāyāna attraverso la meditazione e il voto del *bodhicitta* (la determinazione a raggiungere l’illuminazione per il bene di tutti), nelle neuroscienze attraverso protocolli come la Compassion Cultivation Training (CCT) o la Mindful Self-Compassion (MSC). Studi di neuroimmagine hanno dimostrato che la pratica regolare di meditazioni compassionevoli modifica l’attivazione di aree cerebrali associate alla pro-socialità, come il giro temporale superiore e la corteccia prefrontale mediale, confermando l’efficacia di questi metodi sia nel contesto spirituale che clinico.
+3. **Compassione senza oggetto (*anālambana karuṇā*)**
+   È la forma più alta, spesso associata alla *mahākaruṇā*: non dipende da un oggetto specifico né da una dualità stabile tra agente e destinatario. L’azione compassionevole sorge spontaneamente dalla saggezza che vede l’interdipendenza universale, senza traccia di appropriazione egoica.
 
-Un’altra convergenza riguarda la **regolazione emotiva**. Il Mahāyāna insegna a osservare la sofferenza senza identificarsi con essa, una pratica simile alla "decentering" (distanziamento cognitivo) promossa nelle terapie basate sulla mindfulness. Tuttavia, mentre il contesto occidentale lo vede come strumento per ridurre lo stress, il Buddhismo lo considera un passo verso la dissoluzione dell’illusione dell’io. Entrambi i modelli, però, concordano sul fatto che una compassione efficace richiede l’equilibrio tra coinvolgimento empatico e distacco contemplativo.
+Questa progressione mostra che, nel Mahāyāna, la compassione non è statica: è un processo che conduce a una trasformazione ontologica della relazione tra sé, altri e mondo.
 
+## Divergenze profonde: abbandono dell’ego e scopi della pratica
 
-## I Tre Livelli della Compassione nel Mahāyāna: Dal Personale all’Universale
+In controluce, emerge un contrasto sul rapporto con il sé. Nel Mahāyāna, la compassione matura implica la progressiva **de-costruzione dell’ego**: non perché la persona convenzionale sia negata, ma perché l’idea di un sé intrinseco è la radice della sofferenza. In molti approcci occidentali, invece, la compassione viene spesso pensata come equilibrio tra cura di sé e cura dell’altro, e rimane inscritta entro una cornice in cui l’identità individuale è preservata come punto di riferimento ultimo.
 
-Nel Mahāyāna, la *karuṇā* si articola in tre livelli progressivi, che riflettono una crescita spirituale e ontologica:
-
-1. **Compassione per gli Esseri Senzienti (*sattvālambana karuṇā*)**  
-   Si manifesta come risposta empatica alla sofferenza specifica di individui o gruppi. È il livello più accessibile, ma ancora condizionato dall’illusione di separazione tra sé e altro.
-
-2. **Compassione per i Fenomeni (*dharmālambana karuṇā*)**  
-   Riconosce che la sofferenza è intrinseca alla natura impermanente (*anityatā*) e condizionata (*pratītyasamutpāda*) dell’esistenza. Qui la compassione si estende a tutti i fenomeni, non solo agli esseri viventi, e si accompagna a una visione profonda della vacuità.
-
-3. **Compassione Senza Oggetto (*anālambana karuṇā*)**  
-   La forma più alta, detta anche *mahākaruṇā* ("grande compassione"), trascende ogni dualità e si libera dal bisogno di un oggetto specifico. È l’espressione diretta della saggezza illuminata, dove l’azione compassionevole nasce spontaneamente dalla consapevolezza dell’interdipendenza universale.
-
-Questo schema illustra come la compassione nel Mahāyāna non sia statica, ma un processo dinamico che conduce alla dissoluzione completa dell’illusione dell’io. La *mahākaruṇā* è l’ideale del bodhisattva: un amore incondizionato che non discrimina, non cerca ricompense e non lascia tracce di sé.
-
-
-## Divergenze Profonde: Abnegazione vs. Benessere Relazionale
-
-Una contrapposizione radicale emerge nel rapporto con il sé. Nel Mahāyāna, la compassione richiede **l’abbandono totale dell’ego**, visto come radice della sofferenza. Il bodhisattva non agisce per il proprio meritocratico "benessere", ma per la liberazione collettiva, anche a costo della propria illuminazione. Questo contrasta con la visione occidentale, dove la compassione è spesso concepita come un equilibrio tra cura di sé e cura degli altri, una "competenza emotiva" da integrare nella vita quotidiana senza rinunciare alla propria identità.
-
-Per il Buddhismo, il sé non è solo un costrutto sociale o psicologico, ma un’illusione da dissolvere attraverso la pratica meditativa. La compassione autentica nasce solo quando non esiste più un "io" che prova compassione: è l’universo stesso che agisce attraverso di noi. Nel contesto secolare, invece, la compassione rimane ancorata alla dualità soggetto/oggetto, con rischi di burnout o identificazione con il ruolo di "salvatore".
-
+Detto altrimenti: la prospettiva secolare tende a rafforzare un soggetto che diventa “più competente” nel prendersi cura; il Mahāyāna tende a trasformare progressivamente la struttura del soggetto stesso, fino a rendere l’agire compassionevole meno centrato su un “io” che possiede e controlla la virtù.
 
 ## Conclusione
 
-L’analisi delle diverse interpretazioni della compassione rivela un contrasto fondamentale:  
+Il confronto interculturale mostra una divergenza essenziale:
 
-- **Il Mahāyāna** la vede come un percorso di **trasformazione ontologica**, dove la dissoluzione dell’io e la comprensione della vacuità permettono un’azione compassionevole universale.  
-- **La prospettiva occidentale**, pur riconoscendone il valore emotivo e sociale, la concepisce come una **competenza da sviluppare** entro i limiti dell’identità individuale.  
+* nel **Mahāyāna**, la compassione è parte di una trasformazione ontologica e soteriologica: la *karuṇā* matura insieme alla *prajñā* e culmina nella dissoluzione delle dualità, rendendo possibile un’agire non discriminante e non appropriante;
+* in molte letture **occidentali e neuroscientifiche**, la compassione è descritta come pattern di processi psicofisiologici e competenze prosociali coltivabili, spesso orientate al benessere individuale e relazionale.
 
-Queste visioni non sono necessariamente in conflitto, ma possono integrarsi. La psicologia e le neuroscienze moderne offrono strumenti per misurare e coltivare la compassione in contesti clinici e sociali, mentre il Buddhismo sfida l’Occidente a interrogarsi sulle radici illusorie del sé e sull’etica di un’azione compassionevole senza fine ultima. Come suggerisce Garfield, una sintesi tra queste prospettive potrebbe guidare nuove pratiche di compassione radicale, capaci di trasformare non solo gli individui, ma l’intera società [@garfield2025lose].
+Queste prospettive non sono necessariamente inconciliabili. I modelli contemporanei offrono strumenti descrittivi e pratiche applicabili in ambiti clinici e sociali; la tradizione mahāyāna, a sua volta, interroga le premesse ontologiche dell’azione etica e invita a considerare quanto la cura possa diventare realmente universale finché resta ancorata a un sé sostanzializzato. In questo senso, come suggerisce Garfield, una sintesi critica tra le due cornici può aprire lo spazio per forme di compassione più radicali, capaci di trasformare non solo individui, ma anche strutture collettive [@garfield2025lose].
 
 ## Bibliografia {.unnumbered}
-

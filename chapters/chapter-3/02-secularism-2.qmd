@@ -1,66 +1,69 @@
 # Il significato della secolarizzazione {#sec-secularism2}
 
-Nel capitolo precedente abbiamo confrontato la pratica tradizionale buddista con l'approccio secolarizzato alla coltivazione della compassione, analizzando le basi filosofiche e psicologiche di entrambi. Sono emerse similitudini riguardo al potenziale naturale della compassione negli esseri umani, ma anche differenze nella concezione delle forme avanzate di compassione. Mentre il buddismo sviluppa complessi schemi per distinguere livelli ordinari e avanzati di compassione, l'approccio secolarizzato si concentra principalmente sugli stadi iniziali.
+Nel capitolo precedente abbiamo messo a confronto la coltivazione della compassione nella tradizione mahāyāna indo-tibetana e alcuni dei suoi adattamenti contemporanei in ambito psicologico. Da un lato, è emerso un terreno comune: l’idea che la compassione non sia un privilegio raro, ma una **capacità umana** che può essere riconosciuta e coltivata. Dall’altro lato, sono apparse differenze strutturali: le fonti buddhiste distinguono tra forme ordinarie e forme “mature” di compassione, legandole a una trasformazione radicale della visione del sé (*anātman*) e, nel Mahāyāna, alla saggezza della vacuità (*śūnyatā*). Molti interventi secolari, invece, tendono a operare prevalentemente su livelli iniziali e intermedi: riduzione dell’autocritica, regolazione emotiva, qualità relazionale, resilienza.
 
-Abbiamo esaminato le due culture della compassione nelle loro metodologie pedagogiche. La cultura buddista Mahāyāna è caratterizzata dalla sua cosmologia, filosofia morale e didattica del percorso del bodhisattva. D'altra parte, la cultura secolare si basa su una visione scientifica e ricerca per lo sviluppo individuale e etico.
+Questo capitolo chiarisce una domanda di fondo: **che cosa significa “secolarizzare”** una pratica contemplativa buddhista? Si tratta semplicemente di cambiare terminologia e contesto istituzionale, oppure cambia anche ciò che la pratica *è*—cioè i suoi scopi, le sue assunzioni antropologiche e i suoi criteri di riuscita?
 
-Il confronto si è concentrato sulla tecnica del tonglen, una pratica contemplativa che il buddismo ha trasformato per renderla accessibile anche ai principianti. Questa trasformazione ha aperto la strada alle pratiche secolarizzate occidentali.
+## Secolarizzazione: tre livelli di trasformazione
 
-Sebbene la pedagogia della Compassion Cultivation Training (CCT) sia permeata di idee buddiste, è chiara la sua distinzione dalla didattica buddista, poiché mira a uno sviluppo personale senza sfidare l'ambiente circostante e ha obiettivi meno ambiziosi. Nel buddismo, la coltivazione della compassione è parte integrante del sentiero del bodhisattva verso l'illuminazione.
+Il termine “secolarizzazione” è polisemico. In un senso classico, esso è stato descritto (fra gli altri) da Charles Taylor come un insieme di processi che includono: (1) riorganizzazione della sfera pubblica indipendentemente dalle istituzioni religiose; (2) declino di credenze e pratiche; (3) trasformazione delle condizioni della credenza, per cui la fede diventa una possibilità tra molte, non più l’orizzonte implicito della vita sociale [@Taylor1989SourcesSelf]. È soprattutto quest’ultimo senso a illuminare il contesto in cui si sviluppano programmi come il CCT: la partecipazione non implica appartenenza religiosa, e la cornice è progettata per essere compatibile con credenti, non credenti e agnostici.
 
-Resta da esplorare il significato della secolarizzazione delle pratiche buddiste tradizionali per il pubblico del ventunesimo secolo in Europa e Nord America, e le implicazioni di questo processo.
+Tuttavia, per comprendere la secolarizzazione delle pratiche contemplative non basta dire che “la fede è opzionale”. È più utile distinguere almeno **tre livelli** di trasformazione:
 
-## La conseguenza della secolarizzazione dell'addestramento alla compassione buddista
+1. **Traslazione linguistica e istituzionale**
+   La pratica viene presentata in un lessico psicologico (stress, autocritica, benessere, resilienza), collocata in contesti clinici, educativi o aziendali, e sottratta all’autorità di una trasmissione religiosa.
 
-Negli ultimi anni, le discussioni sul significato della secolarizzazione si sono moltiplicate. Il libro "A Secular Age" di Charles Taylor descrive tre tipi di secolarizzazione: la rimozione della religione dalla sfera della vita pubblica, il declino della fede e delle pratiche religiose, e la considerazione della fede in Dio come una libera scelta personale, una possibilità tra le molte.
+2. **Naturalizzazione**
+   Ciò che nelle fonti buddhiste è inscritto in una cosmologia e in un percorso soteriologico viene reinterpretato come “capacità naturale”: la compassione diventa un tratto umano studiabile, misurabile, allenabile, senza riferimento a liberazione, karma o rinascite.
 
-In particolare, la terza variante illustra la situazione in cui si è sviluppato l'addestramento alla compassione secolare. Nel Compassion Cultivation Training (CCT), la fede religiosa è opzionale; il programma è progettato per essere compatibile con tutte le affiliazioni religiose, ma anche con l'ateismo e l'agnosticismo.
+3. **Riformulazione degli scopi e dei criteri di successo**
+   Nel Mahāyāna, la compassione è parte dell’ideale del bodhisattva e della trasformazione della reificazione del sé; nei programmi secolari, la pratica è spesso valutata in termini di indicatori psicologici: riduzione della sofferenza soggettiva, migliore regolazione emotiva, migliori relazioni, minore burnout. Cambiando i criteri di riuscita, cambia anche il senso profondo della pratica.
 
-"Secolare" nel contesto dell'addestramento alla compassione non si riferisce all'esclusione o al rifiuto della religione, ma a un atteggiamento inclusivo nei suoi confronti. Questa posizione inclusiva è proprio il modello di laicità che il Dalai Lama considera come fondamento della sua etica secolare.
+## Il caso CCT: rimozione e ibridazione
 
-La fede religiosa non è esclusa nel CCT, ma relegata alla sfera privata dell'individuo, poiché la compassione è associata a una visione naturalistica del mondo basata sulla razionalità e sull'empirismo scientifico, piuttosto che su obblighi religiosi o morali.
+Il CCT è un caso particolarmente istruttivo perché la sua secolarizzazione non consiste soltanto nel “togliere termini buddhisti”. È piuttosto il risultato di due processi complementari:
 
-La motivazione per secolarizzare l'addestramento alla compassione non nasce da un disincanto verso la religione, ma piuttosto dal desiderio di renderlo accessibile al pubblico più ampio possibile.
+1. **Rimozione selettiva e compatibilizzazione**
+   La terminologia e alcune cornici metafisiche vengono ridotte o rese implicite, così che la pratica non entri in conflitto con l’orizzonte scientifico contemporaneo e con la pluralità religiosa del pubblico. L’obiettivo dichiarato non è polemico verso la religione, ma inclusivo: rendere l’addestramento accessibile al maggior numero possibile di persone, senza richiedere adesioni dottrinali.
 
-L'analisi comparativa tra il CCT e gli antecedenti buddisti ha mostrato che, pur utilizzando un linguaggio secolare,
+2. **Ibridazione**
+   Accanto a elementi ispirati a fonti tibetane, entrano componenti provenienti da altre tradizioni cliniche e pedagogiche: esercizi relazionali in gruppo, tecniche di comunicazione empatica, e soprattutto una maggiore enfasi sull’**auto-compassione** come risposta a configurazioni psicologiche tipiche di molte culture occidentali (autocritica, vergogna, difficoltà nel ricevere cura).
 
-Il CCT esprime effettivamente una visione del mondo fortemente influenzata dal pensiero buddista,
-l'IM comunica in gran parte metodi didattici buddisti senza utilizzare terminologia buddista (eccetto per il termine tonglen).
-La secolarizzazione della coltivazione della compassione buddista nel caso del CCT si riferisce quindi al risultato di due processi.
+Questa doppia dinamica rende il CCT “funzionante” nel contesto secolare—ma proprio qui si apre il problema teorico: **cosa viene preservato, e cosa cambia, quando la pratica cambia scopo e antropologia implicita?**
 
-Il primo è la rimozione della terminologia e dei concetti buddisti in modo che l'addestramento alla compassione non entri in conflitto con le idee scientifiche attualmente accettate, mantenendo intatti il più possibile i metodi didattici sviluppati nelle tradizioni buddiste.
-Il secondo processo è quello di ibridazione: gli elementi dell'addestramento derivati da fonti diverse dal buddismo, come gli esercizi psicoterapeutici e di coppia o l'addestramento alla compassione per sé, sono inseriti allo scopo di rendere l'addestramento "funzionante" per il pubblico occidentale.
+## Una prima conseguenza: cambia il modello di sofferenza e di “salute”
 
-## Valutazione della Secolarizzazione delle Pratiche Contemplative Buddiste
+Una critica frequente alla secolarizzazione sostiene che molte pratiche contemplative buddhiste presuppongano un modello della sofferenza diverso da quello implicito nei contesti clinici moderni.
 
-La secolarizzazione delle pratiche contemplative buddiste ha ricevuto due critiche fondamentali.
+Nelle fonti buddhiste antiche, *duḥkha* non è un incidente marginale: è una caratteristica strutturale dell’esistenza condizionata. La cura profonda non coincide con il “sentirsi meglio” in tempi brevi, ma con l’indebolimento e infine la cessazione delle cause della sofferenza (ignoranza, attaccamento, avversione). In questa prospettiva, alcune forme di disillusione rispetto alle promesse ordinarie del benessere mondano possono essere interpretate come un passaggio di lucidità e maturazione, non come patologia.
 
-In primo luogo, la prima critica riguarda il fatto che le pratiche buddiste si basano su modelli di salute mentale diversi da quelli cercati dal pubblico occidentale.
+In molte culture contemporanee, invece, il disagio è più facilmente letto attraverso categorie di malessere da ridurre e normalizzare. La sofferenza tende a essere vista come un problema da gestire e minimizzare, e la pratica contemplativa può essere recepita come tecnologia di regolazione e benessere.
 
-È particolarmente importante tenere presente questo punto quando si valuta l'efficacia delle pratiche contemplative buddiste secolarizzate.
+Questa differenza non implica che l’approccio clinico sia “superficiale”: implica piuttosto che **il medesimo gesto contemplativo può essere finalizzato in modi diversi**. Una pratica che, in un contesto, è orientata a una trasformazione radicale degli schemi dell’io, in un altro contesto può diventare uno strumento di stabilizzazione e di funzionamento. La domanda critica è allora: la secolarizzazione produce un addestramento alla compassione che allevia sintomi a breve termine ma rischia di perdere la dimensione trasformativa più profonda? Oppure, al contrario, rende possibile un accesso graduale a quella trasformazione proprio laddove certe condizioni psicologiche moderne rendono difficile il lavoro diretto su decentramento e non-sé?
 
-Ad esempio, i primi sūtra buddisti raffigurano la sofferenza come un ingrediente _inevitabile_ dell'esistenza. Essi sostengono che l'unico rimedio genuino alla sofferenza sia l'uscita completa da saṃsāra (il mondo fenomenale), e ciò richiede, tra le altre cose, di abbandonare la speranza che la felicità in questo mondo sia possibile. Tuttavia, questa disperazione, considerata nello spirito buddista uno stato di _maturità spirituale_, viene vista nella cultura occidentale contemporanea come una forma di depressione.
+## Una seconda critica: appropriazione selettiva e mercificazione
 
-La nostra cultura moderna preferisce considerare la pratica spirituale come una "scienza della felicità".
+Un secondo filone critico sostiene che alcuni programmi secolari siano il risultato di un’appropriazione selettiva delle pratiche buddhiste, talvolta piegate alle logiche di mercato: promesse di benessere rapido, prodotti di auto-aiuto, addestramenti “vendibili” come competenze individuali. In questa lettura, la meditazione diventerebbe una versione depotenziata e addomesticata, compatibile con l’individualismo e con l’efficienza prestazionale, più che con l’erosione dell’egocentrismo che molte fonti buddhiste identificano come radice della sofferenza.
 
-Al contrario, i pensatori buddisti come Śāntideva riconoscono che la sofferenza può fungere da catalizzatore per la pratica spirituale. Pertanto, la pratica contemplativa buddista _non mira a lenire la sofferenza a breve termine_, ma piuttosto a eliminare le cause della sofferenza a lungo termine.
+Questa critica coglie un rischio reale, ma richiede distinzione: non ogni adattamento è mercificazione, e non ogni semplificazione è tradimento. Occorre valutare caso per caso se l’adattamento:
 
-Tuttavia, i modelli occidentali di salute mentale tendono a vedere la sofferenza e la depressione come stati mentali indesiderati che devono essere corretti.
+* mantiene un orientamento genuinamente prosociale,
+* riduce l’auto-centratura oppure la rafforza,
+* e soprattutto quale “immagine del sé” presuppone e produce.
 
-L'addestramento alla compassione secolare, quindi, è vulnerabile alla critica di essere utilizzato per placare forme di sofferenza a breve termine invece di essere utilizzato come catalizzatore per una trasformazione più profonda.
+## Risposte possibili: adattamento come continuità storica e come *upāya*
 
-In secondo luogo, un'altra critica sostiene che i programmi secolari sono il risultato di un'appropriazione selettiva e della mercificazione delle pratiche contemplative buddiste, con l'unico scopo di soddisfare il diffuso consumismo delle società occidentali. Questo comporta una versione depotenziata della consapevolezza, privata dei suoi elementi essenziali, e confezionata per essere esposta sugli scaffali dei supermercati commerciali di auto-aiuto. Questa mercificazione degli insegnamenti buddisti, adattandoli a scopi egoistici, li allinea con l'orientamento individualista e consumista delle società capitalistiche occidentali, piuttosto che perseguire l'obiettivo di eradicare l'egocentrismo, radice basilare della sofferenza.
+Alle critiche si può rispondere almeno in due modi.
 
-### Risposta alle Critiche
+**Primo**, molti programmi secolari non pretendono “autenticità” nel senso di trasmissione religiosa; rivendicano piuttosto una validità pragmatica: funzionare per un pubblico concreto, con bisogni concreti. In questo senso, la domanda non è “è identico alla tradizione?”, ma “cosa produce, per chi, e a quale costo concettuale?”.
 
-Alle critiche si potrebbe rispondere che il CCT non cerca di rivendicare un'autenticità nel senso buddista di trasmissione, ma la sua validità deriva dal fatto che "funziona" nel contesto secolare.
+**Secondo**, la storia buddhista mostra una notevole capacità di trasformazione interna: passaggi dottrinali e pratici anche molto marcati, rielaborazioni, nuove sintesi, nuove pedagogie. Nel nostro percorso abbiamo già visto un esempio rilevante: la trasformazione di pratiche avanzate di equalizzazione e scambio (associate a Śāntideva) in forme più accessibili nelle tradizioni di *lojong* e *lamrim*. Questo suggerisce che l’adattamento non è un’anomalia moderna: è una costante storica, e può essere interpretato—almeno in parte—come *upāya*, “mezzo abile”.
 
-La critica dell'appropriazione selettiva a fini di mercificazione è la più difficile da affrontare. Tuttavia, va notato che il principale promotore di questa secolarizzazione è lo stesso Dalai Lama. Egli ha contribuito finanziariamente al programma di Stanford, partecipa regolarmente a conferenze e, nel corso degli anni, ha sviluppato la sua etica secolare, con cui promuove la compassione come una qualità umana, non religiosa.
+Il punto decisivo, allora, non è negare la trasformazione, ma **descriverla con precisione**: quali elementi vengono mantenuti (intenzione altruistica, addestramento, estensione progressiva), quali vengono attenuati (vacuità, non-sé come struttura ontologica), e quali vengono aggiunti (auto-compassione come risposta a autocritica, esercizi relazionali di gruppo, cornice clinica).
 
-Inoltre, è evidente che la storia del pensiero buddista mostra la presenza di cambiamenti molto significativi. Dai passaggi dal buddismo Theravada al buddismo Mahayana, si è assistito a trasformazioni estreme. Nell'attuale discussione, abbiamo esaminato come la pratica avanzata del bodhisattva di eguagliare e scambiare (come descritta da Śāntideva tra la fine del VII e metà dell'VIII secolo d.C.) sia stata trasformata nella pratica di tonglen, accessibile anche ai principianti nelle contemplazioni di Lojong e Lamrim.
+## Conclusione: che cosa “diventa” la compassione in un’età secolare?
 
-Pertanto, la mercificazione rappresenta solo un aspetto di questo fenomeno, l'altro riguarda la progressiva adattabilità della pratica buddista nel corso dei secoli per rispondere alle esigenze delle diverse culture ospitanti.
+Nel confronto con la scienza e con la psicologia, la compassione tende a diventare una categoria naturale: una disposizione affiliativa umana, una competenza prosociale, una risorsa di regolazione emotiva. Questo non è necessariamente un impoverimento: è anche ciò che permette alla compassione di entrare in dialogo con le istituzioni della salute, dell’educazione e del lavoro.
 
-Infine, è inevitabile che i concetti religiosi subiscano una trasformazione quando una religione si confronta con la scienza. Nel contesto attuale, la compassione diventa una categoria naturale e psicologica, una qualità universale di ogni essere umano, al centro della natura umana, piuttosto che un imperativo etico.
-
+Ma proprio per questo, la secolarizzazione non può essere descritta come semplice “neutralizzazione” della religione. È una **riformulazione**: cambia l’orizzonte, cambiano i criteri di successo, cambia il modello del sé su cui si opera. Nel capitolo successivo torneremo su un punto particolarmente rivelatore di questa trasformazione: l’emergere dell’**auto-compassione** come costrutto centrale in psicologia, e la tensione che essa crea con la struttura non dualistica della compassione mahāyāna.
 

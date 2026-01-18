@@ -1,3 +1,36 @@
-# Introduzione 
+# Introduzione
 
-Il presente capitolo esplora le differenze tra l'addestramento alla compassione nelle tradizioni buddiste tradizionali e l'approccio secolare noto come Compassion Cultivation Training (CCT). Analizzando le similitudini e le differenze nei metodi, nelle prospettive e negli obiettivi di queste due pratiche, emergono chiari contrasti tra l'approccio buddista centrato sulla ricerca dell'illuminazione e l'approccio secolare focalizzato sul miglioramento delle relazioni personali e professionali. In particolare, il capitolo si sofferma sulla divergenza riguardante tre coppie di opposti: dialogico versus introspettivo, emotivo versus impassibile e la compassione per sé come focus principale versus come prodotto secondario. Infine, viene considerata l'autocommiserazione, la cui enfasi nella pratica secolare è oggetto di dibattito. La riflessione su come la meditazione buddista sia stata adattata al contesto secolare e sulla riuscita di tale adattamento costituisce un tema centrale di questo capitolo.
+Dopo aver esplorato la compassione (*karuṇā*) nel suo contesto dottrinale, filosofico e contemplativo — dal Buddhismo delle origini al Mahāyāna indo-tibetano — questa terza parte si confronta con un passaggio decisivo della storia recente: **la traduzione e riformulazione di pratiche e concetti buddhisti nei contesti secolari contemporanei**, in particolare nell’ambito della psicologia, delle neuroscienze e delle scienze della salute.
+
+Negli ultimi decenni, termini come *mindfulness*, *compassion*, *self-compassion* e *compassion training* sono entrati stabilmente nel lessico clinico e scientifico. Programmi strutturati, protocolli standardizzati e strumenti di misurazione empirica hanno reso queste pratiche accessibili a un pubblico vasto, spesso con risultati significativi sul piano del benessere psicologico. Questo processo di secolarizzazione non è marginale né superficiale: rappresenta uno dei più rilevanti incontri interculturali tra una tradizione contemplativa antica e la modernità occidentale.
+
+Tuttavia, come è emerso nei capitoli precedenti, la compassione nel Mahāyāna non è semplicemente una **abilità emotiva** né una **tecnica di autoregolazione**, ma una pratica trasformativa inseparabile da una revisione radicale del sé (*anātman*) e dalla comprensione della vacuità (*śūnyatā*). Ciò solleva una questione centrale che guida questa sezione:
+
+> **Che cosa accade quando una pratica concepita per dissolvere l’ego viene adottata in contesti che, esplicitamente o implicitamente, continuano a presupporre un sé autonomo, narrativo e autoreferenziale?**
+
+Il confronto che segue non intende stabilire una gerarchia tra “tradizione autentica” e “uso moderno”, né delegittimare i benefici clinici delle pratiche secolarizzate. Al contrario, l’obiettivo è **chiarire le differenze strutturali** tra i due orizzonti, mostrando:
+
+* quali elementi della compassione buddhista vengono preservati,
+* quali vengono trasformati,
+* e quali rischiano di essere attenuati o reinterpretati in modo incompatibile con le fonti mahāyāna.
+
+In particolare, questa parte del lavoro si concentra su tre assi di confronto:
+
+1. **Antropologia implicita**
+   Le pratiche secolari presuppongono spesso un soggetto psicologico stabile, da regolare e rendere più funzionale; il Mahāyāna, invece, utilizza la compassione come strumento per **de-centrare** e progressivamente dissolvere la reificazione del sé.
+
+2. **Funzione della compassione**
+   Nei contesti clinici, la compassione è frequentemente intesa come risorsa per ridurre stress, autocritica e disregolazione emotiva; nel Buddhismo Mahāyāna, essa è parte di un percorso che mira alla **liberazione dalla sofferenza** (*duḥkha*) attraverso la trasformazione della visione della realtà.
+
+3. **Struttura fenomenologica della pratica**
+   Molte pratiche moderne, in particolare quelle di *self-compassion*, implicano una forma di **auto-oggettificazione benevola** (“trattarsi come si tratterebbe un amico”). Le pratiche indo-tibetane, come abbiamo visto con *tonglen* e *lojong*, tendono invece a una postura relazionale e non duale, in cui l’attenzione è deliberatamente spostata **fuori** dall’auto-centratura.
+
+I capitoli che seguono articolano questo confronto in modo progressivo.
+
+* **Nel primo capitolo** analizzeremo come la compassione e la mindfulness siano state tradotte nei principali modelli psicologici contemporanei, soffermandoci su definizioni operative, protocolli di addestramento e strumenti di misurazione. Verrà mostrato come tali modelli selezionino e riformulino elementi della tradizione buddhista per renderli compatibili con obiettivi terapeutici e istituzionali.
+
+* **Nel secondo capitolo** affronteremo in modo più critico il nodo della *self-compassion*, esaminando in dettaglio le tensioni tra questa nozione e la prospettiva mahāyāna. In particolare, verrà discussa la questione dell’auto-oggettificazione, della narrazione del sé e del ruolo che la dereificazione (*de-reification*) può giocare come possibile punto di integrazione tra i due orizzonti.
+
+Nel loro insieme, questi capitoli non propongono una semplice “correzione buddhista” della psicologia contemporanea, né una riduzione psicologica del Dharma. Mirano piuttosto a mostrare che **il dialogo è possibile e fecondo solo se le differenze vengono riconosciute con precisione**, evitando tanto l’appropriazione superficiale quanto il rifiuto ideologico.
+
+In continuità con l’intero percorso del lavoro, la tesi di fondo rimane la stessa: la compassione non è soltanto qualcosa che *si prova* o *si applica*, ma qualcosa che **trasforma il modo in cui il sé viene esperito**. È su questo terreno — più che sulla semplice efficacia clinica — che si gioca il confronto tra Mahāyāna e modernità secolare.

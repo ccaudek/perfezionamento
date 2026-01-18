@@ -1,172 +1,117 @@
-# La Meditazione Tonglen {#sec-tonglen}
+# La meditazione Tonglen {#sec-tonglen}
 
-## Un Approccio Radicale alla Compassione
+## Un approccio radicale alla compassione
 
-La meditazione **Tonglen** ("scambio di sé e degli altri") è una pratica profonda e radicale del Buddhismo Mahāyāna, in particolare nella tradizione tibetana. Originata dagli insegnamenti di Śāntideva nel *Bodhicaryāvatāra*, essa rappresenta un metodo per dissolvere l’illusione dell’io separato (*anātman*) e coltivare una compassione universale (*mahākaruṇā*). Tonglen non è una semplice visualizzazione: è un processo di **decostruzione dell’ego** e **ri-costruzione creativa** del sé come strumento per il bene di tutti gli esseri senzienti. Questa pratica, oggi integrata in contesti secolari, conserva la sua radice spirituale nel percorso del bodhisattva, dove la compassione autentica richiede la comprensione della vacuità (*śūnyatā*) e dell’interdipendenza (*pratītyasamutpāda*).
+La meditazione **tonglen** (tib. *gtong len*, “dare e prendere”) è una delle pratiche più caratteristiche dell’addestramento mentale tibetano (*blo sbyong*, “lojong”). La sua radicalità non consiste soltanto nel contenuto simbolico — “prendere” su di sé la sofferenza e “dare” benessere — ma nell’obiettivo che la sostiene: **invertire l’orientamento spontaneo della mente**, normalmente centrato sulla protezione del sé, e trasformarlo in un movimento stabile di cura (*karuṇā*) verso gli altri.
 
+Tonglen lavora contemporaneamente su due piani che, nel Mahāyāna, non possono essere separati:
 
-## Origini e Contesto Filosofico: Il *Bodhicaryāvatāra* di Śāntideva
+* **piano etico-affettivo**: ampliare la compassione fino a renderla imparziale, capace di includere anche ciò che normalmente rifiutiamo;
+* **piano cognitivo-decostruttivo**: indebolire la reificazione del sé (*svabhāva* del “me”) che alimenta attaccamento, avversione e paura.
 
-Nel *Bodhicaryāvatāra* (VIII secolo), Śāntideva dedica il capitolo ottavo alla meditazione sullo **scambio tra sé e gli altri** (*parātmaparivartana*), descrivendola come il "supremo mistero" per accelerare la liberazione personale e collettiva. La pratica si basa su due pilastri:  
+Per questo non è una “visualizzazione di benessere”, ma una pratica che unisce **costruzione** (stabilizzare la cura) e **decostruzione** (smontare l’ego-centratura), in continuità con la cornice che hai già tracciato: la compassione matura (*mahākaruṇā*) richiede la collaborazione tra *karuṇā* e *prajñā*, cioè tra disponibilità affettiva e visione non duale.
 
-1. **Equalizzazione tra sé e gli altri**: Riconoscere che tutti gli esseri desiderano evitare la sofferenza (*duḥkha*) e cercare la felicità, senza discriminazioni.  
-2. **Decostruzione dell’attaccamento egoico**: Smantellare la distinzione artificiale tra sé e altro, che alimenta pregiudizi e sofferenza.  
+## Origini: dallo “scambio di sé e altri” al *dare e prendere*
 
-Come sottolinea Śāntideva:  
+È utile distinguere due livelli storicamente e concettualmente connessi, ma non identici:
 
-> VIII:120. Chi desidera conseguire rapidamente la propria liberazione e quella degli altri deve impegnarsi nel supremo mistero: lo scambio del sé con gli altri.  
+1. **Lo scambio di sé e altri** (*parātmaparivartana*) nel *Bodhicaryāvatāra* di Śāntideva (VIII sec.).
+   Qui l’accento è soprattutto sull’**inversione di priorità**: spostare il baricentro dal “mio bene” al “bene altrui”, smascherando l’arbitrarietà della preferenza per il proprio interesse.
 
-Questa visione si radica nella filosofia Mādhyamika, che nega l’esistenza intrinseca del sé (*anātman*) e vede la compassione come strumento per dissolvere l’illusione dell’ego. La meditazione Tonglen, combinando inalazione della sofferenza altrui ed esalazione di benedizioni, incarna questa sintesi tra compassione (*karuṇā*) e saggezza (*prajñā*).
+2. **La forma respiratoria del tonglen** (inspirare “sofferenza”, espirare “benessere”), sviluppata e sistematizzata nella tradizione tibetana del *lojong*.
+   Questa forma rende l’intuizione dello “scambio” **praticabile** e quotidiana: il respiro diventa un supporto per allenare la mente a non contrarsi davanti al dolore e a non trattenere ciò che considera “suo”.
 
+Il collegamento tra i due livelli è stretto: la pratica respiratoria traduce in esperienza concreta ciò che Śāntideva articola con argomenti e immagini contemplative. Quando Śāntideva scrive:
 
-## Filosofia Mādhyamika e il Paradosso della Sofferenza
+> VIII:120. Chi desidera conseguire rapidamente la propria liberazione e quella degli altri deve impegnarsi nel supremo mistero: lo scambio del sé con gli altri.
 
-### La Natura Funzionale della Sofferenza
+il “mistero” non è esoterismo, ma una trasformazione contro-intuitiva: **ridurre l’investimento nel sé** è ciò che rende possibile una libertà più ampia e, insieme, una cura più inclusiva.
 
-Per Śāntideva, la sofferenza (*duḥkha*) è reale nell’esperienza fenomenologica ma priva di esistenza intrinseca (*śūnyatā*). Questo paradosso è centrale: 
+## Cornice filosofica: vacuità, due verità, efficacia della cura
 
-- **Livello convenzionale**: La sofferenza è un’esperienza da alleviare.  
-- **Livello ultimo**: Essa è vuota di sostanza, un prodotto dell’ignoranza (*avidyā*) e dell’attaccamento all’io.  
+Tonglen presuppone una tensione che attraversa tutto il Mahāyāna: la sofferenza è **urgente** sul piano dell’esperienza, ma **priva di essenza** sul piano ultimo. È la stessa logica delle due verità:
 
-La pratica Tonglen affronta entrambi i livelli: agisce sul piano fenomenologico (alleviando il dolore percepito) e su quello ontologico (smascherando l’illusione dell’io separato). Come nota Garfield, questa doppia prospettiva permette alla compassione di essere "cura compassionevole" senza cadere nel nihilismo o nella disperazione [@garfield2022buddhist].
+* **convenzionale** (*saṃvṛti*): gli esseri soffrono e chiedono risposta;
+* **ultima** (*paramārtha*): soggetto, oggetto e sofferenza non possiedono un’esistenza intrinseca.
 
-### La Decostruzione dell’Ego
+La pratica non “risolve” il paradosso teoricamente: lo **incarna**. Si agisce come se la sofferenza fosse pienamente reale (perché è reale come esperienza), ma senza solidificarla in una sostanza metafisica. Qui torna il punto già emerso con Nāgārjuna: la vacuità è un *mezzo* che impedisce alla mente di trasformare la compassione in identificazione, possesso o ruolo. In questa direzione, Garfield insiste che la cura è pienamente tale solo quando non resta imprigionata nella dualità rigida soggetto/oggetto [@garfield2022buddhist].
 
-Śāntideva sfida i praticanti a identificare l’attaccamento egoico come radice della sofferenza: 
+## Che cosa allena davvero Tonglen
 
-- **Attaccamento alle distinzioni**: La mente ordinaria divide il mondo in "me" e "altro", generando pregiudizi e divisioni.  
-- **Identificazione con il dolore**: L’attaccamento alla sofferenza propria e altrui può diventare un ostacolo alla compassione efficace.  
+Tonglen non invita a “farsi carico” della sofferenza nel senso psicologico di assorbirla o di sostituirsi all’altro. Il suo bersaglio è più preciso:
 
-La meditazione Tonglen decostruisce queste strutture mentali attraverso un atto simbolico: inalare la sofferenza altrui e trasformarla in benessere. Questo processo non implica un’identificazione emotiva con il dolore, ma una dissoluzione della dualità soggetto/oggetto, radicata nella visione non dualistica del Mahāyāna.
+1. **la contrazione difensiva** davanti al dolore (paura, rifiuto, evitamento);
+2. **l’appropriazione** del bene (trattenere sicurezza, merito, riconoscimento);
+3. **l’illusione di separatezza** che rende naturale privilegiare il sé e “altro” ciò che soffre.
 
-## La Pratica di Tonglen: Tre Forme di Scambio
+Per questo la pratica non richiede un’escalation emotiva: chiede **coraggio e stabilità**. Se diventa angoscia empatica, ha perso il suo asse; se diventa freddezza, non ha mai davvero aperto il cuore.
 
-Śāntideva descrive tre livelli di scambio, ciascuno mirato a espandere la compassione oltre i limiti dell’ego:
+## La pratica: una progressione essenziale
 
-### 1. Scambio Fisico (Corpo)
+Per evitare duplicazioni, propongo una struttura in **tre passaggi** (dal più accessibile al più sottile), che ingloba le tue “tre forme” ma le rende più lineari.
 
-- **Inalazione della sofferenza**: Visualizzare il dolore degli esseri senzienti come un’oscurità densa, che entra nel proprio corpo con il respiro.  
-- **Esalazione di benessere**: Trasformare il proprio merito, energia o salute in luce dorata, esalata verso gli altri.  
+### 1) Scambio affettivo-immaginativo
 
-Questa forma si concentra sull’abbandono dell’attaccamento al corpo e alla sicurezza fisica, elementi che spesso ostacolano l’altruismo.
+* **Inspirare**: accogliere la sofferenza (immaginata come oscurità/fumo) senza respingerla.
+* **Espirare**: offrire sollievo e bene (luce/aria chiara) senza trattenerlo.
 
-### 2. Scambio Concettuale (Mente)
+A questo livello, le immagini hanno una funzione pedagogica: rendono visibile il gesto interiore del “non chiudersi” e del “non possedere”. È anche il livello in cui più facilmente compare l’errore classico: confondere apertura con sopraffazione. Per questo, la stabilità di *sati* e *śamatha* (come hai discusso nel capitolo sulla meditazione) è una precondizione pratica, non un dettaglio.
 
-- **Dissoluzione della dualità**: Riconoscere che il sé compassionevole e l’altro compassionato sono entrambi vuoti di esistenza intrinseca.  
-- **Rifiuto dell’identità separata**: Superare la percezione di essere un "salvatore" o un "aiutante", sostituendola con l’esperienza di interdipendenza.  
+### 2) Scambio dell’identità e delle priorità
 
-Questo stadio richiede una solida comprensione della *śūnyatā*, poiché la mente deve abbandonare ogni traccia di attaccamento o orgoglio altruistico.
+Qui entra il nucleo di Śāntideva: non tanto “io prendo il tuo male”, ma **io non considero più il mio benessere come automaticamente più importante**.
 
-### 3. Scambio Astratto (Valori)
+La pratica allora diventa una verifica continua delle micro-preferenze dell’ego:
 
-- **Accettazione delle esperienze spiacevoli**: Prendersi carico delle emozioni negative (rabbia, invidia) altrui, redistribuite come compassione.  
-- **Ridistribuzione dei benefici**: Offrire lodi, ricchezze e meriti spirituali agli altri, rinunciando al desiderio di ricompense personali.  
+* perché la mia paura conta più della tua?
+* perché il mio conforto è “ovvio” e il tuo è “opzionale”?
 
-Questo livello, il più avanzato, mira a eliminare completamente l’attaccamento ai risultati, allineando l’azione compassionevole con la saggezza della vacuità.
+Questo passaggio non elimina la persona, ma smonta l’idea di un sé che possiede un diritto speciale al proprio vantaggio.
 
+### 3) Scambio non-reificante: agire senza “salvatore”
 
-## Tonglen e il *Bodhicaryāvatāra*
+Quando la base è stabile, l’attenzione si sposta dalla scena immaginativa alla **visione**:
 
-Il *Bodhicaryāvatāra* non è solo un trattato etico, ma un manuale per la trasformazione spirituale. Śāntideva integra la meditazione Tonglen nel percorso del bodhisattva, dove il *bodhicitta* (voto altruistico) si manifesta in due forme:  
+* ciò che chiamiamo “io che do” e “tu che ricevi” è una costruzione dipendente;
+* la compassione funziona proprio perché non deve appoggiarsi su un’identità solida.
 
-1. **Convenzionale (*saṃvṛti*)**: Altruismo motivato dal desiderio di alleviare la sofferenza.  
-2. **Ultimo (*paramārtha*)**: Realizzazione che né il soggetto né l’oggetto della compassione esistono indipendentemente.  
+Qui Tonglen incontra direttamente la grammatica madhyamaka: la pratica è efficace non perché l’ego diventa più grande (“io altruista”), ma perché diventa più vuoto, più poroso, meno proprietario.
 
-La pratica Tonglen funge da ponte tra queste due dimensioni: 
+## Tonglen nel contesto del *lojong*: trasformare le avversità
 
-- **A livello convenzionale**, allevia il dolore immediato.  
-- **A livello ultimo**, dissolve la dualità tra chi soffre e chi compassiona, rivelando la natura interdipendente della realtà.  
+Una delle ragioni per cui tonglen diventa centrale nel *lojong* è che si presta a un principio tipico dell’addestramento mentale: **trasformare le condizioni avverse in sentiero**. L’esperienza spiacevole non è solo un ostacolo da eliminare, ma un materiale da convertire in pratica: ogni difficoltà può diventare occasione di inversione dell’ego-centratura.
 
-Come sottolinea Thokmé Sangpo, questa sintesi riflette la visione Mādhyamika, dove la compassione è strumento di liberazione, non fine a sé stessa.
+Questa è anche la ragione per cui molti maestri contemporanei descrivono tonglen come “allenamento al coraggio”: non perché glorifichi la sofferenza, ma perché rende praticabile l’apertura proprio dove la mente ordinaria vorrebbe chiudersi.
 
-## Tonglen nella Tradizione Lojong: Espansione e Accessibilità
+## Benefici e rischi: chiarezza invece di romanticismo
 
-Nella tradizione tibetana del *Lojong* (addestramento mentale), la meditazione Tonglen è stata rielaborata per renderla più accessibile, pur preservando il nucleo decostruttivo di Śāntideva. Due differenze principali distinguono il *Lojong* dal *Bodhicaryāvatāra*:  
+### Benefici principali
 
-### 1. Integrazione del *Bodhicitta* Convenzionale e Ultimo
+1. **Erosione dell’ego-centratura**: la mente impara a non assumere il sé come asse esclusivo di valore.
+2. **Stabilità affettiva**: il contatto con la sofferenza diventa possibile senza collasso né evitamento.
+3. **Imparzialità crescente**: si riduce la selettività (cura per i “miei”, indifferenza per gli “altri”).
+4. **Integrazione con la saggezza**: la pratica spinge verso una comprensione vissuta dell’interdipendenza.
 
-Il *Lojong* enfatizza l’equilibrio tra compassione emotiva (*karuṇā*) e visione della vacuità (*śūnyatā*). Mentre Śāntideva si concentra sulla dissoluzione dell’ego, il *Lojong* aggiunge una fase di **trasformazione delle afflizioni mentali** in virtù, integrando un aspetto di crescita personale non esplicito nel testo originale.  
+### Rischi tipici (e come interpretarli nel tuo quadro)
 
-### 2. Simboli e Metafore Concreti
+1. **Angoscia empatica / saturazione**: segnala che manca stabilità (sati-śamatha) o che la pratica è stata interpretata come “assorbire”.
+2. **Inflazione altruistica** (“io salvatore”): segnala che la pratica è stata scollegata dalla vacuità.
+3. **Confusione sul paradosso della sofferenza**: segnala che non è chiaro il gioco delle due verità (reale come esperienza, vuota come essenza).
 
-Nel *Lojong*, la sofferenza altrui è spesso visualizzata come fumo nero, mentre il benessere esalato assume la forma di luce bianca. Queste immagini concrete rendono la pratica più accessibile ai principianti, pur mantenendo l’intento metafisico di Śāntideva.  
+## Tonglen, non-dualità e vita nel mondo
 
-Come osserva Pema Chödrön, Tonglen non è una tecnica, ma un "allenamento al coraggio" che richiede di affrontare direttamente il dolore, trasformandolo in fonte di libertà per sé e per gli altri.
+È importante evitare una lettura “ascetica” del tonglen come se valesse solo nel cuscino. Nella presente lettura dei testi del buddhismo mahāyāna, il riferimento al *Vimalakīrti Sūtra* funziona bene come promemoria: la non-dualità non è fuga, ma un diverso modo di abitare il mondo. Tonglen, infatti, è praticabile come micro-gesto quotidiano: ogni incontro con sofferenza o frustrazione diventa occasione per ridurre appropriazione e difesa.
 
+Questa è anche la soglia in cui la pratica mostra il suo carattere mahāyāna: non mira solo a “stare meglio”, ma a rendere l’esistenza un luogo di addestramento continuo, in cui la cura non dipende da condizioni ideali.
 
-## I Tre Stadi della Meditazione Tonglen
+## Considerazioni finali
 
-### 1. Scambio Fisico: Abbandonare l’Attaccamento al Corpo
+Tonglen è una pratica esigente perché colpisce il punto più stabile dell’esperienza ordinaria: la convinzione tacita che il sé debba essere protetto per primo. Attraverso il gesto simbolico del “prendere e dare”, la mente viene educata a:
 
-La pratica inizia con la visualizzazione del corpo come temporaneo e condizionato. Inalando il dolore altrui, il praticante coltiva l’abitudine a non temere il contatto con la sofferenza. Esalando, libera l’energia vitale (*prāṇa*) come benessere universale. Questo stadio sfida l’istinto di autoconservazione, insegnando a vedere il corpo come un veicolo per la compassione, non come un oggetto di possesso.
+* **non contrarsi** davanti alla sofferenza,
+* **non trattenere** il bene come proprietà,
+* **non reificare** l’identità di chi aiuta e di chi riceve.
 
-### 2. Scambio Concettuale: Dissolvere le Identità Costruite
-
-A un livello più sottile, la mente riconosce che il dolore e la felicità sono costruzioni mentali. Inalando, si accettano le emozioni negative altrui (invidia, odio, paura) senza identificarsi con esse. Esalando, si condividono gioia, pace e chiarezza. Questo processo dissolve i confini tra "mio" e "tuo", allineando la mente con la visione non dualistica del Mahāyāna.
-
-### 3. Scambio Astratto: Trascendere le Etichette di Bene e Male
-
-Nello stadio più avanzato, la pratica si libera da ogni concetto. Inalando, si accettano le esperienze spiacevoli senza giudizio; esalando, si offrono lodi, successo e realizzazione spirituale agli altri. Questo stadio richiede una solida base nella meditazione sulla *śūnyatā*, poiché richiede di operare senza attaccamento a un "io" che agisce o a un "altro" che riceve.
-
-
-## Tonglen e la Trasformazione del Sé
-
-### La Decostruzione dell’Ego
-
-Śāntideva invita i praticanti a chiedersi: 
-
-> Perché dovrei identificarmi con un io illusorio, quando tutti gli esseri soffrono allo stesso modo?  
-
-Questa domanda guida il praticante a riconoscere che l’io non è un’entità fissa, ma un flusso di condizioni interdipendenti. La meditazione Tonglen diventa così uno strumento per dissolvere l’ego, sostituendolo con un senso di responsabilità universale.
-
-### L’Uguaglianza di Sé e Altri
-
-Un tema centrale nel *Bodhicaryāvatāra* è l’uguaglianza tra sé e gli altri. Śāntideva scrive:  
-
-> VIII:90. Per iniziare, è fondamentale riflettere profondamente sull’uguaglianza tra sé e gli altri: 'Tutti condividono le stesse sofferenze e gli stessi piaceri; dunque, devo proteggerli come proteggerei me stesso.'  
-
-Questa uguaglianza non è morale ma ontologica: il dolore è universale, e la sua alleviazione richiede un impegno altrettanto universale.
-
-## Tonglen e la Liberazione Spirituale
-
-### Tra Compassione e Vacuità
-
-La pratica Tonglen culmina in un’esperienza di non-dualità, dove la sofferenza e la compassione si rivelano entrambe vuote di esistenza intrinseca. Come nel *Discorso Minore sulla Vacuità*, la mente si libera gradualmente dai "segni" (*nimitta*), fino a uno stato senza oggetti, che precede il *nirvana*. La compassione qui non è un’emozione, ma un’azione spontanea, libera da intenzioni o aspettative.
-
-### Tonglen nel Percorso del Bodhisattva
-
-Per il bodhisattva, Tonglen è un mezzo per rimandare la propria liberazione (*nirvana*) per alleviare il dolore del *saṃsāra*. Questo impegno, radicato nel *bodhicitta*, richiede una visione non dualistica: il bodhisattva non salva gli altri, ma dissipa l’illusione che li separi da loro.
-
-
-## Tonglen nel Contesto Mahāyāna
-
-### Tensioni tra Approccio Spirituale e Pratica Sezolare
-
-La meditazione Tonglen, pur mantenendo la sua radice spirituale, è stata adattata in contesti secolari come la *compassion training* occidentale. Tuttavia, come osserva Mcmahan, questi adattamenti spesso decontestualizzano la pratica, riducendola a un esercizio di gestione dello stress anziché a un mezzo per la liberazione [@mcmahan2023rethinking]. La differenza risiede nella **consapevolezza della vacuità**: senza questa base, la compassione rischia di diventare un atto di identificazione empatica, non una trasformazione radicale.
-
-### Il Caso del Vimalakīrti Sūtra
-
-Il *Vimalakīrti Sūtra* esemplifica come la compassione possa integrarsi nella vita quotidiana, senza ritiro monastico. Vimalakīrti, un laico illuminato, insegna che il *saṃsāra* e il *nirvana* sono due aspetti della stessa realtà, visti attraverso la lente della *śūnyatā*. La meditazione Tonglen, in questo contesto, diventa un ponte tra la vita mondana e la liberazione, rivelando che ogni azione compassionevole è già un passo verso il *nirvana*.
-
-## Benefici e Sfide della Pratica Tonglen
-
-### Benefici
-
-1. **Dissoluzione dell’Ego**: Riduzione dell’attaccamento all’io, base per una compassione universale.  
-2. **Equanimità**: Capacità di affrontare il dolore senza identificarsi con esso, mantenendo chiarezza emotiva.  
-3. **Interdipendenza**: Comprensione vivida che la propria liberazione è legata a quella degli altri.  
-
-### Sfide
-
-1. **Rischio di Identificazione Empatica**: La mente può cadere nell’angoscia empatica, perdendo la visione non dualistica.  
-2. **Necessità di una Guida**: Senza un contesto spirituale e una guida esperta, la pratica può generare confusione.  
-3. **Paradosso della Sofferenza**: Accettare il dolore altrui richiede una fiducia profonda nella vacuità, difficile per i principianti.  
-
-
-## Considerazioni Finali
-
-La meditazione Tonglen non è solo un’esplorazione interiore, ma un mezzo per incarnare l’ideale del bodhisattva: agire per il bene di tutti, senza identificarsi con il ruolo di "salvatore". Essa integra compassione (*karuṇā*) e saggezza (*prajñā*), dissolvendo i confini tra sé e altro, tra soggetto e oggetto.  
-
-Come nel *Vimalakīrti Sūtra*, la pratica non richiede isolamento, ma un impegno attivo nel mondo. La sfida oggi è recuperare questa visione, riconoscendo che la compassione autentica richiede non solo l’allenamento della mente, ma un impegno etico e una comprensione profonda della realtà, fondata sulla *śūnyatā* e sull’interdipendenza (*pratītyasamutpāda*).
+In questa convergenza tra addestramento affettivo e visione non duale, tonglen realizza la logica mahāyāna già emersa nei capitoli precedenti: la compassione matura non è un’emozione intensa, ma una **cura senza possessivo**, resa possibile dalla comprensione della vacuità. Proprio per questo, tonglen non è soltanto un metodo tra gli altri: è un laboratorio in cui *karuṇā* e *prajñā* diventano esperienza, trasformando l’ego non per negazione, ma per svuotamento.
 
 ## Bibliografia {.unnumbered}

@@ -55,6 +55,7 @@ book:
         - file: chapters/chapter-3/chapter3-intro.qmd
         - file: chapters/chapter-3/01-secularism-1.qmd
         - file: chapters/chapter-3/02-secularism-2.qmd
+        - file: chapters/chapter-3/03-applicazioni.qmd
 
 bibliography: ./references.bib
 biblio-style: apalike

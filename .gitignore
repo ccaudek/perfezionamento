@@ -54,3 +54,5 @@ tests/
 
 
 /.quarto/
+
+**/*.quarto_ipynb

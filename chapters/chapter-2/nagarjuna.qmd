@@ -2,102 +2,106 @@
 
 ## Introduzione
 
-Nel pensiero filosofico del Mahāyāna, pochi autori hanno avuto l’impatto di Nāgārjuna, fondatore della scuola Madhyamaka e autore del *Mūlamadhyamakakārikā* (*Versi Fondamentali sulla Via di Mezzo*). Quest’opera, centrale nella tradizione buddhista, inizia e termina con un’idea radicale: **la cessazione della concettualizzazione** e l’abbandono di tutti i punti di vista. Per Nāgārjuna, il nirvana non è un luogo o uno stato da raggiungere, ma il completo esaurimento di ogni concetto metafisico, epistemico e dogmatico. Come scrive @stepien2019abandoning, il testo si apre con un inno alla **via di mezzo** (*madhyamā pratipat*), che rifiuta gli estremi di esistenza e non-esistenza:
+Nel pensiero filosofico del Mahāyāna, Nāgārjuna occupa una posizione decisiva non tanto come fondatore di una nuova metafisica, quanto come autore di una **terapia radicale delle illusioni concettuali**. Le *Mūlamadhyamakakārikā* (*Versi fondamentali sulla Via di Mezzo*) non propongono una dottrina alternativa sulla realtà, ma un metodo rigoroso per dissolvere l’attaccamento a qualsiasi punto di vista ontologico, epistemico o soteriologico.
 
-> *Non cessando, non sorgendo  
-> Non annientato, non eterno  
-> Non identico, non diverso  
-> Non venendo, non andando  
-> Co-origine dipendente  
-> Come la felice cessazione della concettualizzazione   
-> Questo è ciò che il Buddha Completamente Illuminato ha insegnato   
-> Lo saluto, il migliore degli oratori* (MK0:1–2).
+L’opera si apre con un omaggio al Buddha come colui che ha insegnato la **via di mezzo** (*madhyamā pratipad*), identificata con la cessazione della concettualizzazione reificante. Il celebre verso iniziale stabilisce immediatamente l’orizzonte del pensiero madhyamaka:
 
-Queste parole stabiliscono immediatamente il nucleo della filosofia di Nāgārjuna: la realtà non può essere ridotta a categorie dualistiche (*esiste/non esiste*, *permanente/transitorio*), ma si rivela solo quando si abbandona ogni tentativo di fissarla in concetti rigidi.
+> *Non cessando, non sorgendo
+> Non annientato, non eterno
+> Non identico, non diverso
+> Non venendo, non andando
+> Co-origine dipendente,
+> Come la felice cessazione della concettualizzazione —
+> Questo è ciò che il Buddha perfettamente risvegliato ha insegnato;
+> lo saluto, il migliore degli oratori* (MK 0:1–2).
 
-## Decostruzione delle Categorie Ontologiche
+Il nirvāṇa, per Nāgārjuna, non è uno stato ontologicamente distinto dal saṃsāra, né un oggetto da afferrare concettualmente. È piuttosto il **completo esaurimento dell’ipostatizzazione**, il venir meno della tendenza a fissare la realtà in categorie rigide. In questo senso, l’abbandono di tutti i punti di vista non è un gesto nichilistico, ma la condizione di possibilità di una libertà autentica — cognitiva, etica e relazionale.
 
-Nāgārjuna sfida le posizioni filosofiche tradizionali dell’India classica, concentrandosi sulla **decostruzione delle costruzioni concettuali** che ipostatizzano realtà come lo spazio, il tempo e la sostanza. Nel capitolo 5 del *Mūlamadhyamakakārikā*, critica chi accetta acriticamente l’esistenza o la non-esistenza delle cose:
+## Decostruzione delle categorie ontologiche
 
-> Ma quelli privi di illuminazione mentale   
-> Accettando l'esistenza o la non-esistenza delle cose   
-> Non percepiscono la gioiosa cessazione   
-> Di ciò che deve essere compreso (MK5:8).
+Una parte significativa delle *Kārikā* è dedicata alla confutazione sistematica delle posizioni metafisiche dominanti nell’India classica. Nāgārjuna mostra che tanto l’affermazione dell’esistenza intrinseca quanto quella della non-esistenza assoluta conducono a contraddizioni e fraintendimenti. Nel capitolo 5, egli osserva:
 
-Per Nāgārjuna, la liberazione (*mokṣa*) non sta nel credere a un sistema di verità, ma nel **cessare di attribuire sostanza a idee e oggetti**. Chi si attacca alla dicotomia “esiste/non esiste” rimane intrappolato nell’illusione (*avidyā*), incapace di cogliere il nirvana come «cessazione gioiosa» dell’ipostatizzazione.
+> *Ma coloro che, privi di comprensione,
+> accettano l’esistenza o la non-esistenza delle cose
+> non vedono la cessazione gioiosa
+> di ciò che deve essere compreso* (MK 5:8).
 
-Nel capitolo 9, Nāgārjuna applica questa critica all’atto percettivo stesso. Nessun fenomeno — né il vedere, né il percettore — può essere definito esistente o non esistente:
+Il problema non è quale tesi venga adottata, ma **l’atto stesso di reificare una tesi**. Ogni presa concettuale sulla realtà — anche quella apparentemente più raffinata — rafforza l’illusione (*avidyā*) e perpetua la sofferenza. La liberazione (*mokṣa*) non consiste quindi nel sostituire una visione errata con una visione corretta, ma nel **cessare di attribuire sostanza ai concetti**.
 
-> Ciò che è anteriore al vedere e al resto   
-> O simultaneo con essi, o successivo ad essi—   
-> Non si trova   
-> Le costruzioni concettuali di esistenza e non-esistenza non si applicano lì (MK9:12).
+Nel capitolo 9, Nāgārjuna estende questa critica al processo percettivo stesso. Né il soggetto che percepisce né l’oggetto percepito possono essere stabiliti come esistenti o non esistenti:
 
-La percezione sfugge a ogni classificazione, perché la realtà che ci precede e trascende non si lascia imprigionare da categorie mentali. Questo non-dualismo dissolve la nozione di un sé autonomo (*anātman*) e implica che sia l’atto percettivo che il suo soggetto trascendano le distinzioni dualistiche di "essere" e "non essere".
+> *Ciò che è anteriore al vedere e al resto,
+> o simultaneo con essi, o successivo ad essi —
+> non si trova.
+> Le costruzioni concettuali di esistenza e non-esistenza non si applicano lì* (MK 9:12).
 
-## Origine Dipendente, Vacuità e Designazione Correlativa
+La percezione non fornisce un fondamento ontologico, ma rivela la natura **processuale e relazionale** dell’esperienza. In questo modo, la Madhyamaka prosegue e radicalizza l’intuizione buddhista dell’*anātman*: non solo il sé, ma anche gli atti cognitivi e i loro contenuti sfuggono a ogni fissazione sostanziale.
 
-Nel capitolo 24, Nāgārjuna unifica tre concetti chiave del Buddhismo Mahāyāna, rivelando la loro interdipendenza:
+## Origine dipendente, vacuità e designazione convenzionale
 
-1. **Pratītyasamutpāda** (origine dipendente): Tutti i fenomeni sorgono in relazione a cause e condizioni.  
-2. **Śūnyatā** (vacuità): L’assenza di esistenza intrinseca in ogni fenomeno.  
-3. **Prajñaptir upādāya** (designazione correlativa): La natura convenzionale dei concetti, dipendenti da contesto e linguaggio.
+Nel capitolo 24 delle *Kārikā*, Nāgārjuna articola in modo particolarmente chiaro il cuore della via di mezzo, mostrando l’equivalenza funzionale di tre nozioni fondamentali:
 
-Come scrive Nāgārjuna:
+1. **Origine dipendente (*pratītyasamutpāda*)**: i fenomeni sorgono solo in relazione a cause e condizioni;
+2. **Vacuità (*śūnyatā*)**: l’assenza di esistenza intrinseca (*svabhāva*);
+3. **Designazione dipendente (*prajñaptir upādāya*)**: il carattere convenzionale e contestuale dei concetti.
 
-> Dichiariamo che l'origine dipendente è vacuità.   
-> È un concetto dipendente; proprio questo è il sentiero di mezzo (MK24:18).
+Nāgārjuna scrive:
 
-Questa triade costituisce la **via di mezzo** (*madhyamā pratipat*), che rifiuta sia l’eternalismo (esistenza intrinseca) sia il nichilismo (non-esistenza assoluta). La vacuità non è un vuoto astratto, ma la consapevolezza che ogni cosa è **relazionale e priva di sostanza**. Persino la vacuità stessa è vuota: non è un’entità ultima, ma uno strumento per dissolvere le illusioni.
+> *Dichiariamo che l’origine dipendente è vacuità.
+> Essa è una designazione dipendente;
+> proprio questo è il sentiero di mezzo* (MK 24:18).
 
-## L’Abbandono delle Vedute e la Liberazione
+La vacuità non è un “nulla” metafisico, ma il riconoscimento che **nulla esiste in modo auto-fondato**. Al tempo stesso, essa non annulla la realtà convenzionale: le cose funzionano, causano effetti, generano responsabilità etica. Ciò che viene rifiutato è l’idea che tali fenomeni possiedano una natura intrinseca indipendente.
 
-Nel capitolo 13, Nāgārjuna enfatizza che la vacuità non deve diventare essa stessa una veduta fissa. Chi la adotta come dottrina rigida è definito "incurabile":
+Un punto cruciale della Madhyamaka è che **anche la vacuità è vuota**. Se fosse reificata come verità ultima, diventerebbe un nuovo dogma. Nāgārjuna insiste che la vacuità è uno strumento terapeutico: serve a dissolvere le illusioni, non a sostituirle con un’ulteriore costruzione concettuale.
 
-> La vacuità come rinuncia a tutte le vedute  
-> È stata proclamata dai Vittoriosi  
-> Ma coloro che hanno adottato la vacuità come veduta  
-> Sono gli incurabili (MK13:8).
+## L’abbandono delle vedute come pratica liberante
 
-La vacuità è uno **strumento di liberazione**, non un dogma. Essa dissolve l’illusione di un sé separato, permettendo alla *mahākaruṇā* (grande compassione) di manifestarsi senza limiti. Nel capitolo 18, Nāgārjuna collega esplicitamente la liberazione alla distruzione delle azioni (*karma*) e delle contaminazioni (*kleśa*), che nascono da concettualizzazioni errate:
+Nel capitolo 13, Nāgārjuna formula uno degli ammonimenti più noti dell’intera tradizione Mahāyāna:
 
-> La liberazione si ottiene attraverso la distruzione delle azioni e delle contaminazioni;   
-> le azioni e le contaminazioni sorgono a causa di concettualizzazioni falsificanti;  
-> queste sorgono dalla ipostatizzazione;  
-> ma l'ipostatizzazione si estingue nella vacuità (MK18:5).
+> *La vacuità, come rinuncia a tutte le vedute,
+> è stata proclamata dai Vittoriosi.
+> Ma coloro che hanno adottato la vacuità come veduta
+> sono detti incurabili* (MK 13:8).
 
-La realtà, conclude Nāgārjuna, è libera da ogni natura intrinseca e concettualizzazione:
+La liberazione non consiste nel “credere nella vacuità”, ma nel lasciar cadere ogni forma di appropriazione concettuale. Questo vale anche — e soprattutto — per le dottrine buddhiste stesse. La Madhyamaka è, in questo senso, una **filosofia autocritica**, che applica il proprio metodo anche ai propri concetti.
 
-> Non da ottenersi tramite altri, libera [dalla natura intrinseca], non popolata dall'ipostatizzazione,  
-> priva di concettualizzazione falsificante, non avente molti significati separati — questa è la natura della realtà (MK18:9).
+Nel capitolo 18, Nāgārjuna descrive la dinamica liberativa in termini causali:
 
+> *La liberazione avviene mediante la distruzione delle azioni e delle contaminazioni;
+> le azioni e le contaminazioni sorgono da concettualizzazioni falsificanti;
+> queste sorgono dall’ipostatizzazione;
+> ma l’ipostatizzazione si estingue nella vacuità* (MK 18:5).
 
-## Il Non-Dualismo e la Compassione Universale
+La catena è chiara: concettualizzazione → appropriazione → azione reattiva → sofferenza. La vacuità interrompe questo ciclo alla radice, non reprimendo l’esperienza, ma **disattivando l’errore cognitivo** che la struttura.
 
-La decostruzione di ogni punto di vista non conduce al silenzio passivo, ma a uno **spazio produttivo** dove la compassione (*karuṇā*) può fiorire senza limiti. Quando si abbandona l’illusione dell’io separato (*anātman*), si realizza che:
+## Non-dualismo e compassione universale
 
-1. **Sospensione dell’Io**: Senza un “sé” da proteggere, la mente non reagisce con difesa alla sofferenza altrui.  
-2. **Spazio della Vacuità**: In assenza di dualità soggetto/oggetto, non esistono barriere tra “chi soffre” e “chi assiste”.  
-3. **Motivazione Non-Condizionata**: La cura sgorga naturalmente, libera da interessi personali o aspettative.
+L’abbandono di tutti i punti di vista non conduce a una quiete indifferente, ma apre uno **spazio etico radicale**. Quando l’illusione di un io intrinseco (*anātman*) si dissolve, viene meno anche la necessità di difendere un centro separato. In questa apertura emergono tre conseguenze decisive per la compassione:
 
-Come nota @garfield2022buddhist, questa visione non è astratta, ma **prassi trasformativa**: decostruire ogni veduta prepara il cuore a una compassione che abbraccia tutti gli esseri senza eccezioni. La *mahākaruṇā* diventa la manifestazione attiva della saggezza (*prajñā*) che ha superato ogni confine concettuale.
+1. **Sospensione dell’auto-protezione**: senza un sé da preservare, la mente non reagisce in modo difensivo alla sofferenza altrui;
+2. **Dissoluzione della dualità soggetto/oggetto**: non esiste una barriera ontologica tra chi soffre e chi risponde;
+3. **Motivazione non condizionata**: l’azione compassionevole non nasce da doveri o interessi, ma dalla chiarezza della realtà interdipendente.
 
-## Nāgārjuna, Derrida e Wittgenstein: Ponti tra Oriente e Occidente
+Come sottolinea Garfield, la filosofia di Nāgārjuna non è una speculazione astratta, ma una **prassi trasformativa**: dissolvere le vedute rigide rende possibile una *mahākaruṇā* che non discrimina e non si esaurisce nell’emotività reattiva [@garfield2022buddhist].
 
-La filosofia di Nāgārjuna trova sorprendenti paralleli nel pensiero occidentale contemporaneo, specialmente nelle opere di **Jacques Derrida** e **Ludwig Wittgenstein**. Queste connessioni non sono superficiali, ma rivelano una convergenza profonda nell’obiettivo di **smascherare i limiti del linguaggio e dei sistemi concettuali**.
+## Nāgārjuna, Wittgenstein e Derrida: convergenze terapeutiche
 
-Come Nāgārjuna, Derrida critica l’ipostatizzazione delle strutture linguistiche e concettuali. Nella sua teoria della *decostruzione*, Derrida sostiene che nessun concetto è autosufficiente: ogni termine è definito in relazione a altri, creando una rete infinita di rimandi. Questo rifiuta l’idea di significati fissi, simile alla visione di Nāgārjuna, per cui ogni fenomeno è *pratītyasamutpanna* (condizionato) e privo di sostanza. Derrida scrive che il soggetto è "inscritto nel linguaggio" e legato a una rete di relazioni, un’idea affine alla *śūnyatā* come negazione di un sé autonomo [@derrida1982margins]. Per entrambi, la liberazione passa attraverso l’abbandono delle costruzioni concettuali che alimentano l’illusione dell’identità.
+Alcuni interpreti hanno messo in luce sorprendenti affinità tra la Madhyamaka e correnti del pensiero occidentale contemporaneo. Senza forzare analogie, è possibile riconoscere una convergenza metodologica con **Wittgenstein** e **Derrida** nell’intento di smascherare le pretese assolutizzanti del linguaggio.
 
-Anche Wittgenstein, specialmente nel *Tractatus Logico-Philosophicus* e nelle *Ricerche Filosofiche*, mira a "liberare" la mente dalle trappole del linguaggio. Nel *Tractatus*, conclude con un paradosso: "Chi comprende l’opera riconosce che i suoi enunciati sono insensati, dopo averli usati come scala per oltrepassarli" [@WittgensteinTractatusItalian]. Questo richiama il ruolo della vacuità come strumento da abbandonare una volta servito al suo scopo. Nelle *Ricerche*, Wittgenstein analizza il linguaggio come un insieme di "giochi" contestuali, rifiutando l’esistenza di significati universali. Così come Nāgārjuna smonta le dicotomie esistenza/non-esistenza, Wittgenstein smaschera le illusioni generate da un uso metafisico del linguaggio.
+Nel *Tractatus*, Wittgenstein suggerisce che le proposizioni filosofiche funzionino come una scala da gettare via una volta usata; nelle *Ricerche filosofiche*, il linguaggio viene compreso come una pluralità di giochi contestuali. Analogamente, Nāgārjuna utilizza il ragionamento non per fondare una teoria, ma per **liberare la mente dalle trappole concettuali**.
 
-Nonostante le differenze culturali, Nāgārjuna, Derrida e Wittgenstein condividono un obiettivo comune: **dissolvere le illusioni concettuali** che ostacolano la comprensione della realtà. Tutti e tre usano il ragionamento non per costruire sistemi, ma per smantellare le pretese dei concetti di catturare l’assoluto. Come osserva Garfield, "la via di mezzo di Nāgārjuna e la decostruzione di Derrida condividono la consapevolezza che la realtà trascende ogni descrizione linguistica" [@garfield2025lose].
+Derrida, da parte sua, mostra come ogni concetto dipenda da una rete di differenze e rimandi, rendendo impossibile un significato autosufficiente. Questa critica dell’ipostatizzazione linguistica risuona con l’idea madhyamaka secondo cui nulla possiede *svabhāva*. Come osserva Garfield, la via di mezzo di Nāgārjuna e la decostruzione derridiana condividono la consapevolezza che **la realtà eccede ogni descrizione linguistica definitiva** [@garfield2025lose].
 
+Questi parallelismi non mirano a una assimilazione, ma chiariscono la natura terapeutica della Madhyamaka: pensare serve a **smettere di essere catturati dal pensiero**.
 
 ## Conclusioni
 
-La filosofia di Nāgārjuna non è solo un’analisi critica della metafisica, ma un invito a una trasformazione radicale della percezione. Quando si abbandonano le vedute fisse, si dissolve l’illusione dell’io separato, creando lo spazio per una compassione (*karuṇā*) **non condizionata da identità, ruoli o aspettative**. Questo stato è il cuore dell’ideale del bodhisattva: agire nel mondo senza attaccamento, motivati da un amore universale.
+La filosofia di Nāgārjuna non offre una nuova ontologia, ma un invito a **lasciare andare ogni pretesa ontologica**. Abbandonando le vedute fisse, si dissolve l’illusione di un io separato e si apre lo spazio per una compassione non condizionata da ruoli, identità o aspettative.
 
-La connessione con Derrida e Wittgenstein rivela una verità profonda: **ogni sistema concettuale è un’ancora che limita la libertà della mente**. La via di mezzo di Nāgārjuna, la decostruzione di Derrida e la "terapia linguistica" di Wittgenstein convergono in un messaggio unico: la realtà non si conforma ai nostri schemi, ma si rivela solo quando li lasciamo cadere. In questo spazio "oltre le vedute", la compassione diventa il linguaggio autentico di una mente libera — non un’emozione, ma una **forza trasformativa** che dissolve i confini tra sé e altro.
+In questo senso, la Madhyamaka fornisce il fondamento filosofico dell’ideale del bodhisattva: agire nel mondo senza appropriazione, rispondere alla sofferenza senza reificarla, e lasciar emergere una *karuṇā* che non è un’emozione tra le altre, ma l’espressione naturale di una mente libera.
 
+Il passo successivo sarà mostrare come questa trasformazione concettuale e ontologica diventi **esperienza incarnata** attraverso pratiche di attenzione e consapevolezza (*sati*), preparando il terreno per la meditazione sulla compassione e, infine, per pratiche non dualistiche come il *tonglen*.
 
 ## Bibliografia {.unnumbered}
+
