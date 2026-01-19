@@ -2,106 +2,144 @@
 
 ## Introduzione
 
-Nel pensiero filosofico del Mahāyāna, Nāgārjuna occupa una posizione decisiva non tanto come fondatore di una nuova metafisica, quanto come autore di una **terapia radicale delle illusioni concettuali**. Le *Mūlamadhyamakakārikā* (*Versi fondamentali sulla Via di Mezzo*) non propongono una dottrina alternativa sulla realtà, ma un metodo rigoroso per dissolvere l’attaccamento a qualsiasi punto di vista ontologico, epistemico o soteriologico.
+Il capitolo precedente ha introdotto il pensiero non dualistico come trasformazione dell'esperienza. Questo capitolo approfondisce quella prospettiva attraverso la filosofia di Nāgārjuna, ovvero il pensatore che ha articolato nel modo più radicale la connessione tra vacuità, interdipendenza e liberazione.
 
-L’opera si apre con un omaggio al Buddha come colui che ha insegnato la **via di mezzo** (*madhyamā pratipad*), identificata con la cessazione della concettualizzazione reificante. Il celebre verso iniziale stabilisce immediatamente l’orizzonte del pensiero madhyamaka:
+Nāgārjuna (II secolo d.C.) non propone una nuova teoria della realtà. Propone qualcosa di più radicale: un **metodo per dissolvere l'attaccamento a qualsiasi teoria**. Il suo *Mūlamadhyamakakārikā* (*Versi fondamentali sulla Via di Mezzo*) non sostituisce le vedute errate con vedute corrette; mostra come l'atto stesso di aggrapparsi a una veduta generi sofferenza.
 
-> *Non cessando, non sorgendo
-> Non annientato, non eterno
-> Non identico, non diverso
-> Non venendo, non andando
-> Co-origine dipendente,
-> Come la felice cessazione della concettualizzazione —
-> Questo è ciò che il Buddha perfettamente risvegliato ha insegnato;
-> lo saluto, il migliore degli oratori* (MK 0:1–2).
+Per chi lavora nelle professioni di aiuto, questa prospettiva ha un'applicazione diretta. Gli operatori non sono immuni dall'attaccamento alle vedute: teorie sulla natura umana, modelli di intervento, interpretazioni dei casi e giudizi sui pazienti. Nāgārjuna offre strumenti per riconoscere come queste vedute, anche quando utili, possano diventare gabbie. E come sia possibile utilizzarle senza esserne catturati.
 
-Il nirvāṇa, per Nāgārjuna, non è uno stato ontologicamente distinto dal saṃsāra, né un oggetto da afferrare concettualmente. È piuttosto il **completo esaurimento dell’ipostatizzazione**, il venir meno della tendenza a fissare la realtà in categorie rigide. In questo senso, l’abbandono di tutti i punti di vista non è un gesto nichilistico, ma la condizione di possibilità di una libertà autentica — cognitiva, etica e relazionale.
+## La via di mezzo: oltre esistenza e non-esistenza
 
-## Decostruzione delle categorie ontologiche
+Le *Kārikā* si aprono con un omaggio al Buddha come colui che ha insegnato la via di mezzo (*madhyamā pratipad*):
 
-Una parte significativa delle *Kārikā* è dedicata alla confutazione sistematica delle posizioni metafisiche dominanti nell’India classica. Nāgārjuna mostra che tanto l’affermazione dell’esistenza intrinseca quanto quella della non-esistenza assoluta conducono a contraddizioni e fraintendimenti. Nel capitolo 5, egli osserva:
+> *Non cessando, non sorgendo*\
+> *Non annientato, non eterno*\
+> *Non identico, non diverso*\
+> *Non venendo, non andando*\
+> *Co-origine dipendente,*\
+> *Come la felice cessazione della concettualizzazione —*\
+> *Questo è ciò che il Buddha perfettamente risvegliato ha insegnato* (MK 0:1–2)
 
-> *Ma coloro che, privi di comprensione,
-> accettano l’esistenza o la non-esistenza delle cose
-> non vedono la cessazione gioiosa
-> di ciò che deve essere compreso* (MK 5:8).
+La "via di mezzo" non è un compromesso tra estremi, né una posizione intermedia. È il **superamento dell'alternativa stessa**. Dire che i fenomeni "non sorgono e non cessano" non significa che siano eterni; significa che le categorie di "sorgere" e "cessare" non colgono la loro natura.
 
-Il problema non è quale tesi venga adottata, ma **l’atto stesso di reificare una tesi**. Ogni presa concettuale sulla realtà — anche quella apparentemente più raffinata — rafforza l’illusione (*avidyā*) e perpetua la sofferenza. La liberazione (*mokṣa*) non consiste quindi nel sostituire una visione errata con una visione corretta, ma nel **cessare di attribuire sostanza ai concetti**.
+Nel capitolo 5, Nāgārjuna chiarisce:
 
-Nel capitolo 9, Nāgārjuna estende questa critica al processo percettivo stesso. Né il soggetto che percepisce né l’oggetto percepito possono essere stabiliti come esistenti o non esistenti:
+> *Ma coloro che, privi di comprensione,*\
+> *accettano l'esistenza o la non-esistenza delle cose*\
+> *non vedono la cessazione gioiosa*\
+> *di ciò che deve essere compreso* (MK 5:8)
 
-> *Ciò che è anteriore al vedere e al resto,
-> o simultaneo con essi, o successivo ad essi —
-> non si trova.
-> Le costruzioni concettuali di esistenza e non-esistenza non si applicano lì* (MK 9:12).
+Il problema non è quale posizione si adotti, ma **l'atto stesso di fissare una posizione**. Tanto l'affermazione ("le cose esistono in sé") quanto la negazione ("le cose non esistono affatto") sono forme di reificazione. La liberazione non consiste nel trovare la risposta giusta, ma nel **cessare di cercare risposte che fissino la realtà**.
 
-La percezione non fornisce un fondamento ontologico, ma rivela la natura **processuale e relazionale** dell’esperienza. In questo modo, la Madhyamaka prosegue e radicalizza l’intuizione buddhista dell’*anātman*: non solo il sé, ma anche gli atti cognitivi e i loro contenuti sfuggono a ogni fissazione sostanziale.
+## Origine dipendente, vacuità, designazione convenzionale
 
-## Origine dipendente, vacuità e designazione convenzionale
+Nel capitolo 24, Nāgārjuna articola il cuore del suo pensiero in un verso che è stato chiamato "la chiave di volta della Madhyamaka":
 
-Nel capitolo 24 delle *Kārikā*, Nāgārjuna articola in modo particolarmente chiaro il cuore della via di mezzo, mostrando l’equivalenza funzionale di tre nozioni fondamentali:
+> *Dichiariamo che l'origine dipendente è vacuità.*\
+> *Essa è una designazione dipendente;*\
+> *proprio questo è il sentiero di mezzo* (MK 24:18)
 
-1. **Origine dipendente (*pratītyasamutpāda*)**: i fenomeni sorgono solo in relazione a cause e condizioni;
-2. **Vacuità (*śūnyatā*)**: l’assenza di esistenza intrinseca (*svabhāva*);
-3. **Designazione dipendente (*prajñaptir upādāya*)**: il carattere convenzionale e contestuale dei concetti.
+Tre nozioni vengono qui identificate:
 
-Nāgārjuna scrive:
+* **Origine dipendente** (*pratītyasamutpāda*): tutti i fenomeni sorgono in dipendenza da cause e condizioni. Nulla esiste in modo isolato o auto-fondato.
 
-> *Dichiariamo che l’origine dipendente è vacuità.
-> Essa è una designazione dipendente;
-> proprio questo è il sentiero di mezzo* (MK 24:18).
+* **Vacuità** (*śūnyatā*): l'assenza di esistenza intrinseca. "Vuoto" non significa "inesistente", ma "privo di natura propria indipendente".
 
-La vacuità non è un “nulla” metafisico, ma il riconoscimento che **nulla esiste in modo auto-fondato**. Al tempo stesso, essa non annulla la realtà convenzionale: le cose funzionano, causano effetti, generano responsabilità etica. Ciò che viene rifiutato è l’idea che tali fenomeni possiedano una natura intrinseca indipendente.
+* **Designazione convenzionale** (*prajñaptir upādāya*): i concetti che usiamo sono strumenti contestuali, non descrizioni di essenze.
 
-Un punto cruciale della Madhyamaka è che **anche la vacuità è vuota**. Se fosse reificata come verità ultima, diventerebbe un nuovo dogma. Nāgārjuna insiste che la vacuità è uno strumento terapeutico: serve a dissolvere le illusioni, non a sostituirle con un’ulteriore costruzione concettuale.
+Queste tre nozioni sono **equivalenti funzionali**: dire che qualcosa è "vuoto" significa dire che "sorge in dipendenza" significa dire che è "designato convenzionalmente". Non c'è una realtà nascosta dietro le apparenze; c'è il riconoscimento che le apparenze non possiedono la solidità che sembrano avere.
 
-## L’abbandono delle vedute come pratica liberante
+### La vacuità della vacuità
 
-Nel capitolo 13, Nāgārjuna formula uno degli ammonimenti più noti dell’intera tradizione Mahāyāna:
+Un punto cruciale, e spesso frainteso, è che **anche la vacuità è vuota**. Se la vacuità fosse una "verità ultima" da afferrare, diventerebbe un nuovo dogma, un nuovo oggetto di attaccamento.
 
-> *La vacuità, come rinuncia a tutte le vedute,
-> è stata proclamata dai Vittoriosi.
-> Ma coloro che hanno adottato la vacuità come veduta
-> sono detti incurabili* (MK 13:8).
+Nel capitolo 13, Nāgārjuna formula un avvertimento famoso:
 
-La liberazione non consiste nel “credere nella vacuità”, ma nel lasciar cadere ogni forma di appropriazione concettuale. Questo vale anche — e soprattutto — per le dottrine buddhiste stesse. La Madhyamaka è, in questo senso, una **filosofia autocritica**, che applica il proprio metodo anche ai propri concetti.
+> *La vacuità, come rinuncia a tutte le vedute,*\
+> *è stata proclamata dai Vittoriosi.*\
+> *Ma coloro che hanno adottato la vacuità come veduta*\
+> *sono detti incurabili* (MK 13:8)
 
-Nel capitolo 18, Nāgārjuna descrive la dinamica liberativa in termini causali:
+"Incurabili" (*asādhya*) — il termine è forte. Chi trasforma la vacuità in una posizione da difendere ha perso il punto. La vacuità è uno **strumento terapeutico**, non una verità da possedere. Serve a dissolvere l'attaccamento, non a crearne uno nuovo.
 
-> *La liberazione avviene mediante la distruzione delle azioni e delle contaminazioni;
-> le azioni e le contaminazioni sorgono da concettualizzazioni falsificanti;
-> queste sorgono dall’ipostatizzazione;
-> ma l’ipostatizzazione si estingue nella vacuità* (MK 18:5).
+## La catena della liberazione
 
-La catena è chiara: concettualizzazione → appropriazione → azione reattiva → sofferenza. La vacuità interrompe questo ciclo alla radice, non reprimendo l’esperienza, ma **disattivando l’errore cognitivo** che la struttura.
+Nel capitolo 18, Nāgārjuna descrive il meccanismo della sofferenza e della sua cessazione:
 
-## Non-dualismo e compassione universale
+> *La liberazione avviene mediante la distruzione delle azioni e delle contaminazioni;*\
+> *le azioni e le contaminazioni sorgono da concettualizzazioni falsificanti;*\
+> *queste sorgono dall'ipostatizzazione;*\
+> *ma l'ipostatizzazione si estingue nella vacuità* (MK 18:5)
 
-L’abbandono di tutti i punti di vista non conduce a una quiete indifferente, ma apre uno **spazio etico radicale**. Quando l’illusione di un io intrinseco (*anātman*) si dissolve, viene meno anche la necessità di difendere un centro separato. In questa apertura emergono tre conseguenze decisive per la compassione:
+La catena è:
 
-1. **Sospensione dell’auto-protezione**: senza un sé da preservare, la mente non reagisce in modo difensivo alla sofferenza altrui;
-2. **Dissoluzione della dualità soggetto/oggetto**: non esiste una barriera ontologica tra chi soffre e chi risponde;
-3. **Motivazione non condizionata**: l’azione compassionevole non nasce da doveri o interessi, ma dalla chiarezza della realtà interdipendente.
+1. **ipostatizzazione** (*prapañca*): la tendenza a fissare la realtà in concetti solidi;
+2. **concettualizzazione distorta** (*vikalpa*): interpretazioni che reificano;
+3. **azioni e afflizioni** (*karma* e *kleśa*): reazioni condizionate dalla distorsione;
+4. **sofferenza** (*duḥkha*): il risultato del ciclo.
 
-Come sottolinea Garfield, la filosofia di Nāgārjuna non è una speculazione astratta, ma una **prassi trasformativa**: dissolvere le vedute rigide rende possibile una *mahākaruṇā* che non discrimina e non si esaurisce nell’emotività reattiva [@garfield2022buddhist].
+La vacuità interrompe questa catena **alla radice**: non reprimendo le reazioni, ma dissolvendo l'errore cognitivo che le genera. Non si tratta di "non pensare", ma di **pensare senza reificare**.
 
-## Nāgārjuna, Wittgenstein e Derrida: convergenze terapeutiche
+## Applicazioni per la pratica professionale
 
-Alcuni interpreti hanno messo in luce sorprendenti affinità tra la Madhyamaka e correnti del pensiero occidentale contemporaneo. Senza forzare analogie, è possibile riconoscere una convergenza metodologica con **Wittgenstein** e **Derrida** nell’intento di smascherare le pretese assolutizzanti del linguaggio.
+La filosofia di Nāgārjuna può sembrare astratta, ma ha applicazioni concrete per chi lavora nelle professioni di aiuto.
 
-Nel *Tractatus*, Wittgenstein suggerisce che le proposizioni filosofiche funzionino come una scala da gettare via una volta usata; nelle *Ricerche filosofiche*, il linguaggio viene compreso come una pluralità di giochi contestuali. Analogamente, Nāgārjuna utilizza il ragionamento non per fondare una teoria, ma per **liberare la mente dalle trappole concettuali**.
+### Le vedute nella relazione di aiuto
 
-Derrida, da parte sua, mostra come ogni concetto dipenda da una rete di differenze e rimandi, rendendo impossibile un significato autosufficiente. Questa critica dell’ipostatizzazione linguistica risuona con l’idea madhyamaka secondo cui nulla possiede *svabhāva*. Come osserva Garfield, la via di mezzo di Nāgārjuna e la decostruzione derridiana condividono la consapevolezza che **la realtà eccede ogni descrizione linguistica definitiva** [@garfield2025lose].
+Gli operatori lavorano inevitabilmente con vedute: teorie psicologiche, modelli diagnostici e interpretazioni dei casi. Queste vedute sono strumenti necessari:  senza di esse, non ci sarebbe orientamento. Ma possono anche diventare **gabbie**.
 
-Questi parallelismi non mirano a una assimilazione, ma chiariscono la natura terapeutica della Madhyamaka: pensare serve a **smettere di essere catturati dal pensiero**.
+Alcuni esempi di vedute che possono reificarsi:
 
-## Conclusioni
+- "Questo paziente è borderline" — da descrizione funzionale a identità fissa;
+- "Il problema è la famiglia disfunzionale" — da ipotesi a certezza;
+- "Non vuole cambiare" — da osservazione a giudizio definitivo;
+- "Ho fatto tutto il possibile" — da valutazione a difesa del sé.
 
-La filosofia di Nāgārjuna non offre una nuova ontologia, ma un invito a **lasciare andare ogni pretesa ontologica**. Abbandonando le vedute fisse, si dissolve l’illusione di un io separato e si apre lo spazio per una compassione non condizionata da ruoli, identità o aspettative.
+Quando una veduta si reifica, smette di essere uno strumento e diventa un filtro che distorce la percezione. L'operatore non vede più il paziente; vede la propria interpretazione del paziente.
 
-In questo senso, la Madhyamaka fornisce il fondamento filosofico dell’ideale del bodhisattva: agire nel mondo senza appropriazione, rispondere alla sofferenza senza reificarla, e lasciar emergere una *karuṇā* che non è un’emozione tra le altre, ma l’espressione naturale di una mente libera.
+### Usare le vedute senza esserne catturati
 
-Il passo successivo sarà mostrare come questa trasformazione concettuale e ontologica diventi **esperienza incarnata** attraverso pratiche di attenzione e consapevolezza (*sati*), preparando il terreno per la meditazione sulla compassione e, infine, per pratiche non dualistiche come il *tonglen*.
+La soluzione di Nāgārjuna non è abbandonare le vedute — sarebbe impossibile e non desiderabile. È **usarle riconoscendone la natura convenzionale**.
+
+Concretamente, questo significa:
+
+* **Mantenere le interpretazioni con leggerezza**: "Questa è un'ipotesi utile" invece di "Questo è ciò che sta accadendo".
+
+* **Rimanere aperti alla disconferma**: notare quando i dati non confermano l'interpretazione, invece di forzarli a confermala.
+
+* **Riconoscere la funzione delle vedute**: chiedersi "A cosa serve questa interpretazione? Cosa mi permette di fare? Cosa mi impedisce di vedere?"
+
+* **Distinguere la mappa dal territorio**: ricordare che i modelli teorici sono strumenti, non descrizioni fedeli della realtà.
+
+### L'operatore "incurabile"
+
+L'avvertimento di Nāgārjuna sugli "incurabili" ha un'applicazione diretta. L'operatore "incurabile" è quello che:
+
+- ha trasformato un approccio terapeutico in una verità assoluta;
+- non può più vedere ciò che non conferma la sua teoria;
+- difende le proprie interpretazioni invece di verificarle;
+- ha smesso di imparare perché "sa già".
+
+Questo non significa che avere competenze o convinzioni sia sbagliato. Significa che **l'attaccamento alle competenze e alle convinzioni** può diventare un ostacolo. Il buon operatore usa i propri strumenti; l'operatore "incurabile" è usato da essi.
+
+### La vacuità come spazio di possibilità
+
+Se le vedute sono vuote, ovvero prive di natura intrinseca, allora non sono definitive. Questo non è un limite; è una **liberazione**.
+
+Il paziente che "non vuole cambiare" potrebbe volere qualcosa che non abbiamo riconosciuto. La situazione "senza speranza" potrebbe contenere possibilità che le nostre categorie escludono. Il "fallimento" potrebbe essere l'inizio di qualcosa che non sappiamo ancora vedere.
+
+La vacuità delle vedute non è nichilismo ("niente ha senso"); è **apertura** ("il senso non è fissato una volta per tutte").
+
+## Una nota sui paralleli occidentali
+
+Alcuni interpreti hanno notato affinità tra Nāgārjuna e pensatori occidentali come Wittgenstein (la critica alle pretese assolutizzanti del linguaggio) e Derrida (la decostruzione dei significati fissi). Questi paralleli sono interessanti, ma rischiano di essere fuorvianti se suggeriscono che la Madhyamaka sia "solo" una forma di scetticismo o relativismo.
+
+La differenza cruciale è che Nāgārjuna non si ferma alla critica. La dissoluzione delle vedute non è fine a sé stessa; è la **condizione per una trasformazione etica e contemplativa**. Il punto non è concludere che "non possiamo sapere nulla", ma liberare la mente dalla presa delle concettualizzazioni per permettere una risposta più fluida e compassionevole alla realtà.
+
+## Verso la pratica dell'attenzione
+
+Il capitolo ha presentato la filosofia di Nāgārjuna come "terapia delle vedute". Ma questa terapia non opera solo attraverso l'argomentazione filosofica. Richiede una **pratica** che trasformi le abitudini cognitive.
+
+I capitoli successivi esplorano questa pratica. Il prossimo introduce *sati*, ovvero l'attenzione consapevole, come fondamento della trasformazione dell'esperienza. Non si tratta di "applicare" la filosofia di Nāgārjuna, ma di sviluppare la capacità di vedere direttamente ciò che Nāgārjuna descrive concettualmente: la natura costruita, condizionata e vuota dell'esperienza.
 
 ## Bibliografia {.unnumbered}
-
