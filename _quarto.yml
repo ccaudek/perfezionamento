@@ -1,26 +1,36 @@
 project:
   type: book
   output-dir: _site
+  render:
+    - "**/*.qmd"
 
 book:
   title: "Training cognitivo e contemplativo per lo sviluppo della compassione"
   subtitle: "Meditazione, compassione e gestione emozionale per le professioni di aiuto"
   author: "Corrado Caudek"
   date: "last-modified"
+
+  # URL canonico del sito (meglio la root)
+  site-url: "https://ccaudek.github.io/perfezionamento/"
+  repo-url: "https://github.com/ccaudek/perfezionamento/"
+  repo-actions: [edit, issue]   # "issue" spesso utile per feedback
+
   search: true
-  repo-url: https://github.com/ccaudek/perfezionamento/
-  repo-actions: [edit]
   reader-mode: true
-  site-url: https://ccaudek.github.io/perfezionamento/intro.html
+
+  page-navigation: true         # prev/next in fondo pagina
+  back-to-top-navigation: true  # comodo su pagine lunghe
+
   page-footer:
     left: |
       Materiale didattico a cura di Corrado Caudek
     right: |
       Creato con <a href="https://quarto.org/">Quarto</a>
+
   sidebar:
-    collapse-level: 1 # Collapses sidebar beyond the first level
-    pinned: true # Keeps the sidebar visible when scrolling
-    search: true # Enables search in the sidebar
+    collapse-level: 1
+    pinned: true
+    search: true
 
   chapters:
     - index.qmd
@@ -29,8 +39,8 @@ book:
       chapters:
         - file: chapters/chapter-1/chapter1-intro.qmd
         - file: chapters/chapter-1/00-anatman.qmd
-        - file: chapters/chapter-1/01-definitions.qmd
-        - file: chapters/chapter-1/02-nature-nurture.qmd
+        - file: chapters/chapter-1/01-incontri-culture.qmd
+        - file: chapters/chapter-1/02-sistematizzazioni-mahayana.qmd
         - file: chapters/chapter-1/03-what-trained.qmd
         - file: chapters/chapter-1/04-how-trained.qmd
 
@@ -57,26 +67,32 @@ book:
         - file: chapters/chapter-3/02-secularism-2.qmd
         - file: chapters/chapter-3/03-applicazioni.qmd
 
-bibliography: ./references.bib
-biblio-style: apalike
-csl: apa.csl # Citation Style Language file
-link-citations: true # Enables hyperlinking for citations
+# Bibliografia/citazioni
+bibliography: "./references.bib"
+csl: "apa.csl"
+link-citations: true
 
-lang: it # Sets the default language to Italian
+lang: it
 
 format:
   html:
-    toc-depth: 5
-    theme:
-      - styles.scss
-    css: styles.css
-    code-link: true
-    backgroundcolor: "#fffaf0"
-    fontcolor: "#404d59"
-    mainfont: "'Palatino Now', 'Noto Serif', serif"
-    monofont: 'FiraCode-Retina'
-    linkcolor: '#0064B6FF'
-    highlight-style: printing
+    theme: cosmo
+    toc: true
+    toc-location: right
+    toc-depth: 2
+    toc-expand: 2          # spesso più leggibile del collapse "false"
+    smooth-scroll: true
 
-editor: source # Default editor mode
+    # UX per contenuti tecnico-didattici
+    code-copy: true
+    code-overflow: wrap
 
+    # Migliora anteprime social (richiede immagini se vuoi)
+    # image: "images/social-card.png"
+    # favicon: "favicon.ico"
+
+    # Se hai molte pagine, a volte conviene:
+    # include-in-header:
+    #   - "includes/head.html"
+
+editor: source
