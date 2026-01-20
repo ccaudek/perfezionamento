@@ -1,71 +1,148 @@
-# Il significato della secolarizzazione {#sec-secularism2}
+# Il significato della secolarizzazione e il nodo della self-compassion {#sec-secularism2}
 
-Nel capitolo precedente abbiamo messo a confronto la coltivazione della compassione nella tradizione mahāyāna indo-tibetana e alcuni dei suoi adattamenti contemporanei in ambito psicologico. Da un lato, è emerso un terreno comune: l’idea che la compassione non sia un privilegio raro, ma una **capacità umana** che può essere riconosciuta e coltivata. Dall’altro lato, sono apparse differenze strutturali: le fonti buddhiste distinguono tra forme ordinarie e forme “mature” di compassione, legandole a una trasformazione radicale della visione del sé (*anātman*) e, nel Mahāyāna, alla saggezza della vacuità (*śūnyatā*). Molti interventi secolari, invece, tendono a operare prevalentemente su livelli iniziali e intermedi: riduzione dell’autocritica, regolazione emotiva, qualità relazionale, resilienza.
+Nel capitolo precedente abbiamo messo a confronto la coltivazione della compassione nella tradizione Mahāyāna indo-tibetana e alcuni dei suoi adattamenti contemporanei in ambito psicologico. Da un lato, è emerso un terreno comune: l'idea che la compassione non sia un privilegio raro, ma una **capacità umana** che può essere riconosciuta e coltivata. Dall'altro lato, sono apparse differenze strutturali: le fonti buddhiste distinguono tra forme ordinarie e forme "mature" di compassione, legandole a una trasformazione radicale della visione del sé (*anātman*) e, nel Mahāyāna, alla saggezza della vacuità (*śūnyatā*). Molti interventi secolari, invece, tendono a operare prevalentemente su livelli iniziali e intermedi: riduzione dell'autocritica, regolazione emotiva, qualità relazionale e resilienza.
 
-Questo capitolo chiarisce una domanda di fondo: **che cosa significa “secolarizzare”** una pratica contemplativa buddhista? Si tratta semplicemente di cambiare terminologia e contesto istituzionale, oppure cambia anche ciò che la pratica *è*—cioè i suoi scopi, le sue assunzioni antropologiche e i suoi criteri di riuscita?
+Questo capitolo affronta due questioni interconnesse: **che cosa significa "secolarizzare"** una pratica contemplativa buddhista e **quale tensione emerge** quando la compassione viene esplicitamente diretta verso il sé, diventando *self-compassion*.
 
-## Secolarizzazione: tre livelli di trasformazione
+## Parte I: Secolarizzazione — tre livelli di trasformazione
 
-Il termine “secolarizzazione” è polisemico. In un senso classico, esso è stato descritto (fra gli altri) da Charles Taylor come un insieme di processi che includono: (1) riorganizzazione della sfera pubblica indipendentemente dalle istituzioni religiose; (2) declino di credenze e pratiche; (3) trasformazione delle condizioni della credenza, per cui la fede diventa una possibilità tra molte, non più l’orizzonte implicito della vita sociale [@Taylor1989SourcesSelf]. È soprattutto quest’ultimo senso a illuminare il contesto in cui si sviluppano programmi come il CCT: la partecipazione non implica appartenenza religiosa, e la cornice è progettata per essere compatibile con credenti, non credenti e agnostici.
+Il termine "secolarizzazione" è polisemico. In un senso classico, esso è stato descritto (fra gli altri) da Charles Taylor come un insieme di processi che includono: (1) riorganizzazione della sfera pubblica indipendentemente dalle istituzioni religiose; (2) declino di credenze e pratiche; (3) trasformazione delle condizioni della credenza, per cui la fede diventa una possibilità tra molte, non più l'orizzonte implicito della vita sociale [@Taylor1989SourcesSelf]. È soprattutto quest'ultimo senso a illuminare il contesto in cui si sviluppano programmi come il CCT: la partecipazione non implica appartenenza religiosa e la cornice è progettata per essere compatibile con credenti, non credenti e agnostici.
 
-Tuttavia, per comprendere la secolarizzazione delle pratiche contemplative non basta dire che “la fede è opzionale”. È più utile distinguere almeno **tre livelli** di trasformazione:
+Tuttavia, per comprendere la secolarizzazione delle pratiche contemplative non basta dire che "la fede è opzionale". È più utile distinguere almeno **tre livelli** di trasformazione:
 
 1. **Traslazione linguistica e istituzionale**
-   La pratica viene presentata in un lessico psicologico (stress, autocritica, benessere, resilienza), collocata in contesti clinici, educativi o aziendali, e sottratta all’autorità di una trasmissione religiosa.
+   La pratica viene presentata in un lessico psicologico (stress, autocritica, benessere, resilienza), collocata in contesti clinici, educativi o aziendali, e sottratta all'autorità di una trasmissione religiosa.
 
 2. **Naturalizzazione**
-   Ciò che nelle fonti buddhiste è inscritto in una cosmologia e in un percorso soteriologico viene reinterpretato come “capacità naturale”: la compassione diventa un tratto umano studiabile, misurabile, allenabile, senza riferimento a liberazione, karma o rinascite.
+   Ciò che nelle fonti buddhiste è inscritto in una cosmologia e in un percorso soteriologico viene reinterpretato come "capacità naturale": la compassione diventa un tratto umano studiabile, misurabile e allenabile, senza alcun riferimento a liberazione, karma o rinascite.
 
 3. **Riformulazione degli scopi e dei criteri di successo**
-   Nel Mahāyāna, la compassione è parte dell’ideale del bodhisattva e della trasformazione della reificazione del sé; nei programmi secolari, la pratica è spesso valutata in termini di indicatori psicologici: riduzione della sofferenza soggettiva, migliore regolazione emotiva, migliori relazioni, minore burnout. Cambiando i criteri di riuscita, cambia anche il senso profondo della pratica.
+   Nel Mahāyāna, la compassione è parte dell'ideale del *bodhisattva* e della trasformazione della reificazione del sé; nei programmi secolari, invece, la pratica viene spesso valutata in termini di indicatori psicologici, come la riduzione della sofferenza soggettiva, una migliore regolazione emotiva, relazioni migliori e un minore burnout. Cambiare i criteri di riuscita significa cambiare il senso profondo della pratica.
 
-## Il caso CCT: rimozione e ibridazione
+### Il caso CCT: rimozione e ibridazione
 
-Il CCT è un caso particolarmente istruttivo perché la sua secolarizzazione non consiste soltanto nel “togliere termini buddhisti”. È piuttosto il risultato di due processi complementari:
+Il caso del CCT è particolarmente istruttivo, perché la sua secolarizzazione non consiste soltanto nel "togliere i termini buddhisti". Si tratta piuttosto del risultato di due processi complementari:
 
 1. **Rimozione selettiva e compatibilizzazione**
-   La terminologia e alcune cornici metafisiche vengono ridotte o rese implicite, così che la pratica non entri in conflitto con l’orizzonte scientifico contemporaneo e con la pluralità religiosa del pubblico. L’obiettivo dichiarato non è polemico verso la religione, ma inclusivo: rendere l’addestramento accessibile al maggior numero possibile di persone, senza richiedere adesioni dottrinali.
+   La terminologia e alcune cornici metafisiche vengono ridotte o rese implicite, in modo che la pratica non entri in conflitto con l'orizzonte scientifico contemporaneo e con la pluralità religiosa del pubblico.
 
 2. **Ibridazione**
-   Accanto a elementi ispirati a fonti tibetane, entrano componenti provenienti da altre tradizioni cliniche e pedagogiche: esercizi relazionali in gruppo, tecniche di comunicazione empatica, e soprattutto una maggiore enfasi sull’**auto-compassione** come risposta a configurazioni psicologiche tipiche di molte culture occidentali (autocritica, vergogna, difficoltà nel ricevere cura).
+   Accanto a elementi ispirati a fonti tibetane, entrano componenti provenienti da altre tradizioni cliniche e pedagogiche: esercizi relazionali di gruppo, tecniche di comunicazione empatica e, soprattutto, un'enfasi maggiore sull'**auto-compassione** come risposta a configurazioni psicologiche tipiche di molte culture occidentali.
 
-Questa doppia dinamica rende il CCT “funzionante” nel contesto secolare—ma proprio qui si apre il problema teorico: **cosa viene preservato, e cosa cambia, quando la pratica cambia scopo e antropologia implicita?**
+Questa doppia dinamica rende il CCT "funzionante" nel contesto secolare, ma è proprio qui che si apre il problema teorico: **cosa viene preservato, e cosa cambia, quando la pratica cambia scopo e antropologia implicita?**
 
-## Una prima conseguenza: cambia il modello di sofferenza e di “salute”
+### Una prima conseguenza: cambia il modello di sofferenza e di "salute"
 
-Una critica frequente alla secolarizzazione sostiene che molte pratiche contemplative buddhiste presuppongano un modello della sofferenza diverso da quello implicito nei contesti clinici moderni.
+Nelle fonti buddhiste antiche, *duḥkha* non è un incidente marginale, ma una caratteristica strutturale dell'esistenza condizionata. La cura profonda non coincide con il "sentirsi meglio" in tempi brevi, ma con l'indebolimento e, infine, con la cessazione delle cause della sofferenza: ignoranza, attaccamento e avversione.
 
-Nelle fonti buddhiste antiche, *duḥkha* non è un incidente marginale: è una caratteristica strutturale dell’esistenza condizionata. La cura profonda non coincide con il “sentirsi meglio” in tempi brevi, ma con l’indebolimento e infine la cessazione delle cause della sofferenza (ignoranza, attaccamento, avversione). In questa prospettiva, alcune forme di disillusione rispetto alle promesse ordinarie del benessere mondano possono essere interpretate come un passaggio di lucidità e maturazione, non come patologia.
+In molte culture contemporanee, invece, il disagio viene più facilmente interpretato attraverso categorie di malessere da ridurre e normalizzare. La sofferenza tende a essere considerata un problema da gestire e minimizzare e la pratica contemplativa può essere percepita come una tecnologia per il benessere e la regolazione emotiva.
 
-In molte culture contemporanee, invece, il disagio è più facilmente letto attraverso categorie di malessere da ridurre e normalizzare. La sofferenza tende a essere vista come un problema da gestire e minimizzare, e la pratica contemplativa può essere recepita come tecnologia di regolazione e benessere.
+Questa differenza non implica che l'approccio clinico sia "superficiale", ma piuttosto che **il medesimo gesto contemplativo può essere finalizzato in modi diversi**. La domanda critica è: la secolarizzazione produce un addestramento alla compassione che allevia i sintomi a breve termine, ma rischia di perdere la sua dimensione trasformativa più profonda?
 
-Questa differenza non implica che l’approccio clinico sia “superficiale”: implica piuttosto che **il medesimo gesto contemplativo può essere finalizzato in modi diversi**. Una pratica che, in un contesto, è orientata a una trasformazione radicale degli schemi dell’io, in un altro contesto può diventare uno strumento di stabilizzazione e di funzionamento. La domanda critica è allora: la secolarizzazione produce un addestramento alla compassione che allevia sintomi a breve termine ma rischia di perdere la dimensione trasformativa più profonda? Oppure, al contrario, rende possibile un accesso graduale a quella trasformazione proprio laddove certe condizioni psicologiche moderne rendono difficile il lavoro diretto su decentramento e non-sé?
-
-## Una seconda critica: appropriazione selettiva e mercificazione
-
-Un secondo filone critico sostiene che alcuni programmi secolari siano il risultato di un’appropriazione selettiva delle pratiche buddhiste, talvolta piegate alle logiche di mercato: promesse di benessere rapido, prodotti di auto-aiuto, addestramenti “vendibili” come competenze individuali. In questa lettura, la meditazione diventerebbe una versione depotenziata e addomesticata, compatibile con l’individualismo e con l’efficienza prestazionale, più che con l’erosione dell’egocentrismo che molte fonti buddhiste identificano come radice della sofferenza.
-
-Questa critica coglie un rischio reale, ma richiede distinzione: non ogni adattamento è mercificazione, e non ogni semplificazione è tradimento. Occorre valutare caso per caso se l’adattamento:
-
-* mantiene un orientamento genuinamente prosociale,
-* riduce l’auto-centratura oppure la rafforza,
-* e soprattutto quale “immagine del sé” presuppone e produce.
-
-## Risposte possibili: adattamento come continuità storica e come *upāya*
+### Risposte possibili: adattamento come *upāya*
 
 Alle critiche si può rispondere almeno in due modi.
 
-**Primo**, molti programmi secolari non pretendono “autenticità” nel senso di trasmissione religiosa; rivendicano piuttosto una validità pragmatica: funzionare per un pubblico concreto, con bisogni concreti. In questo senso, la domanda non è “è identico alla tradizione?”, ma “cosa produce, per chi, e a quale costo concettuale?”.
+In primo luogo, molti programmi secolari non pretendono "autenticità" nel senso di trasmissione religiosa, ma rivendicano piuttosto una validità pragmatica: funzionare per un pubblico concreto con bisogni concreti.
 
-**Secondo**, la storia buddhista mostra una notevole capacità di trasformazione interna: passaggi dottrinali e pratici anche molto marcati, rielaborazioni, nuove sintesi, nuove pedagogie. Nel nostro percorso abbiamo già visto un esempio rilevante: la trasformazione di pratiche avanzate di equalizzazione e scambio (associate a Śāntideva) in forme più accessibili nelle tradizioni di *lojong* e *lamrim*. Questo suggerisce che l’adattamento non è un’anomalia moderna: è una costante storica, e può essere interpretato—almeno in parte—come *upāya*, “mezzo abile”.
+In secondo luogo, la storia buddhista mostra una notevole capacità di trasformazione interna: passaggi dottrinali e pratici anche molto marcati, rielaborazioni, nuove sintesi e nuove pedagogie. Ciò suggerisce che l'adattamento non è un'anomalia moderna, ma una costante storica che può essere interpretata, almeno in parte, come *upāya*, "mezzo abile".
 
-Il punto decisivo, allora, non è negare la trasformazione, ma **descriverla con precisione**: quali elementi vengono mantenuti (intenzione altruistica, addestramento, estensione progressiva), quali vengono attenuati (vacuità, non-sé come struttura ontologica), e quali vengono aggiunti (auto-compassione come risposta a autocritica, esercizi relazionali di gruppo, cornice clinica).
+Il punto decisivo, quindi, non è negare la trasformazione, ma **descriverla con precisione**: quali elementi vengono mantenuti, quali vengono attenuati e quali vengono aggiunti.
 
-## Conclusione: che cosa “diventa” la compassione in un’età secolare?
+## Parte II: Il nodo della self-compassion
 
-Nel confronto con la scienza e con la psicologia, la compassione tende a diventare una categoria naturale: una disposizione affiliativa umana, una competenza prosociale, una risorsa di regolazione emotiva. Questo non è necessariamente un impoverimento: è anche ciò che permette alla compassione di entrare in dialogo con le istituzioni della salute, dell’educazione e del lavoro.
+### Definizione e struttura del costrutto
 
-Ma proprio per questo, la secolarizzazione non può essere descritta come semplice “neutralizzazione” della religione. È una **riformulazione**: cambia l’orizzonte, cambiano i criteri di successo, cambia il modello del sé su cui si opera. Nel capitolo successivo torneremo su un punto particolarmente rivelatore di questa trasformazione: l’emergere dell’**auto-compassione** come costrutto centrale in psicologia, e la tensione che essa crea con la struttura non dualistica della compassione mahāyāna.
+Il costrutto della **self-compassion** è stato principalmente sistematizzato da Kristin Neff a partire dai primi anni 2000 [@neff2003development]. Nella sua formulazione, la self-compassion comprende tre componenti interconnesse:
 
-## Bibliografia {.unnumbered .unlisted}
+1. **Self-kindness vs self-judgment**: trattarsi con gentilezza e comprensione piuttosto che con critica severa quando si soffre o si fallisce.
 
+2. **Common humanity vs isolation**: riconoscere che la sofferenza e l'imperfezione fanno parte dell'esperienza umana condivisa, piuttosto che sentirsi isolati nei propri fallimenti.
+
+3. **Mindfulness vs over-identification**: mantenere una consapevolezza equilibrata delle emozioni negative, senza sopprimerle né esagerarle.
+
+Questo costrutto ha generato una vasta letteratura empirica con risultati generalmente positivi: la compassione verso se stessi è associata a un minore livello di ansia, depressione e ruminazione, a una maggiore resilienza e a un miglior benessere soggettivo, nonché a una migliore regolazione emotiva [@macbeth2012exploring].
+
+### La tensione con la prospettiva Mahāyāna
+
+Nonostante i benefici documentati, il costrutto della self-compassion presenta una tensione strutturale con la prospettiva Mahāyāna che merita un'analisi attenta.
+
+#### Il problema dell'auto-oggettificazione
+
+La self-compassion, nella sua formulazione standard, implica una struttura riflessiva: il sé si divide in due parti, una che osserva e offre gentilezza e l'altra che soffre e riceve gentilezza. Questa struttura è esplicita nell'istruzione tipica: "trattati come tratteresti un caro amico".
+
+Dal punto di vista fenomenologico, questa operazione produce un'**auto-oggettificazione benevola**: il sé diventa simultaneamente soggetto e oggetto della compassione. Sebbene l'intenzione sia positiva (sostituire l'autocritica con la gentilezza), la struttura soggetto-oggetto rimane intatta, anzi, viene rafforzata attraverso la pratica ripetuta.
+
+Nelle tradizioni Mahāyāna, invece, la direzione è opposta: la compassione matura (*mahākaruṇā*) emerge quando la distinzione rigida soggetto-oggetto si allenta. Come abbiamo visto con il *tonglen*, la pratica non mira a stabilire una relazione più gentile tra le varie parti del sé, ma a **dissolvere la struttura stessa** che produce separazione e auto-centratura.
+
+#### Il problema della narrazione
+
+La self-compassion opera tipicamente attraverso un **dialogo interno**: frasi di auto-conforto, riformulazioni cognitive e narrazioni alternative. Questo approccio presuppone e rinforza un sé narrativo, ovvero un sé che si racconta storie su se stesso e che può modificarle.
+
+Nel contesto Mahāyāna, la proliferazione narrativa (*prapañca*) è essa stessa parte del problema. La mente che produce continuamente storie, incluse quelle gentili su se stessa, rimane imprigionata nella costruzione concettuale. La compassione matura non richiede una narrazione migliore, ma una **riduzione della presa narrativa** sul sé.
+
+#### Il problema dell'auto-centratura
+
+Forse la tensione più fondamentale riguarda la direzione dell'attenzione. Nelle tradizioni indo-tibetane, l'auto-preoccupazione (*self-cherishing*) è considerata come uno degli ostacoli principali alla compassione universale. La pratica mira sistematicamente a **spostare l'attenzione fuori dal sé** — verso gli altri, verso tutti gli esseri senzienti.
+
+La self-compassion, per definizione, riporta l'attenzione sul sé. Anche se l'intenzione è terapeutica (ridurre l'autocritica), l'effetto strutturale è un **rafforzamento dell'auto-riferimento**. Il sé rimane al centro — viene trattato meglio, ma rimane centrale.
+
+### Self-compassion e pattern disfunzionali
+
+È utile chiedersi in che modo la self-compassion si relazioni ai tre pattern disfunzionali individuati nei capitoli precedenti.
+
+**Rispetto all'identificazione fusionale**: la self-compassion può avere un effetto paradossale. Da un lato, la componente "mindfulness" dovrebbe prevenire l'over-identification. Dall'altro, l'enfasi sul "sentire" la propria sofferenza per poi confortarla può, in alcuni soggetti, intensificare piuttosto che allentare il coinvolgimento emotivo con il proprio disagio.
+
+**Rispetto alla dissociazione difensiva**: la self-compassion è esplicitamente progettata per contrastare questo pattern, invitando a confrontarsi con la propria sofferenza con gentilezza. Questo è probabilmente il suo punto di forza maggiore — offre un modo di stare con il proprio dolore che non è né fusione né evitamento.
+
+**Rispetto all'eroismo compensatorio**: qui la self-compassion mostra una vulnerabilità specifica. Per operatori già inclini a definire il proprio valore attraverso la cura degli altri, la self-compassion può diventare un'ulteriore area di "performance": "Devo essere bravo anche a essere gentile con me stesso". L'auto-compassione diventa quindi un nuovo standard da raggiungere, un nuovo modo di essere "abbastanza".
+
+### Self-compassion come *upāya*: una lettura pragmatica
+
+Nonostante queste tensioni, è possibile dare una lettura più positiva della self-compassion dal punto di vista buddhista, se la si considera come un **mezzo abile** (*upāya*) piuttosto che come una pratica definitiva.
+
+#### Il problema di partenza è diverso
+
+Le tradizioni indo-tibetane si sviluppano in contesti in cui l'auto-preoccupazione è presente, ma non necessariamente patologica. Al contrario, molte popolazioni occidentali contemporanee presentano livelli elevati **autocritica tossica**, **vergogna cronica** e **difficoltà nel ricevere cura**. Per queste persone, il lavoro diretto sul decentramento può essere prematuro o controproducente, in quanto potrebbe essere vissuto come un'ulteriore forma di auto-negazione.
+
+In questo contesto, la self-compassion può funzionare come **fase preliminare**: stabilizzare una base affettiva minimamente sicura prima di procedere con pratiche più decentranti. È come se, per alcune configurazioni psicologiche moderne, fosse necessario prima "avere un sé sufficientemente buono" per poi poterlo lasciar andare.
+
+#### La common humanity come ponte
+
+La seconda componente della self-compassion, ovvero il riconoscimento della "comune umanità", offre un potenziale punto di contatto con la prospettiva Mahāyāna. Quando questa componente viene enfatizzata, la pratica si sposta naturalmente verso l'esterno: la mia sofferenza non è solo mia, ma fa parte dell'esperienza umana universale.
+
+Questo movimento può preparare il terreno per pratiche più esplicitamente decentranti. Un percorso integrato potrebbe quindi procedere in questo modo:
+
+1. **Self-compassion** per stabilizzare una base sicura e ridurre l'autocritica tossica.
+2. **Common humanity** per iniziare il movimento verso l'esterno.
+3. **Mettā/brahmavihāra** per estendere sistematicamente la cura oltre il sé.
+4. **Tonglen** per lavorare sulla struttura soggetto-oggetto.
+5. **Pratiche decostruttive** per interrogare la reificazione del sé.
+
+In questa prospettiva, la self-compassion non è "sbagliata", ma è **incompleta**. Il problema sorge quando viene presentata come una pratica autosufficiente, piuttosto che come una fase di un percorso più ampio.
+
+### Un'alternativa fenomenologica: ricevere anziché darsi compassione
+
+Le tradizioni tibetane offrono un'interessante alternativa alla struttura auto-riflessiva della self-compassion: pratiche in cui il praticante **riceve** compassione piuttosto che darsela da solo.
+
+In queste pratiche, il praticante visualizza figure compassionevoli (buddha, bodhisattva, maestri, o anche persone significative del presente) che emanano compassione verso di lui. In questo caso, la direzione è invertita: non si tratta di "io che tratto me stesso con gentilezza", ma di "compassione che fluisce verso di me da fonti esterne".
+
+Questa struttura presenta alcuni vantaggi:
+
+- **Riduce l'auto-oggettificazione**: il sé rimane soggetto (ricevente) piuttosto che diventare oggetto.
+- **Allenta il controllo**: non devo "generare" la compassione, ma solo "riceverla".
+- **Prepara al decentramento**: abitua la mente a una compassione che non dipende dal sé come agente.
+
+Per gli operatori delle professioni di aiuto, che sono spesso abituati a dare ma non a ricevere, questa alternativa può essere particolarmente preziosa. Offre i benefici della self-compassion (riduzione dell'autocritica, senso di cura) senza rafforzare la struttura auto-referenziale.
+
+## Conclusione: che cosa "diventa" la compassione in un'età secolare?
+
+Nel confronto con la scienza e con la psicologia, la compassione tende a diventare una categoria naturale: una disposizione affiliativa umana, una competenza prosociale, una risorsa per la regolazione emotiva. Questo non rappresenta necessariamente un impoverimento: è anche ciò che consente alla compassione di entrare in dialogo con le istituzioni della salute, dell'istruzione e del lavoro.
+
+Ma proprio per questo, la secolarizzazione non può essere descritta come una semplice "neutralizzazione" della religione. Si tratta di una **riformulazione**: che cambia l'orizzonte, i criteri di successo e il modello di sé su cui si opera.
+
+La self-compassion rappresenta forse il caso più evidente di questa riformulazione. Risponde a un problema reale, ovvero l'autocritica patologica diffusa nelle culture occidentali contemporanee, con una soluzione efficace: trattarsi con gentilezza. Tuttavia, nel farlo, opera con un'antropologia implicita che la prospettiva Mahāyāna non può pienamente condividere: un sé che rimane al centro, che dialoga con se stesso e si racconta e si conforta.
+
+Per le professioni di aiuto, la questione non è scegliere tra la self-compassion e la tradizione Mahāyāna, ma comprendere cosa ciascuna offre e cosa ciascuna rischia. La self-compassion può rappresentare un punto di partenza prezioso, ma solo se non viene considerata come un punto di arrivo. Gli elementi "dimenticati" della tradizione (decentramento, equanimità, decostruzione) possono integrare e approfondire quanto la self-compassion inizia, rendendo la cura più stabile, più inclusiva e meno dipendente dalla continua manutenzione di un sé "abbastanza buono".
+
+## Bibliografia {.unnumbered}

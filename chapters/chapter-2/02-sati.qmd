@@ -1,115 +1,179 @@
-# La meditazione come via per la compassione {#sec-rethinking-meditation}
+# Sati: il fondamento della presenza consapevole {#sec-sati}
 
 ## Introduzione
 
-Nel Buddhismo Mahāyāna la meditazione non è una tecnologia “neutra” per il benessere individuale, ma una disciplina etico-spirituale orientata a trasformare in profondità il modo in cui facciamo esperienza della realtà. In questa prospettiva, la *karuṇā* non è un accessorio emotivo della pratica: è ciò verso cui la pratica tende quando si disinnesca la reificazione del sé e si vede l’interdipendenza di tutti i fenomeni (*pratītyasamutpāda*). La compassione universale (*mahākaruṇā*) nasce così dalla congiunzione di due dimensioni inseparabili: **stabilità mentale** e **visione della vacuità** (*śūnyatā*).
+I capitoli precedenti hanno esplorato la filosofia della non-dualità e la decostruzione delle vedute rigide. Questo capitolo segna un passaggio: dalla comprensione concettuale alla **pratica**.
 
-Questa impostazione mette in luce un punto decisivo per l’intero percorso della seconda parte: nel Mahāyāna, la meditazione non mira semplicemente a “sentirsi meglio”, ma a **diventare capaci di rispondere alla sofferenza** senza cadere nella reattività egoica o nell’angoscia empatica. È un addestramento alla libertà interiore e, insieme, alla responsabilità verso gli altri.
+*Sati*, termine pāli tradotto variamente come "consapevolezza", "presenza mentale", "attenzione", è il fondamento di questa pratica. Ma cosa significa esattamente *sati*? E perché è rilevante per la compassione?
 
-## I pilastri fondamentali della pratica
+La risposta breve è che *sati* è la capacità di **stare con l'esperienza senza reagire automaticamente**. Questa capacità è essenziale per la compassione perché permette di incontrare la sofferenza, quella propria e quella altrui, senza le risposte difensive che normalmente la bloccano: evitamento, identificazione, giudizio e fuga nell'azione compulsiva.
 
-Nella tradizione indo-tibetana la disciplina meditativa viene spesso presentata come un insieme di pratiche integrate, ciascuna con una funzione specifica. In questa cornice, tre elementi sono particolarmente importanti per comprendere come la meditazione sostenga la compassione:
+Per chi lavora nelle professioni di aiuto, *sati* non è un lusso contemplativo. È una **competenza professionale fondamentale**: la capacità di restare presenti di fronte al dolore senza esserne travolti e senza chiudersi.
 
-1. **Sati** (presenza mentale / consapevolezza)
-   È la capacità di ricordare e mantenere l’attenzione sull’esperienza presente — corpo, sensazioni, stati mentali e fenomeni — senza perdersi nell’automatismo reattivo.
-   *Effetto su karuṇā:* permette di incontrare la sofferenza (*duḥkha*) senza identificarvisi e senza costruire immediatamente un “io” che difende, giudica o fugge.
+## Cosa significa *sati*
 
-2. **Śamatha** (calma dimorante)
-   Stabilizza l’attenzione e riduce la dispersione mentale, creando continuità e “spazio interno”.
-   *Effetto su karuṇā:* una mente raccolta non viene travolta dal dolore altrui; evita il collasso nell’*empathic distress* e rende possibile una presenza calda ma stabile.
+Il termine *sati* deriva dalla radice sanscrita *smṛ*, che significa "ricordare". Ne consegue che *sati* non si riduce a un semplice "essere nel presente", ma si configura come un **ricordare attivo**: ricordare cosa si sta facendo, ricordare l'orientamento della pratica, ricordare di non perdersi nelle reazioni automatiche.
 
-3. **Vipaśyanā** (visione penetrante)
-   È l’indagine che conduce a vedere impermanenza, dipendenza e assenza di esistenza intrinseca (*śūnyatā*).
-   *Effetto su karuṇā:* quando si indebolisce la dicotomia “me/altro”, la compassione perde i suoi confini e diventa meno selettiva e più imparziale (*mahākaruṇā*).
+Nella tradizione buddhista, *sati* ha diverse sfumature:
 
-Questi tre elementi non vanno intesi come tecniche giustapposte. L’attenzione senza stabilità si frammenta; la stabilità senza visione può trasformarsi in quietismo; la visione senza una base etica e affettiva rischia di restare astratta. Nel Mahāyāna, la meditazione è dunque un percorso **teleologico**: tende alla liberazione e, per questo, tende anche a una forma di cura non possessiva.
+* **Ricordare di essere presenti**: non dimenticare di prestare attenzione a ciò che sta accadendo. Sembra ovvio, ma la mente tende costantemente a vagare, a perdersi in pensieri, preoccupazioni e fantasie. *Sati* è la capacità di "ritornare" al presente.
 
-## L’allenamento della mente: dal rilassamento alla trasformazione
+* **Riconoscere ciò che sta accadendo**: non solo essere presenti, ma sapere cosa è presente. "C'è tensione nel corpo", "C'è irritazione", "C'è un pensiero di giudizio". Questo riconoscimento è già un passo fuori dall'automatismo.
 
-Un tratto distintivo della meditazione buddhista è l’idea che la mente possa essere educata in modo graduale, come un’abilità. Harvey paragona l’apprendimento meditativo all’apprendimento di uno strumento: richiede una “accordatura” continua tra sforzo e rilassamento, secondo una logica di via di mezzo [@harvey2012introduction]. La metafora è utile perché evita due equivoci frequenti:
+* **Mantenere la continuità**: *sati* non è un lampo momentaneo di consapevolezza, ma la capacità di sostenere l'attenzione nel tempo. Questa continuità è ciò che permette di vedere pattern e processi, non solo momenti isolati.
 
-* l’idea che meditare significhi “svuotare la mente” con un atto volontaristico;
-* l’idea opposta che meditare sia solo rilassarsi.
+* **Ricordare il contesto**: nel quadro buddhista tradizionale, *sati* include anche il ricordare gli insegnamenti, i precetti etici e l'orientamento della pratica. Non è attenzione "neutra", ma attenzione orientata.
 
-La pratica, piuttosto, costruisce condizioni: un’attenzione più fine, una regolazione emotiva più stabile, una maggiore capacità di vedere l’esperienza come processo. Come in un giardino, non si forza la crescita, ma si prepara il terreno: attenzione (*sati*), condizioni favorevoli, riconoscimento e attenuazione degli ostacoli (desiderio, avversione, torpore, agitazione, dubbio).
+## Le quattro fondazioni della consapevolezza
 
-In questa cornice, i benefici psicologici (calma, lucidità, relazioni più sicure) non sono negati; vengono però **ricollocati** come effetti secondari di una trasformazione più profonda: la progressiva riduzione delle abitudini mentali che rinforzano l’ego-centratura e la sostituzione con disposizioni che rendono l’altruismo praticabile e sostenibile.
+Il *Satipaṭṭhāna Sutta*, uno dei testi più importanti sulla pratica meditativa,  presenta *sati* come attenzione rivolta a quattro "fondazioni" o ambiti dell'esperienza:
 
-## Contesto culturale e decontestualizzazioni contemporanee
+### 1. Corpo (*kāyānupassanā*) {.unnumbered .unlisted}
 
-Nel discorso pubblico contemporaneo la meditazione è spesso descritta come pratica di rilassamento, attenzione non giudicante e gestione dello stress. Questa descrizione coglie alcuni elementi reali, ma rischia di oscurare la matrice storica e soteriologica della meditazione buddhista. Come osserva McMahan, la meditazione non è un “metodo universale” che rimane identico quando lo si sposta di contesto: cambia insieme ai suoi scopi, ai suoi presupposti antropologici e ai suoi orizzonti di senso [@mcmahan2023rethinking].
+L'attenzione al corpo include:
 
-Per comprendere il rapporto tra meditazione e compassione, è quindi utile confrontare due cornici, evitando sia l’idealizzazione della tradizione sia la caricatura del presente.
+- il respiro (osservare l'inspirazione e l'espirazione);
+- le posture (sapere se si è seduti, in piedi, sdraiati o in movimento);
+- le attività (essere consapevoli dei movimenti mentre si compiono);
+- le parti del corpo e gli elementi che lo compongono;
+- la natura del corpo (impermanenza, vulnerabilità, mortalità).
 
-### Due prospettive a confronto
+**Per gli operatori**: l'attenzione al corpo è spesso il primo segnale di ciò che sta accadendo nella relazione. Tensione nelle spalle, respiro trattenuto, irrequietezza: questi sono indicatori che qualcosa richiede attenzione, prima ancora che emerga a livello cognitivo. L'operatore che ha sviluppato *sati* corporea può riconoscere questi segnali e rispondere prima che si trasformino in reazioni automatiche.
 
-1. **Satipaṭṭhāna Sutta**
-   Nel canone antico la *sati* è presentata come parte di un cammino che include disciplina etica, comprensione e liberazione: la pratica mira a purificare la mente, superare dolore e lamenti e realizzare la cessazione della sofferenza. La meditazione è, fin dall’inizio, una pratica con una direzione soteriologica.
+### 2. Sensazioni (*vedanānupassanā*) {.unnumbered .unlisted}
 
-2. **La “versione standard” di Kabat-Zinn**
-   Nella formulazione moderna e clinica, la mindfulness viene definita come consapevolezza che nasce dal prestare attenzione intenzionalmente, nel momento presente, e in modo non giudicante [@kabat2023wherever]. Questo impianto ha reso la pratica accessibile e replicabile, ma tende a ridurre il suo orizzonte a esiti terapeutici (stress, dolore, resilienza), spostando in secondo piano la dimensione di liberazione e la critica buddhista alla reificazione del sé.
+"Sensazione" qui non significa emozione, ma la **tonalità affettiva** immediata dell'esperienza: piacevole, spiacevole o neutra. Ogni momento di esperienza ha questa colorazione.
 
-La differenza non è solo “religiosa vs laica”: riguarda ciò che la meditazione **è**. Nel primo caso, è un metodo per vedere in modo diverso; nel secondo, spesso diventa un metodo per funzionare meglio. Questa distinzione è cruciale per *karuṇā*: nel Mahāyāna la compassione dipende dall’indebolimento della separazione ontologica tra sé e altro; se tale cornice viene rimossa, la compassione rischia di ridursi a empatia o prosocialità selettiva.
+La pratica consiste nel riconoscere questa tonalità mentre accade:
 
-## Presenza mentale (*sati*) e compassione
+- "questo è piacevole";
+- "questo è spiacevole";
+- "questo è neutro".
 
-*Sati* indica la capacità di mantenere continuità attentiva e di ricordare l’orientamento della pratica. Nel Satipaṭṭhāna Sutta, la consapevolezza è presentata come via per purificare la mente e procedere verso la cessazione della sofferenza; non è passività, ma osservazione strutturata e indagine [@analayo2015understanding].
+Perché è importante? Perché la tonalità affettiva è il **punto di innesco** delle reazioni. Ciò che è piacevole genera attaccamento (voglio che continui); ciò che è spiacevole genera avversione (voglio che finisca); ciò che è neutro genera disattenzione (non me ne accorgo).
 
-### Le quattro fondazioni della consapevolezza (*satipaṭṭhāna*)
+**Per gli operatori**: nella relazione di aiuto, le tonalità affettive sono costantemente presenti. Il paziente che ci è simpatico genera una tonalità piacevole; quello che ci irrita, una spiacevole. Riconoscere queste tonalità — "c'è una sensazione spiacevole" — crea uno spazio tra lo stimolo e la reazione. Quello spazio è libertà.
 
-1. **Corpo (*kāyānupassanā*)**: respiro, posture, attività, e contemplazioni che rivelano impermanenza e vulnerabilità.
-2. **Sensazioni (*vedanānupassanā*)**: riconoscimento delle tonalità piacevoli/spiacevoli/neutre e dei loro effetti.
-3. **Mente (*cittānupassanā*)**: discernimento di stati mentali (desiderio, avversione, confusione) e dei loro contrari.
-4. **Fenomeni (*dhammānupassanā*)**: osservazione di ostacoli, aggregati, basi sensoriali e Quattro Nobili Verità.
+### 3. Mente (*cittānupassanā*) {.unnumbered .unlisted}
 
-Questo itinerario procede dal più immediato al più sottile. La funzione, dal punto di vista della compassione, è decisiva: la pratica non “aggiunge” compassione come sentimento, ma **rimuove** le condizioni che la bloccano — reattività, appropriazione, identificazione — e prepara il terreno affinché la cura possa essere stabile e non egocentrica.
+L'attenzione alla mente significa riconoscere gli **stati mentali** mentre sono presenti:
 
-## Mindfulness secolare e perdita di profondità
+- mente con desiderio / mente senza desiderio;
+- mente con avversione / mente senza avversione;
+- mente confusa / mente chiara;
+- mente contratta / mente espansa;
+- mente agitata / mente calma.
 
-La mindfulness contemporanea ha reso la meditazione socialmente legittima e ampiamente praticabile, ma spesso la presenta come tecnica di autoregolazione emotiva e attenzione non giudicante, separata da metafisica e soteriologia. McMahan interpreta questo processo non come semplice sottrazione di “religione”, ma come una riformulazione culturale che privilegia ciò che è compatibile con sensibilità moderne e istituzioni terapeutiche [@mcmahan2023rethinking].
+Il punto non è giudicare questi stati ("Non dovrei provare avversione") ma **riconoscerli** ("C'è avversione"). Il riconoscimento stesso trasforma la relazione con lo stato: non siamo più completamente identificati con esso.
 
-Questo ha conseguenze dirette per il tema della compassione. Se *karuṇā* viene scollegata da *prajñā* e dalla critica all’io sostanziale (*anātman*), può trasformarsi in:
+**Per gli operatori**: la capacità di riconoscere i propri stati mentali mentre si lavora è cruciale. "C'è frustrazione" è molto diverso da "Sono frustrato". Nel primo caso, c'è spazio; nel secondo, l'identificazione è completa. L'operatore che riconosce i propri stati mentali può continuare a funzionare professionalmente anche quando quegli stati sono difficili.
 
-* una disposizione prosociale selettiva (più facile verso alcuni che verso altri),
-* una risposta empatica emotivamente costosa,
-* una “competenza” che rimane dentro la logica soggetto/oggetto.
+### 4. Fenomeni (*dhammānupassanā*) {.unnumbered .unlisted}
 
-La tradizione mahāyāna non nega l’importanza dell’affetto; insiste però che la compassione piena è “cura” soltanto quando non è intrappolata nell’appropriazione del ruolo di chi aiuta.
+Questa quarta fondazione è la più complessa. Include l'attenzione a:
 
-## Dal corpo alla vacuità: come la meditazione diventa *mahākarunā*
+- i cinque ostacoli (desiderio sensoriale, malevolenza, torpore, agitazione, dubbio);
+- i cinque aggregati (forma, sensazione, percezione, formazioni mentali, coscienza);
+- le basi sensoriali (occhio/forme, orecchio/suoni, ecc.);
+- i fattori del risveglio;
+- le Quattro Nobili Verità.
 
-Nel Satipaṭṭhāna, pratiche come la contemplazione del corpo (anche nelle sue forme più dure, come la decomposizione) non hanno lo scopo di produrre repulsione, ma di rivelare impermanenza e condizionalità. In prospettiva mahāyāna, questo lavoro prepara il passaggio decisivo: vedere l’esperienza come processo privo di nucleo intrinseco. Da qui nasce la trasformazione della compassione.
+In termini più semplici, questa fondazione riguarda il **vedere i pattern**, ovvero riconoscere come l'esperienza è strutturata, quali sono gli ostacoli ricorrenti e quali le condizioni che favoriscono o ostacolano la pratica.
 
-Nel Mahāyāna, la meditazione sulla vacuità è cruciale perché dissolve la struttura dualistica che sostiene l’ego-centratura. Come sostiene Garfield, la compassione diventa pienamente “cura compassionevole” quando è integrata con la saggezza della vacuità e non ricade nella dicotomia soggetto/oggetto [@garfield2022buddhist]. In altri termini: non basta “sentire con l’altro”; occorre vedere perché l’altro non è ontologicamente separato in modo assoluto.
+**Per gli operatori**: questo livello corrisponde alla capacità di vedere i propri pattern professionali. Quali situazioni attivano regolarmente i miei ostacoli? Con quali tipi di pazienti tendo a identificarmi? Dove perdo la mia equanimità? Questa conoscenza di sé non è introspezione narcisistica; è strumento professionale.
 
-McMahan nota che anche nei contesti moderni permane una tensione tra due movimenti: costruzione e decostruzione. La differenza è che nel Mahāyāna questa tensione è esplicita e metodica: si coltivano qualità prosociali e, allo stesso tempo, si decostruiscono le reificazioni che le renderebbero possessive o instabili.
+## *Sati* e la capacità di stare con la sofferenza
 
-## Meditazione mahāyāna: compassione e vacuità come unità pratica
+Per chi lavora con la sofferenza, la domanda pratica è: **come posso restare presente di fronte al dolore senza chiudermi e senza essere travolto?**
 
-Nel Mahāyāna, la meditazione è orientata a incarnare l’ideale del bodhisattva: non una fuga dal mondo, ma una trasformazione che rende possibile restare nel mondo senza esserne catturati. In questa cornice, la tradizione distingue anche forme progressive di compassione (*ālambana*), dal livello più ordinario a quello più radicale:
+La risposta che *sati* offre è: attraverso il **riconoscimento non reattivo**.
 
-1. **Compassione con oggetto “esseri” (*sattvālambana karuṇā*)**: risposta alla sofferenza di individui percepiti come separati.
-2. **Compassione con oggetto “fenomeni” (*dharmālambana karuṇā*)**: la sofferenza è vista nella struttura impermanente e condizionata dell’esistenza.
-3. **Compassione senza oggetto (*anālambana karuṇā*)**: la cura scaturisce dalla visione non duale; non dipende da un “altro” reificato.
+### Il problema della reattività
 
-Questa progressione è utile perché mostra che il compito della meditazione non è soltanto intensificare l’emozione compassionevole, ma trasformarne la **struttura**: dalla reazione al sentimento, dal sentimento alla visione, dalla visione all’azione spontanea.
+Quando incontriamo la sofferenza, la nostra o l'altrui, la mente reagisce automaticamente. Le reazioni tipiche sono:
 
-## Tra tradizione e secolarizzazione: il caso del *Vimalakīrti Sūtra*
+**Evitamento**: distogliere l'attenzione, cambiare argomento, "passare oltre". L'evitamento protegge nel breve termine ma genera disconnessione.
 
-Il *Vimalakīrti Sūtra* offre un correttivo importante a una lettura esclusivamente ascetica della meditazione. Vimalakīrti, laico e bodhisattva, mostra che l’insight non duale e la compassione non richiedono necessariamente il ritiro: possono manifestarsi nel tessuto della vita ordinaria. La pratica non è evasione, ma capacità di agire nel mondo con una mente non reificante.
+**Identificazione**: fondersi con la sofferenza, sentirla come propria. L'identificazione può sembrare empatia, ma genera esaurimento e confusione tra sé e altro.
 
-In questo senso, il sūtra aiuta anche a evitare un equivoco contemporaneo: criticare la secolarizzazione non significa sostenere che la meditazione debba rimanere confinata al monastero. Significa piuttosto ricordare che, anche quando è praticata nella vita quotidiana, la meditazione conserva — nel Mahāyāna — un orientamento trasformativo: ridurre l’ego-centratura e rendere la cura più ampia, stabile e imparziale.
+**Giudizio**: interpretare la sofferenza attraverso categorie ("è colpa sua", "non dovrebbe sentirsi così"). Il giudizio crea distanza ma blocca la comprensione.
 
-## Considerazioni finali
+**Azione compulsiva**: precipitarsi a "fare qualcosa" per far cessare la sofferenza. L'azione compulsiva può essere utile ma spesso serve a ridurre il disagio dell'operatore, non quello del paziente.
 
-Nel Buddhismo Mahāyāna, meditare significa imparare a vedere e a rispondere in modo diverso. La *sati* rende possibile un incontro non reattivo con l’esperienza; *śamatha* stabilizza la mente affinché non collassi nell’angoscia empatica; *vipaśyanā* dischiude la vacuità e, con essa, la non-separazione che rende la *mahākaruṇā* possibile.
+Tutte queste reazioni hanno in comune una cosa: **non permettono di stare con la sofferenza così com'è**.
 
-La mindfulness secolare ha ampliato l’accesso a pratiche preziose, ma spesso le ha rese compatibili con obiettivi limitati (funzionare meglio, ridurre stress), attenuando la critica buddhista alla reificazione del sé e il legame strutturale tra compassione e saggezza. Recuperare questo legame non significa rifiutare gli usi moderni, ma chiarire che la compassione, nel Mahāyāna, non è soltanto un’emozione benefica: è una trasformazione della visione che rende possibile una cura non possessiva e non selettiva.
+### Il riconoscimento come alternativa
 
-Nel capitolo successivo entreremo nel dettaglio della *sati* come pratica e come concetto, mostrando come la presenza mentale, lungi dall’essere un semplice “non giudizio”, sia una forma di memoria etica e di discernimento che prepara direttamente le pratiche compassionevoli, fino al *tonglen*.
+*Sati* offre un'alternativa: il **riconoscimento**. Invece di reagire alla sofferenza, la si riconosce:
 
-::: {.callout-note}
-Il testo "L'Insegnamento di Vimalakīrti" è disponibile per la consultazione integrale online sulla pagina web [The Teaching of Vimalakīrti](https://84000.co/translation/toh176), parte del progetto 84000 dedicato alla traduzione dell'intera collezione del canone tibetano in inglese.
-:::
+- "C'è sofferenza presente".
+- "C'è una risposta nel mio corpo a questa sofferenza".
+- "C'è un impulso a evitare/identificarmi/giudicare/agire".
+
+Il riconoscimento non elimina la sofferenza, né elimina le reazioni. Ma crea uno **spazio** tra lo stimolo e la risposta. In quello spazio, diventa possibile una risposta diversa, ovvero una risposta che non è automatica, che tiene conto della situazione, che è al servizio dell'altro e non solo della riduzione del proprio disagio.
+
+Questo è il nesso tra *sati* e compassione: la presenza consapevole **permette** alla compassione di emergere perché rimuove gli ostacoli che la bloccano.
+
+## *Sati* non è "non giudicare"
+
+Una delle traduzioni più comuni di *sati* nel contesto della mindfulness contemporanea è "attenzione non giudicante". Questa formulazione coglie qualcosa di vero, ma rischia di essere fuorviante.
+
+Nel quadro buddhista tradizionale, *sati* non è priva di discernimento. È, anzi, profondamente **discriminante**, ma nel senso di riconoscere ciò che è salutare e ciò che non lo è, ciò che conduce alla sofferenza e ciò che conduce alla sua cessazione.
+
+La differenza è tra:
+
+- **Giudizio reattivo**: "Non dovrei sentire questo", "È sbagliato che lui si comporti così", ovvero giudizi che rafforzano l'identificazione e la reattività;
+- **Discernimento**: "Questo stato mentale genera sofferenza", "Questa azione non è utile", ovvero riconoscimenti che orientano la pratica.
+
+*Sati* non chiede di sospendere il discernimento. Chiede di sospendere la **reattività** che normalmente accompagna i nostri giudizi.
+
+## La coltivazione di *sati*
+
+*Sati* non è qualcosa che si "ha" o "non si ha". È una capacità che può essere **coltivata** attraverso la pratica.
+
+### La pratica formale
+
+La forma più comune di coltivazione è la meditazione seduta:
+
+- sedersi in una postura stabile;
+- portare l'attenzione al respiro o a un altro oggetto;
+- quando la mente vaga, riconoscere che è vagata;
+- riportare gentilmente l'attenzione all'oggetto.
+
+Il "lavoro" non è mantenere l'attenzione fissa (impossibile), ma **notare quando si è persa** e riportarla. Ogni volta che si nota la distrazione e si torna, si rafforza *sati*.
+
+### La pratica informale
+
+*Sati* può essere coltivata anche nelle attività quotidiane:
+
+- camminare sapendo che si sta camminando;
+- mangiare prestando attenzione al cibo;
+- ascoltare qualcuno con piena attenzione.
+
+Per gli operatori, la pratica informale può essere integrata nel lavoro stesso:
+
+- notare il proprio stato prima di entrare in una sessione;
+- prestare attenzione alle sensazioni corporee mentre si ascolta;
+- riconoscere le proprie reazioni mentre emergono.
+
+### Ostacoli comuni
+
+La tradizione identifica cinque ostacoli principali alla pratica:
+
+1. **Desiderio sensoriale**: la mente cerca stimoli piacevoli invece di restare con l'esperienza presente.
+2. **Malevolenza**: irritazione, avversione e resistenza verso l'esperienza.
+3. **Torpore**: ottundimento, sonnolenza e mancanza di energia.
+4. **Agitazione e preoccupazione**: la mente è troppo attiva e salta da un pensiero all'altro.
+5. **Dubbio**: incertezza sulla pratica, su di sé e sulla direzione.
+
+Riconoscere questi ostacoli quando si presentano è già pratica di *sati*. "C'è torpore": questo riconoscimento è consapevolezza, anche se il contenuto è un ostacolo.
+
+## Verso le pratiche di compassione
+
+*Sati* è il fondamento, ma non è il fine. Nel quadro Mahāyāna, la presenza consapevole prepara il terreno per pratiche più specificamente orientate alla compassione.
+
+Il capitolo successivo esplorerà come la mindfulness contemporanea si rapporta a questa tradizione: cosa ha preservato e cosa ha trasformato. I capitoli finali della sezione presenteranno pratiche che integrano *sati* con la coltivazione esplicita della compassione, culminando nel *tonglen*.
+
+Ma è importante non saltare questo passaggio. Senza la capacità di stare con l'esperienza, inclusa la sofferenza, le pratiche di compassione rischiano di essere costruzioni mentali fragili, buone intenzioni senza fondamento esperienziale. *Sati* fornisce quel fondamento.
 
 ## Bibliografia {.unnumbered}
