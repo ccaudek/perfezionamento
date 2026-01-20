@@ -5,7 +5,7 @@
 > *"Un uccello ha bisogno di due ali: saggezza e compassione."*
 > *(Proverbio tibetano)*
 
-Nel 1990, durante un incontro del *Mind and Life Institute* dedicato a "Emozioni e Salute", Sharon Salzberg chiese al Dalai Lama cosa pensasse dell'odio verso sé stessi (*self-hatred*). La risposta fu disarmante: «Che cos'è?». Occorsero diversi minuti perché i presenti riuscissero a spiegare il fenomeno — e il Dalai Lama rimase visibilmente perplesso.
+Nel 1990, durante un incontro del *Mind and Life Institute* dedicato a "Emozioni e Salute", Sharon Salzberg chiese al Dalai Lama cosa pensasse dell'odio verso sé stessi (*self-hatred*). La risposta fu disarmante: «Che cos'è?». Occorsero diversi minuti perché i presenti riuscissero a spiegare il fenomeno — e il Dalai Lama rimase visibilmente perplesso [@salzberg2004lovingkindness].
 
 Questo episodio illumina un problema tutt'altro che marginale. Alcune configurazioni esperienziali che oggi consideriamo centrali nella sofferenza psicologica, ovvero l'autocritica cronica, la vergogna pervasiva, la ruminazione narrativa sul sé, il senso di inadeguatezza fondamentale, non sono universali. Dipendono da specifiche cornici culturali, da modelli impliciti del sé e da abitudini dell'attenzione che caratterizzano la modernità occidentale.
 
@@ -17,9 +17,9 @@ Questa osservazione è cruciale per chi lavora nelle professioni di aiuto. Molti
 
 L'ipotesi che guida il mio intervento è la seguente: 
 
-> **le pratiche contemplative e compassionevoli contemporanee funzionano perché attingono a intuizioni profonde della tradizione buddhista; ma funzionano "troppo poco" perché, nel processo di adattamento, hanno spesso lasciato sullo sfondo proprio quegli elementi che rendevano la compassione stabile, non reattiva e sostenibile.**
+> **le pratiche contemplative e compassionevoli contemporanee funzionano perché attingono a intuizioni profonde della tradizione buddhista; ma funzionano "troppo poco" perché, nel processo di adattamento, hanno spesso lasciato sullo sfondo proprio quegli elementi che rendevano la compassione stabile, non reattiva e sostenibile.** 
 
-Il punto non è che la psicologia "abbia sbagliato", ma che abbia **selezionato** alcuni aspetti del buddhismo, ovvero quelli più compatibili con le sensibilità moderne, **dimenticandone altri**. Questi elementi dimenticati non sono marginali, ma riguardano il modo in cui viene concepito il sé, il ruolo della sofferenza, la funzione della compassione e il rapporto tra cura ed ego.
+Il punto non è che la psicologia "abbia sbagliato", ma che abbia **selezionato** alcuni aspetti del buddhismo, ovvero quelli più compatibili con le sensibilità moderne, **dimenticandone altri** [@purser2021mcmindfulness]. Questi elementi dimenticati non sono marginali, ma riguardano il modo in cui viene concepito il sé, il ruolo della sofferenza, la funzione della compassione e il rapporto tra cura ed ego.
 
 ### Un esempio concreto: l'operatore in burnout
 

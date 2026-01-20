@@ -43,16 +43,18 @@ book:
         - file: chapters/chapter-1/02-sistematizzazioni-mahayana.qmd
         - file: chapters/chapter-1/03-what-trained.qmd
         - file: chapters/chapter-1/04-how-trained.qmd
+        - file: chapters/chapter-1/05-istruzioni.qmd
 
     - part: "Dharma"
       chapters:
         - file: chapters/chapter-2/chapter2-intro.qmd
-        - file: chapters/chapter-2/01-experience.qmd
-        - file: chapters/chapter-2/non-dualism.qmd
-        - file: chapters/chapter-2/nagarjuna.qmd
-        - file: chapters/chapter-2/02-sati.qmd
-        - file: chapters/chapter-2/03-mindfulness.qmd
-        - file: chapters/chapter-2/04-tonglen.qmd
+        - file: chapters/chapter-2/01_non-dualism.qmd
+        - file: chapters/chapter-2/02_nagarjuna.qmd
+        - file: chapters/chapter-2/03-experience.qmd
+        - file: chapters/chapter-2/04-sati.qmd
+        - file: chapters/chapter-2/05-mindfulness.qmd
+        - file: chapters/chapter-2/06_equanimita.qmd
+        - file: chapters/chapter-2/07-tonglen.qmd
         # - file: chapters/chapter-2/05-patience.qmd
         # - file: chapters/chapter-2/06-tibetan-traditions.qmd
         # - file: chapters/chapter-2/wisdom.qmd
@@ -65,7 +67,10 @@ book:
         - file: chapters/chapter-3/chapter3-intro.qmd
         - file: chapters/chapter-3/01-secularism-1.qmd
         - file: chapters/chapter-3/02-secularism-2.qmd
-        - file: chapters/chapter-3/03-applicazioni.qmd
+        - file: chapters/chapter-3/03-recuperare.qmd
+        - file: chapters/chapter-3/04-applicazioni.qmd
+
+    - glossario.qmd
 
 # Bibliografia/citazioni
 bibliography: "./references.bib"
